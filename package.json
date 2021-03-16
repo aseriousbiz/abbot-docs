@@ -1,0 +1,26 @@
+{
+  "name": "abbot-docs",
+  "version": "1.0.0",
+  "description": "Documentation for Abbot",
+  "main": "index.js",
+  "watch": {
+    "serve": {
+      "patterns": ["src"],
+      "extensions": "yml,md",
+      "quiet": true,
+      "legacyWatch": true,
+      "delay": 2500,
+      "runOnChangeOnly": false
+    }
+  },
+  "scripts": {
+    "watch": "npm-watch",
+    "build": "docfx docfx.json",
+    "serve": "docfx docfx.json --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm-watch": "^0.9.0"
+  }
+}
