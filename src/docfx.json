@@ -6,7 +6,7 @@
           "files": [
             "**/Abbot.Scripting.Interfaces.csproj"
           ],
-          "src": "../abbot/src"
+          "src": "../../abbot/src"
         }
       ],
       "dest": "api",

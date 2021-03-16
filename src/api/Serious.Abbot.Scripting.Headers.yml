@@ -1,0 +1,554 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.Headers
+  commentId: T:Serious.Abbot.Scripting.Headers
+  id: Headers
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.Headers.#ctor
+  - Serious.Abbot.Scripting.Headers.#ctor(IDictionary{System.String,System.String})
+  - Serious.Abbot.Scripting.Headers.Add(System.String,System.String)
+  - Serious.Abbot.Scripting.Headers.CopyTo(HttpRequestHeaders)
+  - Serious.Abbot.Scripting.Headers.GetEnumerator
+  - Serious.Abbot.Scripting.Headers.Item(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: Headers
+  fullName: Serious.Abbot.Scripting.Headers
+  type: Class
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Headers
+    path: ../../src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+    startLine: 10
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nA collection of HTTP headers\n"
+  example: []
+  syntax:
+    content: 'public class Headers : IEnumerable<KeyValuePair<string, string>>'
+    content.vb: >-
+      Public Class Headers
+
+          Inherits IEnumerable(Of KeyValuePair(Of String, String))
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Serious.Abbot.Scripting.Headers.#ctor
+  commentId: M:Serious.Abbot.Scripting.Headers.#ctor
+  id: '#ctor'
+  parent: Serious.Abbot.Scripting.Headers
+  langs:
+  - csharp
+  - vb
+  name: Headers()
+  nameWithType: Headers.Headers()
+  fullName: Serious.Abbot.Scripting.Headers.Headers()
+  type: Constructor
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: .ctor
+    path: ../../src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+    startLine: 18
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nConstructs an instance of <xref href=\"Serious.Abbot.Scripting.Headers\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public Headers()
+    content.vb: Public Sub New
+  overload: Serious.Abbot.Scripting.Headers.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Serious.Abbot.Scripting.Headers.#ctor(IDictionary{System.String,System.String})
+  commentId: M:Serious.Abbot.Scripting.Headers.#ctor(IDictionary{System.String,System.String})
+  id: '#ctor(IDictionary{System.String,System.String})'
+  parent: Serious.Abbot.Scripting.Headers
+  langs:
+  - csharp
+  - vb
+  name: Headers(IDictionary<String, String>)
+  nameWithType: Headers.Headers(IDictionary<String, String>)
+  fullName: Serious.Abbot.Scripting.Headers.Headers(IDictionary<System.String, System.String>)
+  type: Constructor
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: .ctor
+    path: ../../src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+    startLine: 26
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nConstructs an instance of <xref href=\"Serious.Abbot.Scripting.Headers\" data-throw-if-not-resolved=\"false\"></xref>\n"
+  example: []
+  syntax:
+    content: public Headers(IDictionary<string, string> headers)
+    parameters:
+    - id: headers
+      type: IDictionary{System.String,System.String}
+      description: A dictionary of initial header values
+    content.vb: Public Sub New(headers As IDictionary(Of String, String))
+  overload: Serious.Abbot.Scripting.Headers.#ctor*
+  nameWithType.vb: Headers.Headers(IDictionary(Of String, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Serious.Abbot.Scripting.Headers.Headers(IDictionary(Of System.String, System.String))
+  name.vb: Headers(IDictionary(Of String, String))
+- uid: Serious.Abbot.Scripting.Headers.Add(System.String,System.String)
+  commentId: M:Serious.Abbot.Scripting.Headers.Add(System.String,System.String)
+  id: Add(System.String,System.String)
+  parent: Serious.Abbot.Scripting.Headers
+  langs:
+  - csharp
+  - vb
+  name: Add(String, String)
+  nameWithType: Headers.Add(String, String)
+  fullName: Serious.Abbot.Scripting.Headers.Add(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Add
+    path: ../../src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+    startLine: 36
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nAdds a header to the collection.\n"
+  example: []
+  syntax:
+    content: public void Add(string key, string value)
+    parameters:
+    - id: key
+      type: System.String
+      description: Header name
+    - id: value
+      type: System.String
+      description: Header value
+    content.vb: Public Sub Add(key As String, value As String)
+  overload: Serious.Abbot.Scripting.Headers.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Serious.Abbot.Scripting.Headers.Item(System.String)
+  commentId: P:Serious.Abbot.Scripting.Headers.Item(System.String)
+  id: Item(System.String)
+  parent: Serious.Abbot.Scripting.Headers
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: Headers.Item[String]
+  fullName: Serious.Abbot.Scripting.Headers.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: this[]
+    path: ../../src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+    startLine: 45
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRetrieves the header with the specified key.\n"
+  example: []
+  syntax:
+    content: public string this[string key] { get; set; }
+    parameters:
+    - id: key
+      type: System.String
+      description: The header name
+    return:
+      type: System.String
+    content.vb: Public Property Item(key As String) As String
+  overload: Serious.Abbot.Scripting.Headers.Item*
+  nameWithType.vb: Headers.Item(String)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Serious.Abbot.Scripting.Headers.Item(System.String)
+  name.vb: Item(String)
+- uid: Serious.Abbot.Scripting.Headers.CopyTo(HttpRequestHeaders)
+  commentId: M:Serious.Abbot.Scripting.Headers.CopyTo(HttpRequestHeaders)
+  id: CopyTo(HttpRequestHeaders)
+  parent: Serious.Abbot.Scripting.Headers
+  langs:
+  - csharp
+  - vb
+  name: CopyTo(HttpRequestHeaders)
+  nameWithType: Headers.CopyTo(HttpRequestHeaders)
+  fullName: Serious.Abbot.Scripting.Headers.CopyTo(HttpRequestHeaders)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: CopyTo
+    path: ../../src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+    startLine: 55
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nCopies the headers into a <see cref=\"!:HttpRequestHeaders\"></see> collection.\n"
+  example: []
+  syntax:
+    content: public void CopyTo(HttpRequestHeaders headers)
+    parameters:
+    - id: headers
+      type: HttpRequestHeaders
+      description: ''
+    content.vb: Public Sub CopyTo(headers As HttpRequestHeaders)
+  overload: Serious.Abbot.Scripting.Headers.CopyTo*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Serious.Abbot.Scripting.Headers.GetEnumerator
+  commentId: M:Serious.Abbot.Scripting.Headers.GetEnumerator
+  id: GetEnumerator
+  parent: Serious.Abbot.Scripting.Headers
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: Headers.GetEnumerator()
+  fullName: Serious.Abbot.Scripting.Headers.GetEnumerator()
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: GetEnumerator
+    path: ../../src/Abbot.Scripting.Interfaces/Extensions/Headers.cs
+    startLine: 67
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGets the enumerator for this collection.\n"
+  example: []
+  syntax:
+    content: public IEnumerator<KeyValuePair<string, string>> GetEnumerator()
+    return:
+      type: IEnumerator{KeyValuePair{System.String,System.String}}
+      description: The enumerator
+    content.vb: Public Function GetEnumerator As IEnumerator(Of KeyValuePair(Of String, String))
+  overload: Serious.Abbot.Scripting.Headers.GetEnumerator*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: System.Object
+  commentId: T:System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Serious.Abbot.Scripting.Headers
+  commentId: T:Serious.Abbot.Scripting.Headers
+  parent: Serious.Abbot.Scripting
+  name: Headers
+  nameWithType: Headers
+  fullName: Serious.Abbot.Scripting.Headers
+- uid: Serious.Abbot.Scripting.Headers.#ctor*
+  commentId: Overload:Serious.Abbot.Scripting.Headers.#ctor
+  name: Headers
+  nameWithType: Headers.Headers
+  fullName: Serious.Abbot.Scripting.Headers.Headers
+- uid: IDictionary{System.String,System.String}
+  commentId: '!:IDictionary{System.String,System.String}'
+  definition: IDictionary`2
+  name: IDictionary<String, String>
+  nameWithType: IDictionary<String, String>
+  fullName: IDictionary<System.String, System.String>
+  nameWithType.vb: IDictionary(Of String, String)
+  fullName.vb: IDictionary(Of System.String, System.String)
+  name.vb: IDictionary(Of String, String)
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDictionary`2
+  commentId: '!:IDictionary`2'
+  isExternal: true
+  name: IDictionary<, >
+  nameWithType: IDictionary<, >
+  fullName: IDictionary<, >
+  nameWithType.vb: IDictionary(Of , )
+  fullName.vb: IDictionary(Of , )
+  name.vb: IDictionary(Of , )
+  spec.csharp:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IDictionary`2
+    name: IDictionary
+    nameWithType: IDictionary
+    fullName: IDictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.Headers.Add*
+  commentId: Overload:Serious.Abbot.Scripting.Headers.Add
+  name: Add
+  nameWithType: Headers.Add
+  fullName: Serious.Abbot.Scripting.Headers.Add
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Serious.Abbot.Scripting.Headers.Item*
+  commentId: Overload:Serious.Abbot.Scripting.Headers.Item
+  name: Item
+  nameWithType: Headers.Item
+  fullName: Serious.Abbot.Scripting.Headers.Item
+- uid: Serious.Abbot.Scripting.Headers.CopyTo*
+  commentId: Overload:Serious.Abbot.Scripting.Headers.CopyTo
+  name: CopyTo
+  nameWithType: Headers.CopyTo
+  fullName: Serious.Abbot.Scripting.Headers.CopyTo
+- uid: HttpRequestHeaders
+  commentId: '!:HttpRequestHeaders'
+  isExternal: true
+  name: HttpRequestHeaders
+  nameWithType: HttpRequestHeaders
+  fullName: HttpRequestHeaders
+- uid: Serious.Abbot.Scripting.Headers.GetEnumerator*
+  commentId: Overload:Serious.Abbot.Scripting.Headers.GetEnumerator
+  name: GetEnumerator
+  nameWithType: Headers.GetEnumerator
+  fullName: Serious.Abbot.Scripting.Headers.GetEnumerator
+- uid: IEnumerator{KeyValuePair{System.String,System.String}}
+  commentId: '!:IEnumerator{KeyValuePair{System.String,System.String}}'
+  definition: IEnumerator`1
+  name: IEnumerator<KeyValuePair<String, String>>
+  nameWithType: IEnumerator<KeyValuePair<String, String>>
+  fullName: IEnumerator<KeyValuePair<System.String, System.String>>
+  nameWithType.vb: IEnumerator(Of KeyValuePair(Of String, String))
+  fullName.vb: IEnumerator(Of KeyValuePair(Of System.String, System.String))
+  name.vb: IEnumerator(Of KeyValuePair(Of String, String))
+  spec.csharp:
+  - uid: IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: KeyValuePair
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: KeyValuePair`2
+    name: KeyValuePair
+    nameWithType: KeyValuePair
+    fullName: KeyValuePair
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerator`1
+  isExternal: true
+  name: IEnumerator<>
+  nameWithType: IEnumerator<>
+  fullName: IEnumerator<>
+  nameWithType.vb: IEnumerator(Of )
+  fullName.vb: IEnumerator(Of )
+  name.vb: IEnumerator(Of )
+  spec.csharp:
+  - uid: IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

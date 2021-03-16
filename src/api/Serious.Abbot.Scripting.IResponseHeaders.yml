@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IResponseHeaders
+  commentId: T:Serious.Abbot.Scripting.IResponseHeaders
+  id: IResponseHeaders
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IResponseHeaders.Item(System.String)
+  - Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  - Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  langs:
+  - csharp
+  - vb
+  name: IResponseHeaders
+  nameWithType: IResponseHeaders
+  fullName: Serious.Abbot.Scripting.IResponseHeaders
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IResponseHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IResponseHeaders
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IResponseHeaders.cs
+    startLine: 7
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRepresents the collection of Response Headers as defined in RFC 2616.\n"
+  example: []
+  syntax:
+    content: 'public interface IResponseHeaders : IHttpCollection, IReadOnlyCollection<KeyValuePair<string, StringValues>>'
+    content.vb: >-
+      Public Interface IResponseHeaders
+
+          Inherits IHttpCollection
+  inheritedMembers:
+  - Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  - Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+  - Serious.Abbot.Scripting.IHttpCollection.Keys
+  - Serious.Abbot.Scripting.IHttpCollection.Values
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  commentId: P:Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  id: WebHookAllowedOrigin
+  parent: Serious.Abbot.Scripting.IResponseHeaders
+  langs:
+  - csharp
+  - vb
+  name: WebHookAllowedOrigin
+  nameWithType: IResponseHeaders.WebHookAllowedOrigin
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IResponseHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: WebHookAllowedOrigin
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IResponseHeaders.cs
+    startLine: 15
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nIndicates this trigger will allow WebHook requests from the specified\norigin in response to a validation request. This is part of the\nHTTP 1.1 Web Hooks for Event Delivery - Version 1.0.1 specification:\nhttps://github.com/cloudevents/spec/blob/v1.0.1/http-webhook.md#42-validation-response\n"
+  example: []
+  syntax:
+    content: string WebHookAllowedOrigin { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property WebHookAllowedOrigin As String
+  overload: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  commentId: P:Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  id: WebHookAllowedRate
+  parent: Serious.Abbot.Scripting.IResponseHeaders
+  langs:
+  - csharp
+  - vb
+  name: WebHookAllowedRate
+  nameWithType: IResponseHeaders.WebHookAllowedRate
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IResponseHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: WebHookAllowedRate
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IResponseHeaders.cs
+    startLine: 20
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGrants permission to send notifications at the specified rate. Abbot limits this value to 120.\n"
+  example: []
+  syntax:
+    content: int WebHookAllowedRate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property WebHookAllowedRate As Integer
+  overload: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Serious.Abbot.Scripting.IResponseHeaders.Item(System.String)
+  commentId: P:Serious.Abbot.Scripting.IResponseHeaders.Item(System.String)
+  id: Item(System.String)
+  parent: Serious.Abbot.Scripting.IResponseHeaders
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: IResponseHeaders.Item[String]
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IResponseHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: this[]
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IResponseHeaders.cs
+    startLine: 39
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGets or sets the value with the specified key.\n"
+  remarks: "\n<xref href=\"Serious.Abbot.Scripting.IHttpCollection\" data-throw-if-not-resolved=\"false\"></xref> has a different indexer contract than\n<see cref=\"!:IDictionary&lt;TKey,TValue>\"></see>, as it will return <code>StringValues.Empty</code> for missing entries\nrather than throwing an Exception.\n"
+  example: []
+  syntax:
+    content: StringValues this[string key] { get; set; }
+    parameters:
+    - id: key
+      type: System.String
+      description: "\nThe key of the value to get.\n"
+    return:
+      type: Serious.Abbot.Scripting.StringValues
+      description: "\nThe element with the specified key, or <code>StringValues.Empty</code> if the key is not present.\n"
+    content.vb: Property Item(key As String) As StringValues
+  overload: Serious.Abbot.Scripting.IResponseHeaders.Item*
+  nameWithType.vb: IResponseHeaders.Item(String)
+  modifiers.csharp:
+  - get
+  - set
+  fullName.vb: Serious.Abbot.Scripting.IResponseHeaders.Item(System.String)
+  name.vb: Item(String)
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  commentId: M:Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  parent: Serious.Abbot.Scripting.IHttpCollection
+  isExternal: true
+  name: ContainsKey(String)
+  nameWithType: IHttpCollection.ContainsKey(String)
+  fullName: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+    name: ContainsKey
+    nameWithType: IHttpCollection.ContainsKey
+    fullName: Serious.Abbot.Scripting.IHttpCollection.ContainsKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+    name: ContainsKey
+    nameWithType: IHttpCollection.ContainsKey
+    fullName: Serious.Abbot.Scripting.IHttpCollection.ContainsKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+  commentId: M:Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+  parent: Serious.Abbot.Scripting.IHttpCollection
+  isExternal: true
+  name: TryGetValue(String, StringValues)
+  nameWithType: IHttpCollection.TryGetValue(String, StringValues)
+  fullName: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String, Serious.Abbot.Scripting.StringValues)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+    name: TryGetValue
+    nameWithType: IHttpCollection.TryGetValue
+    fullName: Serious.Abbot.Scripting.IHttpCollection.TryGetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.StringValues
+    name: StringValues
+    nameWithType: StringValues
+    fullName: Serious.Abbot.Scripting.StringValues
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+    name: TryGetValue
+    nameWithType: IHttpCollection.TryGetValue
+    fullName: Serious.Abbot.Scripting.IHttpCollection.TryGetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.StringValues
+    name: StringValues
+    nameWithType: StringValues
+    fullName: Serious.Abbot.Scripting.StringValues
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IHttpCollection.Keys
+  commentId: P:Serious.Abbot.Scripting.IHttpCollection.Keys
+  parent: Serious.Abbot.Scripting.IHttpCollection
+  name: Keys
+  nameWithType: IHttpCollection.Keys
+  fullName: Serious.Abbot.Scripting.IHttpCollection.Keys
+- uid: Serious.Abbot.Scripting.IHttpCollection.Values
+  commentId: P:Serious.Abbot.Scripting.IHttpCollection.Values
+  parent: Serious.Abbot.Scripting.IHttpCollection
+  name: Values
+  nameWithType: IHttpCollection.Values
+  fullName: Serious.Abbot.Scripting.IHttpCollection.Values
+- uid: Serious.Abbot.Scripting.IHttpCollection
+  commentId: T:Serious.Abbot.Scripting.IHttpCollection
+  parent: Serious.Abbot.Scripting
+  name: IHttpCollection
+  nameWithType: IHttpCollection
+  fullName: Serious.Abbot.Scripting.IHttpCollection
+- uid: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin*
+  commentId: Overload:Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  name: WebHookAllowedOrigin
+  nameWithType: IResponseHeaders.WebHookAllowedOrigin
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate*
+  commentId: Overload:Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  name: WebHookAllowedRate
+  nameWithType: IResponseHeaders.WebHookAllowedRate
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Serious.Abbot.Scripting.IResponseHeaders.Item*
+  commentId: Overload:Serious.Abbot.Scripting.IResponseHeaders.Item
+  name: Item
+  nameWithType: IResponseHeaders.Item
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.Item
+- uid: Serious.Abbot.Scripting.StringValues
+  commentId: T:Serious.Abbot.Scripting.StringValues
+  parent: Serious.Abbot.Scripting
+  name: StringValues
+  nameWithType: StringValues
+  fullName: Serious.Abbot.Scripting.StringValues

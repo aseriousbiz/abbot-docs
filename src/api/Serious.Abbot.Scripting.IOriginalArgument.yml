@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IOriginalArgument
+  commentId: T:Serious.Abbot.Scripting.IOriginalArgument
+  id: IOriginalArgument
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  langs:
+  - csharp
+  - vb
+  name: IOriginalArgument
+  nameWithType: IOriginalArgument
+  fullName: Serious.Abbot.Scripting.IOriginalArgument
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IOriginalArgument.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IOriginalArgument
+    path: ../../src/Abbot.Scripting.Interfaces/IOriginalArgument.cs
+    startLine: 6
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRepresents one argument tokenized from the <xref href=\"Serious.Abbot.Scripting.IBot.Arguments\" data-throw-if-not-resolved=\"false\"></xref> property with the original\npotentially quoted value stored..\n"
+  example: []
+  syntax:
+    content: 'public interface IOriginalArgument : IArgument'
+    content.vb: >-
+      Public Interface IOriginalArgument
+
+          Inherits IArgument
+  inheritedMembers:
+  - Serious.Abbot.Scripting.IArgument.Value
+  extensionMethods:
+  - Serious.Abbot.Scripting.IArgument.Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - Serious.Abbot.Scripting.IArgument.Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  commentId: P:Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  id: OriginalText
+  parent: Serious.Abbot.Scripting.IOriginalArgument
+  langs:
+  - csharp
+  - vb
+  name: OriginalText
+  nameWithType: IOriginalArgument.OriginalText
+  fullName: Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IOriginalArgument.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: OriginalText
+    path: ../../src/Abbot.Scripting.Interfaces/IOriginalArgument.cs
+    startLine: 11
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe original value of the argument, which may include quotes if it was quoted.\n"
+  example: []
+  syntax:
+    content: string OriginalText { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property OriginalText As String
+  overload: Serious.Abbot.Scripting.IOriginalArgument.OriginalText*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Serious.Abbot.Scripting.IBot.Arguments
+  commentId: P:Serious.Abbot.Scripting.IBot.Arguments
+  isExternal: true
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IArgument.Value
+  commentId: P:Serious.Abbot.Scripting.IArgument.Value
+  parent: Serious.Abbot.Scripting.IArgument
+  name: Value
+  nameWithType: IArgument.Value
+  fullName: Serious.Abbot.Scripting.IArgument.Value
+- uid: Serious.Abbot.Scripting.IArgument.Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  parent: Serious.Abbot.Scripting.ArgumentExtensions
+  definition: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  name: ToLocalTime()
+  nameWithType: ArgumentExtensions.ToLocalTime()
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime()
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+    name: ToLocalTime
+    nameWithType: ArgumentExtensions.ToLocalTime
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+    name: ToLocalTime
+    nameWithType: ArgumentExtensions.ToLocalTime
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IArgument.Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  parent: Serious.Abbot.Scripting.ArgumentExtensions
+  definition: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  name: ToInt32()
+  nameWithType: ArgumentExtensions.ToInt32()
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32()
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+    name: ToInt32
+    nameWithType: ArgumentExtensions.ToInt32
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+    name: ToInt32
+    nameWithType: ArgumentExtensions.ToInt32
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IArgument
+  commentId: T:Serious.Abbot.Scripting.IArgument
+  parent: Serious.Abbot.Scripting
+  name: IArgument
+  nameWithType: IArgument
+  fullName: Serious.Abbot.Scripting.IArgument
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  name: ToLocalTime(IArgument)
+  nameWithType: ArgumentExtensions.ToLocalTime(IArgument)
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+    name: ToLocalTime
+    nameWithType: ArgumentExtensions.ToLocalTime
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IArgument
+    name: IArgument
+    nameWithType: IArgument
+    fullName: Serious.Abbot.Scripting.IArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+    name: ToLocalTime
+    nameWithType: ArgumentExtensions.ToLocalTime
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IArgument
+    name: IArgument
+    nameWithType: IArgument
+    fullName: Serious.Abbot.Scripting.IArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.ArgumentExtensions
+  commentId: T:Serious.Abbot.Scripting.ArgumentExtensions
+  parent: Serious.Abbot.Scripting
+  name: ArgumentExtensions
+  nameWithType: ArgumentExtensions
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  name: ToInt32(IArgument)
+  nameWithType: ArgumentExtensions.ToInt32(IArgument)
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+    name: ToInt32
+    nameWithType: ArgumentExtensions.ToInt32
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IArgument
+    name: IArgument
+    nameWithType: IArgument
+    fullName: Serious.Abbot.Scripting.IArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+    name: ToInt32
+    nameWithType: ArgumentExtensions.ToInt32
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IArgument
+    name: IArgument
+    nameWithType: IArgument
+    fullName: Serious.Abbot.Scripting.IArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IOriginalArgument.OriginalText*
+  commentId: Overload:Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  name: OriginalText
+  nameWithType: IOriginalArgument.OriginalText
+  fullName: Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

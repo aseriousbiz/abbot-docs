@@ -1,0 +1,588 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IRequestHeaders
+  commentId: T:Serious.Abbot.Scripting.IRequestHeaders
+  id: IRequestHeaders
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IRequestHeaders.Accept
+  - Serious.Abbot.Scripting.IRequestHeaders.Item(System.String)
+  - Serious.Abbot.Scripting.IRequestHeaders.Origin
+  - Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  - Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  - Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  - Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  - Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  langs:
+  - csharp
+  - vb
+  name: IRequestHeaders
+  nameWithType: IRequestHeaders
+  fullName: Serious.Abbot.Scripting.IRequestHeaders
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IRequestHeaders
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 7
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRepresents the collection of Request Headers as defined in RFC 2616.\n"
+  example: []
+  syntax:
+    content: 'public interface IRequestHeaders : IHttpCollection, IReadOnlyCollection<KeyValuePair<string, StringValues>>'
+    content.vb: >-
+      Public Interface IRequestHeaders
+
+          Inherits IHttpCollection
+  inheritedMembers:
+  - Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  - Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+  - Serious.Abbot.Scripting.IHttpCollection.Keys
+  - Serious.Abbot.Scripting.IHttpCollection.Values
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Item(System.String)
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.Item(System.String)
+  id: Item(System.String)
+  parent: Serious.Abbot.Scripting.IRequestHeaders
+  langs:
+  - csharp
+  - vb
+  name: Item[String]
+  nameWithType: IRequestHeaders.Item[String]
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Item[System.String]
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: this[]
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 26
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGets the value with the specified key.\n"
+  remarks: "\n<xref href=\"Serious.Abbot.Scripting.IHttpCollection\" data-throw-if-not-resolved=\"false\"></xref> has a different indexer contract than\n<see cref=\"!:IDictionary&lt;TKey,TValue>\"></see>, as it will return <code>StringValues.Empty</code> for missing entries\nrather than throwing an Exception.\n"
+  example: []
+  syntax:
+    content: StringValues this[string key] { get; }
+    parameters:
+    - id: key
+      type: System.String
+      description: "\nThe key of the value to get.\n"
+    return:
+      type: Serious.Abbot.Scripting.StringValues
+      description: "\nThe element with the specified key, or <code>StringValues.Empty</code> if the key is not present.\n"
+    content.vb: ReadOnly Property Item(key As String) As StringValues
+  overload: Serious.Abbot.Scripting.IRequestHeaders.Item*
+  nameWithType.vb: IRequestHeaders.Item(String)
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: Serious.Abbot.Scripting.IRequestHeaders.Item(System.String)
+  name.vb: Item(String)
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Accept
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.Accept
+  id: Accept
+  parent: Serious.Abbot.Scripting.IRequestHeaders
+  langs:
+  - csharp
+  - vb
+  name: Accept
+  nameWithType: IRequestHeaders.Accept
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Accept
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Accept
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 32
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGets the value of the <pre><code>Accept</code></pre> request HTTP header. This header advertises\nwhich content types, expressed as MIME types, the client is able to understand.\n"
+  example: []
+  syntax:
+    content: StringValues Accept { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.StringValues
+    content.vb: ReadOnly Property Accept As StringValues
+  overload: Serious.Abbot.Scripting.IRequestHeaders.Accept*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  id: UserAgent
+  parent: Serious.Abbot.Scripting.IRequestHeaders
+  langs:
+  - csharp
+  - vb
+  name: UserAgent
+  nameWithType: IRequestHeaders.UserAgent
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: UserAgent
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 39
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGets the <pre><code>User-Agent</code></pre> header. This is a characteristic string that allows the network\nprotocol peers to identify the application type, operating system, software vendor or software version\nof the requesting software user agent.\n"
+  example: []
+  syntax:
+    content: StringValues UserAgent { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.StringValues
+    content.vb: ReadOnly Property UserAgent As StringValues
+  overload: Serious.Abbot.Scripting.IRequestHeaders.UserAgent*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  id: Referrer
+  parent: Serious.Abbot.Scripting.IRequestHeaders
+  langs:
+  - csharp
+  - vb
+  name: Referrer
+  nameWithType: IRequestHeaders.Referrer
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Referrer
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 45
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGets or sets the value of the <pre><code>Referer</code></pre> header. The address of the previous web page from\nwhich a link to the currently requested page was followed. This is not required to be set by a client.\n"
+  example: []
+  syntax:
+    content: StringValues Referrer { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.StringValues
+    content.vb: ReadOnly Property Referrer As StringValues
+  overload: Serious.Abbot.Scripting.IRequestHeaders.Referrer*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Origin
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.Origin
+  id: Origin
+  parent: Serious.Abbot.Scripting.IRequestHeaders
+  langs:
+  - csharp
+  - vb
+  name: Origin
+  nameWithType: IRequestHeaders.Origin
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Origin
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Origin
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 51
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe Origin request header indicates where a request originates from. It doesn&apos;t include any path\ninformation, just the server name\n"
+  example: []
+  syntax:
+    content: StringValues Origin { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.StringValues
+    content.vb: ReadOnly Property Origin As StringValues
+  overload: Serious.Abbot.Scripting.IRequestHeaders.Origin*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  id: WebHookRequestOrigin
+  parent: Serious.Abbot.Scripting.IRequestHeaders
+  langs:
+  - csharp
+  - vb
+  name: WebHookRequestOrigin
+  nameWithType: IRequestHeaders.WebHookRequestOrigin
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: WebHookRequestOrigin
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 58
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nSent to request permission to deliver a webhook from the specified origin. This is part of the\nHTTP 1.1 Web Hooks for Event Delivery - Version 1.0.1 specification:\nhttps://github.com/cloudevents/spec/blob/v1.0.1/http-webhook.md\n"
+  example: []
+  syntax:
+    content: StringValues WebHookRequestOrigin { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.StringValues
+    content.vb: ReadOnly Property WebHookRequestOrigin As StringValues
+  overload: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  id: WebHookRequestCallback
+  parent: Serious.Abbot.Scripting.IRequestHeaders
+  langs:
+  - csharp
+  - vb
+  name: WebHookRequestCallback
+  nameWithType: IRequestHeaders.WebHookRequestCallback
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: WebHookRequestCallback
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 64
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe WebHook-Request-Callback header is OPTIONAL and augments the WebHook-Request-Origin header. It\nallows the delivery target to grant send permission asynchronously, via a simple HTTPS callback.\n"
+  example: []
+  syntax:
+    content: StringValues WebHookRequestCallback { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.StringValues
+    content.vb: ReadOnly Property WebHookRequestCallback As StringValues
+  overload: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  id: WebHookRequestRate
+  parent: Serious.Abbot.Scripting.IRequestHeaders
+  langs:
+  - csharp
+  - vb
+  name: WebHookRequestRate
+  nameWithType: IRequestHeaders.WebHookRequestRate
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: WebHookRequestRate
+    path: ../../src/Abbot.Scripting.Interfaces/Http/IRequestHeaders.cs
+    startLine: 72
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nSent to request permission to deliver a webhook at the specified rate. The rate is an integer indicating\nthe number of requests per minute. This is part of the\nHTTP 1.1 Web Hooks for Event Delivery - Version 1.0.1 specification:\nhttps://github.com/cloudevents/spec/blob/v1.0.1/http-webhook.md\n"
+  example: []
+  syntax:
+    content: int? WebHookRequestRate { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: ReadOnly Property WebHookRequestRate As Integer?
+  overload: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  commentId: M:Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  parent: Serious.Abbot.Scripting.IHttpCollection
+  isExternal: true
+  name: ContainsKey(String)
+  nameWithType: IHttpCollection.ContainsKey(String)
+  fullName: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+    name: ContainsKey
+    nameWithType: IHttpCollection.ContainsKey
+    fullName: Serious.Abbot.Scripting.IHttpCollection.ContainsKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+    name: ContainsKey
+    nameWithType: IHttpCollection.ContainsKey
+    fullName: Serious.Abbot.Scripting.IHttpCollection.ContainsKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+  commentId: M:Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+  parent: Serious.Abbot.Scripting.IHttpCollection
+  isExternal: true
+  name: TryGetValue(String, StringValues)
+  nameWithType: IHttpCollection.TryGetValue(String, StringValues)
+  fullName: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String, Serious.Abbot.Scripting.StringValues)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+    name: TryGetValue
+    nameWithType: IHttpCollection.TryGetValue
+    fullName: Serious.Abbot.Scripting.IHttpCollection.TryGetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.StringValues
+    name: StringValues
+    nameWithType: StringValues
+    fullName: Serious.Abbot.Scripting.StringValues
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+    name: TryGetValue
+    nameWithType: IHttpCollection.TryGetValue
+    fullName: Serious.Abbot.Scripting.IHttpCollection.TryGetValue
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.StringValues
+    name: StringValues
+    nameWithType: StringValues
+    fullName: Serious.Abbot.Scripting.StringValues
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IHttpCollection.Keys
+  commentId: P:Serious.Abbot.Scripting.IHttpCollection.Keys
+  parent: Serious.Abbot.Scripting.IHttpCollection
+  name: Keys
+  nameWithType: IHttpCollection.Keys
+  fullName: Serious.Abbot.Scripting.IHttpCollection.Keys
+- uid: Serious.Abbot.Scripting.IHttpCollection.Values
+  commentId: P:Serious.Abbot.Scripting.IHttpCollection.Values
+  parent: Serious.Abbot.Scripting.IHttpCollection
+  name: Values
+  nameWithType: IHttpCollection.Values
+  fullName: Serious.Abbot.Scripting.IHttpCollection.Values
+- uid: Serious.Abbot.Scripting.IHttpCollection
+  commentId: T:Serious.Abbot.Scripting.IHttpCollection
+  parent: Serious.Abbot.Scripting
+  name: IHttpCollection
+  nameWithType: IHttpCollection
+  fullName: Serious.Abbot.Scripting.IHttpCollection
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Item*
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.Item
+  name: Item
+  nameWithType: IRequestHeaders.Item
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Item
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Serious.Abbot.Scripting.StringValues
+  commentId: T:Serious.Abbot.Scripting.StringValues
+  parent: Serious.Abbot.Scripting
+  name: StringValues
+  nameWithType: StringValues
+  fullName: Serious.Abbot.Scripting.StringValues
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Accept*
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.Accept
+  name: Accept
+  nameWithType: IRequestHeaders.Accept
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Accept
+- uid: Serious.Abbot.Scripting.IRequestHeaders.UserAgent*
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  name: UserAgent
+  nameWithType: IRequestHeaders.UserAgent
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Referrer*
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  name: Referrer
+  nameWithType: IRequestHeaders.Referrer
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Referrer
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Origin*
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.Origin
+  name: Origin
+  nameWithType: IRequestHeaders.Origin
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Origin
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin*
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  name: WebHookRequestOrigin
+  nameWithType: IRequestHeaders.WebHookRequestOrigin
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback*
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  name: WebHookRequestCallback
+  nameWithType: IRequestHeaders.WebHookRequestCallback
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate*
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  name: WebHookRequestRate
+  nameWithType: IRequestHeaders.WebHookRequestRate
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+- uid: System.Nullable{System.Int32}
+  commentId: '!:System.Nullable{System.Int32}'
+  definition: System.Nullable`1
+  name: Nullable<Int32>
+  nameWithType: Nullable<Int32>
+  fullName: System.Nullable<System.Int32>
+  nameWithType.vb: Nullable(Of Int32)
+  fullName.vb: System.Nullable(Of System.Int32)
+  name.vb: Nullable(Of Int32)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

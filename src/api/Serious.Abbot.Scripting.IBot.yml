@@ -1,0 +1,1374 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IBot
+  commentId: T:Serious.Abbot.Scripting.IBot
+  id: IBot
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IBot.Arguments
+  - Serious.Abbot.Scripting.IBot.Brain
+  - Serious.Abbot.Scripting.IBot.From
+  - Serious.Abbot.Scripting.IBot.Http
+  - Serious.Abbot.Scripting.IBot.Id
+  - Serious.Abbot.Scripting.IBot.IsChat
+  - Serious.Abbot.Scripting.IBot.IsRequest
+  - Serious.Abbot.Scripting.IBot.Mentions
+  - Serious.Abbot.Scripting.IBot.Name
+  - Serious.Abbot.Scripting.IBot.PlatformId
+  - Serious.Abbot.Scripting.IBot.PlatformType
+  - Serious.Abbot.Scripting.IBot.ReplyAsync(System.String)
+  - Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,System.Int64)
+  - Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,TimeSpan)
+  - Serious.Abbot.Scripting.IBot.ReplyTableAsync``1(IEnumerable{``0})
+  - Serious.Abbot.Scripting.IBot.Request
+  - Serious.Abbot.Scripting.IBot.Response
+  - Serious.Abbot.Scripting.IBot.Room
+  - Serious.Abbot.Scripting.IBot.Secrets
+  - Serious.Abbot.Scripting.IBot.SkillName
+  - Serious.Abbot.Scripting.IBot.SkillUrl
+  - Serious.Abbot.Scripting.IBot.TimeZone
+  - Serious.Abbot.Scripting.IBot.Utilities
+  - Serious.Abbot.Scripting.IBot.VersionInfo
+  langs:
+  - csharp
+  - vb
+  name: IBot
+  nameWithType: IBot
+  fullName: Serious.Abbot.Scripting.IBot
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IBot
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 11
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nIt&apos;s Abbot! Provides a set of services and information for your bot skill.\n"
+  example: []
+  syntax:
+    content: public interface IBot
+    content.vb: Public Interface IBot
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IBot.Brain
+  commentId: P:Serious.Abbot.Scripting.IBot.Brain
+  id: Brain
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Brain
+  nameWithType: IBot.Brain
+  fullName: Serious.Abbot.Scripting.IBot.Brain
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Brain
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 16
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nStores information specific to your bot skill.\n"
+  example: []
+  syntax:
+    content: IBrain Brain { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IBrain
+    content.vb: ReadOnly Property Brain As IBrain
+  overload: Serious.Abbot.Scripting.IBot.Brain*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Secrets
+  commentId: P:Serious.Abbot.Scripting.IBot.Secrets
+  id: Secrets
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Secrets
+  nameWithType: IBot.Secrets
+  fullName: Serious.Abbot.Scripting.IBot.Secrets
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Secrets
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 21
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRetrieves secrets needed by your skill such as API tokens, etc. Secrets are set in the Skill Editor.\n"
+  example: []
+  syntax:
+    content: ISecrets Secrets { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.ISecrets
+    content.vb: ReadOnly Property Secrets As ISecrets
+  overload: Serious.Abbot.Scripting.IBot.Secrets*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.ReplyAsync(System.String)
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyAsync(System.String)
+  id: ReplyAsync(System.String)
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: ReplyAsync(String)
+  nameWithType: IBot.ReplyAsync(String)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ReplyAsync
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 27
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nSends a reply to the chat.\n"
+  example: []
+  syntax:
+    content: Task ReplyAsync(string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The reply message.
+    return:
+      type: Task
+    content.vb: Function ReplyAsync(text As String) As Task
+  overload: Serious.Abbot.Scripting.IBot.ReplyAsync*
+- uid: Serious.Abbot.Scripting.IBot.ReplyTableAsync``1(IEnumerable{``0})
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyTableAsync``1(IEnumerable{``0})
+  id: ReplyTableAsync``1(IEnumerable{``0})
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: ReplyTableAsync<T>(IEnumerable<T>)
+  nameWithType: IBot.ReplyTableAsync<T>(IEnumerable<T>)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyTableAsync<T>(IEnumerable<T>)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ReplyTableAsync
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 37
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nReplies with the collection as a nicely formatted text table.\n"
+  remarks: "\nUses the properties of <code data-dev-comment-type=\"typeparamref\" class=\"typeparamref\">T</code> for the columns. Each item in <code data-dev-comment-type=\"paramref\" class=\"paramref\">items</code>\nis a row.\n"
+  example: []
+  syntax:
+    content: Task ReplyTableAsync<T>(IEnumerable<T> items)
+    parameters:
+    - id: items
+      type: IEnumerable{{T}}
+      description: The items to print out
+    typeParameters:
+    - id: T
+    return:
+      type: Task
+    content.vb: Function ReplyTableAsync(Of T)(items As IEnumerable(Of T)) As Task
+  overload: Serious.Abbot.Scripting.IBot.ReplyTableAsync*
+  nameWithType.vb: IBot.ReplyTableAsync(Of T)(IEnumerable(Of T))
+  fullName.vb: Serious.Abbot.Scripting.IBot.ReplyTableAsync(Of T)(IEnumerable(Of T))
+  name.vb: ReplyTableAsync(Of T)(IEnumerable(Of T))
+- uid: Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,System.Int64)
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,System.Int64)
+  id: ReplyLaterAsync(System.String,System.Int64)
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: ReplyLaterAsync(String, Int64)
+  nameWithType: IBot.ReplyLaterAsync(String, Int64)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String, System.Int64)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ReplyLaterAsync
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 44
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nSends the reply later.\n"
+  example: []
+  syntax:
+    content: Task ReplyLaterAsync(string text, long delayInSeconds)
+    parameters:
+    - id: text
+      type: System.String
+      description: The reply message.
+    - id: delayInSeconds
+      type: System.Int64
+      description: How long to wait before the reply shows up.
+    return:
+      type: Task
+    content.vb: Function ReplyLaterAsync(text As String, delayInSeconds As Long) As Task
+  overload: Serious.Abbot.Scripting.IBot.ReplyLaterAsync*
+- uid: Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,TimeSpan)
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,TimeSpan)
+  id: ReplyLaterAsync(System.String,TimeSpan)
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: ReplyLaterAsync(String, TimeSpan)
+  nameWithType: IBot.ReplyLaterAsync(String, TimeSpan)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String, TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ReplyLaterAsync
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 51
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nSends the reply later.\n"
+  example: []
+  syntax:
+    content: Task ReplyLaterAsync(string text, TimeSpan timeSpan)
+    parameters:
+    - id: text
+      type: System.String
+      description: The reply message.
+    - id: timeSpan
+      type: TimeSpan
+      description: How long to wait before the reply shows up.
+    return:
+      type: Task
+    content.vb: Function ReplyLaterAsync(text As String, timeSpan As TimeSpan) As Task
+  overload: Serious.Abbot.Scripting.IBot.ReplyLaterAsync*
+- uid: Serious.Abbot.Scripting.IBot.Id
+  commentId: P:Serious.Abbot.Scripting.IBot.Id
+  id: Id
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IBot.Id
+  fullName: Serious.Abbot.Scripting.IBot.Id
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Id
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 56
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe platform specific identifier for the bot. For example, in Slack this is the Slack User Id.\n"
+  example: []
+  syntax:
+    content: string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Id As String
+  overload: Serious.Abbot.Scripting.IBot.Id*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Name
+  commentId: P:Serious.Abbot.Scripting.IBot.Name
+  id: Name
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IBot.Name
+  fullName: Serious.Abbot.Scripting.IBot.Name
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Name
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 61
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe name of the Bot. Typically Abbot, but the bot can be renamed in your chat platform settings.\n"
+  example: []
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Serious.Abbot.Scripting.IBot.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.PlatformId
+  commentId: P:Serious.Abbot.Scripting.IBot.PlatformId
+  id: PlatformId
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: PlatformId
+  nameWithType: IBot.PlatformId
+  fullName: Serious.Abbot.Scripting.IBot.PlatformId
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PlatformId
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 66
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe ID of the team or organization on the platform. For example, the Slack team id.\n"
+  example: []
+  syntax:
+    content: string PlatformId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property PlatformId As String
+  overload: Serious.Abbot.Scripting.IBot.PlatformId*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.SkillName
+  commentId: P:Serious.Abbot.Scripting.IBot.SkillName
+  id: SkillName
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: SkillName
+  nameWithType: IBot.SkillName
+  fullName: Serious.Abbot.Scripting.IBot.SkillName
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: SkillName
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 71
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe name of the skill.\n"
+  example: []
+  syntax:
+    content: string SkillName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property SkillName As String
+  overload: Serious.Abbot.Scripting.IBot.SkillName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.SkillUrl
+  commentId: P:Serious.Abbot.Scripting.IBot.SkillUrl
+  id: SkillUrl
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: SkillUrl
+  nameWithType: IBot.SkillUrl
+  fullName: Serious.Abbot.Scripting.IBot.SkillUrl
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: SkillUrl
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 76
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe URL to the skill editor for the skill.\n"
+  example: []
+  syntax:
+    content: Uri SkillUrl { get; }
+    parameters: []
+    return:
+      type: Uri
+    content.vb: ReadOnly Property SkillUrl As Uri
+  overload: Serious.Abbot.Scripting.IBot.SkillUrl*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Room
+  commentId: P:Serious.Abbot.Scripting.IBot.Room
+  id: Room
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Room
+  nameWithType: IBot.Room
+  fullName: Serious.Abbot.Scripting.IBot.Room
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Room
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 81
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe room (or channel) name this skill is responding to.\n"
+  example: []
+  syntax:
+    content: string? Room { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.String}
+    content.vb: ReadOnly Property Room As String?
+  overload: Serious.Abbot.Scripting.IBot.Room*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Arguments
+  commentId: P:Serious.Abbot.Scripting.IBot.Arguments
+  id: Arguments
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Arguments
+  nameWithType: IBot.Arguments
+  fullName: Serious.Abbot.Scripting.IBot.Arguments
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Arguments
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 86
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe arguments supplied to the skill. Does not include the skill name.\n"
+  example: []
+  syntax:
+    content: IArguments Arguments { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IArguments
+    content.vb: ReadOnly Property Arguments As IArguments
+  overload: Serious.Abbot.Scripting.IBot.Arguments*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.From
+  commentId: P:Serious.Abbot.Scripting.IBot.From
+  id: From
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: From
+  nameWithType: IBot.From
+  fullName: Serious.Abbot.Scripting.IBot.From
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: From
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 91
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe user that invoked the skill.\n"
+  example: []
+  syntax:
+    content: IChatUser From { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IChatUser
+    content.vb: ReadOnly Property From As IChatUser
+  overload: Serious.Abbot.Scripting.IBot.From*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.PlatformType
+  commentId: P:Serious.Abbot.Scripting.IBot.PlatformType
+  id: PlatformType
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: PlatformType
+  nameWithType: IBot.PlatformType
+  fullName: Serious.Abbot.Scripting.IBot.PlatformType
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PlatformType
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 96
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe platform the skill is running on such as Slack or Teams.\n"
+  example: []
+  syntax:
+    content: PlatformType PlatformType { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.PlatformType
+    content.vb: ReadOnly Property PlatformType As PlatformType
+  overload: Serious.Abbot.Scripting.IBot.PlatformType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Mentions
+  commentId: P:Serious.Abbot.Scripting.IBot.Mentions
+  id: Mentions
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Mentions
+  nameWithType: IBot.Mentions
+  fullName: Serious.Abbot.Scripting.IBot.Mentions
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Mentions
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 101
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe mentioned users (if any).\n"
+  example: []
+  syntax:
+    content: IReadOnlyList<IChatUser> Mentions { get; }
+    parameters: []
+    return:
+      type: IReadOnlyList{Serious.Abbot.Scripting.IChatUser}
+    content.vb: ReadOnly Property Mentions As IReadOnlyList(Of IChatUser)
+  overload: Serious.Abbot.Scripting.IBot.Mentions*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Http
+  commentId: P:Serious.Abbot.Scripting.IBot.Http
+  id: Http
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Http
+  nameWithType: IBot.Http
+  fullName: Serious.Abbot.Scripting.IBot.Http
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Http
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 106
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nA convenience service for making HTTP requests.\n"
+  example: []
+  syntax:
+    content: IBotHttpClient Http { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IBotHttpClient
+    content.vb: ReadOnly Property Http As IBotHttpClient
+  overload: Serious.Abbot.Scripting.IBot.Http*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Request
+  commentId: P:Serious.Abbot.Scripting.IBot.Request
+  id: Request
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: IBot.Request
+  fullName: Serious.Abbot.Scripting.IBot.Request
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Request
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 112
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nIf <xref href=\"Serious.Abbot.Scripting.IBot.IsRequest\" data-throw-if-not-resolved=\"false\"></xref> is true, then the skill is responding to an HTTP trigger request\n(instead of a chat message) and this property is populated with the incoming request information. \n"
+  example: []
+  syntax:
+    content: IHttpTriggerEvent Request { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IHttpTriggerEvent
+    content.vb: ReadOnly Property Request As IHttpTriggerEvent
+  overload: Serious.Abbot.Scripting.IBot.Request*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Response
+  commentId: P:Serious.Abbot.Scripting.IBot.Response
+  id: Response
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: IBot.Response
+  fullName: Serious.Abbot.Scripting.IBot.Response
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Response
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 118
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nSets properties of the HTTP response when the skill is called by an HTTP trigger request. Properties may\nonly be set when <xref href=\"Serious.Abbot.Scripting.IBot.IsRequest\" data-throw-if-not-resolved=\"false\"></xref> is true.\n"
+  example: []
+  syntax:
+    content: IHttpTriggerResponse Response { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IHttpTriggerResponse
+    content.vb: ReadOnly Property Response As IHttpTriggerResponse
+  overload: Serious.Abbot.Scripting.IBot.Response*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.IsRequest
+  commentId: P:Serious.Abbot.Scripting.IBot.IsRequest
+  id: IsRequest
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: IsRequest
+  nameWithType: IBot.IsRequest
+  fullName: Serious.Abbot.Scripting.IBot.IsRequest
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IsRequest
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 124
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nIf true, the skill is responding to an HTTP trigger request. The request information can be accessed via\nthe <xref href=\"Serious.Abbot.Scripting.IBot.Request\" data-throw-if-not-resolved=\"false\"></xref> property.\n"
+  example: []
+  syntax:
+    content: bool IsRequest { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsRequest As Boolean
+  overload: Serious.Abbot.Scripting.IBot.IsRequest*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.IsChat
+  commentId: P:Serious.Abbot.Scripting.IBot.IsChat
+  id: IsChat
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: IsChat
+  nameWithType: IBot.IsChat
+  fullName: Serious.Abbot.Scripting.IBot.IsChat
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IsChat
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 129
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nIf true, the skill is responding to a chat message.\n"
+  example: []
+  syntax:
+    content: bool IsChat { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsChat As Boolean
+  overload: Serious.Abbot.Scripting.IBot.IsChat*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.TimeZone
+  commentId: P:Serious.Abbot.Scripting.IBot.TimeZone
+  id: TimeZone
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: TimeZone
+  nameWithType: IBot.TimeZone
+  fullName: Serious.Abbot.Scripting.IBot.TimeZone
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: TimeZone
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 134
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe system timezone of the bot.\n"
+  example: []
+  syntax:
+    content: DateTimeZone TimeZone { get; }
+    parameters: []
+    return:
+      type: DateTimeZone
+    content.vb: ReadOnly Property TimeZone As DateTimeZone
+  overload: Serious.Abbot.Scripting.IBot.TimeZone*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.VersionInfo
+  commentId: P:Serious.Abbot.Scripting.IBot.VersionInfo
+  id: VersionInfo
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: VersionInfo
+  nameWithType: IBot.VersionInfo
+  fullName: Serious.Abbot.Scripting.IBot.VersionInfo
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: VersionInfo
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 139
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGets information about the version of Abbot the skill is running on.\n"
+  example: []
+  syntax:
+    content: IVersionInfo VersionInfo { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IVersionInfo
+    content.vb: ReadOnly Property VersionInfo As IVersionInfo
+  overload: Serious.Abbot.Scripting.IBot.VersionInfo*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IBot.Utilities
+  commentId: P:Serious.Abbot.Scripting.IBot.Utilities
+  id: Utilities
+  parent: Serious.Abbot.Scripting.IBot
+  langs:
+  - csharp
+  - vb
+  name: Utilities
+  nameWithType: IBot.Utilities
+  fullName: Serious.Abbot.Scripting.IBot.Utilities
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBot.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Utilities
+    path: ../../src/Abbot.Scripting.Interfaces/IBot.cs
+    startLine: 144
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nA useful grab bag of utility methods for C# skill authors.\n"
+  example: []
+  syntax:
+    content: IUtilities Utilities { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.Utilities.IUtilities
+    content.vb: ReadOnly Property Utilities As IUtilities
+  overload: Serious.Abbot.Scripting.IBot.Utilities*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IBot.Brain*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Brain
+  name: Brain
+  nameWithType: IBot.Brain
+  fullName: Serious.Abbot.Scripting.IBot.Brain
+- uid: Serious.Abbot.Scripting.IBrain
+  commentId: T:Serious.Abbot.Scripting.IBrain
+  parent: Serious.Abbot.Scripting
+  name: IBrain
+  nameWithType: IBrain
+  fullName: Serious.Abbot.Scripting.IBrain
+- uid: Serious.Abbot.Scripting.IBot.Secrets*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Secrets
+  name: Secrets
+  nameWithType: IBot.Secrets
+  fullName: Serious.Abbot.Scripting.IBot.Secrets
+- uid: Serious.Abbot.Scripting.ISecrets
+  commentId: T:Serious.Abbot.Scripting.ISecrets
+  parent: Serious.Abbot.Scripting
+  name: ISecrets
+  nameWithType: ISecrets
+  fullName: Serious.Abbot.Scripting.ISecrets
+- uid: Serious.Abbot.Scripting.IBot.ReplyAsync*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.ReplyAsync
+  name: ReplyAsync
+  nameWithType: IBot.ReplyAsync
+  fullName: Serious.Abbot.Scripting.IBot.ReplyAsync
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: Serious.Abbot.Scripting.IBot.ReplyTableAsync*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.ReplyTableAsync
+  name: ReplyTableAsync
+  nameWithType: IBot.ReplyTableAsync
+  fullName: Serious.Abbot.Scripting.IBot.ReplyTableAsync
+- uid: IEnumerable{{T}}
+  commentId: '!:IEnumerable{``0}'
+  definition: IEnumerable`1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBot.ReplyLaterAsync*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.ReplyLaterAsync
+  name: ReplyLaterAsync
+  nameWithType: IBot.ReplyLaterAsync
+  fullName: Serious.Abbot.Scripting.IBot.ReplyLaterAsync
+- uid: System.Int64
+  commentId: '!:System.Int64'
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: TimeSpan
+  commentId: '!:TimeSpan'
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Serious.Abbot.Scripting.IBot.Id*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Id
+  name: Id
+  nameWithType: IBot.Id
+  fullName: Serious.Abbot.Scripting.IBot.Id
+- uid: Serious.Abbot.Scripting.IBot.Name*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Name
+  name: Name
+  nameWithType: IBot.Name
+  fullName: Serious.Abbot.Scripting.IBot.Name
+- uid: Serious.Abbot.Scripting.IBot.PlatformId*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.PlatformId
+  name: PlatformId
+  nameWithType: IBot.PlatformId
+  fullName: Serious.Abbot.Scripting.IBot.PlatformId
+- uid: Serious.Abbot.Scripting.IBot.SkillName*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.SkillName
+  name: SkillName
+  nameWithType: IBot.SkillName
+  fullName: Serious.Abbot.Scripting.IBot.SkillName
+- uid: Serious.Abbot.Scripting.IBot.SkillUrl*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.SkillUrl
+  name: SkillUrl
+  nameWithType: IBot.SkillUrl
+  fullName: Serious.Abbot.Scripting.IBot.SkillUrl
+- uid: Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: Uri
+- uid: Serious.Abbot.Scripting.IBot.Room*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Room
+  name: Room
+  nameWithType: IBot.Room
+  fullName: Serious.Abbot.Scripting.IBot.Room
+- uid: System.Nullable{System.String}
+  commentId: '!:System.Nullable{System.String}'
+  definition: System.Nullable`1
+  name: Nullable<String>
+  nameWithType: Nullable<String>
+  fullName: System.Nullable<System.String>
+  nameWithType.vb: Nullable(Of String)
+  fullName.vb: System.Nullable(Of System.String)
+  name.vb: Nullable(Of String)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBot.Arguments*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Arguments
+  name: Arguments
+  nameWithType: IBot.Arguments
+  fullName: Serious.Abbot.Scripting.IBot.Arguments
+- uid: Serious.Abbot.Scripting.IArguments
+  commentId: T:Serious.Abbot.Scripting.IArguments
+  parent: Serious.Abbot.Scripting
+  name: IArguments
+  nameWithType: IArguments
+  fullName: Serious.Abbot.Scripting.IArguments
+- uid: Serious.Abbot.Scripting.IBot.From*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.From
+  name: From
+  nameWithType: IBot.From
+  fullName: Serious.Abbot.Scripting.IBot.From
+- uid: Serious.Abbot.Scripting.IChatUser
+  commentId: T:Serious.Abbot.Scripting.IChatUser
+  parent: Serious.Abbot.Scripting
+  name: IChatUser
+  nameWithType: IChatUser
+  fullName: Serious.Abbot.Scripting.IChatUser
+- uid: Serious.Abbot.Scripting.IBot.PlatformType*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.PlatformType
+  name: PlatformType
+  nameWithType: IBot.PlatformType
+  fullName: Serious.Abbot.Scripting.IBot.PlatformType
+- uid: Serious.Abbot.Scripting.PlatformType
+  commentId: T:Serious.Abbot.Scripting.PlatformType
+  parent: Serious.Abbot.Scripting
+  name: PlatformType
+  nameWithType: PlatformType
+  fullName: Serious.Abbot.Scripting.PlatformType
+- uid: Serious.Abbot.Scripting.IBot.Mentions*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Mentions
+  name: Mentions
+  nameWithType: IBot.Mentions
+  fullName: Serious.Abbot.Scripting.IBot.Mentions
+- uid: IReadOnlyList{Serious.Abbot.Scripting.IChatUser}
+  commentId: '!:IReadOnlyList{Serious.Abbot.Scripting.IChatUser}'
+  definition: IReadOnlyList`1
+  name: IReadOnlyList<IChatUser>
+  nameWithType: IReadOnlyList<IChatUser>
+  fullName: IReadOnlyList<Serious.Abbot.Scripting.IChatUser>
+  nameWithType.vb: IReadOnlyList(Of IChatUser)
+  fullName.vb: IReadOnlyList(Of Serious.Abbot.Scripting.IChatUser)
+  name.vb: IReadOnlyList(Of IChatUser)
+  spec.csharp:
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Serious.Abbot.Scripting.IChatUser
+    name: IChatUser
+    nameWithType: IChatUser
+    fullName: Serious.Abbot.Scripting.IChatUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Serious.Abbot.Scripting.IChatUser
+    name: IChatUser
+    nameWithType: IChatUser
+    fullName: Serious.Abbot.Scripting.IChatUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IReadOnlyList`1
+  isExternal: true
+  name: IReadOnlyList<>
+  nameWithType: IReadOnlyList<>
+  fullName: IReadOnlyList<>
+  nameWithType.vb: IReadOnlyList(Of )
+  fullName.vb: IReadOnlyList(Of )
+  name.vb: IReadOnlyList(Of )
+  spec.csharp:
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBot.Http*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Http
+  name: Http
+  nameWithType: IBot.Http
+  fullName: Serious.Abbot.Scripting.IBot.Http
+- uid: Serious.Abbot.Scripting.IBotHttpClient
+  commentId: T:Serious.Abbot.Scripting.IBotHttpClient
+  parent: Serious.Abbot.Scripting
+  name: IBotHttpClient
+  nameWithType: IBotHttpClient
+  fullName: Serious.Abbot.Scripting.IBotHttpClient
+- uid: Serious.Abbot.Scripting.IBot.IsRequest
+  commentId: P:Serious.Abbot.Scripting.IBot.IsRequest
+  isExternal: true
+- uid: Serious.Abbot.Scripting.IBot.Request*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Request
+  name: Request
+  nameWithType: IBot.Request
+  fullName: Serious.Abbot.Scripting.IBot.Request
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent
+  commentId: T:Serious.Abbot.Scripting.IHttpTriggerEvent
+  parent: Serious.Abbot.Scripting
+  name: IHttpTriggerEvent
+  nameWithType: IHttpTriggerEvent
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent
+- uid: Serious.Abbot.Scripting.IBot.Response*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Response
+  name: Response
+  nameWithType: IBot.Response
+  fullName: Serious.Abbot.Scripting.IBot.Response
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse
+  commentId: T:Serious.Abbot.Scripting.IHttpTriggerResponse
+  parent: Serious.Abbot.Scripting
+  name: IHttpTriggerResponse
+  nameWithType: IHttpTriggerResponse
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse
+- uid: Serious.Abbot.Scripting.IBot.Request
+  commentId: P:Serious.Abbot.Scripting.IBot.Request
+  isExternal: true
+- uid: Serious.Abbot.Scripting.IBot.IsRequest*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.IsRequest
+  name: IsRequest
+  nameWithType: IBot.IsRequest
+  fullName: Serious.Abbot.Scripting.IBot.IsRequest
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Serious.Abbot.Scripting.IBot.IsChat*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.IsChat
+  name: IsChat
+  nameWithType: IBot.IsChat
+  fullName: Serious.Abbot.Scripting.IBot.IsChat
+- uid: Serious.Abbot.Scripting.IBot.TimeZone*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.TimeZone
+  name: TimeZone
+  nameWithType: IBot.TimeZone
+  fullName: Serious.Abbot.Scripting.IBot.TimeZone
+- uid: DateTimeZone
+  isExternal: true
+  name: DateTimeZone
+  nameWithType: DateTimeZone
+  fullName: DateTimeZone
+- uid: Serious.Abbot.Scripting.IBot.VersionInfo*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.VersionInfo
+  name: VersionInfo
+  nameWithType: IBot.VersionInfo
+  fullName: Serious.Abbot.Scripting.IBot.VersionInfo
+- uid: Serious.Abbot.Scripting.IVersionInfo
+  commentId: T:Serious.Abbot.Scripting.IVersionInfo
+  parent: Serious.Abbot.Scripting
+  name: IVersionInfo
+  nameWithType: IVersionInfo
+  fullName: Serious.Abbot.Scripting.IVersionInfo
+- uid: Serious.Abbot.Scripting.IBot.Utilities*
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Utilities
+  name: Utilities
+  nameWithType: IBot.Utilities
+  fullName: Serious.Abbot.Scripting.IBot.Utilities
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities
+  commentId: T:Serious.Abbot.Scripting.Utilities.IUtilities
+  parent: Serious.Abbot.Scripting.Utilities
+  name: IUtilities
+  nameWithType: IUtilities
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities
+- uid: Serious.Abbot.Scripting.Utilities
+  commentId: N:Serious.Abbot.Scripting.Utilities
+  name: Serious.Abbot.Scripting.Utilities
+  nameWithType: Serious.Abbot.Scripting.Utilities
+  fullName: Serious.Abbot.Scripting.Utilities

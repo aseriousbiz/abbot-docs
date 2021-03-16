@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IScriptGlobals
+  commentId: T:Serious.Abbot.Scripting.IScriptGlobals
+  id: IScriptGlobals
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IScriptGlobals.Bot
+  langs:
+  - csharp
+  - vb
+  name: IScriptGlobals
+  nameWithType: IScriptGlobals
+  fullName: Serious.Abbot.Scripting.IScriptGlobals
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IScriptGlobals.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IScriptGlobals
+    path: ../../src/Abbot.Scripting.Interfaces/IScriptGlobals.cs
+    startLine: 5
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe global object for all user skills.\n"
+  example: []
+  syntax:
+    content: public interface IScriptGlobals
+    content.vb: Public Interface IScriptGlobals
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IScriptGlobals.Bot
+  commentId: P:Serious.Abbot.Scripting.IScriptGlobals.Bot
+  id: Bot
+  parent: Serious.Abbot.Scripting.IScriptGlobals
+  langs:
+  - csharp
+  - vb
+  name: Bot
+  nameWithType: IScriptGlobals.Bot
+  fullName: Serious.Abbot.Scripting.IScriptGlobals.Bot
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IScriptGlobals.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Bot
+    path: ../../src/Abbot.Scripting.Interfaces/IScriptGlobals.cs
+    startLine: 10
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nIt&apos;s Abbot! Provides a set of services and information for your bot skill.\n"
+  example: []
+  syntax:
+    content: IBot Bot { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IBot
+    content.vb: ReadOnly Property Bot As IBot
+  overload: Serious.Abbot.Scripting.IScriptGlobals.Bot*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IScriptGlobals.Bot*
+  commentId: Overload:Serious.Abbot.Scripting.IScriptGlobals.Bot
+  name: Bot
+  nameWithType: IScriptGlobals.Bot
+  fullName: Serious.Abbot.Scripting.IScriptGlobals.Bot
+- uid: Serious.Abbot.Scripting.IBot
+  commentId: T:Serious.Abbot.Scripting.IBot
+  parent: Serious.Abbot.Scripting
+  name: IBot
+  nameWithType: IBot
+  fullName: Serious.Abbot.Scripting.IBot

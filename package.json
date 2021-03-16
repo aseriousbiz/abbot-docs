@@ -15,8 +15,8 @@
   },
   "scripts": {
     "watch": "npm-watch",
-    "build": "docfx docfx.json",
-    "serve": "docfx docfx.json --serve"
+    "build": "docfx src/docfx.json",
+    "serve": "docfx src/docfx.json --serve"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator
+  commentId: T:Serious.Abbot.Scripting.StringValues.Enumerator
+  id: StringValues.Enumerator
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.StringValues.Enumerator.#ctor(Serious.Abbot.Scripting.StringValues@)
+  - Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  - Serious.Abbot.Scripting.StringValues.Enumerator.Dispose
+  - Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+  langs:
+  - csharp
+  - vb
+  name: StringValues.Enumerator
+  nameWithType: StringValues.Enumerator
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator
+  type: Struct
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Enumerator
+    path: ../../src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+    startLine: 764
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nEnumerates the string values of a <xref href=\"Serious.Abbot.Scripting.StringValues\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: 'public struct Enumerator : IEnumerator<string>'
+    content.vb: >-
+      Public Structure Enumerator
+
+          Implements IEnumerator(Of String)
+  implements:
+  - IEnumerator{System.String}
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.#ctor(Serious.Abbot.Scripting.StringValues@)
+  commentId: M:Serious.Abbot.Scripting.StringValues.Enumerator.#ctor(Serious.Abbot.Scripting.StringValues@)
+  id: '#ctor(Serious.Abbot.Scripting.StringValues@)'
+  parent: Serious.Abbot.Scripting.StringValues.Enumerator
+  langs:
+  - csharp
+  - vb
+  name: Enumerator(ref StringValues)
+  nameWithType: StringValues.Enumerator.Enumerator(ref StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Enumerator(ref Serious.Abbot.Scripting.StringValues)
+  type: Constructor
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: .ctor
+    path: ../../src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+    startLine: 789
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nConstructs the enumerator.\n"
+  example: []
+  syntax:
+    content: public Enumerator(ref StringValues values)
+    parameters:
+    - id: values
+      type: Serious.Abbot.Scripting.StringValues
+      description: ''
+    content.vb: Public Sub New(ByRef values As StringValues)
+  overload: Serious.Abbot.Scripting.StringValues.Enumerator.#ctor*
+  nameWithType.vb: StringValues.Enumerator.Enumerator(ByRef StringValues)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Enumerator.Enumerator(ByRef Serious.Abbot.Scripting.StringValues)
+  name.vb: Enumerator(ByRef StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+  commentId: M:Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+  id: MoveNext
+  parent: Serious.Abbot.Scripting.StringValues.Enumerator
+  langs:
+  - csharp
+  - vb
+  name: MoveNext()
+  nameWithType: StringValues.Enumerator.MoveNext()
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext()
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: MoveNext
+    path: ../../src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+    startLine: 796
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMoves to the nextitem.\n"
+  example: []
+  syntax:
+    content: public bool MoveNext()
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: Public Function MoveNext As Boolean
+  overload: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  commentId: P:Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  id: Current
+  parent: Serious.Abbot.Scripting.StringValues.Enumerator
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: StringValues.Enumerator.Current
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Current
+    path: ../../src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+    startLine: 825
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe current item.\n"
+  example: []
+  syntax:
+    content: public string Current { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Current As String
+  overload: Serious.Abbot.Scripting.StringValues.Enumerator.Current*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose
+  commentId: M:Serious.Abbot.Scripting.StringValues.Enumerator.Dispose
+  id: Dispose
+  parent: Serious.Abbot.Scripting.StringValues.Enumerator
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: StringValues.Enumerator.Dispose()
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Dispose
+    path: ../../src/Abbot.Scripting.Interfaces/Http/StringValues.cs
+    startLine: 837
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nDisposes the enumerator.\n"
+  example: []
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Serious.Abbot.Scripting.StringValues
+  commentId: T:Serious.Abbot.Scripting.StringValues
+  parent: Serious.Abbot.Scripting
+  name: StringValues
+  nameWithType: StringValues
+  fullName: Serious.Abbot.Scripting.StringValues
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: IEnumerator{System.String}
+  commentId: '!:IEnumerator{System.String}'
+  definition: IEnumerator`1
+  name: IEnumerator<String>
+  nameWithType: IEnumerator<String>
+  fullName: IEnumerator<System.String>
+  nameWithType.vb: IEnumerator(Of String)
+  fullName.vb: IEnumerator(Of System.String)
+  name.vb: IEnumerator(Of String)
+  spec.csharp:
+  - uid: IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerator`1
+  isExternal: true
+  name: IEnumerator<>
+  nameWithType: IEnumerator<>
+  fullName: IEnumerator<>
+  nameWithType.vb: IEnumerator(Of )
+  fullName.vb: IEnumerator(Of )
+  name.vb: IEnumerator(Of )
+  spec.csharp:
+  - uid: IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerator`1
+    name: IEnumerator
+    nameWithType: IEnumerator
+    fullName: IEnumerator
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.#ctor*
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Enumerator.#ctor
+  name: Enumerator
+  nameWithType: StringValues.Enumerator.Enumerator
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Enumerator
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext*
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+  name: MoveNext
+  nameWithType: StringValues.Enumerator.MoveNext
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.Current*
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  name: Current
+  nameWithType: StringValues.Enumerator.Current
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Current
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose*
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Enumerator.Dispose
+  name: Dispose
+  nameWithType: StringValues.Enumerator.Dispose
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose

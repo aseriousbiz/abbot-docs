@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IPlatformUser
+  commentId: T:Serious.Abbot.Scripting.IPlatformUser
+  id: IPlatformUser
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IPlatformUser.Id
+  - Serious.Abbot.Scripting.IPlatformUser.Name
+  - Serious.Abbot.Scripting.IPlatformUser.UserName
+  langs:
+  - csharp
+  - vb
+  name: IPlatformUser
+  nameWithType: IPlatformUser
+  fullName: Serious.Abbot.Scripting.IPlatformUser
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IPlatformUser.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IPlatformUser
+    path: ../../src/Abbot.Scripting.Interfaces/IPlatformUser.cs
+    startLine: 5
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nA user on the chat platform.\n"
+  example: []
+  syntax:
+    content: public interface IPlatformUser
+    content.vb: Public Interface IPlatformUser
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IPlatformUser.Id
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.Id
+  id: Id
+  parent: Serious.Abbot.Scripting.IPlatformUser
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IPlatformUser.Id
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Id
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IPlatformUser.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Id
+    path: ../../src/Abbot.Scripting.Interfaces/IPlatformUser.cs
+    startLine: 10
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe ID of the user on their chat platform.\n"
+  example: []
+  syntax:
+    content: string Id { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Id As String
+  overload: Serious.Abbot.Scripting.IPlatformUser.Id*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IPlatformUser.UserName
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.UserName
+  id: UserName
+  parent: Serious.Abbot.Scripting.IPlatformUser
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: IPlatformUser.UserName
+  fullName: Serious.Abbot.Scripting.IPlatformUser.UserName
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IPlatformUser.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: UserName
+    path: ../../src/Abbot.Scripting.Interfaces/IPlatformUser.cs
+    startLine: 15
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe username for the user on the platform.\n"
+  example: []
+  syntax:
+    content: string UserName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property UserName As String
+  overload: Serious.Abbot.Scripting.IPlatformUser.UserName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IPlatformUser.Name
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.Name
+  id: Name
+  parent: Serious.Abbot.Scripting.IPlatformUser
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: IPlatformUser.Name
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Name
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IPlatformUser.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Name
+    path: ../../src/Abbot.Scripting.Interfaces/IPlatformUser.cs
+    startLine: 20
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe display name for the user if known. Otherwise the username.\n"
+  example: []
+  syntax:
+    content: string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Name As String
+  overload: Serious.Abbot.Scripting.IPlatformUser.Name*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IPlatformUser.Id*
+  commentId: Overload:Serious.Abbot.Scripting.IPlatformUser.Id
+  name: Id
+  nameWithType: IPlatformUser.Id
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Serious.Abbot.Scripting.IPlatformUser.UserName*
+  commentId: Overload:Serious.Abbot.Scripting.IPlatformUser.UserName
+  name: UserName
+  nameWithType: IPlatformUser.UserName
+  fullName: Serious.Abbot.Scripting.IPlatformUser.UserName
+- uid: Serious.Abbot.Scripting.IPlatformUser.Name*
+  commentId: Overload:Serious.Abbot.Scripting.IPlatformUser.Name
+  name: Name
+  nameWithType: IPlatformUser.Name
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Name

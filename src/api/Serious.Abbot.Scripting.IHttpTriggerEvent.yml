@@ -1,0 +1,548 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent
+  commentId: T:Serious.Abbot.Scripting.IHttpTriggerEvent
+  id: IHttpTriggerEvent
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs``1
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  - Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  langs:
+  - csharp
+  - vb
+  name: IHttpTriggerEvent
+  nameWithType: IHttpTriggerEvent
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IHttpTriggerEvent
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 8
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRepresents an incoming http request that triggered a skill.\n"
+  example: []
+  syntax:
+    content: public interface IHttpTriggerEvent
+    content.vb: Public Interface IHttpTriggerEvent
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  id: HttpMethod
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: HttpMethod
+  nameWithType: IHttpTriggerEvent.HttpMethod
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: HttpMethod
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 13
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe HTTP Method of the request.\n"
+  example: []
+  syntax:
+    content: HttpMethod HttpMethod { get; }
+    parameters: []
+    return:
+      type: HttpMethod
+    content.vb: ReadOnly Property HttpMethod As HttpMethod
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  id: RawBody
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: RawBody
+  nameWithType: IHttpTriggerEvent.RawBody
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: RawBody
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 18
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe raw body of the HTTP request.\n"
+  example: []
+  syntax:
+    content: string RawBody { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property RawBody As String
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  id: ContentType
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: ContentType
+  nameWithType: IHttpTriggerEvent.ContentType
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ContentType
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 23
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe content type of the body, if any.\n"
+  example: []
+  syntax:
+    content: string ContentType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ContentType As String
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  id: Url
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: IHttpTriggerEvent.Url
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Url
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 28
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe skill&apos;s trigger URL that triggered this event.\n"
+  example: []
+  syntax:
+    content: Uri Url { get; }
+    parameters: []
+    return:
+      type: Uri
+    content.vb: ReadOnly Property Url As Uri
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.Url*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  id: Headers
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: IHttpTriggerEvent.Headers
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Headers
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 33
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe incoming request headers.\n"
+  example: []
+  syntax:
+    content: IRequestHeaders Headers { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IRequestHeaders
+    content.vb: ReadOnly Property Headers As IRequestHeaders
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  id: Form
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: Form
+  nameWithType: IHttpTriggerEvent.Form
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Form
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 38
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe request body as a form.\n"
+  example: []
+  syntax:
+    content: IFormCollection Form { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IFormCollection
+    content.vb: ReadOnly Property Form As IFormCollection
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.Form*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  id: Query
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: IHttpTriggerEvent.Query
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Query
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 43
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe query string parameters as a collection.\n"
+  example: []
+  syntax:
+    content: IQueryCollection Query { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IQueryCollection
+    content.vb: ReadOnly Property Query As IQueryCollection
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.Query*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  id: IsJson
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: IsJson
+  nameWithType: IHttpTriggerEvent.IsJson
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IsJson
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 48
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nReturns true if this request contains a Json body as determined by the content type.\n"
+  example: []
+  syntax:
+    content: bool IsJson { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsJson As Boolean
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  id: IsForm
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: IsForm
+  nameWithType: IHttpTriggerEvent.IsForm
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IsForm
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 53
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nReturns true if this request contains a form body as determined by the content type.\n"
+  example: []
+  syntax:
+    content: bool IsForm { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsForm As Boolean
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+  commentId: M:Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+  id: DeserializeBody
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: DeserializeBody()
+  nameWithType: IHttpTriggerEvent.DeserializeBody()
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody()
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: DeserializeBody
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 60
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nDeserializes the incoming request body into a dynamic object.\n"
+  example: []
+  syntax:
+    content: dynamic DeserializeBody()
+    return:
+      type: System.Object
+      description: The incoming request body deserialized as a dynamic object.
+    content.vb: Function DeserializeBody As Object
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody*
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs``1
+  commentId: M:Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs``1
+  id: DeserializeBodyAs``1
+  parent: Serious.Abbot.Scripting.IHttpTriggerEvent
+  langs:
+  - csharp
+  - vb
+  name: DeserializeBodyAs<T>()
+  nameWithType: IHttpTriggerEvent.DeserializeBodyAs<T>()
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs<T>()
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: DeserializeBodyAs
+    path: ../../src/Abbot.Scripting.Interfaces/IHttpTriggerEvent.cs
+    startLine: 68
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nDeserializes the incoming request body into the specified type.\n"
+  example: []
+  syntax:
+    content: T DeserializeBodyAs<T>()
+    typeParameters:
+    - id: T
+      description: The type to deserialize to.
+    return:
+      type: '{T}'
+      description: An instance of the type T or null.
+    content.vb: Function DeserializeBodyAs(Of T) As T
+  overload: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs*
+  nameWithType.vb: IHttpTriggerEvent.DeserializeBodyAs(Of T)()
+  fullName.vb: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs(Of T)()
+  name.vb: DeserializeBodyAs(Of T)()
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  name: HttpMethod
+  nameWithType: IHttpTriggerEvent.HttpMethod
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+- uid: HttpMethod
+  isExternal: true
+  name: HttpMethod
+  nameWithType: HttpMethod
+  fullName: HttpMethod
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  name: RawBody
+  nameWithType: IHttpTriggerEvent.RawBody
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  name: ContentType
+  nameWithType: IHttpTriggerEvent.ContentType
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Url*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  name: Url
+  nameWithType: IHttpTriggerEvent.Url
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+- uid: Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: Uri
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  name: Headers
+  nameWithType: IHttpTriggerEvent.Headers
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+- uid: Serious.Abbot.Scripting.IRequestHeaders
+  commentId: T:Serious.Abbot.Scripting.IRequestHeaders
+  parent: Serious.Abbot.Scripting
+  name: IRequestHeaders
+  nameWithType: IRequestHeaders
+  fullName: Serious.Abbot.Scripting.IRequestHeaders
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Form*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  name: Form
+  nameWithType: IHttpTriggerEvent.Form
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+- uid: Serious.Abbot.Scripting.IFormCollection
+  commentId: T:Serious.Abbot.Scripting.IFormCollection
+  parent: Serious.Abbot.Scripting
+  name: IFormCollection
+  nameWithType: IFormCollection
+  fullName: Serious.Abbot.Scripting.IFormCollection
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Query*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  name: Query
+  nameWithType: IHttpTriggerEvent.Query
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+- uid: Serious.Abbot.Scripting.IQueryCollection
+  commentId: T:Serious.Abbot.Scripting.IQueryCollection
+  parent: Serious.Abbot.Scripting
+  name: IQueryCollection
+  nameWithType: IQueryCollection
+  fullName: Serious.Abbot.Scripting.IQueryCollection
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  name: IsJson
+  nameWithType: IHttpTriggerEvent.IsJson
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  name: IsForm
+  nameWithType: IHttpTriggerEvent.IsForm
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  isExternal: true
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+  name: DeserializeBody
+  nameWithType: IHttpTriggerEvent.DeserializeBody
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+- uid: System.Object
+  commentId: T:System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs
+  name: DeserializeBodyAs
+  nameWithType: IHttpTriggerEvent.DeserializeBodyAs
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
