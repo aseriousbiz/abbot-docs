@@ -6,7 +6,7 @@
   "watch": {
     "serve": {
       "patterns": ["src"],
-      "extensions": "yml,md",
+      "extensions": "yml,md,json",
       "quiet": true,
       "legacyWatch": true,
       "delay": 2500,
