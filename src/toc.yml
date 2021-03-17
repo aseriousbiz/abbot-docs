@@ -1,4 +1,4 @@
 - name: Guides
   href: guides/
-- name: C# Api
-  href: api-csharp/
+- name: Bot Reference
+  href: api/

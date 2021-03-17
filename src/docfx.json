@@ -26,6 +26,12 @@
       },
       {
         "files": [
+          "api/**.md",
+          "api/toc.yml"
+        ]
+      },
+      {
+        "files": [
           "guides/**.md",
           "guides/**/toc.yml",
           "toc.yml",

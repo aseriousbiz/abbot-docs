@@ -1,4 +1,5 @@
 ---
+uid: parsing-arguments-c-sharp
 Title: Parsing Arguments with C#
 ---
 
@@ -6,7 +7,7 @@ Most Bot skills have a pretty simple format for the arguments passed to the skil
 
 Let's follow an example to see what I mean. Suppose we have a skill for managing another user's favorite songs with the following usage pattern.
 
-```
+```text
 @abbot fave {@mention} add {song} [description]
 ```
 
@@ -14,28 +15,28 @@ This skill allows the user to add a favorite song for another user with an optio
 
 The following set of chat transcripts show how the skill might be used.
 
-```
+```text
 @haack: @abbot fave @paul add Dynamite
 @abbot: I've added `Dynamite` to @paul's list of favorite songs.
 ```
 
 So far so good. Now it gets a bit trickier if we want to add a favorite song with a description.
 
-```
+```text
 @haack: @abbot fave @paul add Chandelier Because Sia speaks to me
 @abbot: I've added `Chandelier` with the description `Because Sia speaks to me` to @paul's list of favorite songs
 ```
 
 Which part is the song and which part is the description? Since descriptions tend to be sentences, it might make sense to have the first word after the command be the title, and the rest be the description. Until you run into the following example:
 
-```
+```text
 @haack: @abbot fave @paul add Baby Shark Makes me dance
 @abbot: I've added `Baby` with the description `Shark Makes me dance` to @paul's list of favorite songs
 ```
 
 In this case, "Baby Shark" is the song. So what we need to do is allow quoting an argument.
 
-```
+```text
 @haack: @abbot fave @paul add "Baby Shark" Makes me dance
 @abbot: I've added `Baby Shark` with the description `Makes me dance` to @paul's list of favorite songs.
 ```
@@ -96,9 +97,9 @@ if (cmdArg.Value is "add") {
 
 The rest of the code is left as an exercise for the reader.
 
-A few things to note. At the moment, we only support deconstructing up to a four-tuple. We can easily add a five-tuple or six-tuple in the future. But in most cases, four is enough. And if it's not, you can still deconstruct that fourth argument by casting it to `IArguments`.
+A few things to note. At the moment, we only support deconstructing up to a four-tuple. We can easily add a five-tuple or six-tuple in the future. But in most cases, four is enough. And if it's not, you can still deconstruct that fourth argument by casting it to @Serious.Abbot.Scripting.IArguments.
 
-If an argument is a mention, you can cast it to `IMentionArgument` to access information about the mentioned user. Mentions are also in the `Bot.Mentions` collection.
+If an argument is a mention, you can cast it to @Serious.Abbot.Scripting.IMentionArgument to access information about the mentioned user. Mentions are also in the @Serious.Abbot.Scripting.IBot.Mentions collection.
 
 Also, if the default argument parsing doesn't work for you, you can always access the full arguments with `Bot.Arguments.Value`. Python and JavaScript skills also receive the arguments as a collection in `bot.tokenized_arguments` and `bot.tokenizedArguments` respectively. They don't have the same deconstructors that the C# code does, but mainly because those languages already have similar list operations.
 
