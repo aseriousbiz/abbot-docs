@@ -52,7 +52,7 @@ Abbot should respond in the interactive shell by saying "world"). Congratulation
 
 Most skills will need to collect some information from the user in chat. The text that the chat user entered is available in the arguments property:
 
-* In C# the @Serious.Abbot.Scripting.IBot.Arguments property is a special collection of words. See @parsing-arguments-c-sharp for more details.
+* In C# the <xref:Serious.Abbot.Scripting.IBot.Arguments> property is a special collection of words. See <xref:parsing-arguments-c-sharp> for more details.
 * In JavaScript, `bot.tokenizedArguments` contains the arguments as a collection of words, while `bot.arguments` is a string containing all the arguments the user typed (it does not include the skill name).
 * In Python, `bot.tokenized_arguments` contais the arguments as a collection of words, while `bot.arguments` is a string containing all the arguments the user typed (it does not include the skill name).
 

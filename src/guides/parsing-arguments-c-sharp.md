@@ -45,7 +45,7 @@ Ah! That's better.
 
 To get this better behavior, we need to write a somewhat complicated regular expression. It wouldn't be terrible, but as we handle more and more conditions, it would get more and more complicated.
 
-Fortunately, Abbot handles this sort of argument parsing for you. If you write a C# skill, you have access to the arguments via the `Bot.Arguments` property. `Bot.Arguments` is a custom collection with some interesting properties to make argument handling easier. It contains a tokenized set of incoming arguments that already handles quoting and whitespace.
+Fortunately, Abbot handles this sort of argument parsing for you. If you write a C# skill, you have access to the arguments via the <xref:Serious.Abbot.Scripting.IBot.Arguments> property. <xref:Serious.Abbot.Scripting.IBot.Arguments> is a custom collection with some interesting properties to make argument handling easier. It contains a tokenized set of incoming arguments that already handles quoting and whitespace.
 
 So in the case of the argument `@paul add "Baby Shark" Makes me dance` (the skill name is always omitted from the arguments), `Bot.Arguments` would contain the collection:
 
@@ -60,9 +60,9 @@ So in the case of the argument `@paul add "Baby Shark" Makes me dance` (the skil
 
 "Now wait a minute," you say. "Don't we want the _description_, the _fourth_ argument, to have the rest of the words after the song." Right you are!
 
-But in the `Bot.Arguments` collection, the fourth element in the collection is "Makes" and not the full description. This is a problem.
+But in the <xref:Serious.Abbot.Scripting.IBot.Arguments> collection, the fourth element in the collection is "Makes" and not the full description. This is a problem.
 
-Not to worry, Abbot has a solution for this. `Bot.Arguments` implements [tuple deconstruction](https://docs.microsoft.com/en-us/dotnet/csharp/deconstruct) in a special way. Suppose you know that you will have at most four arguments for a skill. You can deconstruct the arguments into a tuple like so.
+Not to worry, Abbot has a solution for this. <xref:Serious.Abbot.Scripting.IBot.Arguments> implements [tuple deconstruction](https://docs.microsoft.com/en-us/dotnet/csharp/deconstruct) in a special way. Suppose you know that you will have at most four arguments for a skill. You can deconstruct the arguments into a tuple like so.
 
 ```csharp
 var (cmdArg, mentionArg, songArg, descriptionArg) = Bot.Arguments;
@@ -72,7 +72,7 @@ If there are more than four arguments, the remaining arguments are captured in t
 
 Even though the remaining arguments are captured in `descriptionArg` (which is what we want in this case), you can still cast `descriptionArg` to `IArguments` to access each token that made up the description, if you needed to for some reason.
 
-If there are less than four arguments, then the last argument will be of type `IMissingArgument`. So let's put this all together.
+If there are less than four arguments, then the last argument will be of type <xref:Serious.Abbot.Scripting.IMissingArgument>. So let's put this all together.
 
 ```csharp
 var (cmdArg, mentionArg, songArg, descriptionArg) = Bot.Arguments;
@@ -99,7 +99,7 @@ The rest of the code is left as an exercise for the reader.
 
 A few things to note. At the moment, we only support deconstructing up to a four-tuple. We can easily add a five-tuple or six-tuple in the future. But in most cases, four is enough. And if it's not, you can still deconstruct that fourth argument by casting it to @Serious.Abbot.Scripting.IArguments.
 
-If an argument is a mention, you can cast it to @Serious.Abbot.Scripting.IMentionArgument to access information about the mentioned user. Mentions are also in the @Serious.Abbot.Scripting.IBot.Mentions collection.
+If an argument is a mention, you can cast it to <xref:Serious.Abbot.Scripting.IMentionArgument> to access information about the mentioned user. Mentions are also in the <xref:Serious.Abbot.Scripting.IBot.Mentions> collection.
 
 Also, if the default argument parsing doesn't work for you, you can always access the full arguments with `Bot.Arguments.Value`. Python and JavaScript skills also receive the arguments as a collection in `bot.tokenized_arguments` and `bot.tokenizedArguments` respectively. They don't have the same deconstructors that the C# code does, but mainly because those languages already have similar list operations.
 
