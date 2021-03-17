@@ -11,7 +11,10 @@
       ],
       "dest": "api-csharp",
       "disableGitFeatures": true,
-      "disableDefaultFilter": false
+      "disableDefaultFilter": false,
+      "properties": {
+        "TargetFramework": "netcoreapp3.1"
+      }
     }
   ],
   "build": {
@@ -23,7 +26,6 @@
       },
       {
         "files": [
-          "api/*.md",
           "guides/**.md",
           "guides/**/toc.yml",
           "toc.yml",
@@ -54,7 +56,6 @@
     "dest": "../_site",
     "globalMetadata": {
       "_appTitle": "Abbot Docs",
-      "_appLogoPath": "templates/abbot/logo.svg",
       "_appFooter": "Copyright © A Serious Business, Inc.",
       "_enableSearch": true
     },
