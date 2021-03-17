@@ -49,6 +49,9 @@
       }
     ],
     "dest": "../_site",
+    "globalMetadata": {
+      "_appFooter": "Copyright © A Serious Business, Inc."
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
