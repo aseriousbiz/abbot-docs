@@ -3,14 +3,14 @@
     {
       "src": [
         {
+          "src": "../../abbot/src",
           "files": [
             "**/Abbot.Scripting.Interfaces.csproj"
-          ],
-          "src": "../../abbot/src"
+          ]
         }
       ],
-      "dest": "api/csharp",
-      "disableGitFeatures": false,
+      "dest": "api-csharp",
+      "disableGitFeatures": true,
       "disableDefaultFilter": false
     }
   ],
@@ -18,7 +18,7 @@
     "content": [
       {
         "files": [
-          "api/csharp/**.yml"
+          "api-csharp/**.yml"
         ]
       },
       {
@@ -27,12 +27,6 @@
           "guides/**/toc.yml",
           "toc.yml",
           "*.md"
-        ]
-      },
-      {
-        "files": [
-          "api/**.md",
-          "toc.yml"
         ]
       }
     ],
@@ -58,7 +52,8 @@
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+      "templates/abbot"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
