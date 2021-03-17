@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities
+  commentId: T:Serious.Abbot.Scripting.Utilities.IUtilities
+  id: IUtilities
+  parent: Serious.Abbot.Scripting.Utilities
+  children:
+  - Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+  - Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: IUtilities
+  nameWithType: IUtilities
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Utilities/IUtilities.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IUtilities
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Utilities/IUtilities.cs
+    startLine: 8
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting.Utilities
+  summary: "\nA useful grab bag of utility methods for C# skill authors.\n"
+  example: []
+  syntax:
+    content: public interface IUtilities
+    content.vb: Public Interface IUtilities
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+  commentId: M:Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+  id: CreateRandom
+  parent: Serious.Abbot.Scripting.Utilities.IUtilities
+  langs:
+  - csharp
+  - vb
+  name: CreateRandom()
+  nameWithType: IUtilities.CreateRandom()
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom()
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Utilities/IUtilities.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: CreateRandom
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Utilities/IUtilities.cs
+    startLine: 13
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting.Utilities
+  summary: "\nReturns a class that derives from <a href=\"https://docs.microsoft.com/en-us/dotnet/api/system.random?view=net-5.0\">Random</a>, but is cryptographically strong. \n"
+  example: []
+  syntax:
+    content: Random CreateRandom()
+    return:
+      type: Random
+    content.vb: Function CreateRandom As Random
+  overload: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom*
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync(System.String,System.Boolean)
+  commentId: M:Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync(System.String,System.Boolean)
+  id: GetGeocodeAsync(System.String,System.Boolean)
+  parent: Serious.Abbot.Scripting.Utilities.IUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetGeocodeAsync(String, Boolean)
+  nameWithType: IUtilities.GetGeocodeAsync(String, Boolean)
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync(System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Utilities/IUtilities.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: GetGeocodeAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Utilities/IUtilities.cs
+    startLine: 23
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting.Utilities
+  summary: "\nReturns the coordinates and name of an address. The address can be specified in the same way you&apos;d use\nwith mapping software such as specifying a zip, city, full address, name of a business, or\neven cross streets.\n"
+  example: []
+  syntax:
+    content: Task<ILocation> GetGeocodeAsync(string address, bool includeTimezone = false)
+    parameters:
+    - id: address
+      type: System.String
+      description: An address to geocode.
+    - id: includeTimezone
+      type: System.Boolean
+      description: Optional. Whether or not to include the time zone for the location in the response.
+    return:
+      type: Task{Serious.Abbot.Scripting.ILocation}
+      description: A task with an <xref href="Serious.Abbot.Scripting.ILocation" data-throw-if-not-resolved="false"></xref> that matches the address. If no location matches the input, then returns null.
+    content.vb: Function GetGeocodeAsync(address As String, includeTimezone As Boolean = False) As Task(Of ILocation)
+  overload: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync*
+references:
+- uid: Serious.Abbot.Scripting.Utilities
+  commentId: N:Serious.Abbot.Scripting.Utilities
+  name: Serious.Abbot.Scripting.Utilities
+  nameWithType: Serious.Abbot.Scripting.Utilities
+  fullName: Serious.Abbot.Scripting.Utilities
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom*
+  commentId: Overload:Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+  name: CreateRandom
+  nameWithType: IUtilities.CreateRandom
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+- uid: Random
+  commentId: '!:Random'
+  isExternal: true
+  name: Random
+  nameWithType: Random
+  fullName: Random
+- uid: Serious.Abbot.Scripting.ILocation
+  commentId: T:Serious.Abbot.Scripting.ILocation
+  parent: Serious.Abbot.Scripting
+  name: ILocation
+  nameWithType: ILocation
+  fullName: Serious.Abbot.Scripting.ILocation
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync*
+  commentId: Overload:Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync
+  name: GetGeocodeAsync
+  nameWithType: IUtilities.GetGeocodeAsync
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Task{Serious.Abbot.Scripting.ILocation}
+  commentId: '!:Task{Serious.Abbot.Scripting.ILocation}'
+  definition: Task`1
+  name: Task<ILocation>
+  nameWithType: Task<ILocation>
+  fullName: Task<Serious.Abbot.Scripting.ILocation>
+  nameWithType.vb: Task(Of ILocation)
+  fullName.vb: Task(Of Serious.Abbot.Scripting.ILocation)
+  name.vb: Task(Of ILocation)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Serious.Abbot.Scripting.ILocation
+    name: ILocation
+    nameWithType: ILocation
+    fullName: Serious.Abbot.Scripting.ILocation
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Serious.Abbot.Scripting.ILocation
+    name: ILocation
+    nameWithType: ILocation
+    fullName: Serious.Abbot.Scripting.ILocation
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

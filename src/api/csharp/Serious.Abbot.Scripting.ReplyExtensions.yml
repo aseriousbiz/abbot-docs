@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.ReplyExtensions
+  commentId: T:Serious.Abbot.Scripting.ReplyExtensions
+  id: ReplyExtensions
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  - Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(IEnumerable{System.String})
+  - Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(IEnumerable{System.String})
+  langs:
+  - csharp
+  - vb
+  name: ReplyExtensions
+  nameWithType: ReplyExtensions
+  fullName: Serious.Abbot.Scripting.ReplyExtensions
+  type: Class
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/ReplyExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ReplyExtensions
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/ReplyExtensions.cs
+    startLine: 8
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nSet of extension methods to make replying easier.\n"
+  example: []
+  syntax:
+    content: 'public static class ReplyExtensions : object'
+    content.vb: >-
+      Public Module ReplyExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(IEnumerable{System.String})
+  commentId: M:Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(IEnumerable{System.String})
+  id: ToMarkdownList(IEnumerable{System.String})
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.ReplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToMarkdownList(IEnumerable<String>)
+  nameWithType: ReplyExtensions.ToMarkdownList(IEnumerable<String>)
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/ReplyExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ToMarkdownList
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/ReplyExtensions.cs
+    startLine: 15
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nConverts the list of items into a bulleted markdown list.\n"
+  example: []
+  syntax:
+    content: public static string ToMarkdownList(this IEnumerable<string> items)
+    parameters:
+    - id: items
+      type: IEnumerable{System.String}
+      description: The collection of strings to turn into a markdown list.
+    return:
+      type: System.String
+      description: A string formatted as a markdown list.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToMarkdownList(items As IEnumerable(Of String)) As String
+  overload: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList*
+  nameWithType.vb: ReplyExtensions.ToMarkdownList(IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(IEnumerable(Of System.String))
+  name.vb: ToMarkdownList(IEnumerable(Of String))
+- uid: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(IEnumerable{System.String})
+  commentId: M:Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(IEnumerable{System.String})
+  id: ToOrderedList(IEnumerable{System.String})
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.ReplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToOrderedList(IEnumerable<String>)
+  nameWithType: ReplyExtensions.ToOrderedList(IEnumerable<String>)
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/ReplyExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ToOrderedList
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/ReplyExtensions.cs
+    startLine: 25
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nConverts the list of items into an ordered markdown list.\n"
+  example: []
+  syntax:
+    content: public static string ToOrderedList(this IEnumerable<string> items)
+    parameters:
+    - id: items
+      type: IEnumerable{System.String}
+      description: The collection of strings to turn into a markdown list.
+    return:
+      type: System.String
+      description: A string formatted as a markdown list.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToOrderedList(items As IEnumerable(Of String)) As String
+  overload: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList*
+  nameWithType.vb: ReplyExtensions.ToOrderedList(IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(IEnumerable(Of System.String))
+  name.vb: ToOrderedList(IEnumerable(Of String))
+- uid: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  commentId: M:Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  id: Format(Serious.Abbot.Scripting.IChatUser)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.ReplyExtensions
+  langs:
+  - csharp
+  - vb
+  name: Format(IChatUser)
+  nameWithType: ReplyExtensions.Format(IChatUser)
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/ReplyExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Format
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/ReplyExtensions.cs
+    startLine: 35
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nFormats the user for the target chat platform. This ensures platforms like\nSlack render the user in the proper format.\n"
+  example: []
+  syntax:
+    content: public static string Format(this IChatUser user)
+    parameters:
+    - id: user
+      type: Serious.Abbot.Scripting.IChatUser
+      description: The user to format.
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Format(user As IChatUser) As String
+  overload: Serious.Abbot.Scripting.ReplyExtensions.Format*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: System.Object
+  commentId: T:System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList*
+  commentId: Overload:Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList
+  name: ToMarkdownList
+  nameWithType: ReplyExtensions.ToMarkdownList
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList
+- uid: IEnumerable{System.String}
+  commentId: '!:IEnumerable{System.String}'
+  definition: IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList*
+  commentId: Overload:Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList
+  name: ToOrderedList
+  nameWithType: ReplyExtensions.ToOrderedList
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList
+- uid: Serious.Abbot.Scripting.ReplyExtensions.Format*
+  commentId: Overload:Serious.Abbot.Scripting.ReplyExtensions.Format
+  name: Format
+  nameWithType: ReplyExtensions.Format
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.Format
+- uid: Serious.Abbot.Scripting.IChatUser
+  commentId: T:Serious.Abbot.Scripting.IChatUser
+  parent: Serious.Abbot.Scripting
+  name: IChatUser
+  nameWithType: IChatUser
+  fullName: Serious.Abbot.Scripting.IChatUser

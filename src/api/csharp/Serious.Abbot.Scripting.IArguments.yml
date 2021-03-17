@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IArguments
+  commentId: T:Serious.Abbot.Scripting.IArguments
+  id: IArguments
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  - Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  - Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  langs:
+  - csharp
+  - vb
+  name: IArguments
+  nameWithType: IArguments
+  fullName: Serious.Abbot.Scripting.IArguments
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IArguments.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IArguments
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IArguments.cs
+    startLine: 7
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRepresents the arguments to the skill parsed into a collection of tokens.\n"
+  example: []
+  syntax:
+    content: 'public interface IArguments : IReadOnlyList<IArgument>, IArgument'
+    content.vb: >-
+      Public Interface IArguments
+
+          Inherits IReadOnlyList(Of IArgument), IArgument
+  inheritedMembers:
+  - Serious.Abbot.Scripting.IArgument.Value
+  extensionMethods:
+  - Serious.Abbot.Scripting.IArgument.Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - Serious.Abbot.Scripting.IArgument.Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  commentId: M:Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  id: Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  parent: Serious.Abbot.Scripting.IArguments
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct(out IArgument, out IArgument)
+  nameWithType: IArguments.Deconstruct(out IArgument, out IArgument)
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct(out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IArguments.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Deconstruct
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IArguments.cs
+    startLine: 17
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nDeconstructs the arguments into two arguments.\nIf there are less than two arguments, this will return <xref href=\"Serious.Abbot.Scripting.IMissingArgument\" data-throw-if-not-resolved=\"false\"></xref> for the missing\narguments. If there are more than two arguments, the last argument will be a concatenation of the\nremaining arguments.\n"
+  example: []
+  syntax:
+    content: void Deconstruct(out IArgument first, out IArgument second)
+    parameters:
+    - id: first
+      type: Serious.Abbot.Scripting.IArgument
+      description: The first argument.
+    - id: second
+      type: Serious.Abbot.Scripting.IArgument
+      description: The second argument.
+    content.vb: Sub Deconstruct(ByRef first As IArgument, ByRef second As IArgument)
+  overload: Serious.Abbot.Scripting.IArguments.Deconstruct*
+  nameWithType.vb: IArguments.Deconstruct(ByRef IArgument, ByRef IArgument)
+  fullName.vb: Serious.Abbot.Scripting.IArguments.Deconstruct(ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument)
+  name.vb: Deconstruct(ByRef IArgument, ByRef IArgument)
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  commentId: M:Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  id: Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  parent: Serious.Abbot.Scripting.IArguments
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct(out IArgument, out IArgument, out IArgument)
+  nameWithType: IArguments.Deconstruct(out IArgument, out IArgument, out IArgument)
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct(out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IArguments.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Deconstruct
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IArguments.cs
+    startLine: 28
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nDeconstructs the arguments into three arguments.\nIf there are less than three arguments, this will return <xref href=\"Serious.Abbot.Scripting.IMissingArgument\" data-throw-if-not-resolved=\"false\"></xref> for the missing\narguments. If there are more than three arguments, the last argument will be a concatenation of the\nremaining arguments.\n"
+  example: []
+  syntax:
+    content: void Deconstruct(out IArgument first, out IArgument second, out IArgument third)
+    parameters:
+    - id: first
+      type: Serious.Abbot.Scripting.IArgument
+      description: The first argument.
+    - id: second
+      type: Serious.Abbot.Scripting.IArgument
+      description: The second argument.
+    - id: third
+      type: Serious.Abbot.Scripting.IArgument
+      description: The third argument.
+    content.vb: Sub Deconstruct(ByRef first As IArgument, ByRef second As IArgument, ByRef third As IArgument)
+  overload: Serious.Abbot.Scripting.IArguments.Deconstruct*
+  nameWithType.vb: IArguments.Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument)
+  fullName.vb: Serious.Abbot.Scripting.IArguments.Deconstruct(ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument)
+  name.vb: Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument)
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  commentId: M:Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  id: Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  parent: Serious.Abbot.Scripting.IArguments
+  langs:
+  - csharp
+  - vb
+  name: Deconstruct(out IArgument, out IArgument, out IArgument, out IArgument)
+  nameWithType: IArguments.Deconstruct(out IArgument, out IArgument, out IArgument, out IArgument)
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct(out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IArguments.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Deconstruct
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IArguments.cs
+    startLine: 40
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nDeconstructs the arguments into four arguments.\nIf there are less than four arguments, this will return <xref href=\"Serious.Abbot.Scripting.IMissingArgument\" data-throw-if-not-resolved=\"false\"></xref> for the missing\narguments. If there are more than four arguments, the last argument will be a concatenation of the\nremaining arguments.\n"
+  example: []
+  syntax:
+    content: void Deconstruct(out IArgument first, out IArgument second, out IArgument third, out IArgument fourth)
+    parameters:
+    - id: first
+      type: Serious.Abbot.Scripting.IArgument
+      description: The first argument.
+    - id: second
+      type: Serious.Abbot.Scripting.IArgument
+      description: The second argument.
+    - id: third
+      type: Serious.Abbot.Scripting.IArgument
+      description: The third argument.
+    - id: fourth
+      type: Serious.Abbot.Scripting.IArgument
+      description: The fourth argument.
+    content.vb: Sub Deconstruct(ByRef first As IArgument, ByRef second As IArgument, ByRef third As IArgument, ByRef fourth As IArgument)
+  overload: Serious.Abbot.Scripting.IArguments.Deconstruct*
+  nameWithType.vb: IArguments.Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument)
+  fullName.vb: Serious.Abbot.Scripting.IArguments.Deconstruct(ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument)
+  name.vb: Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument)
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IArgument.Value
+  commentId: P:Serious.Abbot.Scripting.IArgument.Value
+  parent: Serious.Abbot.Scripting.IArgument
+  name: Value
+  nameWithType: IArgument.Value
+  fullName: Serious.Abbot.Scripting.IArgument.Value
+- uid: Serious.Abbot.Scripting.IArgument.Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  parent: Serious.Abbot.Scripting.ArgumentExtensions
+  definition: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  name: ToLocalTime()
+  nameWithType: ArgumentExtensions.ToLocalTime()
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime()
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+    name: ToLocalTime
+    nameWithType: ArgumentExtensions.ToLocalTime
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+    name: ToLocalTime
+    nameWithType: ArgumentExtensions.ToLocalTime
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IArgument.Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  parent: Serious.Abbot.Scripting.ArgumentExtensions
+  definition: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  name: ToInt32()
+  nameWithType: ArgumentExtensions.ToInt32()
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32()
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+    name: ToInt32
+    nameWithType: ArgumentExtensions.ToInt32
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+    name: ToInt32
+    nameWithType: ArgumentExtensions.ToInt32
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IArgument
+  commentId: T:Serious.Abbot.Scripting.IArgument
+  parent: Serious.Abbot.Scripting
+  name: IArgument
+  nameWithType: IArgument
+  fullName: Serious.Abbot.Scripting.IArgument
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  name: ToLocalTime(IArgument)
+  nameWithType: ArgumentExtensions.ToLocalTime(IArgument)
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+    name: ToLocalTime
+    nameWithType: ArgumentExtensions.ToLocalTime
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IArgument
+    name: IArgument
+    nameWithType: IArgument
+    fullName: Serious.Abbot.Scripting.IArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+    name: ToLocalTime
+    nameWithType: ArgumentExtensions.ToLocalTime
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IArgument
+    name: IArgument
+    nameWithType: IArgument
+    fullName: Serious.Abbot.Scripting.IArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.ArgumentExtensions
+  commentId: T:Serious.Abbot.Scripting.ArgumentExtensions
+  parent: Serious.Abbot.Scripting
+  name: ArgumentExtensions
+  nameWithType: ArgumentExtensions
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  name: ToInt32(IArgument)
+  nameWithType: ArgumentExtensions.ToInt32(IArgument)
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+    name: ToInt32
+    nameWithType: ArgumentExtensions.ToInt32
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IArgument
+    name: IArgument
+    nameWithType: IArgument
+    fullName: Serious.Abbot.Scripting.IArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+    name: ToInt32
+    nameWithType: ArgumentExtensions.ToInt32
+    fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IArgument
+    name: IArgument
+    nameWithType: IArgument
+    fullName: Serious.Abbot.Scripting.IArgument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IMissingArgument
+  commentId: T:Serious.Abbot.Scripting.IMissingArgument
+  name: IMissingArgument
+  nameWithType: IMissingArgument
+  fullName: Serious.Abbot.Scripting.IMissingArgument
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct*
+  commentId: Overload:Serious.Abbot.Scripting.IArguments.Deconstruct
+  name: Deconstruct
+  nameWithType: IArguments.Deconstruct
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct

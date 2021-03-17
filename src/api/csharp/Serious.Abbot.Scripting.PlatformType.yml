@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.PlatformType
+  commentId: T:Serious.Abbot.Scripting.PlatformType
+  id: PlatformType
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.PlatformType.DirectLine
+  - Serious.Abbot.Scripting.PlatformType.Discord
+  - Serious.Abbot.Scripting.PlatformType.MsTeams
+  - Serious.Abbot.Scripting.PlatformType.Slack
+  - Serious.Abbot.Scripting.PlatformType.UnitTest
+  langs:
+  - csharp
+  - vb
+  name: PlatformType
+  nameWithType: PlatformType
+  fullName: Serious.Abbot.Scripting.PlatformType
+  type: Enum
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/PlatformType.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PlatformType
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/PlatformType.cs
+    startLine: 8
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe type of chat platform.\n"
+  remarks: "\nIT IS VERY IMPORTANT TO MAINTAIN THE ORDER OF THESE VALUES! ASK ME HOW I KNOW - @haacked\n"
+  example: []
+  syntax:
+    content: 'public enum PlatformType : int'
+    content.vb: Public Enum PlatformType As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Serious.Abbot.Scripting.PlatformType.UnitTest
+  commentId: F:Serious.Abbot.Scripting.PlatformType.UnitTest
+  id: UnitTest
+  parent: Serious.Abbot.Scripting.PlatformType
+  langs:
+  - csharp
+  - vb
+  name: UnitTest
+  nameWithType: PlatformType.UnitTest
+  fullName: Serious.Abbot.Scripting.PlatformType.UnitTest
+  type: Field
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/PlatformType.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: UnitTest
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/PlatformType.cs
+    startLine: 13
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nUnit test\n"
+  example: []
+  syntax:
+    content: UnitTest = 0
+    return:
+      type: Serious.Abbot.Scripting.PlatformType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Serious.Abbot.Scripting.PlatformType.Slack
+  commentId: F:Serious.Abbot.Scripting.PlatformType.Slack
+  id: Slack
+  parent: Serious.Abbot.Scripting.PlatformType
+  langs:
+  - csharp
+  - vb
+  name: Slack
+  nameWithType: PlatformType.Slack
+  fullName: Serious.Abbot.Scripting.PlatformType.Slack
+  type: Field
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/PlatformType.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Slack
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/PlatformType.cs
+    startLine: 18
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nSlack\n"
+  example: []
+  syntax:
+    content: Slack = 1
+    return:
+      type: Serious.Abbot.Scripting.PlatformType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Serious.Abbot.Scripting.PlatformType.Discord
+  commentId: F:Serious.Abbot.Scripting.PlatformType.Discord
+  id: Discord
+  parent: Serious.Abbot.Scripting.PlatformType
+  langs:
+  - csharp
+  - vb
+  name: Discord
+  nameWithType: PlatformType.Discord
+  fullName: Serious.Abbot.Scripting.PlatformType.Discord
+  type: Field
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/PlatformType.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Discord
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/PlatformType.cs
+    startLine: 23
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nDiscord\n"
+  example: []
+  syntax:
+    content: Discord = 2
+    return:
+      type: Serious.Abbot.Scripting.PlatformType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Serious.Abbot.Scripting.PlatformType.MsTeams
+  commentId: F:Serious.Abbot.Scripting.PlatformType.MsTeams
+  id: MsTeams
+  parent: Serious.Abbot.Scripting.PlatformType
+  langs:
+  - csharp
+  - vb
+  name: MsTeams
+  nameWithType: PlatformType.MsTeams
+  fullName: Serious.Abbot.Scripting.PlatformType.MsTeams
+  type: Field
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/PlatformType.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: MsTeams
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/PlatformType.cs
+    startLine: 28
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nTeams\n"
+  example: []
+  syntax:
+    content: MsTeams = 3
+    return:
+      type: Serious.Abbot.Scripting.PlatformType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Serious.Abbot.Scripting.PlatformType.DirectLine
+  commentId: F:Serious.Abbot.Scripting.PlatformType.DirectLine
+  id: DirectLine
+  parent: Serious.Abbot.Scripting.PlatformType
+  langs:
+  - csharp
+  - vb
+  name: DirectLine
+  nameWithType: PlatformType.DirectLine
+  fullName: Serious.Abbot.Scripting.PlatformType.DirectLine
+  type: Field
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/PlatformType.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: DirectLine
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/PlatformType.cs
+    startLine: 33
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nDirectLine\n"
+  example: []
+  syntax:
+    content: DirectLine = 4
+    return:
+      type: Serious.Abbot.Scripting.PlatformType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.PlatformType
+  commentId: T:Serious.Abbot.Scripting.PlatformType
+  parent: Serious.Abbot.Scripting
+  name: PlatformType
+  nameWithType: PlatformType
+  fullName: Serious.Abbot.Scripting.PlatformType

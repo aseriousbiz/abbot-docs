@@ -1,0 +1,385 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IChatUser
+  commentId: T:Serious.Abbot.Scripting.IChatUser
+  id: IChatUser
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IChatUser.Location
+  - Serious.Abbot.Scripting.IChatUser.TimeZone
+  langs:
+  - csharp
+  - vb
+  name: IChatUser
+  nameWithType: IChatUser
+  fullName: Serious.Abbot.Scripting.IChatUser
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IChatUser.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IChatUser
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IChatUser.cs
+    startLine: 7
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nA user on the chat platform.\n"
+  example: []
+  syntax:
+    content: 'public interface IChatUser : IPlatformUser'
+    content.vb: >-
+      Public Interface IChatUser
+
+          Inherits IPlatformUser
+  inheritedMembers:
+  - Serious.Abbot.Scripting.IPlatformUser.Id
+  - Serious.Abbot.Scripting.IPlatformUser.UserName
+  - Serious.Abbot.Scripting.IPlatformUser.Name
+  extensionMethods:
+  - Serious.Abbot.Scripting.IChatUser.Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+  - Serious.Abbot.Scripting.IChatUser.Serious.Abbot.Scripting.ReplyExtensions.Format
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IChatUser.TimeZone
+  commentId: P:Serious.Abbot.Scripting.IChatUser.TimeZone
+  id: TimeZone
+  parent: Serious.Abbot.Scripting.IChatUser
+  langs:
+  - csharp
+  - vb
+  name: TimeZone
+  nameWithType: IChatUser.TimeZone
+  fullName: Serious.Abbot.Scripting.IChatUser.TimeZone
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IChatUser.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: TimeZone
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IChatUser.cs
+    startLine: 12
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe timezone for the location.\n"
+  example: []
+  syntax:
+    content: DateTimeZone? TimeZone { get; }
+    parameters: []
+    return:
+      type: System.Nullable{DateTimeZone}
+    content.vb: ReadOnly Property TimeZone As DateTimeZone?
+  overload: Serious.Abbot.Scripting.IChatUser.TimeZone*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Serious.Abbot.Scripting.IChatUser.Location
+  commentId: P:Serious.Abbot.Scripting.IChatUser.Location
+  id: Location
+  parent: Serious.Abbot.Scripting.IChatUser
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: IChatUser.Location
+  fullName: Serious.Abbot.Scripting.IChatUser.Location
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IChatUser.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Location
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IChatUser.cs
+    startLine: 17
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe location of the user, if anything is known about their location.\n"
+  example: []
+  syntax:
+    content: ILocation Location { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.ILocation
+    content.vb: ReadOnly Property Location As ILocation
+  overload: Serious.Abbot.Scripting.IChatUser.Location*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IPlatformUser.Id
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.Id
+  parent: Serious.Abbot.Scripting.IPlatformUser
+  name: Id
+  nameWithType: IPlatformUser.Id
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Id
+- uid: Serious.Abbot.Scripting.IPlatformUser.UserName
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.UserName
+  parent: Serious.Abbot.Scripting.IPlatformUser
+  name: UserName
+  nameWithType: IPlatformUser.UserName
+  fullName: Serious.Abbot.Scripting.IPlatformUser.UserName
+- uid: Serious.Abbot.Scripting.IPlatformUser.Name
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.Name
+  parent: Serious.Abbot.Scripting.IPlatformUser
+  name: Name
+  nameWithType: IPlatformUser.Name
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Name
+- uid: Serious.Abbot.Scripting.IChatUser.Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+  commentId: M:Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+  parent: Serious.Abbot.Scripting.ChatUserExtensions
+  definition: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+  name: GetLocalTime()
+  nameWithType: ChatUserExtensions.GetLocalTime()
+  fullName: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime()
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+    name: GetLocalTime
+    nameWithType: ChatUserExtensions.GetLocalTime
+    fullName: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+    name: GetLocalTime
+    nameWithType: ChatUserExtensions.GetLocalTime
+    fullName: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IChatUser.Serious.Abbot.Scripting.ReplyExtensions.Format
+  commentId: M:Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  parent: Serious.Abbot.Scripting.ReplyExtensions
+  definition: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  name: Format()
+  nameWithType: ReplyExtensions.Format()
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.Format()
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ReplyExtensions.Format
+    name: Format
+    nameWithType: ReplyExtensions.Format
+    fullName: Serious.Abbot.Scripting.ReplyExtensions.Format
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ReplyExtensions.Format
+    name: Format
+    nameWithType: ReplyExtensions.Format
+    fullName: Serious.Abbot.Scripting.ReplyExtensions.Format
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IPlatformUser
+  commentId: T:Serious.Abbot.Scripting.IPlatformUser
+  parent: Serious.Abbot.Scripting
+  name: IPlatformUser
+  nameWithType: IPlatformUser
+  fullName: Serious.Abbot.Scripting.IPlatformUser
+- uid: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+  commentId: M:Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+  name: GetLocalTime(IChatUser)
+  nameWithType: ChatUserExtensions.GetLocalTime(IChatUser)
+  fullName: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+    name: GetLocalTime
+    nameWithType: ChatUserExtensions.GetLocalTime
+    fullName: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IChatUser
+    name: IChatUser
+    nameWithType: IChatUser
+    fullName: Serious.Abbot.Scripting.IChatUser
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+    name: GetLocalTime
+    nameWithType: ChatUserExtensions.GetLocalTime
+    fullName: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IChatUser
+    name: IChatUser
+    nameWithType: IChatUser
+    fullName: Serious.Abbot.Scripting.IChatUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.ChatUserExtensions
+  commentId: T:Serious.Abbot.Scripting.ChatUserExtensions
+  parent: Serious.Abbot.Scripting
+  name: ChatUserExtensions
+  nameWithType: ChatUserExtensions
+  fullName: Serious.Abbot.Scripting.ChatUserExtensions
+- uid: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  commentId: M:Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  name: Format(IChatUser)
+  nameWithType: ReplyExtensions.Format(IChatUser)
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+    name: Format
+    nameWithType: ReplyExtensions.Format
+    fullName: Serious.Abbot.Scripting.ReplyExtensions.Format
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IChatUser
+    name: IChatUser
+    nameWithType: IChatUser
+    fullName: Serious.Abbot.Scripting.IChatUser
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+    name: Format
+    nameWithType: ReplyExtensions.Format
+    fullName: Serious.Abbot.Scripting.ReplyExtensions.Format
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IChatUser
+    name: IChatUser
+    nameWithType: IChatUser
+    fullName: Serious.Abbot.Scripting.IChatUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.ReplyExtensions
+  commentId: T:Serious.Abbot.Scripting.ReplyExtensions
+  parent: Serious.Abbot.Scripting
+  name: ReplyExtensions
+  nameWithType: ReplyExtensions
+  fullName: Serious.Abbot.Scripting.ReplyExtensions
+- uid: Serious.Abbot.Scripting.IChatUser.TimeZone*
+  commentId: Overload:Serious.Abbot.Scripting.IChatUser.TimeZone
+  name: TimeZone
+  nameWithType: IChatUser.TimeZone
+  fullName: Serious.Abbot.Scripting.IChatUser.TimeZone
+- uid: System.Nullable{DateTimeZone}
+  commentId: '!:System.Nullable{DateTimeZone}'
+  definition: System.Nullable`1
+  name: Nullable<DateTimeZone>
+  nameWithType: Nullable<DateTimeZone>
+  fullName: System.Nullable<DateTimeZone>
+  nameWithType.vb: Nullable(Of DateTimeZone)
+  fullName.vb: System.Nullable(Of DateTimeZone)
+  name.vb: Nullable(Of DateTimeZone)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: DateTimeZone
+    name: DateTimeZone
+    nameWithType: DateTimeZone
+    fullName: DateTimeZone
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: DateTimeZone
+    name: DateTimeZone
+    nameWithType: DateTimeZone
+    fullName: DateTimeZone
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IChatUser.Location*
+  commentId: Overload:Serious.Abbot.Scripting.IChatUser.Location
+  name: Location
+  nameWithType: IChatUser.Location
+  fullName: Serious.Abbot.Scripting.IChatUser.Location
+- uid: Serious.Abbot.Scripting.ILocation
+  commentId: T:Serious.Abbot.Scripting.ILocation
+  parent: Serious.Abbot.Scripting
+  name: ILocation
+  nameWithType: ILocation
+  fullName: Serious.Abbot.Scripting.ILocation

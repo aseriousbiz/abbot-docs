@@ -1,0 +1,2445 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IBotHttpClient
+  commentId: T:Serious.Abbot.Scripting.IBotHttpClient
+  id: IBotHttpClient
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync(Uri,System.String)
+  - Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync(Uri,System.String)
+  - Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync(Uri,HttpMethod,System.Nullable{System.Object},Serious.Abbot.Scripting.Headers)
+  langs:
+  - csharp
+  - vb
+  name: IBotHttpClient
+  nameWithType: IBotHttpClient
+  fullName: Serious.Abbot.Scripting.IBotHttpClient
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBotHttpClient.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IBotHttpClient
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IBotHttpClient.cs
+    startLine: 11
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nA simple HTTP client to make requests.\n"
+  example: []
+  syntax:
+    content: public interface IBotHttpClient
+    content.vb: Public Interface IBotHttpClient
+  extensionMethods:
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String,System.Object)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri,System.Object)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String,System.Object)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri,System.Object)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri,Serious.Abbot.Scripting.Headers)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync(Uri,HttpMethod,System.Nullable{System.Object},Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync(Uri,HttpMethod,System.Nullable{System.Object},Serious.Abbot.Scripting.Headers)
+  id: SendJsonAsync(Uri,HttpMethod,System.Nullable{System.Object},Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.IBotHttpClient
+  langs:
+  - csharp
+  - vb
+  name: SendJsonAsync(Uri, HttpMethod, Nullable<Object>, Headers)
+  nameWithType: IBotHttpClient.SendJsonAsync(Uri, HttpMethod, Nullable<Object>, Headers)
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync(Uri, HttpMethod, System.Nullable<System.Object>, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBotHttpClient.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: SendJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IBotHttpClient.cs
+    startLine: 21
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP request sending the optional content and returns JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: Task<dynamic> SendJsonAsync(Uri url, HttpMethod httpMethod, object? content, Headers headers)
+    parameters:
+    - id: url
+      type: Uri
+      description: The url to request
+    - id: httpMethod
+      type: HttpMethod
+      description: The HTTP method of the request
+    - id: content
+      type: System.Nullable{System.Object}
+      description: The content to send as JSON
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: Function SendJsonAsync(url As Uri, httpMethod As HttpMethod, content As Object?, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync*
+  nameWithType.vb: IBotHttpClient.SendJsonAsync(Uri, HttpMethod, Nullable(Of Object), Headers)
+  fullName.vb: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync(Uri, HttpMethod, System.Nullable(Of System.Object), Serious.Abbot.Scripting.Headers)
+  name.vb: SendJsonAsync(Uri, HttpMethod, Nullable(Of Object), Headers)
+- uid: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync(Uri,System.String)
+  commentId: M:Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync(Uri,System.String)
+  id: ScrapeAsync(Uri,System.String)
+  parent: Serious.Abbot.Scripting.IBotHttpClient
+  langs:
+  - csharp
+  - vb
+  name: ScrapeAsync(Uri, String)
+  nameWithType: IBotHttpClient.ScrapeAsync(Uri, String)
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync(Uri, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBotHttpClient.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ScrapeAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IBotHttpClient.cs
+    startLine: 29
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRequests the specified url and returns an <see cref=\"!:HtmlNode\"></see> with\nthe first section of the HTML that matches the selector. This uses the\nHtmlAgilityPack under the hood.\n"
+  example: []
+  syntax:
+    content: Task<HtmlNode?> ScrapeAsync(Uri url, string selector)
+    parameters:
+    - id: url
+      type: Uri
+    - id: selector
+      type: System.String
+    return:
+      type: Task{System.Nullable{HtmlNode}}
+      description: An <see cref="!:HtmlNode"></see> with the section of the web page.
+    content.vb: Function ScrapeAsync(url As Uri, selector As String) As Task(Of HtmlNode?)
+  overload: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync*
+- uid: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync(Uri,System.String)
+  commentId: M:Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync(Uri,System.String)
+  id: ScrapeAllAsync(Uri,System.String)
+  parent: Serious.Abbot.Scripting.IBotHttpClient
+  langs:
+  - csharp
+  - vb
+  name: ScrapeAllAsync(Uri, String)
+  nameWithType: IBotHttpClient.ScrapeAllAsync(Uri, String)
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync(Uri, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IBotHttpClient.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ScrapeAllAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IBotHttpClient.cs
+    startLine: 37
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRequests the specified url and returns an <see cref=\"!:HtmlNode\"></see> with\nall sections of the HTML that match the selector. This uses the\nHtmlAgilityPack under the hood.\n"
+  example: []
+  syntax:
+    content: Task<IReadOnlyList<HtmlNode>> ScrapeAllAsync(Uri url, string selector)
+    parameters:
+    - id: url
+      type: Uri
+    - id: selector
+      type: System.String
+    return:
+      type: Task{IReadOnlyList{HtmlNode}}
+      description: An <see cref="!:HtmlNode"></see> with the section of the web page.
+    content.vb: Function ScrapeAllAsync(url As Uri, selector As String) As Task(Of IReadOnlyList(Of HtmlNode))
+  overload: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync*
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  name: GetJsonAsync(String)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(String)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  name: GetJsonAsync(Uri)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(Uri)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  name: GetJsonAsync(String, Headers)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(String, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String,Serious.Abbot.Scripting.Headers)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(System.String,Serious.Abbot.Scripting.Headers)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  name: GetJsonAsync(Uri, Headers)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(Uri, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri,Serious.Abbot.Scripting.Headers)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Uri,Serious.Abbot.Scripting.Headers)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  name: PostJsonAsync(String, Object)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(String, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String, System.Object)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String,System.Object)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String,System.Object)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  name: PostJsonAsync(Uri, Object)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(Uri, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri, System.Object)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri,System.Object)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri,System.Object)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  name: PostJsonAsync(String, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(String, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String, System.Object, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(System.String,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  name: PostJsonAsync(Uri, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(Uri, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri, System.Object, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Uri,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  name: PutJsonAsync(String, Object)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(String, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String, System.Object)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String,System.Object)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String,System.Object)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  name: PutJsonAsync(Uri, Object)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(Uri, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri, System.Object)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri,System.Object)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri,System.Object)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  name: PutJsonAsync(String, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(String, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String, System.Object, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(System.String,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  name: PutJsonAsync(Uri, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(Uri, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri, System.Object, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Uri,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  name: DeleteJsonAsync(String)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(String)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  name: DeleteJsonAsync(Uri)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(Uri)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  name: DeleteJsonAsync(String, Headers)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(String, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String,Serious.Abbot.Scripting.Headers)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(System.String,Serious.Abbot.Scripting.Headers)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  definition: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  name: DeleteJsonAsync(Uri, Headers)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(Uri, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri,Serious.Abbot.Scripting.Headers)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Uri,Serious.Abbot.Scripting.Headers)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  isExternal: true
+  name: GetJsonAsync(IBotHttpClient, String)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, String)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions
+  commentId: T:Serious.Abbot.Scripting.BotHttpClientExtensions
+  parent: Serious.Abbot.Scripting
+  name: BotHttpClientExtensions
+  nameWithType: BotHttpClientExtensions
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  isExternal: true
+  name: GetJsonAsync(IBotHttpClient, Uri)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, Uri)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  isExternal: true
+  name: GetJsonAsync(IBotHttpClient, String, Headers)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, String, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  isExternal: true
+  name: GetJsonAsync(IBotHttpClient, Uri, Headers)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, Uri, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+    name: GetJsonAsync
+    nameWithType: BotHttpClientExtensions.GetJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  isExternal: true
+  name: PostJsonAsync(IBotHttpClient, String, Object)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, String, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  isExternal: true
+  name: PostJsonAsync(IBotHttpClient, Uri, Object)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, Uri, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, System.Object)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  isExternal: true
+  name: PostJsonAsync(IBotHttpClient, String, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, String, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  isExternal: true
+  name: PostJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, System.Object, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PostJsonAsync
+    nameWithType: BotHttpClientExtensions.PostJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  isExternal: true
+  name: PutJsonAsync(IBotHttpClient, String, Object)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, String, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  isExternal: true
+  name: PutJsonAsync(IBotHttpClient, Uri, Object)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, Uri, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, System.Object)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  isExternal: true
+  name: PutJsonAsync(IBotHttpClient, String, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, String, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  isExternal: true
+  name: PutJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, System.Object, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+    name: PutJsonAsync
+    nameWithType: BotHttpClientExtensions.PutJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  isExternal: true
+  name: DeleteJsonAsync(IBotHttpClient, String)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, String)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  isExternal: true
+  name: DeleteJsonAsync(IBotHttpClient, Uri)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, Uri)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  isExternal: true
+  name: DeleteJsonAsync(IBotHttpClient, String, Headers)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, String, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  isExternal: true
+  name: DeleteJsonAsync(IBotHttpClient, Uri, Headers)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, Uri, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, Serious.Abbot.Scripting.Headers)
+  spec.csharp:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+    name: DeleteJsonAsync
+    nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+    fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Serious.Abbot.Scripting.IBotHttpClient
+    name: IBotHttpClient
+    nameWithType: IBotHttpClient
+    fullName: Serious.Abbot.Scripting.IBotHttpClient
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Uri
+    name: Uri
+    nameWithType: Uri
+    fullName: Uri
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Serious.Abbot.Scripting.Headers
+    name: Headers
+    nameWithType: Headers
+    fullName: Serious.Abbot.Scripting.Headers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync*
+  commentId: Overload:Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync
+  name: SendJsonAsync
+  nameWithType: IBotHttpClient.SendJsonAsync
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync
+- uid: Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: Uri
+- uid: HttpMethod
+  isExternal: true
+  name: HttpMethod
+  nameWithType: HttpMethod
+  fullName: HttpMethod
+- uid: System.Nullable{System.Object}
+  commentId: '!:System.Nullable{System.Object}'
+  definition: System.Nullable`1
+  name: Nullable<Object>
+  nameWithType: Nullable<Object>
+  fullName: System.Nullable<System.Object>
+  nameWithType.vb: Nullable(Of Object)
+  fullName.vb: System.Nullable(Of System.Object)
+  name.vb: Nullable(Of Object)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.Headers
+  commentId: T:Serious.Abbot.Scripting.Headers
+  parent: Serious.Abbot.Scripting
+  name: Headers
+  nameWithType: Headers
+  fullName: Serious.Abbot.Scripting.Headers
+- uid: Task{System.Object}
+  commentId: '!:Task{System.Object}'
+  definition: Task`1
+  name: Task<Object>
+  nameWithType: Task<Object>
+  fullName: Task<System.Object>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync*
+  commentId: Overload:Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync
+  name: ScrapeAsync
+  nameWithType: IBotHttpClient.ScrapeAsync
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{System.Nullable{HtmlNode}}
+  commentId: '!:Task{System.Nullable{HtmlNode}}'
+  definition: Task`1
+  name: Task<Nullable<HtmlNode>>
+  nameWithType: Task<Nullable<HtmlNode>>
+  fullName: Task<System.Nullable<HtmlNode>>
+  nameWithType.vb: Task(Of Nullable(Of HtmlNode))
+  fullName.vb: Task(Of System.Nullable(Of HtmlNode))
+  name.vb: Task(Of Nullable(Of HtmlNode))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: HtmlNode
+    name: HtmlNode
+    nameWithType: HtmlNode
+    fullName: HtmlNode
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: HtmlNode
+    name: HtmlNode
+    nameWithType: HtmlNode
+    fullName: HtmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync*
+  commentId: Overload:Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync
+  name: ScrapeAllAsync
+  nameWithType: IBotHttpClient.ScrapeAllAsync
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync
+- uid: Task{IReadOnlyList{HtmlNode}}
+  commentId: '!:Task{IReadOnlyList{HtmlNode}}'
+  definition: Task`1
+  name: Task<IReadOnlyList<HtmlNode>>
+  nameWithType: Task<IReadOnlyList<HtmlNode>>
+  fullName: Task<IReadOnlyList<HtmlNode>>
+  nameWithType.vb: Task(Of IReadOnlyList(Of HtmlNode))
+  fullName.vb: Task(Of IReadOnlyList(Of HtmlNode))
+  name.vb: Task(Of IReadOnlyList(Of HtmlNode))
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: HtmlNode
+    name: HtmlNode
+    nameWithType: HtmlNode
+    fullName: HtmlNode
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IReadOnlyList`1
+    name: IReadOnlyList
+    nameWithType: IReadOnlyList
+    fullName: IReadOnlyList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: HtmlNode
+    name: HtmlNode
+    nameWithType: HtmlNode
+    fullName: HtmlNode
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )

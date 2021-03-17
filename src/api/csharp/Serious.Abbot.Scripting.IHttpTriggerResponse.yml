@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse
+  commentId: T:Serious.Abbot.Scripting.IHttpTriggerResponse
+  id: IHttpTriggerResponse
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  - Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  - Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  - Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  langs:
+  - csharp
+  - vb
+  name: IHttpTriggerResponse
+  nameWithType: IHttpTriggerResponse
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse
+  type: Interface
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: IHttpTriggerResponse
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+    startLine: 6
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nGives some control over the response to an HTTP trigger request.\nUseful for webhooks.\n"
+  example: []
+  syntax:
+    content: public interface IHttpTriggerResponse
+    content.vb: Public Interface IHttpTriggerResponse
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  id: RawContent
+  parent: Serious.Abbot.Scripting.IHttpTriggerResponse
+  langs:
+  - csharp
+  - vb
+  name: RawContent
+  nameWithType: IHttpTriggerResponse.RawContent
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: RawContent
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+    startLine: 12
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe raw content to return as the body of the response. Cannot\nbe set if <xref href=\"Serious.Abbot.Scripting.IHttpTriggerResponse.Content\" data-throw-if-not-resolved=\"false\"></xref> is set.\n"
+  example: []
+  syntax:
+    content: string? RawContent { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.String}
+    content.vb: Property RawContent As String?
+  overload: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  id: Content
+  parent: Serious.Abbot.Scripting.IHttpTriggerResponse
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: IHttpTriggerResponse.Content
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Content
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+    startLine: 19
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe content to return as the body of the response. This will\nbe serialized as JSON. Cannot be set if <xref href=\"Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent\" data-throw-if-not-resolved=\"false\"></xref>\nis set.\n"
+  example: []
+  syntax:
+    content: object? Content { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Object}
+    content.vb: Property Content As Object?
+  overload: Serious.Abbot.Scripting.IHttpTriggerResponse.Content*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  id: ContentType
+  parent: Serious.Abbot.Scripting.IHttpTriggerResponse
+  langs:
+  - csharp
+  - vb
+  name: ContentType
+  nameWithType: IHttpTriggerResponse.ContentType
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: ContentType
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+    startLine: 25
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nThe content type to use in the response. If null, Abbot will\nchoose the best content type using content negotiation.\n"
+  example: []
+  syntax:
+    content: string? ContentType { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.String}
+    content.vb: Property ContentType As String?
+  overload: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  id: Headers
+  parent: Serious.Abbot.Scripting.IHttpTriggerResponse
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: IHttpTriggerResponse.Headers
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  type: Property
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: Headers
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/IHttpTriggerResponse.cs
+    startLine: 31
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nRepresents the collection of Request Headers as defined in RFC 2616 that should be sent in the response\nto the HTTP trigger request.\n"
+  example: []
+  syntax:
+    content: IResponseHeaders Headers { get; }
+    parameters: []
+    return:
+      type: Serious.Abbot.Scripting.IResponseHeaders
+    content.vb: ReadOnly Property Headers As IResponseHeaders
+  overload: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  isExternal: true
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  name: RawContent
+  nameWithType: IHttpTriggerResponse.RawContent
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+- uid: System.Nullable{System.String}
+  commentId: '!:System.Nullable{System.String}'
+  definition: System.Nullable`1
+  name: Nullable<String>
+  nameWithType: Nullable<String>
+  fullName: System.Nullable<System.String>
+  nameWithType.vb: Nullable(Of String)
+  fullName.vb: System.Nullable(Of System.String)
+  name.vb: Nullable(Of String)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  isExternal: true
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Content*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  name: Content
+  nameWithType: IHttpTriggerResponse.Content
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+- uid: System.Nullable{System.Object}
+  commentId: '!:System.Nullable{System.Object}'
+  definition: System.Nullable`1
+  name: Nullable<Object>
+  nameWithType: Nullable<Object>
+  fullName: System.Nullable<System.Object>
+  nameWithType.vb: Nullable(Of Object)
+  fullName.vb: System.Nullable(Of System.Object)
+  name.vb: Nullable(Of Object)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  name: ContentType
+  nameWithType: IHttpTriggerResponse.ContentType
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers*
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  name: Headers
+  nameWithType: IHttpTriggerResponse.Headers
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+- uid: Serious.Abbot.Scripting.IResponseHeaders
+  commentId: T:Serious.Abbot.Scripting.IResponseHeaders
+  parent: Serious.Abbot.Scripting
+  name: IResponseHeaders
+  nameWithType: IResponseHeaders
+  fullName: Serious.Abbot.Scripting.IResponseHeaders

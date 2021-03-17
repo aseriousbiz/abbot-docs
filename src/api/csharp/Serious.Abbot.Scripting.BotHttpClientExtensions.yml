@@ -1,0 +1,1003 @@
+### YamlMime:ManagedReference
+items:
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions
+  commentId: T:Serious.Abbot.Scripting.BotHttpClientExtensions
+  id: BotHttpClientExtensions
+  parent: Serious.Abbot.Scripting
+  children:
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  - Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  langs:
+  - csharp
+  - vb
+  name: BotHttpClientExtensions
+  nameWithType: BotHttpClientExtensions
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions
+  type: Class
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: BotHttpClientExtensions
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 9
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nExtension methods on <xref href=\"Serious.Abbot.Scripting.IBotHttpClient\" data-throw-if-not-resolved=\"false\"></xref> to make it easy to request JSON.\n"
+  example: []
+  syntax:
+    content: 'public static class BotHttpClientExtensions : object'
+    content.vb: >-
+      Public Module BotHttpClientExtensions
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  id: GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetJsonAsync(IBotHttpClient, String)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, String)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: GetJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 31
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP GET request for the url and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> GetJsonAsync(this IBotHttpClient httpClient, string url)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: System.String
+      description: The url to request
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetJsonAsync(httpClient As IBotHttpClient, url As String) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  id: GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetJsonAsync(IBotHttpClient, Uri)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, Uri)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: GetJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 42
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP GET request for the url and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> GetJsonAsync(this IBotHttpClient httpClient, Uri url)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: Uri
+      description: The url to request
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetJsonAsync(httpClient As IBotHttpClient, url As Uri) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  id: GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetJsonAsync(IBotHttpClient, String, Headers)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, String, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: GetJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 54
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP GET request for the url and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> GetJsonAsync(this IBotHttpClient httpClient, string url, Headers headers)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: System.String
+      description: The url to request
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetJsonAsync(httpClient As IBotHttpClient, url As String, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  id: GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetJsonAsync(IBotHttpClient, Uri, Headers)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, Uri, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: GetJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 66
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP GET request for the url and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> GetJsonAsync(this IBotHttpClient httpClient, Uri url, Headers headers)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: Uri
+      description: The url to request
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetJsonAsync(httpClient As IBotHttpClient, url As Uri, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  id: PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: PostJsonAsync(IBotHttpClient, String, Object)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, String, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PostJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 78
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP POST request for the url, sends the content as JSON, and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> PostJsonAsync(this IBotHttpClient httpClient, string url, object content)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: System.String
+      description: The url to request
+    - id: content
+      type: System.Object
+      description: The content to send as JSON
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PostJsonAsync(httpClient As IBotHttpClient, url As String, content As Object) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  id: PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: PostJsonAsync(IBotHttpClient, Uri, Object)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, Uri, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PostJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 90
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP POST request for the url, sends the content as JSON, and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> PostJsonAsync(this IBotHttpClient httpClient, Uri url, object content)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: Uri
+      description: The url to request
+    - id: content
+      type: System.Object
+      description: The content to send as JSON
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PostJsonAsync(httpClient As IBotHttpClient, url As Uri, content As Object) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  id: PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: PostJsonAsync(IBotHttpClient, String, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, String, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PostJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 103
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP POST request for the url, sends the content as JSON, and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> PostJsonAsync(this IBotHttpClient httpClient, string url, object content, Headers headers)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: System.String
+      description: The url to request
+    - id: content
+      type: System.Object
+      description: The content to send as JSON
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PostJsonAsync(httpClient As IBotHttpClient, url As String, content As Object, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  id: PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: PostJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, System.Object, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PostJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 116
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP POST request for the url, sends the content as JSON, and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> PostJsonAsync(this IBotHttpClient httpClient, Uri url, object content, Headers headers)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: Uri
+      description: The url to request
+    - id: content
+      type: System.Object
+      description: The content to send as JSON
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PostJsonAsync(httpClient As IBotHttpClient, url As Uri, content As Object, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  id: PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: PutJsonAsync(IBotHttpClient, String, Object)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, String, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PutJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 128
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP PUT request for the url, sends the content as JSON, and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> PutJsonAsync(this IBotHttpClient httpClient, string url, object content)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: System.String
+      description: The url to request
+    - id: content
+      type: System.Object
+      description: The content to send as JSON
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PutJsonAsync(httpClient As IBotHttpClient, url As String, content As Object) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  id: PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: PutJsonAsync(IBotHttpClient, Uri, Object)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, Uri, Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PutJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 140
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP PUT request for the url, sends the content as JSON, and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> PutJsonAsync(this IBotHttpClient httpClient, Uri url, object content)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: Uri
+      description: The url to request
+    - id: content
+      type: System.Object
+      description: The content to send as JSON
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PutJsonAsync(httpClient As IBotHttpClient, url As Uri, content As Object) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  id: PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: PutJsonAsync(IBotHttpClient, String, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, String, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PutJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 153
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP PUT request for the url, sends the content as JSON, and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> PutJsonAsync(this IBotHttpClient httpClient, string url, object content, Headers headers)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: System.String
+      description: The url to request
+    - id: content
+      type: System.Object
+      description: The content to send as JSON
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PutJsonAsync(httpClient As IBotHttpClient, url As String, content As Object, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  id: PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: PutJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, System.Object, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: PutJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 166
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP PUT request for the url, sends the content as JSON, and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> PutJsonAsync(this IBotHttpClient httpClient, Uri url, object content, Headers headers)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: Uri
+      description: The url to request
+    - id: content
+      type: System.Object
+      description: The content to send as JSON
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function PutJsonAsync(httpClient As IBotHttpClient, url As Uri, content As Object, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  id: DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: DeleteJsonAsync(IBotHttpClient, String)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, String)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: DeleteJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 177
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP DELETE request for the url and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> DeleteJsonAsync(this IBotHttpClient httpClient, string url)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: System.String
+      description: The url to request
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DeleteJsonAsync(httpClient As IBotHttpClient, url As String) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  id: DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: DeleteJsonAsync(IBotHttpClient, Uri)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, Uri)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: DeleteJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 188
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP DELETE request for the url and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> DeleteJsonAsync(this IBotHttpClient httpClient, Uri url)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: Uri
+      description: The url to request
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DeleteJsonAsync(httpClient As IBotHttpClient, url As Uri) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  id: DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: DeleteJsonAsync(IBotHttpClient, String, Headers)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, String, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: DeleteJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 200
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP DELETE request for the url and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> DeleteJsonAsync(this IBotHttpClient httpClient, string url, Headers headers)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: System.String
+      description: The url to request
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DeleteJsonAsync(httpClient As IBotHttpClient, url As String, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  id: DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,Uri,Serious.Abbot.Scripting.Headers)
+  isExtensionMethod: true
+  parent: Serious.Abbot.Scripting.BotHttpClientExtensions
+  langs:
+  - csharp
+  - vb
+  name: DeleteJsonAsync(IBotHttpClient, Uri, Headers)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, Uri, Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, Uri, Serious.Abbot.Scripting.Headers)
+  type: Method
+  source:
+    remote:
+      path: src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+      branch: docs
+      repo: https://github.com/aseriousbiz/abbot.git
+    id: DeleteJsonAsync
+    path: ../../abbot/src/Abbot.Scripting.Interfaces/Extensions/BotHttpClientExtensions.cs
+    startLine: 212
+  assemblies:
+  - Abbot.Scripting.Interfaces
+  namespace: Serious.Abbot.Scripting
+  summary: "\nMakes an HTTP DELETE request for the url and returns the JSON as a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static Task<dynamic> DeleteJsonAsync(this IBotHttpClient httpClient, Uri url, Headers headers)
+    parameters:
+    - id: httpClient
+      type: Serious.Abbot.Scripting.IBotHttpClient
+      description: The <xref href="Serious.Abbot.Scripting.IBotHttpClient" data-throw-if-not-resolved="false"></xref> instance
+    - id: url
+      type: Uri
+      description: The url to request
+    - id: headers
+      type: Serious.Abbot.Scripting.Headers
+      description: The HTTP headers to send
+    return:
+      type: Task{System.Object}
+      description: A dynamic object with the structure of the returned JSON
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DeleteJsonAsync(httpClient As IBotHttpClient, url As Uri, headers As Headers) As Task(Of Object)
+  overload: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Serious.Abbot.Scripting.IBotHttpClient
+  commentId: T:Serious.Abbot.Scripting.IBotHttpClient
+  parent: Serious.Abbot.Scripting
+  name: IBotHttpClient
+  nameWithType: IBotHttpClient
+  fullName: Serious.Abbot.Scripting.IBotHttpClient
+- uid: Serious.Abbot.Scripting
+  commentId: N:Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+- uid: System.Object
+  commentId: T:System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync*
+  commentId: Overload:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  name: GetJsonAsync
+  nameWithType: BotHttpClientExtensions.GetJsonAsync
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Task{System.Object}
+  commentId: '!:Task{System.Object}'
+  definition: Task`1
+  name: Task<Object>
+  nameWithType: Task<Object>
+  fullName: Task<System.Object>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Uri
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: Uri
+- uid: Serious.Abbot.Scripting.Headers
+  commentId: T:Serious.Abbot.Scripting.Headers
+  parent: Serious.Abbot.Scripting
+  name: Headers
+  nameWithType: Headers
+  fullName: Serious.Abbot.Scripting.Headers
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync*
+  commentId: Overload:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  name: PostJsonAsync
+  nameWithType: BotHttpClientExtensions.PostJsonAsync
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync*
+  commentId: Overload:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  name: PutJsonAsync
+  nameWithType: BotHttpClientExtensions.PutJsonAsync
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync*
+  commentId: Overload:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  name: DeleteJsonAsync
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync

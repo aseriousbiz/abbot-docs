@@ -9,7 +9,7 @@
           "src": "../../abbot/src"
         }
       ],
-      "dest": "api",
+      "dest": "api/csharp",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }
@@ -18,8 +18,7 @@
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md"
+          "api/csharp/**.yml"
         ]
       },
       {
@@ -28,6 +27,12 @@
           "guides/**/toc.yml",
           "toc.yml",
           "*.md"
+        ]
+      },
+      {
+        "files": [
+          "api/**.md",
+          "toc.yml"
         ]
       }
     ],
