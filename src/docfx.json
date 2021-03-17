@@ -23,6 +23,7 @@
       },
       {
         "files": [
+          "api/*.md",
           "guides/**.md",
           "guides/**/toc.yml",
           "toc.yml",
@@ -33,7 +34,9 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "templates/abbot/*.svg",
+          "templates/abbot/*.ico"
         ]
       }
     ],
@@ -49,6 +52,12 @@
       }
     ],
     "dest": "../_site",
+    "globalMetadata": {
+      "_appTitle": "Abbot Docs",
+      "_appLogoPath": "templates/abbot/logo.svg",
+      "_appFooter": "Copyright © A Serious Business, Inc.",
+      "_enableSearch": true
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
