@@ -37,7 +37,7 @@ jobs:
         path: abbot
 
     - name: Build Abbot.Scripting.Interfaces
-      run: dotnet build abbot/src/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release --nologo -o ../_build
+      run: dotnet build abbot/src/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release --nologo -o abbot-docs/_build
 
     - name: Checkout aseriousbiz/abbot-py-docs
       uses: actions/checkout@v2
