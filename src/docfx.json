@@ -9,7 +9,7 @@
           ]
         }
       ],
-      "dest": "api-csharp",
+      "dest": "reference/csharp",
       "disableGitFeatures": true,
       "disableDefaultFilter": false,
       "properties": {
@@ -21,18 +21,20 @@
     "content": [
       {
         "files": [
-          "api-csharp/**.yml"
+          "reference/csharp/**.yml",
+          "reference/csharp/**.md"
         ]
       },
       {
         "files": [
-          "api-py/**.yml"
+          "reference/python/**.yml",
+          "reference/python/**.md"
         ]
       },
       {
         "files": [
-          "api/index.md",
-          "api/toc.yml"
+          "reference/*.md",
+          "reference/toc.yml"
         ]
       },
       {

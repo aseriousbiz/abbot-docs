@@ -1,14 +1,14 @@
 - name: Intro
   href: index.md
 - name: Hello World
-  href: hello-world.md
+  href: hello-world/index.md
 - name: Triggering Skills from outside of Chat
-  href: triggers.md
+  href: triggers/index.md
 - name: Passing Arguments in C#
-  href: parsing-arguments-c-sharp.md
+  href: parsing-arguments-c-sharp/index.md
 - name: List Skills
-  href: listskills.md
+  href: list-skills/index.md
 - name: Known Issues
-  href: knownissues.md
+  href: known-issues/index.md
 - name: ChatOps
-  href: chatops.md
+  href: chatops/index.md

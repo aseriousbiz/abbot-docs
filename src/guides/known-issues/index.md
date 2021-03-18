@@ -1,11 +1,15 @@
+---
+uid: known-issues
+---
+
 # Known Issues
 
 We hope you're having a great time with Abbot. Sometimes you might run into an issue that seems strange, and you aren't sure if something's broken, or working as intended. This is a short list of issues that we're aware of but haven't scheduled to fix immediately.
 
 Please let us know if any of these issues impacts you negatively by using the `@abbot feedback` skill from chat or the bot console.
 
-
 ## Core Abbot
+
 No known issues
 
 ## Skill Editor

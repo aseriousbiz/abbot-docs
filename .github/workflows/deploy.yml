@@ -47,6 +47,9 @@ jobs:
       name: Build Documentation
       with:
         args: abbot-docs/src/docfx.json
+    
+    - name: Prettify URLs
+      run: sudo sed -i 's/index\.html//g' abbot-docs/_site/**.html
 
     # Publish generated site using GitHub Pages
     - uses: maxheld83/ghpages@master
