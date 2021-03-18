@@ -1,4 +1,6 @@
 - name: Guides
   href: guides/
+  homepage: index.md
 - name: Bot Reference
-  href: api/
+  href: reference/
+  homepage: reference/index.md

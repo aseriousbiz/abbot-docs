@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "prepare": "cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/api-py",
+    "prepare": "cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/reference/python",
     "watch": "npm run prepare && npm-watch",
     "build": "npm run prepare && docfx src/docfx.json",
     "serve": "docfx src/docfx.json --serve"

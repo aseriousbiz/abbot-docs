@@ -2,6 +2,5 @@ obj
 _site
 .DS_store
 node_modules
-src/api-csharp
-src/api-py
-src/api-js
+src/reference/**/**.yml
+src/reference/**/**.manifest
