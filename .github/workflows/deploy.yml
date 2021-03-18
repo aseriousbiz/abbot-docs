@@ -41,7 +41,7 @@ jobs:
         path: abbot-py-docs
 
     - name: Copy Python Docs
-      run: cp -R abbot-py-docs/_build/html/docfx_yaml/ abbot-docs/src/api-py
+      run: cp -R abbot-py-docs/_build/html/docfx_yaml/ abbot-docs/src/reference/python
 
     - uses: nikeee/docfx-action@v1.0.0
       name: Build Documentation
