@@ -52,6 +52,7 @@
           "images/**",
           "templates/abbot/*.svg",
           "templates/abbot/*.ico",
+          "templates/abbot/*.png",
           "CNAME"
         ]
       }
