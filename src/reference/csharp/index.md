@@ -25,7 +25,7 @@ Abbot provides assistance in parsing arguments with a special implementation of 
 
 Secrets are a special kind of data, and can be used to store things like authentication tokens or other configuration items that you prefer to exclude from your skill. Secrets can only be set from https://ab.bot, and are specific to a single skill. Since developers can read data from your secrets, be careful about the data that you store there -- passwords should never be stored in a Secret, for example. [`Secrets`](xref:Serious.Abbot.Scripting.ISecrets) can be read using a similar interface to Abbot's brain:
 
-* [`GetAsync(Key)`](Serious.Abbot.Scripting.ISecrets.GetAsync(System.String)): Get the Secret with the key of `Key`
+* [`GetAsync(Key)`](xref:Serious.Abbot.Scripting.ISecrets.GetAsync(System.String)): Get the Secret with the key of `Key`
 
 ## The Mentions Collection
 

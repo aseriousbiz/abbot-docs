@@ -16,7 +16,7 @@
   "scripts": {
     "prettify": "sed -i '.bak' 's/\\/index\\.html//g' _site/**/*.html _site/*.html _site/*.json && rm -rf _site/**/*.bak",
     "prepare": "cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/reference/python && npm run compile",
-    "compile": "dotnet build ../abbot/src/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release",
+    "compile": "dotnet build ../abbot/src/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release -o _build",
     "watch": "npm run prepare && npm-watch",
     "build": "npm run prepare && docfx src/docfx.json && npm run prettify",
     "serve": "docfx build src/docfx.json && npm run prettify && npm run web",

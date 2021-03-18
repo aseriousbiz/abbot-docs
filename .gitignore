@@ -1,4 +1,5 @@
 obj
+_build
 _site
 .DS_store
 node_modules
