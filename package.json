@@ -14,9 +14,10 @@
     }
   },
   "scripts": {
+    "prettify": "sed -i '.bak' 's/index\\.html//g' _site/**.html",
     "prepare": "cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/reference/python",
     "watch": "npm run prepare && npm-watch",
-    "build": "npm run prepare && docfx src/docfx.json",
+    "build": "npm run prepare && docfx src/docfx.json && npm run prettify",
     "serve": "docfx src/docfx.json --serve"
   },
   "author": "",

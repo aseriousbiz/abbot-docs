@@ -1,4 +1,9 @@
+---
+uid: list-skills
+---
+
 # List Skills
+
 List skills are a special kind of skill that are built into Abbot. They are useful if you want to build a skill that returns a random item out of a list every time it is called.
 
 Using Abbot, we could easily create a skill to accomplish that task like this:
@@ -15,13 +20,13 @@ This works well as long as we don't need to change the list of potential answers
 const _ = require('lodash');
 
 if (bot.arguments.startsWith('add') {
-	// Add a new response
+  // Add a new response
 } else if (bot.arguments.startsWith('remove') {
-	// Remove a response
+  // Remove a response
 } else {
-	// Return a random response
-	let responses = await bot.brain.list();
-	bot.reply(_.sample(responses))
+  // Return a random response
+  let responses = await bot.brain.list();
+  bot.reply(_.sample(responses))
 }
 ```
 
@@ -33,7 +38,6 @@ Once Abbot creates the list skill, you can add options with `@abbot 8ball add ..
 * `@abbot 8ball add No`
 * `@abbot 8ball add Maybe`
 * `@abbot 8ball add Unclear, ask again later`
-
 
 To use the skill, simply say `@abbot 8ball` in any channel where Abbot has been invited, and Abbot will respond with a random selection from the list.
 

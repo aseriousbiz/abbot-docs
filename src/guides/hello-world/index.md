@@ -1,4 +1,5 @@
 ---
+uid: hello-world-guide
 Title: Writing your first Abbot skill
 ---
 

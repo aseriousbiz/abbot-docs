@@ -4,9 +4,9 @@ If you're having a bot emergency, contact us at [help@aseriousbusiness.com](mail
 
 ## Getting Started
 
-The easiest way to get started with Abbot is by following our [Getting Started](guides/index.md) guide.
+The easiest way to get started with Abbot is by following our [Getting Started](xref:guides) guide.
 
-For a more concise, reference-based view; please refer to [Abbot's reference documentation](guides/reference.md).
+For a more concise, reference-based view; please refer to [Abbot's reference documentation](xref:legacy-reference).
 
 ## Frequently Asked Questions
 
@@ -17,11 +17,11 @@ Later we will support WASM assemblies in a paid version of Abbot.
 
 ### What is the right way to save data from my script?
 
-Abbot provides a convenient way to save data from your skills. Please take a look at [Abbot's reference documentation](guides/reference.md) for details on how to use Abbot's brain.
+Abbot provides a convenient way to save data from your skills. Please take a look at [Abbot's reference documentation](xref:legacy-reference) for details on how to use Abbot's brain.
 
 ### How do skills deal with sensitive data?
 
-There is a Secret management system built in to Abbot. This allows your script to work with sensitive data without including in your script. Please note that developers can still get access to the data since we provide a scripting environment; so you should never store passwords in Secrets (and you should be careful about who you grant access to Abbot). The easiest way to see how to access Secrets in an Abbot skill is via [Abbot's reference documentation](guides/reference.md).
+There is a Secret management system built in to Abbot. This allows your script to work with sensitive data without including in your script. Please note that developers can still get access to the data since we provide a scripting environment; so you should never store passwords in Secrets (and you should be careful about who you grant access to Abbot). The easiest way to see how to access Secrets in an Abbot skill is via [Abbot's reference documentation](xref:legacy-reference).
 
 ### What Libraries are available in my skills?
 
@@ -50,4 +50,4 @@ Custom dependencies will be available later in a paid version of Abbot.
 
 ### I'm experiencing an issue, and would like to report it!
 
-First, we're sorry that you're running into issues. Please take a look at our list of [known issues](guides/knownissues.md) to make sure we're not already aware of it. If not, please drop us a line at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com) or send us feedback directly using `@abbot feedback` from chat or the Bot Console.
+First, we're sorry that you're running into issues. Please take a look at our list of [known issues](xref:known issues) to make sure we're not already aware of it. If not, please drop us a line at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com) or send us feedback directly using `@abbot feedback` from chat or the Bot Console.
