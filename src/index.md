@@ -54,4 +54,4 @@ Custom dependencies will be available later in a paid version of Abbot.
 
 ### I'm experiencing an issue, and would like to report it!
 
-First, we're sorry that you're running into issues. Please take a look at our list of [known issues](xref:known issues) to make sure we're not already aware of it. If not, please drop us a line at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com) or send us feedback directly using `@abbot feedback` from chat or the Bot Console.
+First, we're sorry that you're running into issues. Please take a look at our list of [known issues](xref:known-issues) to make sure we're not already aware of it. If not, please drop us a line at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com) or send us feedback directly using `@abbot feedback` from chat or the Bot Console.
