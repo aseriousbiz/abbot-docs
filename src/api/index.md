@@ -2,8 +2,8 @@
 
 Every skill receives a Bot object with a set of properties and methods. The set of properties and methods may differ slightly based on the language of the skill. The following are the languages Abbot supports and the reference docs for the Bot object.
 
-* [C# Bot Reference](../api-csharp/Serious.Abbot.Scripting.html)
-* Python Bot Reference _coming soon!_
+* [C# Bot Reference](xref:Serious.Abbot.Scripting.IBot)
+* [Python Bot Reference](xref:bot.bot)
 * JavaScript Bot Reference _coming soon!_
 
 ## C# Bot Reference

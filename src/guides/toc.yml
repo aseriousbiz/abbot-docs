@@ -6,3 +6,9 @@
   href: triggers.md
 - name: Passing Arguments in C#
   href: parsing-arguments-c-sharp.md
+- name: List Skills
+  href: listskills.md
+- name: Known Issues
+  href: knownissues.md
+- name: ChatOps
+  href: chatops.md

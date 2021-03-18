@@ -14,8 +14,9 @@
     }
   },
   "scripts": {
-    "watch": "npm-watch",
-    "build": "docfx src/docfx.json",
+    "prepare": "cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/api-py",
+    "watch": "npm run prepare && npm-watch",
+    "build": "npm run prepare && docfx src/docfx.json",
     "serve": "docfx src/docfx.json --serve"
   },
   "author": "",

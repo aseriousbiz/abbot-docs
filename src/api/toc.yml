@@ -1,2 +1,4 @@
 - name: C# Bot Reference
   href: ../api-csharp/toc.yml
+- name: Python Bot Reference
+  href: ../api-py/toc.yml
