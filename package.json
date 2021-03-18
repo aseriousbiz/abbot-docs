@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "prettify": "sed -i '.bak' 's/index\\.html//g' _site/**/*.html",
+    "prettify": "sed -i '.bak' 's/index\\.html//g' _site/**/*.html && rm -rf _site/**/*.bak",
     "prepare": "cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/reference/python",
     "watch": "npm run prepare && npm-watch",
     "build": "npm run prepare && docfx src/docfx.json && npm run prettify",
