@@ -2,6 +2,10 @@
 
 If you're having a bot emergency, contact us at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com). You can also join us in [Discord](https://discord.gg/FN4t8NNdQG). We work in Pacific Time and are in there consistently most days.
 
+## Check out our latest video
+
+> [!Video https://www.youtube.com/embed/6NHMyyWZtrU]
+
 ## Getting Started
 
 The easiest way to get started with Abbot is by following our [Getting Started](xref:guides) guide.
