@@ -1,4 +1,6 @@
 - name: C# Bot Reference
   href: csharp/toc.yml
+  homepage: csharp/index.md
 - name: Python Bot Reference
   href: python/toc.yml
+  homepage: python/index.yml
