@@ -13,4 +13,4 @@ folder
 +- abbot-docs
 ```
 
-__[RENDERED](https://aseriousbiz.github.io/abbot-docs/)__
+__[RENDERED](https://docs.ab.bot/)__
