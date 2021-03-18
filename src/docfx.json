@@ -3,9 +3,9 @@
     {
       "src": [
         {
-          "src": "../../abbot/src",
+          "src": "../../abbot/src/Abbot.Scripting.Interfaces/bin/release/netcoreapp3.1",
           "files": [
-            "**/Abbot.Scripting.Interfaces.csproj"
+            "Abbot.Scripting.Interfaces.dll"
           ]
         }
       ],

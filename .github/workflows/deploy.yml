@@ -22,6 +22,11 @@ jobs:
         fetch-depth: 1
         path: abbot-docs
 
+    - name: Setup .NET 5
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 5.0.103
+
     - name: Checkout aseriousbiz/abbot
       uses: actions/checkout@v2
       with:
@@ -30,6 +35,9 @@ jobs:
         token: ${{ secrets.GH_PAT }}
         fetch-depth: 1
         path: abbot
+
+    - name: Build Abbot.Scripting.Interfaces
+      run: dotnet build abbot/src/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release --nologo
 
     - name: Checkout aseriousbiz/abbot-py-docs
       uses: actions/checkout@v2
@@ -49,7 +57,7 @@ jobs:
         args: abbot-docs/src/docfx.json
 
     - name: Prettify URLs
-      run: sudo sed -i 's/index\.html//g' abbot-docs/_site/**/*.html && rm -rf abbot-docs/_site/**/*.bak
+      run: sudo sed -i 's/\/index\.html//g' abbot-docs/_site/**/*.html && rm -rf abbot-docs/_site/**/*.bak
 
     # Publish generated site using GitHub Pages
     - uses: maxheld83/ghpages@master
