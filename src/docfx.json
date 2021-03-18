@@ -26,6 +26,11 @@
       },
       {
         "files": [
+          "api-py/**.yml"
+        ]
+      },
+      {
+        "files": [
           "api/**.md",
           "api/toc.yml"
         ]

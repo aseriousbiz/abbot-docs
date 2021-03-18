@@ -14,7 +14,7 @@ jobs:
     name: Build and deploy Abbot Docs
 
     steps:
-    - name: Checkout docs repo
+    - name: Checkout aseriousbiz/abbot-docs
       uses: actions/checkout@v2
       with:
         repository: aseriousbiz/abbot-docs
@@ -22,7 +22,7 @@ jobs:
         fetch-depth: 1
         path: abbot-docs
 
-    - name: Checkout Abbot repo
+    - name: Checkout aseriousbiz/abbot
       uses: actions/checkout@v2
       with:
         repository: aseriousbiz/abbot
@@ -30,6 +30,18 @@ jobs:
         token: ${{ secrets.GH_PAT }}
         fetch-depth: 1
         path: abbot
+
+    - name: Checkout aseriousbiz/abbot-py-docs
+      uses: actions/checkout@v2
+      with:
+        repository: aseriousbiz/abbot-py-docs
+        ref: main
+        token: ${{ secrets.GH_PAT }}
+        fetch-depth: 1
+        path: abbot-py-docs
+
+    - name: Copy Python Docs
+      run: cp -R abbot-py-docs/_build/html/docfx_yaml/ abbot-docs/src/api-py
 
     - uses: nikeee/docfx-action@v1.0.0
       name: Build Documentation
