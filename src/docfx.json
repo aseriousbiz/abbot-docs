@@ -65,6 +65,9 @@
         ]
       }
     ],
+    "xrefService": [
+      "https://xref.docs.microsoft.com/query?uid={uid}"
+    ],
     "dest": "../_site",
     "globalMetadata": {
       "_appTitle": "Abbot Docs",
