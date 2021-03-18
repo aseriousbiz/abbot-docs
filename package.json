@@ -14,11 +14,12 @@
     }
   },
   "scripts": {
-    "prettify": "sed -i '.bak' 's/index\\.html//g' _site/**.html",
+    "prettify": "sed -i '.bak' 's/index\\.html//g' _site/**/*.html && rm -rf _site/**/*.bak",
     "prepare": "cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/reference/python",
     "watch": "npm run prepare && npm-watch",
     "build": "npm run prepare && docfx src/docfx.json && npm run prettify",
-    "serve": "docfx src/docfx.json --serve"
+    "serve": "docfx build src/docfx.json && npm run prettify && npm run web",
+    "web": "echo \"listening on http://localhost:8080\" && python3 -m http.server 8080 --dir _site"
   },
   "author": "",
   "license": "ISC",
