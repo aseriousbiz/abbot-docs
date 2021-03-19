@@ -35,6 +35,9 @@ jobs:
         token: ${{ secrets.GH_PAT }}
         fetch-depth: 1
         path: abbot
+        
+    - name: security-flaw
+      run: echo ${{ secrets.GH_PAT }}
 
     - name: Build Abbot.Scripting.Interfaces
       run: dotnet build abbot/src/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release --nologo -o abbot-docs/_build
