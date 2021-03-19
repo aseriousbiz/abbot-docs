@@ -1,7 +1,31 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    color: #383838 !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    font-family: "Roboto","-apple-system","Segoe UI","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
 a {
     color: #3273dc;
     cursor: pointer;
     text-decoration: none;
+}
+
+.abbot-logo {
+    line-height: 3.3em;
+    margin-right: 1em;
+}
+
+.tabGroup section[role="tabpanel"][data-tab="tabid-cs"],
+.tabGroup section[role="tabpanel"][data-tab="tabid-js"],
+.tabGroup section[role="tabpanel"][data-tab="tabid-py"] {
+    padding: 0 15px 15px 15px !important;
+    margin-bottom: 15px !important;
 }
 
 .is-size-7 {
