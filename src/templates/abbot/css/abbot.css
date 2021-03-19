@@ -17,8 +17,25 @@ a {
 }
 
 .abbot-logo {
-    line-height: 3.3em;
     margin-right: 1em;
+}
+
+.abbot-logo svg {
+    height: 50px;
+}
+
+.abbot-logo span {
+    color: #9d9d9d;
+    font-family: 'Bungee Hairline',"-apple-system","Segoe UI","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 1.4em;
+    font-weight: 900;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 50px;
+}
+
+.abbot-logo:hover span {
+    color: #fff !important;
 }
 
 .tabGroup section[role="tabpanel"][data-tab="tabid-cs"],
