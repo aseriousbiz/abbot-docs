@@ -9,7 +9,7 @@
       </span>
         <ul class="is-horizontal">
           <li>
-              <a href="https://ab.bot/"><img src="templates/abbot/img/abbot-avatar-small.png" width="24" alt="Abbot robot logo"></a>
+              <a href="https://ab.bot/"><img src="{{_rel}}templates/abbot/img/abbot-avatar-small.png" width="24" alt="Abbot robot logo"></a>
               <span class="has-text-grey">© A Serious Business, Inc.</span>
           </li>
           <li><a href="https://ab.bot/about/policy/terms">Terms</a></li>
