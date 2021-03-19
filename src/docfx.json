@@ -50,8 +50,11 @@
       {
         "files": [
           "images/**",
-          "templates/abbot/*.svg",
-          "templates/abbot/*.ico",
+          "templates/abbot/**.css",
+          "templates/abbot/**.js",
+          "templates/abbot/**.svg",
+          "templates/abbot/**.ico",
+          "templates/abbot/**.png",
           "CNAME"
         ]
       }
