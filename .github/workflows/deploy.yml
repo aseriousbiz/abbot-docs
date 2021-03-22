@@ -71,7 +71,7 @@ jobs:
       
     - name: Build JS docs
       working-directory: abbot-js/src
-      run: ls -l && node abbot-js/src/node_modules/node2docfx/node2docfx.js abbot-js/src/node2docfx.json
+      run: node node_modules/node2docfx/node2docfx.js node2docfx.json
     
     - name: Copy JS docs
       run: cp -R abbot-js/src/out abbot-docs/src/reference/javascript
