@@ -50,6 +50,21 @@ jobs:
 
     - name: Copy Python Docs
       run: cp -R abbot-py-docs/_build/html/docfx_yaml/ abbot-docs/src/reference/python
+    
+    - name: Checkout aseriousbiz/abbot-js
+      uses: actions/checkout@v2
+      with:
+        repository: aseriousbiz/abbot-js
+        ref: main
+        token: ${{ secrets.GH_PAT }}
+        fetch-depth: 1
+        path: abbot-js
+
+    - name: Build JS docs
+      run: node abbot-js/src/node_modules/node2docfx/node2docfx.js abbot-js/src/node2docfx.json
+    
+    - name: Copy JS docs
+      run: cp -R abbot-js/src/out abbot-docs/src/reference/javascript
 
     - uses: nikeee/docfx-action@v1.0.0
       name: Build Documentation
