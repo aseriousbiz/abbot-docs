@@ -4,4 +4,4 @@ Every skill receives a Bot object with a set of properties and methods. The set 
 
 * [C# Bot Reference](csharp/index.md)
 * [Python Bot Reference](python/index.yml)
-* JavaScript Bot Reference _coming soon!_
+* [JavaScript Bot Reference](javascript/index.yml)
