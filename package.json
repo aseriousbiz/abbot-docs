@@ -5,7 +5,9 @@
   "main": "index.js",
   "watch": {
     "serve": {
-      "patterns": ["src"],
+      "patterns": [
+        "src"
+      ],
       "extensions": "yml,md,json,partial,tmpl,css",
       "quiet": true,
       "legacyWatch": true,
@@ -25,6 +27,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsdoc": "^3.6.6",
+    "node2docfx": "^1.0.45",
     "npm-watch": "^0.9.0"
   }
 }
