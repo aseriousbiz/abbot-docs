@@ -51,6 +51,11 @@ jobs:
     - name: Copy Python Docs
       run: cp -R abbot-py-docs/_build/html/docfx_yaml/ abbot-docs/src/reference/python
     
+    - name: Set up Node
+      uses: actions/setup-node@v1
+      with: 
+        node-version: '12.x'        
+    
     - name: Checkout aseriousbiz/abbot-js
       uses: actions/checkout@v2
       with:
@@ -60,6 +65,9 @@ jobs:
         fetch-depth: 1
         path: abbot-js
 
+    - name: Install JS dependencies
+      run: npm install
+      
     - name: Build JS docs
       run: node node_modules/node2docfx/node2docfx.js abbot-js/src/node2docfx.json
     
