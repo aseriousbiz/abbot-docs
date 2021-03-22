@@ -33,6 +33,12 @@
       },
       {
         "files": [
+          "reference/javascript/**.yml",
+          "reference/javascript/**.md"
+        ]
+      },
+      {
+        "files": [
           "reference/*.md",
           "reference/toc.yml"
         ]
