@@ -66,14 +66,14 @@ jobs:
         path: abbot-js
 
     - name: Install JS dependencies
-      working-directory: abbot-js
+      working-directory: abbot-js/src
       run: npm install
       
     - name: DEBUG -- Get directory listing
       run: ls -l && pwd
       
     - name: Build JS docs
-      working-directory: abbot-js
+      working-directory: abbot-js/src
       run: node node_modules/node2docfx/node2docfx.js abbot-js/src/node2docfx.json
     
     - name: Copy JS docs
