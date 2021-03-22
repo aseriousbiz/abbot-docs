@@ -64,6 +64,9 @@ jobs:
         token: ${{ secrets.GH_PAT }}
         fetch-depth: 1
         path: abbot-js
+    
+    - name: DEBUG -- Get directory listing
+      run: ls -l && pwd
 
     - name: Install JS dependencies
       run: npm install
