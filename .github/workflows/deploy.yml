@@ -69,19 +69,12 @@ jobs:
       working-directory: abbot-js/src
       run: npm install
       
-    - name: DEBUG -- Get directory listing
-      run: ls -l && pwd
-      
     - name: Build JS docs
       working-directory: abbot-js/src
-      run: node node_modules/node2docfx/node2docfx.js abbot-js/src/node2docfx.json
+      run: ls -l && node abbot-js/src/node_modules/node2docfx/node2docfx.js abbot-js/src/node2docfx.json
     
     - name: Copy JS docs
-      working-directory: ../
       run: cp -R abbot-js/src/out abbot-docs/src/reference/javascript
-
-    - name: DEBUG -- Get directory listing 2
-      run: ls -l && pwd
 
     - uses: nikeee/docfx-action@v1.0.0
       name: Build Documentation
