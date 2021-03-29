@@ -49,7 +49,7 @@ jobs:
         path: abbot-py-docs
 
     - name: Copy Python Docs
-      run: cp -R abbot-py-docs/_build/html/docfx_yaml/ abbot-docs/src/reference/python
+      run: cp -R abbot-py-docs/_build/html/docfx_yaml/ abbot-docs/src/reference/python && cp abbot-py-docs/_static/toc.yml abbot-docs/src/reference/python
     
     - name: Set up Node
       uses: actions/setup-node@v1
