@@ -89,7 +89,8 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/abbot"
+      "templates/abbot",
+      "templates/abbot/partials"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
