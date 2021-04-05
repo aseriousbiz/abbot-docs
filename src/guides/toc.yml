@@ -4,6 +4,8 @@
   href: hello-world/index.md
 - name: Triggering Skills from outside of Chat
   href: triggers/index.md
+- name: Managing Secrets
+  href: managing-secrets/index.md
 - name: Parsing Arguments in C#
   href: parsing-arguments-c-sharp/index.md
 - name: List Skills
