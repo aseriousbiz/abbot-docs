@@ -1,6 +1,6 @@
 # Abbot Docs
 
-This site hosts Abbot end-user documentation.
+This site hosts Abbot's end-user documentation.
 
 ## Local Setup
 
