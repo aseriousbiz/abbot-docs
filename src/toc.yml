@@ -4,3 +4,5 @@
 - name: Bot Reference
   href: reference/
   homepage: reference/index.md
+- name: Release Notes
+  href: https://ab.bot/about/release-notes/
