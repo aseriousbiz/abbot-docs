@@ -41,16 +41,20 @@ Custom dependencies will be available later in a paid version of Abbot.
 
 #### Preloaded JavaScript libraries
 
-* Lodash 4.17.19
-* Axios 0.19.2
+* lodash 4.17.19
+* axios 0.19.2
+* passport 0.4.1
+* passport-auth 1.0.0
 
 #### Preloaded Python libraries
 
-* Requests 2.24.0
-* Pandas 1.0.5
-* Numpy 1.19.4
+* requests 2.24.0
+* requests-oauth 1.3.0
+* pandas 1.0.5
+* numpy 1.19.4
 * BeautifulSoup 4.9.3
-* Soupsieve 2.0.1
+* soupsieve 2.0.1
+* jsonpickle 2.0.0
 
 ### I'm experiencing an issue, and would like to report it!
 
