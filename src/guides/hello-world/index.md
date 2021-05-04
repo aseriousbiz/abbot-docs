@@ -205,7 +205,7 @@ We've written enough code that it may make sense to start testing if everything 
 @Abbot shoppinglist remove sauce
 ```
 
-Assuming everything has been entered correctly, Abbot should return some of the debug statements we entered earlier back into the command window. If there are any errors, the editor screen should be able to highlight them for you. In the rare case that the skill isn't working, and the editor isn't showing any errors, take a look at the JavaScript console. Please let us know if there are any errors here by emailing help@aseriousbusiness.com. We will take a look as soon as we can!
+Assuming everything has been entered correctly, Abbot should return some of the debug statements we entered earlier back into the command window. If there are any errors, the editor screen should be able to highlight them for you. In the rare case that the skill isn't working, and the editor isn't showing any errors, take a look at the JavaScript console. Please let us know if there are any errors here by emailing help@ab.bot. We will take a look as soon as we can!
 
 ### Data Persistence
 

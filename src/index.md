@@ -1,6 +1,6 @@
 # Help
 
-If you're having a bot emergency, contact us at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com). You can also join us in [Discord](https://discord.gg/FN4t8NNdQG). We work in Pacific Time and are in there consistently most days.
+If you're having a bot emergency, contact us at [help@ab.bot](mailto:help@ab.bot). You can also join us in [Discord](https://discord.gg/FN4t8NNdQG). We work in Pacific Time and are in there consistently most days.
 
 ## Check out our latest video
 
@@ -30,7 +30,7 @@ There is a Secret management system built in to Abbot. This allows your script t
 ### What Libraries are available in my skills?
 
 We provide a set of pre-installed libraries for you to use in your skills.
-Custom dependencies will be available later in a paid version of Abbot. If you need a dependency for your skill that isn't listed here, please reach out to us at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com) with some information about the dependency you'd like for us to add.
+Custom dependencies will be available later in a paid version of Abbot. If you need a dependency for your skill that isn't listed here, please reach out to us at [help@ab.bot](mailto:help@ab.bot) with some information about the dependency you'd like for us to add.
 
 #### Preloaded C# libraries
 
@@ -62,4 +62,4 @@ Custom dependencies will be available later in a paid version of Abbot. If you n
 
 ### I'm experiencing an issue, and would like to report it!
 
-First, we're sorry that you're running into issues. Please take a look at our list of [known issues](xref:known-issues) to make sure we're not already aware of it. If not, please drop us a line at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com) or send us feedback directly using `@abbot feedback` from chat or the Bot Console.
+First, we're sorry that you're running into issues. Please take a look at our list of [known issues](xref:known-issues) to make sure we're not already aware of it. If not, please drop us a line at [help@ab.bot](mailto:help@ab.bot) or send us feedback directly using `@abbot feedback` from chat or the Bot Console.
