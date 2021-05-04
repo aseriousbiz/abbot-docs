@@ -30,7 +30,7 @@ There is a Secret management system built in to Abbot. This allows your script t
 ### What Libraries are available in my skills?
 
 We provide a set of pre-installed libraries for you to use in your skills.
-Custom dependencies will be available later in a paid version of Abbot.
+Custom dependencies will be available later in a paid version of Abbot. If you need a dependency for your skill that isn't listed here, please reach out to us at [help@aseriousbusiness.com](mailto:help@aseriousbusiness.com) with some information about the dependency you'd like for us to add.
 
 #### Preloaded C# libraries
 
@@ -39,22 +39,26 @@ Custom dependencies will be available later in a paid version of Abbot.
 * NewtonSoft.Json 12.0.3
 * HtmlAgilityPack 1.11.28
 
-#### Preloaded JavaScript libraries
+#### Available JavaScript libraries
 
 * lodash 4.17.19
 * axios 0.19.2
 * passport 0.4.1
 * passport-auth 1.0.0
 
-#### Preloaded Python libraries
+#### Available Python libraries
 
-* requests 2.24.0
-* requests-oauth 1.3.0
-* pandas 1.0.5
-* numpy 1.19.4
+* arrow 1.1.0
 * BeautifulSoup 4.9.3
-* soupsieve 2.0.1
+* boto3 1.17.64
 * jsonpickle 2.0.0
+* numpy 1.19.4
+* octokit.py 0.15.0
+* pandas 1.0.5
+* requests 2.25.1
+* requests-oauth 1.3.0
+* soupsieve 2.0.1
+
 
 ### I'm experiencing an issue, and would like to report it!
 
