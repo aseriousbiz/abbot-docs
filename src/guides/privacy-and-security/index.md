@@ -18,7 +18,7 @@ Staff have the ability to review Activity Log entries. This is both to help us i
 
 ## How secrets are stored
 
-Skill secrets are kept in Azure Key Vault. We have no way to directly view your secrets, but be aware that users with edit access to your skills may read a secret and then change a skill to cause Abbot to return a secret (in the console, or otherwise). If you have skills where this may be an issue, we suggest using Access Controls to lock the skill down to only trusted users. Another alternative is to use ProxyLinks to encode sensitive endpoint data. A ProxyLink can be created in one skill and reused in another, so it's possible to have a skill that only admins can view which contains ProxyLinks for other skils to consume.
+Skill secrets are kept in Azure Key Vault. It is not possible to view the values of a secret from the website. Secret values may only be updated or deleted. Be aware that users with edit access to your skills may read a secret in the skill code to cause Abbot to return a secret (in the console, or otherwise). If you have skills where this may be an issue, we suggest using Access Controls to lock the skill down to only trusted users. Another alternative is to use ProxyLinks to encode sensitive endpoint data. A ProxyLink can be created in one skill and reused in another, so it's possible to have a skill that only admins can view which contains ProxyLinks for other skils to consume.
 
 ## Our commitment to privacy
 
