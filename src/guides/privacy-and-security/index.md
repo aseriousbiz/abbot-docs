@@ -6,15 +6,15 @@ uid: privacy-and-security
 
 ## What can Abbot see?
 
-We request the minimum set of permissions required to allow Abbot to work in your chat room. Abbot can only respond to messages where it is directly mentioned, or to direct messages in platforms that support direct messaging. With the exception of some special built-in skills, Abbot skills always require Abbot to be mentioned first, followed by the skill name, followed by any parameters passed to the skill.
+We request the minimum set of permissions required to allow Abbot to work in your chat room. Abbot can only respond to messages where it is directly mentioned, or to direct messages in platforms that support direct messaging. With the exception of some special built-in skills, Abbot skills always require Abbot to be mentioned first, followed by the skill name, followed by any arguments passed to the skill.
 
 Abbot is not able to proactively message any user. Abbot can only respond in rooms where it's been invited, and only after it's been triggered at least once. Users can trigger Abbot by calling a skill, or attaching a trigger of any kind.
 
-Any message that Abbot responds to is logged, and available in the Audit Log. We try to only show pertinent information in the logs, but be aware that messages sent via Direct Message can be viewed in the audit log.
+Any message that Abbot responds to is logged, and available in the Activity Log. We try to only show pertinent information in the logs, but be aware that messages sent via Direct Message to Abbot can be viewed in the Activity Log.
 
 ## What can A Serious Business see?
 
-Staff have the ability to review audit log entries. This is both to help us identify issues and help users troubleshoot problems. We are able to view skill code if requested by our users, but any time we view sensitive data (like code), it's logged and will show up in your audit log (it will say something like `(STAFF) Paul viewed code for foo-bar`). We are happy to show you what this looks like if you are curious. Email us at [help@ab.bot](help@ab.bot) and we can help you out.
+Staff have the ability to review Activity Log entries. This is both to help us identify issues and help users troubleshoot problems. We are able to view skill code if requested by our users, but any time we view sensitive data (like code), it's logged and will show up in your audit log (it will say something like `(STAFF) Paul viewed code for foo-bar`). We are happy to show you what this looks like if you are curious. Email us at [help@ab.bot](help@ab.bot) and we can help you out.
 
 ## How secrets are stored
 
