@@ -43,6 +43,6 @@ To use the skill, simply say `@abbot 8ball` in any channel where Abbot has been 
 
 You can remove items from Abbot's brain with `@abbot 8ball remove` and providing the full text of the item to remove.
 
-You can always get more help from Abbot in chat by asking for it with `@abbot help list`.
+You can always get more help from Abbot in chat by asking for it with `@abbot help custom-list`.
 
 Note that you can store both text and image links in Abbot lists. Image links will be treated as they are any time they're pasted into chat (which usually means the image will be displayed). So, get your favorite collections of gifs together and have fun making some list skills for you and your team!
