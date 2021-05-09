@@ -2,6 +2,8 @@
   href: index.md
 - name: Hello World
   href: hello-world/index.md
+- name: Built-in Skills (things every Abbot can do!)
+  href: built-in-skills/index.md
 - name: Triggering Skills from outside of Chat
   href: triggers/index.md
 - name: Managing Secrets
