@@ -80,7 +80,7 @@ if (!bot.isInteraction) {
     bot.replyWithButtons("Please choose a color.", buttons);
 }
 else {
-    // Bot.IsInteraction is true
+    // bot.isInteraction is true
     bot.reply(`You chose ${bot.tokenizedArguments[0]}`);
 }
 ```
@@ -93,7 +93,7 @@ if not bot.is_interaction:
     buttons = [Button("Red"), Button("Blue"), Button("Green")]
     bot.reply_with_buttons("Please choose a color", buttons)
 else:
-    # bot.is_interaction is False
+    # bot.is_interaction is True
     bot.reply("You chose {}".format(bot.tokenized_arguments[0]))
 ```
 
@@ -132,7 +132,7 @@ if (!bot.isInteraction) {
     bot.replyWithButtons("Please choose a color.", buttons);
 }
 else {
-    // Bot.IsInteraction is true
+    // bot.isInteraction is true
     bot.reply(`You chose ${bot.tokenizedArguments[1]}`);
 }
 ```
@@ -149,7 +149,7 @@ if not bot.is_interaction:
     ]
     bot.reply_with_buttons("Please choose a color", buttons)
 else:
-    # bot.is_interaction false
+    # bot.is_interaction is True
     bot.reply("You chose {}".format(bot.tokenized_arguments[1]))
 ```
 
@@ -201,7 +201,7 @@ if (!bot.isInteraction) {
         "#660000");
 }
 else {
-    // Bot.IsInteraction is true
+    // bot.isInteraction is true
     bot.reply(`You chose ${bot.tokenizedArguments[1]}`);
 }
 ```
@@ -223,7 +223,7 @@ if not bot.is_interaction:
         "The big choice",
         "#660000")
 else:
-    # bot.is_interaction false
+    # bot.is_interaction is True
     bot.reply("You chose {}".format(bot.tokenized_arguments[1]))
 ```
 
