@@ -155,7 +155,7 @@ else:
 
 ***
 
-Note that in this example, because the value has two words, I needed to grab the second tokenized argument.
+Note that in this example, because the value has two words, we need to grab the second tokenized argument.
 
 ## Hero Cards
 
