@@ -89,7 +89,7 @@ if not bot.is_interaction:
     buttons = [Button("Red"), Button("Blue"), Button("Green")]
     bot.reply_with_buttons("Please choose a color", buttons)
 else:
-    # bot.is_interaction false
+    # bot.is_interaction is False
     bot.reply("You chose {}".format(bot.tokenized_arguments[0]))
 ```
 
