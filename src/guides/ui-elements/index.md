@@ -227,4 +227,4 @@ else:
     bot.reply("You chose {}".format(bot.tokenized_arguments[1]))
 ```
 
-Note that the final color parameter is slack only. It's ignored by Teams.
+Note that the final color parameter is Slack only. It's ignored by Teams.
