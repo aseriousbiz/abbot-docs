@@ -26,14 +26,12 @@ await Bot.ReplyWithButtonsAsync("Please choose a color.", buttons);
 # [JavaScript](#tab/tabid-js)
 
 ```javascript
-module.exports = (async () => { // We modularize your code in order to run it.
-    var buttons = new[] {
-        new Button("Red"),
-        new Button("Blue"),
-        new Button("Green")
-    };
-    bot.replyWithButtons("Please choose a color.", buttons);
-})(); // Thanks for building with Abbot!
+var buttons = new[] {
+    new Button("Red"),
+    new Button("Blue"),
+    new Button("Green")
+};
+bot.replyWithButtons("Please choose a color.", buttons);
 ```
 
 # [Python](#tab/tabid-py)
@@ -69,20 +67,18 @@ else {
 # [JavaScript](#tab/tabid-js)
 
 ```javascript
-module.exports = (async () => { // We modularize your code in order to run it.
-    if (!bot.isInteraction) {
-        var buttons = [
-            new Button("Red"),
-            new Button("Blue"),
-            new Button("Green")
-        ];
-        bot.replyWithButtons("Please choose a color.", buttons);
-    }
-    else {
-        // Bot.IsInteraction is true
-        bot.reply(`You chose ${bot.tokenizedArguments[0]}`);
-    }
-})(); // Thanks for building with Abbot!
+if (!bot.isInteraction) {
+    var buttons = [
+        new Button("Red"),
+        new Button("Blue"),
+        new Button("Green")
+    ];
+    bot.replyWithButtons("Please choose a color.", buttons);
+}
+else {
+    // Bot.IsInteraction is true
+    bot.reply(`You chose ${bot.tokenizedArguments[0]}`);
+}
 ```
 
 
@@ -123,20 +119,18 @@ else {
 # [JavaScript](#tab/tabid-js)
 
 ```javascript
-module.exports = (async () => { // We modularize your code in order to run it.
-    if (!bot.isInteraction) {
-        var buttons = [
-            new Button("Red", "pick red", 'primary'),
-            new Button("Blue", "pick blue"),
-            new Button("Green", "pick green")
-        ];
-        bot.replyWithButtons("Please choose a color.", buttons);
-    }
-    else {
-        // Bot.IsInteraction is true
-        bot.reply(`You chose ${bot.tokenizedArguments[1]}`);
-    }
-})(); // Thanks for building with Abbot!
+if (!bot.isInteraction) {
+    var buttons = [
+        new Button("Red", "pick red", 'primary'),
+        new Button("Blue", "pick blue"),
+        new Button("Green", "pick green")
+    ];
+    bot.replyWithButtons("Please choose a color.", buttons);
+}
+else {
+    // Bot.IsInteraction is true
+    bot.reply(`You chose ${bot.tokenizedArguments[1]}`);
+}
 ```
 
 
@@ -189,25 +183,23 @@ else {
 # [JavaScript](#tab/tabid-js)
 
 ```javascript
-module.exports = (async () => { // We modularize your code in order to run it.
-    if (!bot.isInteraction) {
-        var buttons = [
-            new Button("Red", "pick red", 'primary'),
-            new Button("Blue", "pick blue"),
-            new Button("Green", "pick green")
-        ];
-        bot.replyWithButtons("Please choose a color.",
-            buttons,
-            "Pick one",
-            "https://ab.bot/img/abbot-full-wave.png",
-            "The big choice",
-            "#660000");
-    }
-    else {
-        // Bot.IsInteraction is true
-        bot.reply(`You chose ${bot.tokenizedArguments[1]}`);
-    }
-})(); // Thanks for building with Abbot!
+if (!bot.isInteraction) {
+    var buttons = [
+        new Button("Red", "pick red", 'primary'),
+        new Button("Blue", "pick blue"),
+        new Button("Green", "pick green")
+    ];
+    bot.replyWithButtons("Please choose a color.",
+        buttons,
+        "Pick one",
+        "https://ab.bot/img/abbot-full-wave.png",
+        "The big choice",
+        "#660000");
+}
+else {
+    // Bot.IsInteraction is true
+    bot.reply(`You chose ${bot.tokenizedArguments[1]}`);
+}
 ```
 
 
