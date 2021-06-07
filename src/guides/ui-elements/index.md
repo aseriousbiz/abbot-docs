@@ -4,7 +4,7 @@ uid: ui-elements
 
 # User Interface Elements
 
-Abbot supports a limited set of UI elements that can be leveraged in a skill. Unfortunately, these elements only work for Slack and Teams. Discord doesn't yet support UI elements. We may have a workaround for that in the future, but for now, this is the way it is.
+Abbot supports a limited set of UI elements that can be leveraged in a skill. Discord doesn't support UI elements yet, so these elements only work in Slack and Teams. We may have a workaround for that in the future, but for now, this is the way it is.
 
 Over time, Abbot will add support for more and more elements.
 
