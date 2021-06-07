@@ -45,7 +45,11 @@ bot.reply_with_buttons("Please choose a color", buttons)
 
 When you run this skill, you should see a set of three buttons. So far, so good. But presenting a set of buttons isn't all that useful by itself. It's important to be able to respond to button clicks.
 
-When the user clicks a button, the same skill is called with the value of the button. There's also a new `Bot.IsInteraction` (C#), `bot.is_interaction` (Python), `bot.isInteraction` (JavaScript) property that indicates whether or not the incoming message is the result of clicking on a button. Let's put these together.
+When the user clicks a button, the skill is called with a set of predefined arguments. The predefined arguments are specified by the `value` of the clicked button. For example, if a button has a value `property 123`, then when someone clicks that button, the skill is called with two arguments, `property` and `123`.
+
+But what if somebody calls the skill from chat with the arguments `property 123`? Is there a way to distinguish that from the user clicking the button with the value `property 123`?
+
+Yes there is. To distinguish between the user typing arguments vs clicking a button, there's a `Bot.IsInteraction` (C#), `bot.is_interaction` (Python), `bot.isInteraction` (JavaScript) property. This property indicates whether or not the incoming message is the result of clicking a button. Let's put these together to see how it works.
 
 # [C#](#tab/tabid-cs)
 
