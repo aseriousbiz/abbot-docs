@@ -30,7 +30,7 @@ if (bot.arguments.startsWith('add') {
 }
 ```
 
-This can get complicated quickly! Instead, Abbot makes it very easy to create skills like this on your own, from inside of chat. To create a new list skill in chat, say `@abbot custom-list add <the name of your list skill>`. In this case, try `@abbot custom-list add 8ball` (don't worry, list skills don't count as custom skills -- make as many of these as you'd like!).
+This can get complicated quickly! Instead, Abbot makes it very easy to create skills like this on your own, from inside of chat. To create a new list skill in chat, say `@abbot list add <the name of your list skill>`. In this case, try `@abbot list add 8ball` (don't worry, list skills don't count as custom skills -- make as many of these as you'd like!).
 
 Once Abbot creates the list skill, you can add options with `@abbot 8ball add ...`, like this:
 
@@ -43,6 +43,6 @@ To use the skill, simply say `@abbot 8ball` in any channel where Abbot has been 
 
 You can remove items from Abbot's brain with `@abbot 8ball remove` and providing the full text of the item to remove.
 
-You can always get more help from Abbot in chat by asking for it with `@abbot help custom-list`.
+You can always get more help from Abbot in chat by asking for it with `@abbot help list`.
 
 Note that you can store both text and image links in Abbot lists. Image links will be treated as they are any time they're pasted into chat (which usually means the image will be displayed). So, get your favorite collections of gifs together and have fun making some list skills for you and your team!
