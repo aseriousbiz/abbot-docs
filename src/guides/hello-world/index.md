@@ -134,13 +134,13 @@ var (command, argument) = Bot.Arguments;
 
 switch (command.Value) {
     case "add":
-        Add(argument.Value);
+        await Add(argument.Value);
         break;
     case "remove":
-        Remove(argument.Value);
+        await Remove(argument.Value);
         break;
     case "show":
-        Show();
+        await Show();
         break;
     default:
         await Bot.ReplyAsync("I don't know what to do!");
