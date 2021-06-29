@@ -38,6 +38,9 @@ Custom dependencies will be available later in a paid version of Abbot. If you n
 * NodaTime 3.0.3
 * NewtonSoft.Json 12.0.3
 * HtmlAgilityPack 1.11.28
+* Dapper 2.0.90
+* MysqlConnector 1.3.10
+* Npgsql 5.0.7
 
 #### Available JavaScript libraries
 
@@ -45,6 +48,9 @@ Custom dependencies will be available later in a paid version of Abbot. If you n
 * axios 0.19.2
 * passport 0.4.1
 * passport-auth 1.0.0
+* knex 0.95.6
+* mysql 2.18.1
+* pg 8.6.0
 
 #### Available Python libraries
 
@@ -54,10 +60,13 @@ Custom dependencies will be available later in a paid version of Abbot. If you n
 * jsonpickle 2.0.0
 * numpy 1.19.4
 * octokit.py 0.15.0
+* mysql-connector-python 8.0.25
 * pandas 1.0.5
+* psycopg2 2.9.1
 * requests 2.25.1
 * requests-oauth 1.3.0
 * soupsieve 2.0.1
+* SQLAlchemy 1.4.19
 
 
 ### I'm experiencing an issue, and would like to report it!
