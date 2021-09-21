@@ -46,6 +46,7 @@ Custom dependencies will be available later in a paid version of Abbot. If you n
 
 * lodash 4.17.19
 * axios 0.19.2
+* node-fetch 2.6.1
 * passport 0.4.1
 * passport-auth 1.0.0
 * knex 0.95.6
