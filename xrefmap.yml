@@ -1,0 +1,2897 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Abbot-JS
+  name: Abbot-JS
+  href: reference/javascript/index.html
+- uid: Abbot-JS.Argument
+  name: Argument
+  href: reference/javascript/Argument.html#Abbot_JS_Argument
+  fullName: Abbot-JS.Argument
+- uid: Abbot-JS.Argument.#ctor
+  name: Argument(value, originalText)
+  href: reference/javascript/Argument.html#Abbot_JS_Argument__ctor
+  fullName: Abbot-JS.Argument.Argument(value, originalText)
+- uid: Abbot-JS.Bot
+  name: Bot
+  href: reference/javascript/Bot.html#Abbot_JS_Bot
+  fullName: Abbot-JS.Bot
+- uid: Abbot-JS.Bot#arguments
+  name: arguments
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_arguments
+  fullName: Abbot-JS.Bot.arguments
+- uid: Abbot-JS.Bot#from
+  name: from
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_from
+  fullName: Abbot-JS.Bot.from
+- uid: Abbot-JS.Bot#isChat
+  name: isChat
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_isChat
+  fullName: Abbot-JS.Bot.isChat
+- uid: Abbot-JS.Bot#isInteraction
+  name: isInteraction
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_isInteraction
+  fullName: Abbot-JS.Bot.isInteraction
+- uid: Abbot-JS.Bot#isRequest
+  name: isRequest
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_isRequest
+  fullName: Abbot-JS.Bot.isRequest
+- uid: Abbot-JS.Bot#mentions
+  name: mentions
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_mentions
+  fullName: Abbot-JS.Bot.mentions
+- uid: Abbot-JS.Bot#platformId
+  name: platformId
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_platformId
+  fullName: Abbot-JS.Bot.platformId
+- uid: Abbot-JS.Bot#platformType
+  name: platformType
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_platformType
+  fullName: Abbot-JS.Bot.platformType
+- uid: Abbot-JS.Bot#reply
+  name: reply(message, directMessage)
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_reply
+  fullName: Abbot-JS.Bot.reply(message, directMessage)
+- uid: Abbot-JS.Bot#replyLater
+  name: replyLater(message, delay_in_seconds)
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_replyLater
+  fullName: Abbot-JS.Bot.replyLater(message, delay_in_seconds)
+- uid: Abbot-JS.Bot#replyWithButtons
+  name: replyWithButtons(message, buttons, buttonsLabel, imageUrl, title, color)
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_replyWithButtons
+  fullName: Abbot-JS.Bot.replyWithButtons(message, buttons, buttonsLabel, imageUrl, title, color)
+- uid: Abbot-JS.Bot#replyWithImage
+  name: replyWithImage(image, message, title, titleUrl, color)
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_replyWithImage
+  fullName: Abbot-JS.Bot.replyWithImage(image, message, title, titleUrl, color)
+- uid: Abbot-JS.Bot#request
+  name: request
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_request
+  fullName: Abbot-JS.Bot.request
+- uid: Abbot-JS.Bot#room
+  name: room
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_room
+  fullName: Abbot-JS.Bot.room
+- uid: Abbot-JS.Bot#skillName
+  name: skillName
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_skillName
+  fullName: Abbot-JS.Bot.skillName
+- uid: Abbot-JS.Bot#skillUrl
+  name: skillUrl
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_skillUrl
+  fullName: Abbot-JS.Bot.skillUrl
+- uid: Abbot-JS.Bot#userName
+  name: userName
+  href: reference/javascript/Bot.html#Abbot_JS_Bot_userName
+  fullName: Abbot-JS.Bot.userName
+- uid: Abbot-JS.Bot.#ctor
+  name: Bot()
+  href: reference/javascript/Bot.html#Abbot_JS_Bot__ctor
+  fullName: Abbot-JS.Bot.Bot()
+- uid: Abbot-JS.Brain
+  name: Brain
+  href: reference/javascript/Brain.html#Abbot_JS_Brain
+  fullName: Abbot-JS.Brain
+- uid: Abbot-JS.Brain#delete
+  name: delete(key)
+  href: reference/javascript/Brain.html#Abbot_JS_Brain_delete
+  fullName: Abbot-JS.Brain.delete(key)
+- uid: Abbot-JS.Brain#get
+  name: get(key)
+  href: reference/javascript/Brain.html#Abbot_JS_Brain_get
+  fullName: Abbot-JS.Brain.get(key)
+- uid: Abbot-JS.Brain#list
+  name: list()
+  href: reference/javascript/Brain.html#Abbot_JS_Brain_list
+  fullName: Abbot-JS.Brain.list()
+- uid: Abbot-JS.Brain#read
+  name: read(key)
+  href: reference/javascript/Brain.html#Abbot_JS_Brain_read
+  fullName: Abbot-JS.Brain.read(key)
+- uid: Abbot-JS.Brain#write
+  name: write(key, value)
+  href: reference/javascript/Brain.html#Abbot_JS_Brain_write
+  fullName: Abbot-JS.Brain.write(key, value)
+- uid: Abbot-JS.Brain.#ctor
+  name: Brain()
+  href: reference/javascript/Brain.html#Abbot_JS_Brain__ctor
+  fullName: Abbot-JS.Brain.Brain()
+- uid: Abbot-JS.Button
+  name: Button
+  href: reference/javascript/Button.html#Abbot_JS_Button
+  fullName: Abbot-JS.Button
+- uid: Abbot-JS.Button#arguments
+  name: arguments
+  href: reference/javascript/Button.html#Abbot_JS_Button_arguments
+  fullName: Abbot-JS.Button.arguments
+- uid: Abbot-JS.Button#style
+  name: style
+  href: reference/javascript/Button.html#Abbot_JS_Button_style
+  fullName: Abbot-JS.Button.style
+- uid: Abbot-JS.Button#title
+  name: title
+  href: reference/javascript/Button.html#Abbot_JS_Button_title
+  fullName: Abbot-JS.Button.title
+- uid: Abbot-JS.Button.#ctor
+  name: Button(title, args)
+  href: reference/javascript/Button.html#Abbot_JS_Button__ctor
+  fullName: Abbot-JS.Button.Button(title, args)
+- uid: Abbot-JS.Coordinate
+  name: Coordinate
+  href: reference/javascript/Coordinate.html#Abbot_JS_Coordinate
+  fullName: Abbot-JS.Coordinate
+- uid: Abbot-JS.Coordinate.#ctor
+  name: Coordinate(latitude, longitude)
+  href: reference/javascript/Coordinate.html#Abbot_JS_Coordinate__ctor
+  fullName: Abbot-JS.Coordinate.Coordinate(latitude, longitude)
+- uid: Abbot-JS.Location
+  name: Location
+  href: reference/javascript/Location.html#Abbot_JS_Location
+  fullName: Abbot-JS.Location
+- uid: Abbot-JS.Location.#ctor
+  name: Location(formattedAddress, coordinate, timeZone)
+  href: reference/javascript/Location.html#Abbot_JS_Location__ctor
+  fullName: Abbot-JS.Location.Location(formattedAddress, coordinate, timeZone)
+- uid: Abbot-JS.MentionArgument
+  name: MentionArgument
+  href: reference/javascript/MentionArgument.html#Abbot_JS_MentionArgument
+  fullName: Abbot-JS.MentionArgument
+- uid: Abbot-JS.MentionArgument.#ctor
+  name: MentionArgument(value, originalText, mentioned)
+  href: reference/javascript/MentionArgument.html#Abbot_JS_MentionArgument__ctor
+  fullName: Abbot-JS.MentionArgument.MentionArgument(value, originalText, mentioned)
+- uid: Abbot-JS.MessageAttachment
+  name: MessageAttachment
+  href: reference/javascript/MessageAttachment.html#Abbot_JS_MessageAttachment
+  fullName: Abbot-JS.MessageAttachment
+- uid: Abbot-JS.MessageAttachment.#ctor
+  name: MessageAttachment(buttons, buttonsLabel, imageUrl, title, titleUrl, color)
+  href: reference/javascript/MessageAttachment.html#Abbot_JS_MessageAttachment__ctor
+  fullName: Abbot-JS.MessageAttachment.MessageAttachment(buttons, buttonsLabel, imageUrl, title, titleUrl, color)
+- uid: Abbot-JS.Request
+  name: Request
+  href: reference/javascript/Request.html#Abbot_JS_Request
+  fullName: Abbot-JS.Request
+- uid: Abbot-JS.Request#form
+  name: form
+  href: reference/javascript/Request.html#Abbot_JS_Request_form
+  fullName: Abbot-JS.Request.form
+- uid: Abbot-JS.Request#headers
+  name: headers
+  href: reference/javascript/Request.html#Abbot_JS_Request_headers
+  fullName: Abbot-JS.Request.headers
+- uid: Abbot-JS.Request#httpMethod
+  name: httpMethod
+  href: reference/javascript/Request.html#Abbot_JS_Request_httpMethod
+  fullName: Abbot-JS.Request.httpMethod
+- uid: Abbot-JS.Request#isForm
+  name: isForm
+  href: reference/javascript/Request.html#Abbot_JS_Request_isForm
+  fullName: Abbot-JS.Request.isForm
+- uid: Abbot-JS.Request#isJson
+  name: isJson
+  href: reference/javascript/Request.html#Abbot_JS_Request_isJson
+  fullName: Abbot-JS.Request.isJson
+- uid: Abbot-JS.Request#query
+  name: query
+  href: reference/javascript/Request.html#Abbot_JS_Request_query
+  fullName: Abbot-JS.Request.query
+- uid: Abbot-JS.Request#rawBody
+  name: rawBody
+  href: reference/javascript/Request.html#Abbot_JS_Request_rawBody
+  fullName: Abbot-JS.Request.rawBody
+- uid: Abbot-JS.Request#url
+  name: url
+  href: reference/javascript/Request.html#Abbot_JS_Request_url
+  fullName: Abbot-JS.Request.url
+- uid: Abbot-JS.Request.#ctor
+  name: Request()
+  href: reference/javascript/Request.html#Abbot_JS_Request__ctor
+  fullName: Abbot-JS.Request.Request()
+- uid: Abbot-JS.Response
+  name: Response
+  href: reference/javascript/Response.html#Abbot_JS_Response
+  fullName: Abbot-JS.Response
+- uid: Abbot-JS.Response.#ctor
+  name: Response(content, contentType)
+  href: reference/javascript/Response.html#Abbot_JS_Response__ctor
+  fullName: Abbot-JS.Response.Response(content, contentType)
+- uid: Abbot-JS.Room
+  name: Room
+  href: reference/javascript/Room.html#Abbot_JS_Room
+  fullName: Abbot-JS.Room
+- uid: Abbot-JS.Room.#ctor
+  name: Room(id, name, cacheKey)
+  href: reference/javascript/Room.html#Abbot_JS_Room__ctor
+  fullName: Abbot-JS.Room.Room(id, name, cacheKey)
+- uid: Abbot-JS.Secrets
+  name: Secrets
+  href: reference/javascript/Secrets.html#Abbot_JS_Secrets
+  fullName: Abbot-JS.Secrets
+- uid: Abbot-JS.Secrets#read
+  name: read(key)
+  href: reference/javascript/Secrets.html#Abbot_JS_Secrets_read
+  fullName: Abbot-JS.Secrets.read(key)
+- uid: Abbot-JS.Secrets.#ctor
+  name: Secrets()
+  href: reference/javascript/Secrets.html#Abbot_JS_Secrets__ctor
+  fullName: Abbot-JS.Secrets.Secrets()
+- uid: Abbot-JS.User
+  name: User
+  href: reference/javascript/User.html#Abbot_JS_User
+  fullName: Abbot-JS.User
+- uid: Abbot-JS.User#email
+  name: email
+  href: reference/javascript/User.html#Abbot_JS_User_email
+  fullName: Abbot-JS.User.email
+- uid: Abbot-JS.User#location
+  name: location
+  href: reference/javascript/User.html#Abbot_JS_User_location
+  fullName: Abbot-JS.User.location
+- uid: Abbot-JS.User#name
+  name: name
+  href: reference/javascript/User.html#Abbot_JS_User_name
+  fullName: Abbot-JS.User.name
+- uid: Abbot-JS.User#timeZone
+  name: timeZone
+  href: reference/javascript/User.html#Abbot_JS_User_timeZone
+  fullName: Abbot-JS.User.timeZone
+- uid: Abbot-JS.User#userName
+  name: userName
+  href: reference/javascript/User.html#Abbot_JS_User_userName
+  fullName: Abbot-JS.User.userName
+- uid: Abbot-JS.User.#ctor
+  name: User()
+  href: reference/javascript/User.html#Abbot_JS_User__ctor
+  fullName: Abbot-JS.User.User()
+- uid: Abbot-JS.Utils
+  name: Utils
+  href: reference/javascript/Utils.html#Abbot_JS_Utils
+  fullName: Abbot-JS.Utils
+- uid: Abbot-JS.Utils#geocode
+  name: geocode(address, includeTimezone)
+  href: reference/javascript/Utils.html#Abbot_JS_Utils_geocode
+  fullName: Abbot-JS.Utils.geocode(address, includeTimezone)
+- uid: Abbot-JS.Utils.#ctor
+  name: Utils()
+  href: reference/javascript/Utils.html#Abbot_JS_Utils__ctor
+  fullName: Abbot-JS.Utils.Utils()
+- uid: bot.bot
+  name: bot
+  href: reference/python/bot.bot.html#bot_bot
+  fullName: bot.bot
+- uid: bot.bot.Argument
+  name: Argument
+  href: reference/python/bot.bot.Argument.html#bot_bot_Argument
+  fullName: bot.bot.Argument
+- uid: bot.bot.Bot
+  name: Bot
+  href: reference/python/bot.bot.Bot.html#bot_bot_Bot
+  fullName: bot.bot.Bot
+- uid: bot.bot.Bot.reply
+  name: reply(response)
+  href: reference/python/bot.bot.Bot.html#bot_bot_Bot_reply
+  fullName: bot.bot.Bot.reply
+- uid: bot.bot.Bot.reply_later
+  name: reply_later(response, delay_in_seconds)
+  href: reference/python/bot.bot.Bot.html#bot_bot_Bot_reply_later
+  fullName: bot.bot.Bot.reply_later
+- uid: bot.bot.Bot.reply_with_buttons
+  name: reply_with_buttons(response, buttons, buttons_label=None, image_url=None, title=None, color=None)
+  href: reference/python/bot.bot.Bot.html#bot_bot_Bot_reply_with_buttons
+  fullName: bot.bot.Bot.reply_with_buttons
+- uid: bot.bot.Bot.reply_with_image
+  name: reply_with_image(image, response=None, title=None, title_url=None, color=None)
+  href: reference/python/bot.bot.Bot.html#bot_bot_Bot_reply_with_image
+  fullName: bot.bot.Bot.reply_with_image
+- uid: bot.bot.Button
+  name: Button
+  href: reference/python/bot.bot.Button.html#bot_bot_Button
+  fullName: bot.bot.Button
+- uid: bot.bot.Coordinate
+  name: Coordinate
+  href: reference/python/bot.bot.Coordinate.html#bot_bot_Coordinate
+  fullName: bot.bot.Coordinate
+- uid: bot.bot.Location
+  name: Location
+  href: reference/python/bot.bot.Location.html#bot_bot_Location
+  fullName: bot.bot.Location
+- uid: bot.bot.Mention
+  name: Mention
+  href: reference/python/bot.bot.Mention.html#bot_bot_Mention
+  fullName: bot.bot.Mention
+- uid: bot.bot.MentionArgument
+  name: MentionArgument
+  href: reference/python/bot.bot.MentionArgument.html#bot_bot_MentionArgument
+  fullName: bot.bot.MentionArgument
+- uid: bot.bot.TimeZone
+  name: TimeZone
+  href: reference/python/bot.bot.TimeZone.html#bot_bot_TimeZone
+  fullName: bot.bot.TimeZone
+- uid: bot.bot.TriggerEvent
+  name: TriggerEvent
+  href: reference/python/bot.bot.TriggerEvent.html#bot_bot_TriggerEvent
+  fullName: bot.bot.TriggerEvent
+- uid: bot.bot.TriggerResponse
+  name: TriggerResponse
+  href: reference/python/bot.bot.TriggerResponse.html#bot_bot_TriggerResponse
+  fullName: bot.bot.TriggerResponse
+- uid: bot.secrets
+  name: secrets
+  href: reference/python/bot.secrets.html#bot_secrets
+  fullName: bot.secrets
+- uid: bot.secrets.Secrets
+  name: Secrets
+  href: reference/python/bot.secrets.Secrets.html#bot_secrets_Secrets
+  fullName: bot.secrets.Secrets
+- uid: bot.secrets.Secrets.read
+  name: read(key)
+  href: reference/python/bot.secrets.Secrets.html#bot_secrets_Secrets_read
+  fullName: bot.secrets.Secrets.read
+- uid: bot.storage
+  name: storage
+  href: reference/python/bot.storage.html#bot_storage
+  fullName: bot.storage
+- uid: bot.storage.Brain
+  name: Brain
+  href: reference/python/bot.storage.Brain.html#bot_storage_Brain
+  fullName: bot.storage.Brain
+- uid: bot.storage.Brain.delete
+  name: delete(key)
+  href: reference/python/bot.storage.Brain.html#bot_storage_Brain_delete
+  fullName: bot.storage.Brain.delete
+- uid: bot.storage.Brain.get
+  name: get(key)
+  href: reference/python/bot.storage.Brain.html#bot_storage_Brain_get
+  fullName: bot.storage.Brain.get
+- uid: bot.storage.Brain.read
+  name: read(key)
+  href: reference/python/bot.storage.Brain.html#bot_storage_Brain_read
+  fullName: bot.storage.Brain.read
+- uid: bot.storage.Brain.write
+  name: write(key, value)
+  href: reference/python/bot.storage.Brain.html#bot_storage_Brain_write
+  fullName: bot.storage.Brain.write
+- uid: bot.utils
+  name: utils
+  href: reference/python/bot.utils.html#bot_utils
+  fullName: bot.utils
+- uid: bot.utils.camel_to_snake_case
+  name: camel_to_snake_case(input)
+  href: reference/python/bot.utils.html#bot_utils_camel_to_snake_case
+  fullName: bot.utils.camel_to_snake_case
+- uid: bot.utils.Geocode
+  name: Geocode
+  href: reference/python/bot.utils.Geocode.html#bot_utils_Geocode
+  fullName: bot.utils.Geocode
+- uid: bot.utils.Utilities
+  name: Utilities
+  href: reference/python/bot.utils.Utilities.html#bot_utils_Utilities
+  fullName: bot.utils.Utilities
+- uid: bot.utils.Utilities.geocode
+  name: geocode(address, include_timezone=False)
+  href: reference/python/bot.utils.Utilities.html#bot_utils_Utilities_geocode
+  fullName: bot.utils.Utilities.geocode
+- uid: built-in-skills
+  name: Things every Abbot can do
+  href: guides/built-in-skills/index.html
+- uid: chat-ops
+  name: What are ChatOps?
+  href: guides/chatops/index.html
+- uid: csharp-bot-reference
+  name: C# Bot Reference Overview
+  href: reference/csharp/index.html
+- uid: guides
+  name: Getting started with Abbot
+  href: guides/index.html
+- uid: hello-world-guide
+  name: Writing your first Abbot skill
+  href: guides/hello-world/index.html
+- uid: known-issues
+  name: Known Issues
+  href: guides/known-issues/index.html
+- uid: legacy-reference
+  name: Abbot Reference Documentation
+  href: guides/reference/index.html
+- uid: list-skills
+  name: List Skills
+  href: guides/list-skills/index.html
+- uid: managing-secrets
+  name: Managing Secrets
+  href: guides/managing-secrets/index.html
+- uid: parsing-arguments-c-sharp
+  name: Parsing Arguments with C#
+  href: guides/parsing-arguments-c-sharp/index.html
+- uid: privacy-and-security
+  name: Privacy and Security
+  href: guides/privacy-and-security/index.html
+- uid: project-Python Bot Reference
+  name: Python Bot Reference
+  href: reference/python/index.html
+  fullName: Python Bot Reference
+- uid: Serious.Abbot.Scripting
+  name: Serious.Abbot.Scripting
+  href: reference/csharp/Serious.Abbot.Scripting.html
+  commentId: N:Serious.Abbot.Scripting
+  fullName: Serious.Abbot.Scripting
+  nameWithType: Serious.Abbot.Scripting
+- uid: Serious.Abbot.Scripting.ArgumentExtensions
+  name: ArgumentExtensions
+  href: reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.html
+  commentId: T:Serious.Abbot.Scripting.ArgumentExtensions
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions
+  nameWithType: ArgumentExtensions
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  name: ToInt32(IArgument)
+  href: reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.html#Serious_Abbot_Scripting_ArgumentExtensions_ToInt32_Serious_Abbot_Scripting_IArgument_
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32(Serious.Abbot.Scripting.IArgument)
+  nameWithType: ArgumentExtensions.ToInt32(IArgument)
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32*
+  name: ToInt32
+  href: reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.html#Serious_Abbot_Scripting_ArgumentExtensions_ToInt32_
+  commentId: Overload:Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToInt32
+  nameWithType: ArgumentExtensions.ToInt32
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  name: ToLocalTime(IArgument)
+  href: reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.html#Serious_Abbot_Scripting_ArgumentExtensions_ToLocalTime_Serious_Abbot_Scripting_IArgument_
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime(Serious.Abbot.Scripting.IArgument)
+  nameWithType: ArgumentExtensions.ToLocalTime(IArgument)
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime*
+  name: ToLocalTime
+  href: reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.html#Serious_Abbot_Scripting_ArgumentExtensions_ToLocalTime_
+  commentId: Overload:Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToLocalTime
+  nameWithType: ArgumentExtensions.ToLocalTime
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToTimeZone(NodaTime.LocalTime,NodaTime.DateTimeZone,NodaTime.DateTimeZone)
+  name: ToTimeZone(LocalTime, DateTimeZone, DateTimeZone)
+  href: reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.html#Serious_Abbot_Scripting_ArgumentExtensions_ToTimeZone_NodaTime_LocalTime_NodaTime_DateTimeZone_NodaTime_DateTimeZone_
+  commentId: M:Serious.Abbot.Scripting.ArgumentExtensions.ToTimeZone(NodaTime.LocalTime,NodaTime.DateTimeZone,NodaTime.DateTimeZone)
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToTimeZone(NodaTime.LocalTime, NodaTime.DateTimeZone, NodaTime.DateTimeZone)
+  nameWithType: ArgumentExtensions.ToTimeZone(LocalTime, DateTimeZone, DateTimeZone)
+- uid: Serious.Abbot.Scripting.ArgumentExtensions.ToTimeZone*
+  name: ToTimeZone
+  href: reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.html#Serious_Abbot_Scripting_ArgumentExtensions_ToTimeZone_
+  commentId: Overload:Serious.Abbot.Scripting.ArgumentExtensions.ToTimeZone
+  fullName: Serious.Abbot.Scripting.ArgumentExtensions.ToTimeZone
+  nameWithType: ArgumentExtensions.ToTimeZone
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions
+  name: BotHttpClientExtensions
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html
+  commentId: T:Serious.Abbot.Scripting.BotHttpClientExtensions
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions
+  nameWithType: BotHttpClientExtensions
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  name: DeleteJsonAsync(IBotHttpClient, String)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_DeleteJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_String_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, String)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  name: DeleteJsonAsync(IBotHttpClient, String, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_DeleteJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_String_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, Serious.Abbot.Scripting.Headers)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, String, Headers)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri)
+  name: DeleteJsonAsync(IBotHttpClient, Uri)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_DeleteJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_Uri_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.Uri)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, Uri)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,Serious.Abbot.Scripting.Headers)
+  name: DeleteJsonAsync(IBotHttpClient, Uri, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_DeleteJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_Uri_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.Uri, Serious.Abbot.Scripting.Headers)
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync(IBotHttpClient, Uri, Headers)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync*
+  name: DeleteJsonAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_DeleteJsonAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.DeleteJsonAsync
+  nameWithType: BotHttpClientExtensions.DeleteJsonAsync
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  name: GetJsonAsync(IBotHttpClient, String)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_GetJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_String_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, String)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  name: GetJsonAsync(IBotHttpClient, String, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_GetJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_String_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, Serious.Abbot.Scripting.Headers)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, String, Headers)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri)
+  name: GetJsonAsync(IBotHttpClient, Uri)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_GetJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_Uri_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.Uri)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, Uri)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,Serious.Abbot.Scripting.Headers)
+  name: GetJsonAsync(IBotHttpClient, Uri, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_GetJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_Uri_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.Uri, Serious.Abbot.Scripting.Headers)
+  nameWithType: BotHttpClientExtensions.GetJsonAsync(IBotHttpClient, Uri, Headers)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync*
+  name: GetJsonAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_GetJsonAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.GetJsonAsync
+  nameWithType: BotHttpClientExtensions.GetJsonAsync
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  name: PostJsonAsync(IBotHttpClient, String, Object)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PostJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_String_System_Object_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, String, Object)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  name: PostJsonAsync(IBotHttpClient, String, Object, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PostJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_String_System_Object_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object, Serious.Abbot.Scripting.Headers)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, String, Object, Headers)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,System.Object)
+  name: PostJsonAsync(IBotHttpClient, Uri, Object)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PostJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_Uri_System_Object_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,System.Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.Uri, System.Object)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, Uri, Object)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  name: PostJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PostJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_Uri_System_Object_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.Uri, System.Object, Serious.Abbot.Scripting.Headers)
+  nameWithType: BotHttpClientExtensions.PostJsonAsync(IBotHttpClient, Uri, Object, Headers)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync*
+  name: PostJsonAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PostJsonAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PostJsonAsync
+  nameWithType: BotHttpClientExtensions.PostJsonAsync
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  name: PutJsonAsync(IBotHttpClient, String, Object)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PutJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_String_System_Object_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, String, Object)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  name: PutJsonAsync(IBotHttpClient, String, Object, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PutJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_String_System_Object_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.String,System.Object,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.String, System.Object, Serious.Abbot.Scripting.Headers)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, String, Object, Headers)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,System.Object)
+  name: PutJsonAsync(IBotHttpClient, Uri, Object)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PutJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_Uri_System_Object_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,System.Object)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.Uri, System.Object)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, Uri, Object)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  name: PutJsonAsync(IBotHttpClient, Uri, Object, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PutJsonAsync_Serious_Abbot_Scripting_IBotHttpClient_System_Uri_System_Object_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient,System.Uri,System.Object,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync(Serious.Abbot.Scripting.IBotHttpClient, System.Uri, System.Object, Serious.Abbot.Scripting.Headers)
+  nameWithType: BotHttpClientExtensions.PutJsonAsync(IBotHttpClient, Uri, Object, Headers)
+- uid: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync*
+  name: PutJsonAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html#Serious_Abbot_Scripting_BotHttpClientExtensions_PutJsonAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  fullName: Serious.Abbot.Scripting.BotHttpClientExtensions.PutJsonAsync
+  nameWithType: BotHttpClientExtensions.PutJsonAsync
+- uid: Serious.Abbot.Scripting.BrainExtensions
+  name: BrainExtensions
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html
+  commentId: T:Serious.Abbot.Scripting.BrainExtensions
+  fullName: Serious.Abbot.Scripting.BrainExtensions
+  nameWithType: BrainExtensions
+- uid: Serious.Abbot.Scripting.BrainExtensions.AddToHashSetAsync*
+  name: AddToHashSetAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_AddToHashSetAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BrainExtensions.AddToHashSetAsync
+  fullName: Serious.Abbot.Scripting.BrainExtensions.AddToHashSetAsync
+  nameWithType: BrainExtensions.AddToHashSetAsync
+- uid: Serious.Abbot.Scripting.BrainExtensions.AddToHashSetAsync``1(Serious.Abbot.Scripting.IBrain,System.String,``0)
+  name: AddToHashSetAsync<T>(IBrain, String, T)
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_AddToHashSetAsync__1_Serious_Abbot_Scripting_IBrain_System_String___0_
+  commentId: M:Serious.Abbot.Scripting.BrainExtensions.AddToHashSetAsync``1(Serious.Abbot.Scripting.IBrain,System.String,``0)
+  name.vb: AddToHashSetAsync(Of T)(IBrain, String, T)
+  fullName: Serious.Abbot.Scripting.BrainExtensions.AddToHashSetAsync<T>(Serious.Abbot.Scripting.IBrain, System.String, T)
+  fullName.vb: Serious.Abbot.Scripting.BrainExtensions.AddToHashSetAsync(Of T)(Serious.Abbot.Scripting.IBrain, System.String, T)
+  nameWithType: BrainExtensions.AddToHashSetAsync<T>(IBrain, String, T)
+  nameWithType.vb: BrainExtensions.AddToHashSetAsync(Of T)(IBrain, String, T)
+- uid: Serious.Abbot.Scripting.BrainExtensions.AddToListAsync*
+  name: AddToListAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_AddToListAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BrainExtensions.AddToListAsync
+  fullName: Serious.Abbot.Scripting.BrainExtensions.AddToListAsync
+  nameWithType: BrainExtensions.AddToListAsync
+- uid: Serious.Abbot.Scripting.BrainExtensions.AddToListAsync``1(Serious.Abbot.Scripting.IBrain,System.String,``0)
+  name: AddToListAsync<T>(IBrain, String, T)
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_AddToListAsync__1_Serious_Abbot_Scripting_IBrain_System_String___0_
+  commentId: M:Serious.Abbot.Scripting.BrainExtensions.AddToListAsync``1(Serious.Abbot.Scripting.IBrain,System.String,``0)
+  name.vb: AddToListAsync(Of T)(IBrain, String, T)
+  fullName: Serious.Abbot.Scripting.BrainExtensions.AddToListAsync<T>(Serious.Abbot.Scripting.IBrain, System.String, T)
+  fullName.vb: Serious.Abbot.Scripting.BrainExtensions.AddToListAsync(Of T)(Serious.Abbot.Scripting.IBrain, System.String, T)
+  nameWithType: BrainExtensions.AddToListAsync<T>(IBrain, String, T)
+  nameWithType.vb: BrainExtensions.AddToListAsync(Of T)(IBrain, String, T)
+- uid: Serious.Abbot.Scripting.BrainExtensions.GetHashSetAsync*
+  name: GetHashSetAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_GetHashSetAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BrainExtensions.GetHashSetAsync
+  fullName: Serious.Abbot.Scripting.BrainExtensions.GetHashSetAsync
+  nameWithType: BrainExtensions.GetHashSetAsync
+- uid: Serious.Abbot.Scripting.BrainExtensions.GetHashSetAsync``1(Serious.Abbot.Scripting.IBrain,System.String)
+  name: GetHashSetAsync<T>(IBrain, String)
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_GetHashSetAsync__1_Serious_Abbot_Scripting_IBrain_System_String_
+  commentId: M:Serious.Abbot.Scripting.BrainExtensions.GetHashSetAsync``1(Serious.Abbot.Scripting.IBrain,System.String)
+  name.vb: GetHashSetAsync(Of T)(IBrain, String)
+  fullName: Serious.Abbot.Scripting.BrainExtensions.GetHashSetAsync<T>(Serious.Abbot.Scripting.IBrain, System.String)
+  fullName.vb: Serious.Abbot.Scripting.BrainExtensions.GetHashSetAsync(Of T)(Serious.Abbot.Scripting.IBrain, System.String)
+  nameWithType: BrainExtensions.GetHashSetAsync<T>(IBrain, String)
+  nameWithType.vb: BrainExtensions.GetHashSetAsync(Of T)(IBrain, String)
+- uid: Serious.Abbot.Scripting.BrainExtensions.GetListAsync*
+  name: GetListAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_GetListAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BrainExtensions.GetListAsync
+  fullName: Serious.Abbot.Scripting.BrainExtensions.GetListAsync
+  nameWithType: BrainExtensions.GetListAsync
+- uid: Serious.Abbot.Scripting.BrainExtensions.GetListAsync``1(Serious.Abbot.Scripting.IBrain,System.String)
+  name: GetListAsync<T>(IBrain, String)
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_GetListAsync__1_Serious_Abbot_Scripting_IBrain_System_String_
+  commentId: M:Serious.Abbot.Scripting.BrainExtensions.GetListAsync``1(Serious.Abbot.Scripting.IBrain,System.String)
+  name.vb: GetListAsync(Of T)(IBrain, String)
+  fullName: Serious.Abbot.Scripting.BrainExtensions.GetListAsync<T>(Serious.Abbot.Scripting.IBrain, System.String)
+  fullName.vb: Serious.Abbot.Scripting.BrainExtensions.GetListAsync(Of T)(Serious.Abbot.Scripting.IBrain, System.String)
+  nameWithType: BrainExtensions.GetListAsync<T>(IBrain, String)
+  nameWithType.vb: BrainExtensions.GetListAsync(Of T)(IBrain, String)
+- uid: Serious.Abbot.Scripting.BrainExtensions.RemoveAtFromListAsync*
+  name: RemoveAtFromListAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_RemoveAtFromListAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BrainExtensions.RemoveAtFromListAsync
+  fullName: Serious.Abbot.Scripting.BrainExtensions.RemoveAtFromListAsync
+  nameWithType: BrainExtensions.RemoveAtFromListAsync
+- uid: Serious.Abbot.Scripting.BrainExtensions.RemoveAtFromListAsync``1(Serious.Abbot.Scripting.IBrain,System.String,System.Int32)
+  name: RemoveAtFromListAsync<T>(IBrain, String, Int32)
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_RemoveAtFromListAsync__1_Serious_Abbot_Scripting_IBrain_System_String_System_Int32_
+  commentId: M:Serious.Abbot.Scripting.BrainExtensions.RemoveAtFromListAsync``1(Serious.Abbot.Scripting.IBrain,System.String,System.Int32)
+  name.vb: RemoveAtFromListAsync(Of T)(IBrain, String, Int32)
+  fullName: Serious.Abbot.Scripting.BrainExtensions.RemoveAtFromListAsync<T>(Serious.Abbot.Scripting.IBrain, System.String, System.Int32)
+  fullName.vb: Serious.Abbot.Scripting.BrainExtensions.RemoveAtFromListAsync(Of T)(Serious.Abbot.Scripting.IBrain, System.String, System.Int32)
+  nameWithType: BrainExtensions.RemoveAtFromListAsync<T>(IBrain, String, Int32)
+  nameWithType.vb: BrainExtensions.RemoveAtFromListAsync(Of T)(IBrain, String, Int32)
+- uid: Serious.Abbot.Scripting.BrainExtensions.RemoveFromHashSetAsync*
+  name: RemoveFromHashSetAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_RemoveFromHashSetAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BrainExtensions.RemoveFromHashSetAsync
+  fullName: Serious.Abbot.Scripting.BrainExtensions.RemoveFromHashSetAsync
+  nameWithType: BrainExtensions.RemoveFromHashSetAsync
+- uid: Serious.Abbot.Scripting.BrainExtensions.RemoveFromHashSetAsync``1(Serious.Abbot.Scripting.IBrain,System.String,``0)
+  name: RemoveFromHashSetAsync<T>(IBrain, String, T)
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_RemoveFromHashSetAsync__1_Serious_Abbot_Scripting_IBrain_System_String___0_
+  commentId: M:Serious.Abbot.Scripting.BrainExtensions.RemoveFromHashSetAsync``1(Serious.Abbot.Scripting.IBrain,System.String,``0)
+  name.vb: RemoveFromHashSetAsync(Of T)(IBrain, String, T)
+  fullName: Serious.Abbot.Scripting.BrainExtensions.RemoveFromHashSetAsync<T>(Serious.Abbot.Scripting.IBrain, System.String, T)
+  fullName.vb: Serious.Abbot.Scripting.BrainExtensions.RemoveFromHashSetAsync(Of T)(Serious.Abbot.Scripting.IBrain, System.String, T)
+  nameWithType: BrainExtensions.RemoveFromHashSetAsync<T>(IBrain, String, T)
+  nameWithType.vb: BrainExtensions.RemoveFromHashSetAsync(Of T)(IBrain, String, T)
+- uid: Serious.Abbot.Scripting.BrainExtensions.RemoveFromListAsync*
+  name: RemoveFromListAsync
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_RemoveFromListAsync_
+  commentId: Overload:Serious.Abbot.Scripting.BrainExtensions.RemoveFromListAsync
+  fullName: Serious.Abbot.Scripting.BrainExtensions.RemoveFromListAsync
+  nameWithType: BrainExtensions.RemoveFromListAsync
+- uid: Serious.Abbot.Scripting.BrainExtensions.RemoveFromListAsync``1(Serious.Abbot.Scripting.IBrain,System.String,``0)
+  name: RemoveFromListAsync<T>(IBrain, String, T)
+  href: reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html#Serious_Abbot_Scripting_BrainExtensions_RemoveFromListAsync__1_Serious_Abbot_Scripting_IBrain_System_String___0_
+  commentId: M:Serious.Abbot.Scripting.BrainExtensions.RemoveFromListAsync``1(Serious.Abbot.Scripting.IBrain,System.String,``0)
+  name.vb: RemoveFromListAsync(Of T)(IBrain, String, T)
+  fullName: Serious.Abbot.Scripting.BrainExtensions.RemoveFromListAsync<T>(Serious.Abbot.Scripting.IBrain, System.String, T)
+  fullName.vb: Serious.Abbot.Scripting.BrainExtensions.RemoveFromListAsync(Of T)(Serious.Abbot.Scripting.IBrain, System.String, T)
+  nameWithType: BrainExtensions.RemoveFromListAsync<T>(IBrain, String, T)
+  nameWithType.vb: BrainExtensions.RemoveFromListAsync(Of T)(IBrain, String, T)
+- uid: Serious.Abbot.Scripting.Button
+  name: Button
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html
+  commentId: T:Serious.Abbot.Scripting.Button
+  fullName: Serious.Abbot.Scripting.Button
+  nameWithType: Button
+- uid: Serious.Abbot.Scripting.Button.#ctor(System.String)
+  name: Button(String)
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button__ctor_System_String_
+  commentId: M:Serious.Abbot.Scripting.Button.#ctor(System.String)
+  fullName: Serious.Abbot.Scripting.Button.Button(System.String)
+  nameWithType: Button.Button(String)
+- uid: Serious.Abbot.Scripting.Button.#ctor(System.String,System.String)
+  name: Button(String, String)
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button__ctor_System_String_System_String_
+  commentId: M:Serious.Abbot.Scripting.Button.#ctor(System.String,System.String)
+  fullName: Serious.Abbot.Scripting.Button.Button(System.String, System.String)
+  nameWithType: Button.Button(String, String)
+- uid: Serious.Abbot.Scripting.Button.#ctor(System.String,System.String,Serious.Abbot.Scripting.ButtonStyle)
+  name: Button(String, String, ButtonStyle)
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button__ctor_System_String_System_String_Serious_Abbot_Scripting_ButtonStyle_
+  commentId: M:Serious.Abbot.Scripting.Button.#ctor(System.String,System.String,Serious.Abbot.Scripting.ButtonStyle)
+  fullName: Serious.Abbot.Scripting.Button.Button(System.String, System.String, Serious.Abbot.Scripting.ButtonStyle)
+  nameWithType: Button.Button(String, String, ButtonStyle)
+- uid: Serious.Abbot.Scripting.Button.#ctor*
+  name: Button
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button__ctor_
+  commentId: Overload:Serious.Abbot.Scripting.Button.#ctor
+  fullName: Serious.Abbot.Scripting.Button.Button
+  nameWithType: Button.Button
+- uid: Serious.Abbot.Scripting.Button.Arguments
+  name: Arguments
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button_Arguments
+  commentId: P:Serious.Abbot.Scripting.Button.Arguments
+  fullName: Serious.Abbot.Scripting.Button.Arguments
+  nameWithType: Button.Arguments
+- uid: Serious.Abbot.Scripting.Button.Arguments*
+  name: Arguments
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button_Arguments_
+  commentId: Overload:Serious.Abbot.Scripting.Button.Arguments
+  fullName: Serious.Abbot.Scripting.Button.Arguments
+  nameWithType: Button.Arguments
+- uid: Serious.Abbot.Scripting.Button.Style
+  name: Style
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button_Style
+  commentId: P:Serious.Abbot.Scripting.Button.Style
+  fullName: Serious.Abbot.Scripting.Button.Style
+  nameWithType: Button.Style
+- uid: Serious.Abbot.Scripting.Button.Style*
+  name: Style
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button_Style_
+  commentId: Overload:Serious.Abbot.Scripting.Button.Style
+  fullName: Serious.Abbot.Scripting.Button.Style
+  nameWithType: Button.Style
+- uid: Serious.Abbot.Scripting.Button.Title
+  name: Title
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button_Title
+  commentId: P:Serious.Abbot.Scripting.Button.Title
+  fullName: Serious.Abbot.Scripting.Button.Title
+  nameWithType: Button.Title
+- uid: Serious.Abbot.Scripting.Button.Title*
+  name: Title
+  href: reference/csharp/Serious.Abbot.Scripting.Button.html#Serious_Abbot_Scripting_Button_Title_
+  commentId: Overload:Serious.Abbot.Scripting.Button.Title
+  fullName: Serious.Abbot.Scripting.Button.Title
+  nameWithType: Button.Title
+- uid: Serious.Abbot.Scripting.ButtonStyle
+  name: ButtonStyle
+  href: reference/csharp/Serious.Abbot.Scripting.ButtonStyle.html
+  commentId: T:Serious.Abbot.Scripting.ButtonStyle
+  fullName: Serious.Abbot.Scripting.ButtonStyle
+  nameWithType: ButtonStyle
+- uid: Serious.Abbot.Scripting.ButtonStyle.Danger
+  name: Danger
+  href: reference/csharp/Serious.Abbot.Scripting.ButtonStyle.html#Serious_Abbot_Scripting_ButtonStyle_Danger
+  commentId: F:Serious.Abbot.Scripting.ButtonStyle.Danger
+  fullName: Serious.Abbot.Scripting.ButtonStyle.Danger
+  nameWithType: ButtonStyle.Danger
+- uid: Serious.Abbot.Scripting.ButtonStyle.Default
+  name: Default
+  href: reference/csharp/Serious.Abbot.Scripting.ButtonStyle.html#Serious_Abbot_Scripting_ButtonStyle_Default
+  commentId: F:Serious.Abbot.Scripting.ButtonStyle.Default
+  fullName: Serious.Abbot.Scripting.ButtonStyle.Default
+  nameWithType: ButtonStyle.Default
+- uid: Serious.Abbot.Scripting.ButtonStyle.Primary
+  name: Primary
+  href: reference/csharp/Serious.Abbot.Scripting.ButtonStyle.html#Serious_Abbot_Scripting_ButtonStyle_Primary
+  commentId: F:Serious.Abbot.Scripting.ButtonStyle.Primary
+  fullName: Serious.Abbot.Scripting.ButtonStyle.Primary
+  nameWithType: ButtonStyle.Primary
+- uid: Serious.Abbot.Scripting.ButtonStyle.value__
+  name: value__
+  href: reference/csharp/Serious.Abbot.Scripting.ButtonStyle.html#Serious_Abbot_Scripting_ButtonStyle_value__
+  commentId: F:Serious.Abbot.Scripting.ButtonStyle.value__
+  fullName: Serious.Abbot.Scripting.ButtonStyle.value__
+  nameWithType: ButtonStyle.value__
+- uid: Serious.Abbot.Scripting.ChatUserExtensions
+  name: ChatUserExtensions
+  href: reference/csharp/Serious.Abbot.Scripting.ChatUserExtensions.html
+  commentId: T:Serious.Abbot.Scripting.ChatUserExtensions
+  fullName: Serious.Abbot.Scripting.ChatUserExtensions
+  nameWithType: ChatUserExtensions
+- uid: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+  name: GetLocalTime(IChatUser)
+  href: reference/csharp/Serious.Abbot.Scripting.ChatUserExtensions.html#Serious_Abbot_Scripting_ChatUserExtensions_GetLocalTime_Serious_Abbot_Scripting_IChatUser_
+  commentId: M:Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+  fullName: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime(Serious.Abbot.Scripting.IChatUser)
+  nameWithType: ChatUserExtensions.GetLocalTime(IChatUser)
+- uid: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime*
+  name: GetLocalTime
+  href: reference/csharp/Serious.Abbot.Scripting.ChatUserExtensions.html#Serious_Abbot_Scripting_ChatUserExtensions_GetLocalTime_
+  commentId: Overload:Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+  fullName: Serious.Abbot.Scripting.ChatUserExtensions.GetLocalTime
+  nameWithType: ChatUserExtensions.GetLocalTime
+- uid: Serious.Abbot.Scripting.Headers
+  name: Headers
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html
+  commentId: T:Serious.Abbot.Scripting.Headers
+  fullName: Serious.Abbot.Scripting.Headers
+  nameWithType: Headers
+- uid: Serious.Abbot.Scripting.Headers.#ctor
+  name: Headers()
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers__ctor
+  commentId: M:Serious.Abbot.Scripting.Headers.#ctor
+  fullName: Serious.Abbot.Scripting.Headers.Headers()
+  nameWithType: Headers.Headers()
+- uid: Serious.Abbot.Scripting.Headers.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})
+  name: Headers(IDictionary<String, String>)
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers__ctor_System_Collections_Generic_IDictionary_System_String_System_String__
+  commentId: M:Serious.Abbot.Scripting.Headers.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})
+  name.vb: Headers(IDictionary(Of String, String))
+  fullName: Serious.Abbot.Scripting.Headers.Headers(System.Collections.Generic.IDictionary<System.String, System.String>)
+  fullName.vb: Serious.Abbot.Scripting.Headers.Headers(System.Collections.Generic.IDictionary(Of System.String, System.String))
+  nameWithType: Headers.Headers(IDictionary<String, String>)
+  nameWithType.vb: Headers.Headers(IDictionary(Of String, String))
+- uid: Serious.Abbot.Scripting.Headers.#ctor*
+  name: Headers
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers__ctor_
+  commentId: Overload:Serious.Abbot.Scripting.Headers.#ctor
+  fullName: Serious.Abbot.Scripting.Headers.Headers
+  nameWithType: Headers.Headers
+- uid: Serious.Abbot.Scripting.Headers.Add(System.String,System.String)
+  name: Add(String, String)
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers_Add_System_String_System_String_
+  commentId: M:Serious.Abbot.Scripting.Headers.Add(System.String,System.String)
+  fullName: Serious.Abbot.Scripting.Headers.Add(System.String, System.String)
+  nameWithType: Headers.Add(String, String)
+- uid: Serious.Abbot.Scripting.Headers.Add*
+  name: Add
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers_Add_
+  commentId: Overload:Serious.Abbot.Scripting.Headers.Add
+  fullName: Serious.Abbot.Scripting.Headers.Add
+  nameWithType: Headers.Add
+- uid: Serious.Abbot.Scripting.Headers.CopyTo(System.Net.Http.Headers.HttpRequestHeaders)
+  name: CopyTo(HttpRequestHeaders)
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers_CopyTo_System_Net_Http_Headers_HttpRequestHeaders_
+  commentId: M:Serious.Abbot.Scripting.Headers.CopyTo(System.Net.Http.Headers.HttpRequestHeaders)
+  fullName: Serious.Abbot.Scripting.Headers.CopyTo(System.Net.Http.Headers.HttpRequestHeaders)
+  nameWithType: Headers.CopyTo(HttpRequestHeaders)
+- uid: Serious.Abbot.Scripting.Headers.CopyTo*
+  name: CopyTo
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers_CopyTo_
+  commentId: Overload:Serious.Abbot.Scripting.Headers.CopyTo
+  fullName: Serious.Abbot.Scripting.Headers.CopyTo
+  nameWithType: Headers.CopyTo
+- uid: Serious.Abbot.Scripting.Headers.GetEnumerator
+  name: GetEnumerator()
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers_GetEnumerator
+  commentId: M:Serious.Abbot.Scripting.Headers.GetEnumerator
+  fullName: Serious.Abbot.Scripting.Headers.GetEnumerator()
+  nameWithType: Headers.GetEnumerator()
+- uid: Serious.Abbot.Scripting.Headers.GetEnumerator*
+  name: GetEnumerator
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers_GetEnumerator_
+  commentId: Overload:Serious.Abbot.Scripting.Headers.GetEnumerator
+  fullName: Serious.Abbot.Scripting.Headers.GetEnumerator
+  nameWithType: Headers.GetEnumerator
+- uid: Serious.Abbot.Scripting.Headers.Item(System.String)
+  name: Item[String]
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers_Item_System_String_
+  commentId: P:Serious.Abbot.Scripting.Headers.Item(System.String)
+  name.vb: Item(String)
+  fullName: Serious.Abbot.Scripting.Headers.Item[System.String]
+  fullName.vb: Serious.Abbot.Scripting.Headers.Item(System.String)
+  nameWithType: Headers.Item[String]
+  nameWithType.vb: Headers.Item(String)
+- uid: Serious.Abbot.Scripting.Headers.Item*
+  name: Item
+  href: reference/csharp/Serious.Abbot.Scripting.Headers.html#Serious_Abbot_Scripting_Headers_Item_
+  commentId: Overload:Serious.Abbot.Scripting.Headers.Item
+  fullName: Serious.Abbot.Scripting.Headers.Item
+  nameWithType: Headers.Item
+- uid: Serious.Abbot.Scripting.IArgument
+  name: IArgument
+  href: reference/csharp/Serious.Abbot.Scripting.IArgument.html
+  commentId: T:Serious.Abbot.Scripting.IArgument
+  fullName: Serious.Abbot.Scripting.IArgument
+  nameWithType: IArgument
+- uid: Serious.Abbot.Scripting.IArgument.Value
+  name: Value
+  href: reference/csharp/Serious.Abbot.Scripting.IArgument.html#Serious_Abbot_Scripting_IArgument_Value
+  commentId: P:Serious.Abbot.Scripting.IArgument.Value
+  fullName: Serious.Abbot.Scripting.IArgument.Value
+  nameWithType: IArgument.Value
+- uid: Serious.Abbot.Scripting.IArgument.Value*
+  name: Value
+  href: reference/csharp/Serious.Abbot.Scripting.IArgument.html#Serious_Abbot_Scripting_IArgument_Value_
+  commentId: Overload:Serious.Abbot.Scripting.IArgument.Value
+  fullName: Serious.Abbot.Scripting.IArgument.Value
+  nameWithType: IArgument.Value
+- uid: Serious.Abbot.Scripting.IArguments
+  name: IArguments
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html
+  commentId: T:Serious.Abbot.Scripting.IArguments
+  fullName: Serious.Abbot.Scripting.IArguments
+  nameWithType: IArguments
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name: Deconstruct(out IArgument, out IArgument)
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Deconstruct_Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__
+  commentId: M:Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name.vb: Deconstruct(ByRef IArgument, ByRef IArgument)
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct(out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument)
+  fullName.vb: Serious.Abbot.Scripting.IArguments.Deconstruct(ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument)
+  nameWithType: IArguments.Deconstruct(out IArgument, out IArgument)
+  nameWithType.vb: IArguments.Deconstruct(ByRef IArgument, ByRef IArgument)
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name: Deconstruct(out IArgument, out IArgument, out IArgument)
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Deconstruct_Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__
+  commentId: M:Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name.vb: Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument)
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct(out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument)
+  fullName.vb: Serious.Abbot.Scripting.IArguments.Deconstruct(ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument)
+  nameWithType: IArguments.Deconstruct(out IArgument, out IArgument, out IArgument)
+  nameWithType.vb: IArguments.Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument)
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name: Deconstruct(out IArgument, out IArgument, out IArgument, out IArgument)
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Deconstruct_Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__
+  commentId: M:Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name.vb: Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument)
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct(out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument)
+  fullName.vb: Serious.Abbot.Scripting.IArguments.Deconstruct(ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument)
+  nameWithType: IArguments.Deconstruct(out IArgument, out IArgument, out IArgument, out IArgument)
+  nameWithType.vb: IArguments.Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument)
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name: Deconstruct(out IArgument, out IArgument, out IArgument, out IArgument, out IArgument)
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Deconstruct_Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__
+  commentId: M:Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name.vb: Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument)
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct(out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument)
+  fullName.vb: Serious.Abbot.Scripting.IArguments.Deconstruct(ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument)
+  nameWithType: IArguments.Deconstruct(out IArgument, out IArgument, out IArgument, out IArgument, out IArgument)
+  nameWithType.vb: IArguments.Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument)
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name: Deconstruct(out IArgument, out IArgument, out IArgument, out IArgument, out IArgument, out IArgument)
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Deconstruct_Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__Serious_Abbot_Scripting_IArgument__
+  commentId: M:Serious.Abbot.Scripting.IArguments.Deconstruct(Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@,Serious.Abbot.Scripting.IArgument@)
+  name.vb: Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument)
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct(out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument, out Serious.Abbot.Scripting.IArgument)
+  fullName.vb: Serious.Abbot.Scripting.IArguments.Deconstruct(ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument, ByRef Serious.Abbot.Scripting.IArgument)
+  nameWithType: IArguments.Deconstruct(out IArgument, out IArgument, out IArgument, out IArgument, out IArgument, out IArgument)
+  nameWithType.vb: IArguments.Deconstruct(ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument, ByRef IArgument)
+- uid: Serious.Abbot.Scripting.IArguments.Deconstruct*
+  name: Deconstruct
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Deconstruct_
+  commentId: Overload:Serious.Abbot.Scripting.IArguments.Deconstruct
+  fullName: Serious.Abbot.Scripting.IArguments.Deconstruct
+  nameWithType: IArguments.Deconstruct
+- uid: Serious.Abbot.Scripting.IArguments.Pop
+  name: Pop()
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Pop
+  commentId: M:Serious.Abbot.Scripting.IArguments.Pop
+  fullName: Serious.Abbot.Scripting.IArguments.Pop()
+  nameWithType: IArguments.Pop()
+- uid: Serious.Abbot.Scripting.IArguments.Pop*
+  name: Pop
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Pop_
+  commentId: Overload:Serious.Abbot.Scripting.IArguments.Pop
+  fullName: Serious.Abbot.Scripting.IArguments.Pop
+  nameWithType: IArguments.Pop
+- uid: Serious.Abbot.Scripting.IArguments.Skip(System.Int32)
+  name: Skip(Int32)
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Skip_System_Int32_
+  commentId: M:Serious.Abbot.Scripting.IArguments.Skip(System.Int32)
+  fullName: Serious.Abbot.Scripting.IArguments.Skip(System.Int32)
+  nameWithType: IArguments.Skip(Int32)
+- uid: Serious.Abbot.Scripting.IArguments.Skip*
+  name: Skip
+  href: reference/csharp/Serious.Abbot.Scripting.IArguments.html#Serious_Abbot_Scripting_IArguments_Skip_
+  commentId: Overload:Serious.Abbot.Scripting.IArguments.Skip
+  fullName: Serious.Abbot.Scripting.IArguments.Skip
+  nameWithType: IArguments.Skip
+- uid: Serious.Abbot.Scripting.IBot
+  name: IBot
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html
+  commentId: T:Serious.Abbot.Scripting.IBot
+  fullName: Serious.Abbot.Scripting.IBot
+  nameWithType: IBot
+- uid: Serious.Abbot.Scripting.IBot.Arguments
+  name: Arguments
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Arguments
+  commentId: P:Serious.Abbot.Scripting.IBot.Arguments
+  fullName: Serious.Abbot.Scripting.IBot.Arguments
+  nameWithType: IBot.Arguments
+- uid: Serious.Abbot.Scripting.IBot.Arguments*
+  name: Arguments
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Arguments_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Arguments
+  fullName: Serious.Abbot.Scripting.IBot.Arguments
+  nameWithType: IBot.Arguments
+- uid: Serious.Abbot.Scripting.IBot.Brain
+  name: Brain
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Brain
+  commentId: P:Serious.Abbot.Scripting.IBot.Brain
+  fullName: Serious.Abbot.Scripting.IBot.Brain
+  nameWithType: IBot.Brain
+- uid: Serious.Abbot.Scripting.IBot.Brain*
+  name: Brain
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Brain_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Brain
+  fullName: Serious.Abbot.Scripting.IBot.Brain
+  nameWithType: IBot.Brain
+- uid: Serious.Abbot.Scripting.IBot.From
+  name: From
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_From
+  commentId: P:Serious.Abbot.Scripting.IBot.From
+  fullName: Serious.Abbot.Scripting.IBot.From
+  nameWithType: IBot.From
+- uid: Serious.Abbot.Scripting.IBot.From*
+  name: From
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_From_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.From
+  fullName: Serious.Abbot.Scripting.IBot.From
+  nameWithType: IBot.From
+- uid: Serious.Abbot.Scripting.IBot.Http
+  name: Http
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Http
+  commentId: P:Serious.Abbot.Scripting.IBot.Http
+  fullName: Serious.Abbot.Scripting.IBot.Http
+  nameWithType: IBot.Http
+- uid: Serious.Abbot.Scripting.IBot.Http*
+  name: Http
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Http_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Http
+  fullName: Serious.Abbot.Scripting.IBot.Http
+  nameWithType: IBot.Http
+- uid: Serious.Abbot.Scripting.IBot.Id
+  name: Id
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Id
+  commentId: P:Serious.Abbot.Scripting.IBot.Id
+  fullName: Serious.Abbot.Scripting.IBot.Id
+  nameWithType: IBot.Id
+- uid: Serious.Abbot.Scripting.IBot.Id*
+  name: Id
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Id_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Id
+  fullName: Serious.Abbot.Scripting.IBot.Id
+  nameWithType: IBot.Id
+- uid: Serious.Abbot.Scripting.IBot.IsChat
+  name: IsChat
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_IsChat
+  commentId: P:Serious.Abbot.Scripting.IBot.IsChat
+  fullName: Serious.Abbot.Scripting.IBot.IsChat
+  nameWithType: IBot.IsChat
+- uid: Serious.Abbot.Scripting.IBot.IsChat*
+  name: IsChat
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_IsChat_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.IsChat
+  fullName: Serious.Abbot.Scripting.IBot.IsChat
+  nameWithType: IBot.IsChat
+- uid: Serious.Abbot.Scripting.IBot.IsInteraction
+  name: IsInteraction
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_IsInteraction
+  commentId: P:Serious.Abbot.Scripting.IBot.IsInteraction
+  fullName: Serious.Abbot.Scripting.IBot.IsInteraction
+  nameWithType: IBot.IsInteraction
+- uid: Serious.Abbot.Scripting.IBot.IsInteraction*
+  name: IsInteraction
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_IsInteraction_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.IsInteraction
+  fullName: Serious.Abbot.Scripting.IBot.IsInteraction
+  nameWithType: IBot.IsInteraction
+- uid: Serious.Abbot.Scripting.IBot.IsRequest
+  name: IsRequest
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_IsRequest
+  commentId: P:Serious.Abbot.Scripting.IBot.IsRequest
+  fullName: Serious.Abbot.Scripting.IBot.IsRequest
+  nameWithType: IBot.IsRequest
+- uid: Serious.Abbot.Scripting.IBot.IsRequest*
+  name: IsRequest
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_IsRequest_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.IsRequest
+  fullName: Serious.Abbot.Scripting.IBot.IsRequest
+  nameWithType: IBot.IsRequest
+- uid: Serious.Abbot.Scripting.IBot.Mentions
+  name: Mentions
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Mentions
+  commentId: P:Serious.Abbot.Scripting.IBot.Mentions
+  fullName: Serious.Abbot.Scripting.IBot.Mentions
+  nameWithType: IBot.Mentions
+- uid: Serious.Abbot.Scripting.IBot.Mentions*
+  name: Mentions
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Mentions_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Mentions
+  fullName: Serious.Abbot.Scripting.IBot.Mentions
+  nameWithType: IBot.Mentions
+- uid: Serious.Abbot.Scripting.IBot.Name
+  name: Name
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Name
+  commentId: P:Serious.Abbot.Scripting.IBot.Name
+  fullName: Serious.Abbot.Scripting.IBot.Name
+  nameWithType: IBot.Name
+- uid: Serious.Abbot.Scripting.IBot.Name*
+  name: Name
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Name_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Name
+  fullName: Serious.Abbot.Scripting.IBot.Name
+  nameWithType: IBot.Name
+- uid: Serious.Abbot.Scripting.IBot.PlatformId
+  name: PlatformId
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_PlatformId
+  commentId: P:Serious.Abbot.Scripting.IBot.PlatformId
+  fullName: Serious.Abbot.Scripting.IBot.PlatformId
+  nameWithType: IBot.PlatformId
+- uid: Serious.Abbot.Scripting.IBot.PlatformId*
+  name: PlatformId
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_PlatformId_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.PlatformId
+  fullName: Serious.Abbot.Scripting.IBot.PlatformId
+  nameWithType: IBot.PlatformId
+- uid: Serious.Abbot.Scripting.IBot.PlatformType
+  name: PlatformType
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_PlatformType
+  commentId: P:Serious.Abbot.Scripting.IBot.PlatformType
+  fullName: Serious.Abbot.Scripting.IBot.PlatformType
+  nameWithType: IBot.PlatformType
+- uid: Serious.Abbot.Scripting.IBot.PlatformType*
+  name: PlatformType
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_PlatformType_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.PlatformType
+  fullName: Serious.Abbot.Scripting.IBot.PlatformType
+  nameWithType: IBot.PlatformType
+- uid: Serious.Abbot.Scripting.IBot.ReplyAsync(System.String)
+  name: ReplyAsync(String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyAsync_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyAsync(System.String)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyAsync(System.String)
+  nameWithType: IBot.ReplyAsync(String)
+- uid: Serious.Abbot.Scripting.IBot.ReplyAsync(System.String,System.Boolean)
+  name: ReplyAsync(String, Boolean)
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyAsync_System_String_System_Boolean_
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyAsync(System.String,System.Boolean)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyAsync(System.String, System.Boolean)
+  nameWithType: IBot.ReplyAsync(String, Boolean)
+- uid: Serious.Abbot.Scripting.IBot.ReplyAsync*
+  name: ReplyAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.ReplyAsync
+  fullName: Serious.Abbot.Scripting.IBot.ReplyAsync
+  nameWithType: IBot.ReplyAsync
+- uid: Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,System.Int64)
+  name: ReplyLaterAsync(String, Int64)
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyLaterAsync_System_String_System_Int64_
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,System.Int64)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String, System.Int64)
+  nameWithType: IBot.ReplyLaterAsync(String, Int64)
+- uid: Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,System.TimeSpan)
+  name: ReplyLaterAsync(String, TimeSpan)
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyLaterAsync_System_String_System_TimeSpan_
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String,System.TimeSpan)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyLaterAsync(System.String, System.TimeSpan)
+  nameWithType: IBot.ReplyLaterAsync(String, TimeSpan)
+- uid: Serious.Abbot.Scripting.IBot.ReplyLaterAsync*
+  name: ReplyLaterAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyLaterAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.ReplyLaterAsync
+  fullName: Serious.Abbot.Scripting.IBot.ReplyLaterAsync
+  nameWithType: IBot.ReplyLaterAsync
+- uid: Serious.Abbot.Scripting.IBot.ReplyTableAsync*
+  name: ReplyTableAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyTableAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.ReplyTableAsync
+  fullName: Serious.Abbot.Scripting.IBot.ReplyTableAsync
+  nameWithType: IBot.ReplyTableAsync
+- uid: Serious.Abbot.Scripting.IBot.ReplyTableAsync``1(System.Collections.Generic.IEnumerable{``0})
+  name: ReplyTableAsync<T>(IEnumerable<T>)
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyTableAsync__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyTableAsync``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ReplyTableAsync(Of T)(IEnumerable(Of T))
+  fullName: Serious.Abbot.Scripting.IBot.ReplyTableAsync<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Serious.Abbot.Scripting.IBot.ReplyTableAsync(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: IBot.ReplyTableAsync<T>(IEnumerable<T>)
+  nameWithType.vb: IBot.ReplyTableAsync(Of T)(IEnumerable(Of T))
+- uid: Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync(System.String,System.Collections.Generic.IEnumerable{Serious.Abbot.Scripting.Button})
+  name: ReplyWithButtonsAsync(String, IEnumerable<Button>)
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyWithButtonsAsync_System_String_System_Collections_Generic_IEnumerable_Serious_Abbot_Scripting_Button__
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync(System.String,System.Collections.Generic.IEnumerable{Serious.Abbot.Scripting.Button})
+  name.vb: ReplyWithButtonsAsync(String, IEnumerable(Of Button))
+  fullName: Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync(System.String, System.Collections.Generic.IEnumerable<Serious.Abbot.Scripting.Button>)
+  fullName.vb: Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync(System.String, System.Collections.Generic.IEnumerable(Of Serious.Abbot.Scripting.Button))
+  nameWithType: IBot.ReplyWithButtonsAsync(String, IEnumerable<Button>)
+  nameWithType.vb: IBot.ReplyWithButtonsAsync(String, IEnumerable(Of Button))
+- uid: Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync(System.String,System.Collections.Generic.IEnumerable{Serious.Abbot.Scripting.Button},System.String,System.Uri,System.String,System.String)
+  name: ReplyWithButtonsAsync(String, IEnumerable<Button>, String, Uri, String, String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyWithButtonsAsync_System_String_System_Collections_Generic_IEnumerable_Serious_Abbot_Scripting_Button__System_String_System_Uri_System_String_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync(System.String,System.Collections.Generic.IEnumerable{Serious.Abbot.Scripting.Button},System.String,System.Uri,System.String,System.String)
+  name.vb: ReplyWithButtonsAsync(String, IEnumerable(Of Button), String, Uri, String, String)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync(System.String, System.Collections.Generic.IEnumerable<Serious.Abbot.Scripting.Button>, System.String, System.Uri, System.String, System.String)
+  fullName.vb: Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync(System.String, System.Collections.Generic.IEnumerable(Of Serious.Abbot.Scripting.Button), System.String, System.Uri, System.String, System.String)
+  nameWithType: IBot.ReplyWithButtonsAsync(String, IEnumerable<Button>, String, Uri, String, String)
+  nameWithType.vb: IBot.ReplyWithButtonsAsync(String, IEnumerable(Of Button), String, Uri, String, String)
+- uid: Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync*
+  name: ReplyWithButtonsAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyWithButtonsAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync
+  fullName: Serious.Abbot.Scripting.IBot.ReplyWithButtonsAsync
+  nameWithType: IBot.ReplyWithButtonsAsync
+- uid: Serious.Abbot.Scripting.IBot.ReplyWithImageAsync(System.String,System.String,System.String,System.Uri,System.String)
+  name: ReplyWithImageAsync(String, String, String, Uri, String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyWithImageAsync_System_String_System_String_System_String_System_Uri_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBot.ReplyWithImageAsync(System.String,System.String,System.String,System.Uri,System.String)
+  fullName: Serious.Abbot.Scripting.IBot.ReplyWithImageAsync(System.String, System.String, System.String, System.Uri, System.String)
+  nameWithType: IBot.ReplyWithImageAsync(String, String, String, Uri, String)
+- uid: Serious.Abbot.Scripting.IBot.ReplyWithImageAsync*
+  name: ReplyWithImageAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_ReplyWithImageAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.ReplyWithImageAsync
+  fullName: Serious.Abbot.Scripting.IBot.ReplyWithImageAsync
+  nameWithType: IBot.ReplyWithImageAsync
+- uid: Serious.Abbot.Scripting.IBot.Request
+  name: Request
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Request
+  commentId: P:Serious.Abbot.Scripting.IBot.Request
+  fullName: Serious.Abbot.Scripting.IBot.Request
+  nameWithType: IBot.Request
+- uid: Serious.Abbot.Scripting.IBot.Request*
+  name: Request
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Request_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Request
+  fullName: Serious.Abbot.Scripting.IBot.Request
+  nameWithType: IBot.Request
+- uid: Serious.Abbot.Scripting.IBot.Response
+  name: Response
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Response
+  commentId: P:Serious.Abbot.Scripting.IBot.Response
+  fullName: Serious.Abbot.Scripting.IBot.Response
+  nameWithType: IBot.Response
+- uid: Serious.Abbot.Scripting.IBot.Response*
+  name: Response
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Response_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Response
+  fullName: Serious.Abbot.Scripting.IBot.Response
+  nameWithType: IBot.Response
+- uid: Serious.Abbot.Scripting.IBot.Room
+  name: Room
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Room
+  commentId: P:Serious.Abbot.Scripting.IBot.Room
+  fullName: Serious.Abbot.Scripting.IBot.Room
+  nameWithType: IBot.Room
+- uid: Serious.Abbot.Scripting.IBot.Room*
+  name: Room
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Room_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Room
+  fullName: Serious.Abbot.Scripting.IBot.Room
+  nameWithType: IBot.Room
+- uid: Serious.Abbot.Scripting.IBot.Secrets
+  name: Secrets
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Secrets
+  commentId: P:Serious.Abbot.Scripting.IBot.Secrets
+  fullName: Serious.Abbot.Scripting.IBot.Secrets
+  nameWithType: IBot.Secrets
+- uid: Serious.Abbot.Scripting.IBot.Secrets*
+  name: Secrets
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Secrets_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Secrets
+  fullName: Serious.Abbot.Scripting.IBot.Secrets
+  nameWithType: IBot.Secrets
+- uid: Serious.Abbot.Scripting.IBot.SkillName
+  name: SkillName
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_SkillName
+  commentId: P:Serious.Abbot.Scripting.IBot.SkillName
+  fullName: Serious.Abbot.Scripting.IBot.SkillName
+  nameWithType: IBot.SkillName
+- uid: Serious.Abbot.Scripting.IBot.SkillName*
+  name: SkillName
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_SkillName_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.SkillName
+  fullName: Serious.Abbot.Scripting.IBot.SkillName
+  nameWithType: IBot.SkillName
+- uid: Serious.Abbot.Scripting.IBot.SkillUrl
+  name: SkillUrl
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_SkillUrl
+  commentId: P:Serious.Abbot.Scripting.IBot.SkillUrl
+  fullName: Serious.Abbot.Scripting.IBot.SkillUrl
+  nameWithType: IBot.SkillUrl
+- uid: Serious.Abbot.Scripting.IBot.SkillUrl*
+  name: SkillUrl
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_SkillUrl_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.SkillUrl
+  fullName: Serious.Abbot.Scripting.IBot.SkillUrl
+  nameWithType: IBot.SkillUrl
+- uid: Serious.Abbot.Scripting.IBot.TimeZone
+  name: TimeZone
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_TimeZone
+  commentId: P:Serious.Abbot.Scripting.IBot.TimeZone
+  fullName: Serious.Abbot.Scripting.IBot.TimeZone
+  nameWithType: IBot.TimeZone
+- uid: Serious.Abbot.Scripting.IBot.TimeZone*
+  name: TimeZone
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_TimeZone_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.TimeZone
+  fullName: Serious.Abbot.Scripting.IBot.TimeZone
+  nameWithType: IBot.TimeZone
+- uid: Serious.Abbot.Scripting.IBot.Utilities
+  name: Utilities
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Utilities
+  commentId: P:Serious.Abbot.Scripting.IBot.Utilities
+  fullName: Serious.Abbot.Scripting.IBot.Utilities
+  nameWithType: IBot.Utilities
+- uid: Serious.Abbot.Scripting.IBot.Utilities*
+  name: Utilities
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_Utilities_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.Utilities
+  fullName: Serious.Abbot.Scripting.IBot.Utilities
+  nameWithType: IBot.Utilities
+- uid: Serious.Abbot.Scripting.IBot.VersionInfo
+  name: VersionInfo
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_VersionInfo
+  commentId: P:Serious.Abbot.Scripting.IBot.VersionInfo
+  fullName: Serious.Abbot.Scripting.IBot.VersionInfo
+  nameWithType: IBot.VersionInfo
+- uid: Serious.Abbot.Scripting.IBot.VersionInfo*
+  name: VersionInfo
+  href: reference/csharp/Serious.Abbot.Scripting.IBot.html#Serious_Abbot_Scripting_IBot_VersionInfo_
+  commentId: Overload:Serious.Abbot.Scripting.IBot.VersionInfo
+  fullName: Serious.Abbot.Scripting.IBot.VersionInfo
+  nameWithType: IBot.VersionInfo
+- uid: Serious.Abbot.Scripting.IBotHttpClient
+  name: IBotHttpClient
+  href: reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.html
+  commentId: T:Serious.Abbot.Scripting.IBotHttpClient
+  fullName: Serious.Abbot.Scripting.IBotHttpClient
+  nameWithType: IBotHttpClient
+- uid: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync(System.Uri,System.String)
+  name: ScrapeAllAsync(Uri, String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.html#Serious_Abbot_Scripting_IBotHttpClient_ScrapeAllAsync_System_Uri_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync(System.Uri,System.String)
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync(System.Uri, System.String)
+  nameWithType: IBotHttpClient.ScrapeAllAsync(Uri, String)
+- uid: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync*
+  name: ScrapeAllAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.html#Serious_Abbot_Scripting_IBotHttpClient_ScrapeAllAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAllAsync
+  nameWithType: IBotHttpClient.ScrapeAllAsync
+- uid: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync(System.Uri,System.String)
+  name: ScrapeAsync(Uri, String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.html#Serious_Abbot_Scripting_IBotHttpClient_ScrapeAsync_System_Uri_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync(System.Uri,System.String)
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync(System.Uri, System.String)
+  nameWithType: IBotHttpClient.ScrapeAsync(Uri, String)
+- uid: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync*
+  name: ScrapeAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.html#Serious_Abbot_Scripting_IBotHttpClient_ScrapeAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.ScrapeAsync
+  nameWithType: IBotHttpClient.ScrapeAsync
+- uid: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync(System.Uri,System.Net.Http.HttpMethod,System.Object,Serious.Abbot.Scripting.Headers)
+  name: SendJsonAsync(Uri, HttpMethod, Object, Headers)
+  href: reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.html#Serious_Abbot_Scripting_IBotHttpClient_SendJsonAsync_System_Uri_System_Net_Http_HttpMethod_System_Object_Serious_Abbot_Scripting_Headers_
+  commentId: M:Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync(System.Uri,System.Net.Http.HttpMethod,System.Object,Serious.Abbot.Scripting.Headers)
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync(System.Uri, System.Net.Http.HttpMethod, System.Object, Serious.Abbot.Scripting.Headers)
+  nameWithType: IBotHttpClient.SendJsonAsync(Uri, HttpMethod, Object, Headers)
+- uid: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync*
+  name: SendJsonAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.html#Serious_Abbot_Scripting_IBotHttpClient_SendJsonAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync
+  fullName: Serious.Abbot.Scripting.IBotHttpClient.SendJsonAsync
+  nameWithType: IBotHttpClient.SendJsonAsync
+- uid: Serious.Abbot.Scripting.IBrain
+  name: IBrain
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html
+  commentId: T:Serious.Abbot.Scripting.IBrain
+  fullName: Serious.Abbot.Scripting.IBrain
+  nameWithType: IBrain
+- uid: Serious.Abbot.Scripting.IBrain.DeleteAsync(System.String)
+  name: DeleteAsync(String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_DeleteAsync_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBrain.DeleteAsync(System.String)
+  fullName: Serious.Abbot.Scripting.IBrain.DeleteAsync(System.String)
+  nameWithType: IBrain.DeleteAsync(String)
+- uid: Serious.Abbot.Scripting.IBrain.DeleteAsync*
+  name: DeleteAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_DeleteAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBrain.DeleteAsync
+  fullName: Serious.Abbot.Scripting.IBrain.DeleteAsync
+  nameWithType: IBrain.DeleteAsync
+- uid: Serious.Abbot.Scripting.IBrain.GetAllAsync(System.String)
+  name: GetAllAsync(String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetAllAsync_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBrain.GetAllAsync(System.String)
+  fullName: Serious.Abbot.Scripting.IBrain.GetAllAsync(System.String)
+  nameWithType: IBrain.GetAllAsync(String)
+- uid: Serious.Abbot.Scripting.IBrain.GetAllAsync*
+  name: GetAllAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetAllAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBrain.GetAllAsync
+  fullName: Serious.Abbot.Scripting.IBrain.GetAllAsync
+  nameWithType: IBrain.GetAllAsync
+- uid: Serious.Abbot.Scripting.IBrain.GetAsAsync*
+  name: GetAsAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetAsAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBrain.GetAsAsync
+  fullName: Serious.Abbot.Scripting.IBrain.GetAsAsync
+  nameWithType: IBrain.GetAsAsync
+- uid: Serious.Abbot.Scripting.IBrain.GetAsAsync``1(System.String)
+  name: GetAsAsync<T>(String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetAsAsync__1_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBrain.GetAsAsync``1(System.String)
+  name.vb: GetAsAsync(Of T)(String)
+  fullName: Serious.Abbot.Scripting.IBrain.GetAsAsync<T>(System.String)
+  fullName.vb: Serious.Abbot.Scripting.IBrain.GetAsAsync(Of T)(System.String)
+  nameWithType: IBrain.GetAsAsync<T>(String)
+  nameWithType.vb: IBrain.GetAsAsync(Of T)(String)
+- uid: Serious.Abbot.Scripting.IBrain.GetAsAsync``1(System.String,``0)
+  name: GetAsAsync<T>(String, T)
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetAsAsync__1_System_String___0_
+  commentId: M:Serious.Abbot.Scripting.IBrain.GetAsAsync``1(System.String,``0)
+  name.vb: GetAsAsync(Of T)(String, T)
+  fullName: Serious.Abbot.Scripting.IBrain.GetAsAsync<T>(System.String, T)
+  fullName.vb: Serious.Abbot.Scripting.IBrain.GetAsAsync(Of T)(System.String, T)
+  nameWithType: IBrain.GetAsAsync<T>(String, T)
+  nameWithType.vb: IBrain.GetAsAsync(Of T)(String, T)
+- uid: Serious.Abbot.Scripting.IBrain.GetAsync(System.String)
+  name: GetAsync(String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetAsync_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBrain.GetAsync(System.String)
+  fullName: Serious.Abbot.Scripting.IBrain.GetAsync(System.String)
+  nameWithType: IBrain.GetAsync(String)
+- uid: Serious.Abbot.Scripting.IBrain.GetAsync*
+  name: GetAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBrain.GetAsync
+  fullName: Serious.Abbot.Scripting.IBrain.GetAsync
+  nameWithType: IBrain.GetAsync
+- uid: Serious.Abbot.Scripting.IBrain.GetKeysAsync(System.String)
+  name: GetKeysAsync(String)
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetKeysAsync_System_String_
+  commentId: M:Serious.Abbot.Scripting.IBrain.GetKeysAsync(System.String)
+  fullName: Serious.Abbot.Scripting.IBrain.GetKeysAsync(System.String)
+  nameWithType: IBrain.GetKeysAsync(String)
+- uid: Serious.Abbot.Scripting.IBrain.GetKeysAsync*
+  name: GetKeysAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_GetKeysAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBrain.GetKeysAsync
+  fullName: Serious.Abbot.Scripting.IBrain.GetKeysAsync
+  nameWithType: IBrain.GetKeysAsync
+- uid: Serious.Abbot.Scripting.IBrain.WriteAsync(System.String,System.Object)
+  name: WriteAsync(String, Object)
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_WriteAsync_System_String_System_Object_
+  commentId: M:Serious.Abbot.Scripting.IBrain.WriteAsync(System.String,System.Object)
+  fullName: Serious.Abbot.Scripting.IBrain.WriteAsync(System.String, System.Object)
+  nameWithType: IBrain.WriteAsync(String, Object)
+- uid: Serious.Abbot.Scripting.IBrain.WriteAsync*
+  name: WriteAsync
+  href: reference/csharp/Serious.Abbot.Scripting.IBrain.html#Serious_Abbot_Scripting_IBrain_WriteAsync_
+  commentId: Overload:Serious.Abbot.Scripting.IBrain.WriteAsync
+  fullName: Serious.Abbot.Scripting.IBrain.WriteAsync
+  nameWithType: IBrain.WriteAsync
+- uid: Serious.Abbot.Scripting.IChatUser
+  name: IChatUser
+  href: reference/csharp/Serious.Abbot.Scripting.IChatUser.html
+  commentId: T:Serious.Abbot.Scripting.IChatUser
+  fullName: Serious.Abbot.Scripting.IChatUser
+  nameWithType: IChatUser
+- uid: Serious.Abbot.Scripting.IChatUser.Location
+  name: Location
+  href: reference/csharp/Serious.Abbot.Scripting.IChatUser.html#Serious_Abbot_Scripting_IChatUser_Location
+  commentId: P:Serious.Abbot.Scripting.IChatUser.Location
+  fullName: Serious.Abbot.Scripting.IChatUser.Location
+  nameWithType: IChatUser.Location
+- uid: Serious.Abbot.Scripting.IChatUser.Location*
+  name: Location
+  href: reference/csharp/Serious.Abbot.Scripting.IChatUser.html#Serious_Abbot_Scripting_IChatUser_Location_
+  commentId: Overload:Serious.Abbot.Scripting.IChatUser.Location
+  fullName: Serious.Abbot.Scripting.IChatUser.Location
+  nameWithType: IChatUser.Location
+- uid: Serious.Abbot.Scripting.IChatUser.TimeZone
+  name: TimeZone
+  href: reference/csharp/Serious.Abbot.Scripting.IChatUser.html#Serious_Abbot_Scripting_IChatUser_TimeZone
+  commentId: P:Serious.Abbot.Scripting.IChatUser.TimeZone
+  fullName: Serious.Abbot.Scripting.IChatUser.TimeZone
+  nameWithType: IChatUser.TimeZone
+- uid: Serious.Abbot.Scripting.IChatUser.TimeZone*
+  name: TimeZone
+  href: reference/csharp/Serious.Abbot.Scripting.IChatUser.html#Serious_Abbot_Scripting_IChatUser_TimeZone_
+  commentId: Overload:Serious.Abbot.Scripting.IChatUser.TimeZone
+  fullName: Serious.Abbot.Scripting.IChatUser.TimeZone
+  nameWithType: IChatUser.TimeZone
+- uid: Serious.Abbot.Scripting.ICoordinate
+  name: ICoordinate
+  href: reference/csharp/Serious.Abbot.Scripting.ICoordinate.html
+  commentId: T:Serious.Abbot.Scripting.ICoordinate
+  fullName: Serious.Abbot.Scripting.ICoordinate
+  nameWithType: ICoordinate
+- uid: Serious.Abbot.Scripting.ICoordinate.Deconstruct(System.Double@,System.Double@)
+  name: Deconstruct(out Double, out Double)
+  href: reference/csharp/Serious.Abbot.Scripting.ICoordinate.html#Serious_Abbot_Scripting_ICoordinate_Deconstruct_System_Double__System_Double__
+  commentId: M:Serious.Abbot.Scripting.ICoordinate.Deconstruct(System.Double@,System.Double@)
+  name.vb: Deconstruct(ByRef Double, ByRef Double)
+  fullName: Serious.Abbot.Scripting.ICoordinate.Deconstruct(out System.Double, out System.Double)
+  fullName.vb: Serious.Abbot.Scripting.ICoordinate.Deconstruct(ByRef System.Double, ByRef System.Double)
+  nameWithType: ICoordinate.Deconstruct(out Double, out Double)
+  nameWithType.vb: ICoordinate.Deconstruct(ByRef Double, ByRef Double)
+- uid: Serious.Abbot.Scripting.ICoordinate.Deconstruct*
+  name: Deconstruct
+  href: reference/csharp/Serious.Abbot.Scripting.ICoordinate.html#Serious_Abbot_Scripting_ICoordinate_Deconstruct_
+  commentId: Overload:Serious.Abbot.Scripting.ICoordinate.Deconstruct
+  fullName: Serious.Abbot.Scripting.ICoordinate.Deconstruct
+  nameWithType: ICoordinate.Deconstruct
+- uid: Serious.Abbot.Scripting.ICoordinate.Latitude
+  name: Latitude
+  href: reference/csharp/Serious.Abbot.Scripting.ICoordinate.html#Serious_Abbot_Scripting_ICoordinate_Latitude
+  commentId: P:Serious.Abbot.Scripting.ICoordinate.Latitude
+  fullName: Serious.Abbot.Scripting.ICoordinate.Latitude
+  nameWithType: ICoordinate.Latitude
+- uid: Serious.Abbot.Scripting.ICoordinate.Latitude*
+  name: Latitude
+  href: reference/csharp/Serious.Abbot.Scripting.ICoordinate.html#Serious_Abbot_Scripting_ICoordinate_Latitude_
+  commentId: Overload:Serious.Abbot.Scripting.ICoordinate.Latitude
+  fullName: Serious.Abbot.Scripting.ICoordinate.Latitude
+  nameWithType: ICoordinate.Latitude
+- uid: Serious.Abbot.Scripting.ICoordinate.Longitude
+  name: Longitude
+  href: reference/csharp/Serious.Abbot.Scripting.ICoordinate.html#Serious_Abbot_Scripting_ICoordinate_Longitude
+  commentId: P:Serious.Abbot.Scripting.ICoordinate.Longitude
+  fullName: Serious.Abbot.Scripting.ICoordinate.Longitude
+  nameWithType: ICoordinate.Longitude
+- uid: Serious.Abbot.Scripting.ICoordinate.Longitude*
+  name: Longitude
+  href: reference/csharp/Serious.Abbot.Scripting.ICoordinate.html#Serious_Abbot_Scripting_ICoordinate_Longitude_
+  commentId: Overload:Serious.Abbot.Scripting.ICoordinate.Longitude
+  fullName: Serious.Abbot.Scripting.ICoordinate.Longitude
+  nameWithType: ICoordinate.Longitude
+- uid: Serious.Abbot.Scripting.IFormCollection
+  name: IFormCollection
+  href: reference/csharp/Serious.Abbot.Scripting.IFormCollection.html
+  commentId: T:Serious.Abbot.Scripting.IFormCollection
+  fullName: Serious.Abbot.Scripting.IFormCollection
+  nameWithType: IFormCollection
+- uid: Serious.Abbot.Scripting.IFormCollection.Item(System.String)
+  name: Item[String]
+  href: reference/csharp/Serious.Abbot.Scripting.IFormCollection.html#Serious_Abbot_Scripting_IFormCollection_Item_System_String_
+  commentId: P:Serious.Abbot.Scripting.IFormCollection.Item(System.String)
+  name.vb: Item(String)
+  fullName: Serious.Abbot.Scripting.IFormCollection.Item[System.String]
+  fullName.vb: Serious.Abbot.Scripting.IFormCollection.Item(System.String)
+  nameWithType: IFormCollection.Item[String]
+  nameWithType.vb: IFormCollection.Item(String)
+- uid: Serious.Abbot.Scripting.IFormCollection.Item*
+  name: Item
+  href: reference/csharp/Serious.Abbot.Scripting.IFormCollection.html#Serious_Abbot_Scripting_IFormCollection_Item_
+  commentId: Overload:Serious.Abbot.Scripting.IFormCollection.Item
+  fullName: Serious.Abbot.Scripting.IFormCollection.Item
+  nameWithType: IFormCollection.Item
+- uid: Serious.Abbot.Scripting.IHttpCollection
+  name: IHttpCollection
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html
+  commentId: T:Serious.Abbot.Scripting.IHttpCollection
+  fullName: Serious.Abbot.Scripting.IHttpCollection
+  nameWithType: IHttpCollection
+- uid: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  name: ContainsKey(String)
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html#Serious_Abbot_Scripting_IHttpCollection_ContainsKey_System_String_
+  commentId: M:Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  fullName: Serious.Abbot.Scripting.IHttpCollection.ContainsKey(System.String)
+  nameWithType: IHttpCollection.ContainsKey(String)
+- uid: Serious.Abbot.Scripting.IHttpCollection.ContainsKey*
+  name: ContainsKey
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html#Serious_Abbot_Scripting_IHttpCollection_ContainsKey_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpCollection.ContainsKey
+  fullName: Serious.Abbot.Scripting.IHttpCollection.ContainsKey
+  nameWithType: IHttpCollection.ContainsKey
+- uid: Serious.Abbot.Scripting.IHttpCollection.Keys
+  name: Keys
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html#Serious_Abbot_Scripting_IHttpCollection_Keys
+  commentId: P:Serious.Abbot.Scripting.IHttpCollection.Keys
+  fullName: Serious.Abbot.Scripting.IHttpCollection.Keys
+  nameWithType: IHttpCollection.Keys
+- uid: Serious.Abbot.Scripting.IHttpCollection.Keys*
+  name: Keys
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html#Serious_Abbot_Scripting_IHttpCollection_Keys_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpCollection.Keys
+  fullName: Serious.Abbot.Scripting.IHttpCollection.Keys
+  nameWithType: IHttpCollection.Keys
+- uid: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+  name: TryGetValue(String, out StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html#Serious_Abbot_Scripting_IHttpCollection_TryGetValue_System_String_Serious_Abbot_Scripting_StringValues__
+  commentId: M:Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String,Serious.Abbot.Scripting.StringValues@)
+  name.vb: TryGetValue(String, ByRef StringValues)
+  fullName: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String, out Serious.Abbot.Scripting.StringValues)
+  fullName.vb: Serious.Abbot.Scripting.IHttpCollection.TryGetValue(System.String, ByRef Serious.Abbot.Scripting.StringValues)
+  nameWithType: IHttpCollection.TryGetValue(String, out StringValues)
+  nameWithType.vb: IHttpCollection.TryGetValue(String, ByRef StringValues)
+- uid: Serious.Abbot.Scripting.IHttpCollection.TryGetValue*
+  name: TryGetValue
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html#Serious_Abbot_Scripting_IHttpCollection_TryGetValue_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpCollection.TryGetValue
+  fullName: Serious.Abbot.Scripting.IHttpCollection.TryGetValue
+  nameWithType: IHttpCollection.TryGetValue
+- uid: Serious.Abbot.Scripting.IHttpCollection.Values
+  name: Values
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html#Serious_Abbot_Scripting_IHttpCollection_Values
+  commentId: P:Serious.Abbot.Scripting.IHttpCollection.Values
+  fullName: Serious.Abbot.Scripting.IHttpCollection.Values
+  nameWithType: IHttpCollection.Values
+- uid: Serious.Abbot.Scripting.IHttpCollection.Values*
+  name: Values
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html#Serious_Abbot_Scripting_IHttpCollection_Values_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpCollection.Values
+  fullName: Serious.Abbot.Scripting.IHttpCollection.Values
+  nameWithType: IHttpCollection.Values
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent
+  name: IHttpTriggerEvent
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html
+  commentId: T:Serious.Abbot.Scripting.IHttpTriggerEvent
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent
+  nameWithType: IHttpTriggerEvent
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  name: ContentType
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_ContentType
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  nameWithType: IHttpTriggerEvent.ContentType
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType*
+  name: ContentType
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_ContentType_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.ContentType
+  nameWithType: IHttpTriggerEvent.ContentType
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+  name: DeserializeBody()
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_DeserializeBody
+  commentId: M:Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody()
+  nameWithType: IHttpTriggerEvent.DeserializeBody()
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody*
+  name: DeserializeBody
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_DeserializeBody_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBody
+  nameWithType: IHttpTriggerEvent.DeserializeBody
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs*
+  name: DeserializeBodyAs
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_DeserializeBodyAs_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs
+  nameWithType: IHttpTriggerEvent.DeserializeBodyAs
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs``1
+  name: DeserializeBodyAs<T>()
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_DeserializeBodyAs__1
+  commentId: M:Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs``1
+  name.vb: DeserializeBodyAs(Of T)()
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs<T>()
+  fullName.vb: Serious.Abbot.Scripting.IHttpTriggerEvent.DeserializeBodyAs(Of T)()
+  nameWithType: IHttpTriggerEvent.DeserializeBodyAs<T>()
+  nameWithType.vb: IHttpTriggerEvent.DeserializeBodyAs(Of T)()
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  name: Form
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_Form
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  nameWithType: IHttpTriggerEvent.Form
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Form*
+  name: Form
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_Form_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Form
+  nameWithType: IHttpTriggerEvent.Form
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  name: Headers
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_Headers
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  nameWithType: IHttpTriggerEvent.Headers
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers*
+  name: Headers
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_Headers_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Headers
+  nameWithType: IHttpTriggerEvent.Headers
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  name: HttpMethod
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_HttpMethod
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  nameWithType: IHttpTriggerEvent.HttpMethod
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod*
+  name: HttpMethod
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_HttpMethod_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.HttpMethod
+  nameWithType: IHttpTriggerEvent.HttpMethod
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  name: IsForm
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_IsForm
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  nameWithType: IHttpTriggerEvent.IsForm
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm*
+  name: IsForm
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_IsForm_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.IsForm
+  nameWithType: IHttpTriggerEvent.IsForm
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  name: IsJson
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_IsJson
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  nameWithType: IHttpTriggerEvent.IsJson
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson*
+  name: IsJson
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_IsJson_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.IsJson
+  nameWithType: IHttpTriggerEvent.IsJson
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  name: Query
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_Query
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  nameWithType: IHttpTriggerEvent.Query
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Query*
+  name: Query
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_Query_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Query
+  nameWithType: IHttpTriggerEvent.Query
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  name: RawBody
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_RawBody
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  nameWithType: IHttpTriggerEvent.RawBody
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody*
+  name: RawBody
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_RawBody_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.RawBody
+  nameWithType: IHttpTriggerEvent.RawBody
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  name: Url
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_Url
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  nameWithType: IHttpTriggerEvent.Url
+- uid: Serious.Abbot.Scripting.IHttpTriggerEvent.Url*
+  name: Url
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html#Serious_Abbot_Scripting_IHttpTriggerEvent_Url_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  fullName: Serious.Abbot.Scripting.IHttpTriggerEvent.Url
+  nameWithType: IHttpTriggerEvent.Url
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse
+  name: IHttpTriggerResponse
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html
+  commentId: T:Serious.Abbot.Scripting.IHttpTriggerResponse
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse
+  nameWithType: IHttpTriggerResponse
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  name: Content
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html#Serious_Abbot_Scripting_IHttpTriggerResponse_Content
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  nameWithType: IHttpTriggerResponse.Content
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Content*
+  name: Content
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html#Serious_Abbot_Scripting_IHttpTriggerResponse_Content_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.Content
+  nameWithType: IHttpTriggerResponse.Content
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  name: ContentType
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html#Serious_Abbot_Scripting_IHttpTriggerResponse_ContentType
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  nameWithType: IHttpTriggerResponse.ContentType
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType*
+  name: ContentType
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html#Serious_Abbot_Scripting_IHttpTriggerResponse_ContentType_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.ContentType
+  nameWithType: IHttpTriggerResponse.ContentType
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  name: Headers
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html#Serious_Abbot_Scripting_IHttpTriggerResponse_Headers
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  nameWithType: IHttpTriggerResponse.Headers
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers*
+  name: Headers
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html#Serious_Abbot_Scripting_IHttpTriggerResponse_Headers_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.Headers
+  nameWithType: IHttpTriggerResponse.Headers
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  name: RawContent
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html#Serious_Abbot_Scripting_IHttpTriggerResponse_RawContent
+  commentId: P:Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  nameWithType: IHttpTriggerResponse.RawContent
+- uid: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent*
+  name: RawContent
+  href: reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html#Serious_Abbot_Scripting_IHttpTriggerResponse_RawContent_
+  commentId: Overload:Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  fullName: Serious.Abbot.Scripting.IHttpTriggerResponse.RawContent
+  nameWithType: IHttpTriggerResponse.RawContent
+- uid: Serious.Abbot.Scripting.ILocation
+  name: ILocation
+  href: reference/csharp/Serious.Abbot.Scripting.ILocation.html
+  commentId: T:Serious.Abbot.Scripting.ILocation
+  fullName: Serious.Abbot.Scripting.ILocation
+  nameWithType: ILocation
+- uid: Serious.Abbot.Scripting.ILocation.Coordinate
+  name: Coordinate
+  href: reference/csharp/Serious.Abbot.Scripting.ILocation.html#Serious_Abbot_Scripting_ILocation_Coordinate
+  commentId: P:Serious.Abbot.Scripting.ILocation.Coordinate
+  fullName: Serious.Abbot.Scripting.ILocation.Coordinate
+  nameWithType: ILocation.Coordinate
+- uid: Serious.Abbot.Scripting.ILocation.Coordinate*
+  name: Coordinate
+  href: reference/csharp/Serious.Abbot.Scripting.ILocation.html#Serious_Abbot_Scripting_ILocation_Coordinate_
+  commentId: Overload:Serious.Abbot.Scripting.ILocation.Coordinate
+  fullName: Serious.Abbot.Scripting.ILocation.Coordinate
+  nameWithType: ILocation.Coordinate
+- uid: Serious.Abbot.Scripting.ILocation.FormattedAddress
+  name: FormattedAddress
+  href: reference/csharp/Serious.Abbot.Scripting.ILocation.html#Serious_Abbot_Scripting_ILocation_FormattedAddress
+  commentId: P:Serious.Abbot.Scripting.ILocation.FormattedAddress
+  fullName: Serious.Abbot.Scripting.ILocation.FormattedAddress
+  nameWithType: ILocation.FormattedAddress
+- uid: Serious.Abbot.Scripting.ILocation.FormattedAddress*
+  name: FormattedAddress
+  href: reference/csharp/Serious.Abbot.Scripting.ILocation.html#Serious_Abbot_Scripting_ILocation_FormattedAddress_
+  commentId: Overload:Serious.Abbot.Scripting.ILocation.FormattedAddress
+  fullName: Serious.Abbot.Scripting.ILocation.FormattedAddress
+  nameWithType: ILocation.FormattedAddress
+- uid: Serious.Abbot.Scripting.IMentionArgument
+  name: IMentionArgument
+  href: reference/csharp/Serious.Abbot.Scripting.IMentionArgument.html
+  commentId: T:Serious.Abbot.Scripting.IMentionArgument
+  fullName: Serious.Abbot.Scripting.IMentionArgument
+  nameWithType: IMentionArgument
+- uid: Serious.Abbot.Scripting.IMentionArgument.Mentioned
+  name: Mentioned
+  href: reference/csharp/Serious.Abbot.Scripting.IMentionArgument.html#Serious_Abbot_Scripting_IMentionArgument_Mentioned
+  commentId: P:Serious.Abbot.Scripting.IMentionArgument.Mentioned
+  fullName: Serious.Abbot.Scripting.IMentionArgument.Mentioned
+  nameWithType: IMentionArgument.Mentioned
+- uid: Serious.Abbot.Scripting.IMentionArgument.Mentioned*
+  name: Mentioned
+  href: reference/csharp/Serious.Abbot.Scripting.IMentionArgument.html#Serious_Abbot_Scripting_IMentionArgument_Mentioned_
+  commentId: Overload:Serious.Abbot.Scripting.IMentionArgument.Mentioned
+  fullName: Serious.Abbot.Scripting.IMentionArgument.Mentioned
+  nameWithType: IMentionArgument.Mentioned
+- uid: Serious.Abbot.Scripting.IMissingArgument
+  name: IMissingArgument
+  href: reference/csharp/Serious.Abbot.Scripting.IMissingArgument.html
+  commentId: T:Serious.Abbot.Scripting.IMissingArgument
+  fullName: Serious.Abbot.Scripting.IMissingArgument
+  nameWithType: IMissingArgument
+- uid: Serious.Abbot.Scripting.IOriginalArgument
+  name: IOriginalArgument
+  href: reference/csharp/Serious.Abbot.Scripting.IOriginalArgument.html
+  commentId: T:Serious.Abbot.Scripting.IOriginalArgument
+  fullName: Serious.Abbot.Scripting.IOriginalArgument
+  nameWithType: IOriginalArgument
+- uid: Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  name: OriginalText
+  href: reference/csharp/Serious.Abbot.Scripting.IOriginalArgument.html#Serious_Abbot_Scripting_IOriginalArgument_OriginalText
+  commentId: P:Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  fullName: Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  nameWithType: IOriginalArgument.OriginalText
+- uid: Serious.Abbot.Scripting.IOriginalArgument.OriginalText*
+  name: OriginalText
+  href: reference/csharp/Serious.Abbot.Scripting.IOriginalArgument.html#Serious_Abbot_Scripting_IOriginalArgument_OriginalText_
+  commentId: Overload:Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  fullName: Serious.Abbot.Scripting.IOriginalArgument.OriginalText
+  nameWithType: IOriginalArgument.OriginalText
+- uid: Serious.Abbot.Scripting.IPlatformUser
+  name: IPlatformUser
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html
+  commentId: T:Serious.Abbot.Scripting.IPlatformUser
+  fullName: Serious.Abbot.Scripting.IPlatformUser
+  nameWithType: IPlatformUser
+- uid: Serious.Abbot.Scripting.IPlatformUser.Email
+  name: Email
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html#Serious_Abbot_Scripting_IPlatformUser_Email
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.Email
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Email
+  nameWithType: IPlatformUser.Email
+- uid: Serious.Abbot.Scripting.IPlatformUser.Email*
+  name: Email
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html#Serious_Abbot_Scripting_IPlatformUser_Email_
+  commentId: Overload:Serious.Abbot.Scripting.IPlatformUser.Email
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Email
+  nameWithType: IPlatformUser.Email
+- uid: Serious.Abbot.Scripting.IPlatformUser.Id
+  name: Id
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html#Serious_Abbot_Scripting_IPlatformUser_Id
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.Id
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Id
+  nameWithType: IPlatformUser.Id
+- uid: Serious.Abbot.Scripting.IPlatformUser.Id*
+  name: Id
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html#Serious_Abbot_Scripting_IPlatformUser_Id_
+  commentId: Overload:Serious.Abbot.Scripting.IPlatformUser.Id
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Id
+  nameWithType: IPlatformUser.Id
+- uid: Serious.Abbot.Scripting.IPlatformUser.Name
+  name: Name
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html#Serious_Abbot_Scripting_IPlatformUser_Name
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.Name
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Name
+  nameWithType: IPlatformUser.Name
+- uid: Serious.Abbot.Scripting.IPlatformUser.Name*
+  name: Name
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html#Serious_Abbot_Scripting_IPlatformUser_Name_
+  commentId: Overload:Serious.Abbot.Scripting.IPlatformUser.Name
+  fullName: Serious.Abbot.Scripting.IPlatformUser.Name
+  nameWithType: IPlatformUser.Name
+- uid: Serious.Abbot.Scripting.IPlatformUser.UserName
+  name: UserName
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html#Serious_Abbot_Scripting_IPlatformUser_UserName
+  commentId: P:Serious.Abbot.Scripting.IPlatformUser.UserName
+  fullName: Serious.Abbot.Scripting.IPlatformUser.UserName
+  nameWithType: IPlatformUser.UserName
+- uid: Serious.Abbot.Scripting.IPlatformUser.UserName*
+  name: UserName
+  href: reference/csharp/Serious.Abbot.Scripting.IPlatformUser.html#Serious_Abbot_Scripting_IPlatformUser_UserName_
+  commentId: Overload:Serious.Abbot.Scripting.IPlatformUser.UserName
+  fullName: Serious.Abbot.Scripting.IPlatformUser.UserName
+  nameWithType: IPlatformUser.UserName
+- uid: Serious.Abbot.Scripting.IQueryCollection
+  name: IQueryCollection
+  href: reference/csharp/Serious.Abbot.Scripting.IQueryCollection.html
+  commentId: T:Serious.Abbot.Scripting.IQueryCollection
+  fullName: Serious.Abbot.Scripting.IQueryCollection
+  nameWithType: IQueryCollection
+- uid: Serious.Abbot.Scripting.IQueryCollection.Item(System.String)
+  name: Item[String]
+  href: reference/csharp/Serious.Abbot.Scripting.IQueryCollection.html#Serious_Abbot_Scripting_IQueryCollection_Item_System_String_
+  commentId: P:Serious.Abbot.Scripting.IQueryCollection.Item(System.String)
+  name.vb: Item(String)
+  fullName: Serious.Abbot.Scripting.IQueryCollection.Item[System.String]
+  fullName.vb: Serious.Abbot.Scripting.IQueryCollection.Item(System.String)
+  nameWithType: IQueryCollection.Item[String]
+  nameWithType.vb: IQueryCollection.Item(String)
+- uid: Serious.Abbot.Scripting.IQueryCollection.Item*
+  name: Item
+  href: reference/csharp/Serious.Abbot.Scripting.IQueryCollection.html#Serious_Abbot_Scripting_IQueryCollection_Item_
+  commentId: Overload:Serious.Abbot.Scripting.IQueryCollection.Item
+  fullName: Serious.Abbot.Scripting.IQueryCollection.Item
+  nameWithType: IQueryCollection.Item
+- uid: Serious.Abbot.Scripting.IRequestHeaders
+  name: IRequestHeaders
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html
+  commentId: T:Serious.Abbot.Scripting.IRequestHeaders
+  fullName: Serious.Abbot.Scripting.IRequestHeaders
+  nameWithType: IRequestHeaders
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Accept
+  name: Accept
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_Accept
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.Accept
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Accept
+  nameWithType: IRequestHeaders.Accept
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Accept*
+  name: Accept
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_Accept_
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.Accept
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Accept
+  nameWithType: IRequestHeaders.Accept
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Item(System.String)
+  name: Item[String]
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_Item_System_String_
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.Item(System.String)
+  name.vb: Item(String)
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Item[System.String]
+  fullName.vb: Serious.Abbot.Scripting.IRequestHeaders.Item(System.String)
+  nameWithType: IRequestHeaders.Item[String]
+  nameWithType.vb: IRequestHeaders.Item(String)
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Item*
+  name: Item
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_Item_
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.Item
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Item
+  nameWithType: IRequestHeaders.Item
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Origin
+  name: Origin
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_Origin
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.Origin
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Origin
+  nameWithType: IRequestHeaders.Origin
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Origin*
+  name: Origin
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_Origin_
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.Origin
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Origin
+  nameWithType: IRequestHeaders.Origin
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  name: Referrer
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_Referrer
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  nameWithType: IRequestHeaders.Referrer
+- uid: Serious.Abbot.Scripting.IRequestHeaders.Referrer*
+  name: Referrer
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_Referrer_
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.Referrer
+  nameWithType: IRequestHeaders.Referrer
+- uid: Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  name: UserAgent
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_UserAgent
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  nameWithType: IRequestHeaders.UserAgent
+- uid: Serious.Abbot.Scripting.IRequestHeaders.UserAgent*
+  name: UserAgent
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_UserAgent_
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.UserAgent
+  nameWithType: IRequestHeaders.UserAgent
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  name: WebHookRequestCallback
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_WebHookRequestCallback
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  nameWithType: IRequestHeaders.WebHookRequestCallback
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback*
+  name: WebHookRequestCallback
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_WebHookRequestCallback_
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestCallback
+  nameWithType: IRequestHeaders.WebHookRequestCallback
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  name: WebHookRequestOrigin
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_WebHookRequestOrigin
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  nameWithType: IRequestHeaders.WebHookRequestOrigin
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin*
+  name: WebHookRequestOrigin
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_WebHookRequestOrigin_
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestOrigin
+  nameWithType: IRequestHeaders.WebHookRequestOrigin
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  name: WebHookRequestRate
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_WebHookRequestRate
+  commentId: P:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  nameWithType: IRequestHeaders.WebHookRequestRate
+- uid: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate*
+  name: WebHookRequestRate
+  href: reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html#Serious_Abbot_Scripting_IRequestHeaders_WebHookRequestRate_
+  commentId: Overload:Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  fullName: Serious.Abbot.Scripting.IRequestHeaders.WebHookRequestRate
+  nameWithType: IRequestHeaders.WebHookRequestRate
+- uid: Serious.Abbot.Scripting.IResponseHeaders
+  name: IResponseHeaders
+  href: reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.html
+  commentId: T:Serious.Abbot.Scripting.IResponseHeaders
+  fullName: Serious.Abbot.Scripting.IResponseHeaders
+  nameWithType: IResponseHeaders
+- uid: Serious.Abbot.Scripting.IResponseHeaders.Item(System.String)
+  name: Item[String]
+  href: reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.html#Serious_Abbot_Scripting_IResponseHeaders_Item_System_String_
+  commentId: P:Serious.Abbot.Scripting.IResponseHeaders.Item(System.String)
+  name.vb: Item(String)
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.Item[System.String]
+  fullName.vb: Serious.Abbot.Scripting.IResponseHeaders.Item(System.String)
+  nameWithType: IResponseHeaders.Item[String]
+  nameWithType.vb: IResponseHeaders.Item(String)
+- uid: Serious.Abbot.Scripting.IResponseHeaders.Item*
+  name: Item
+  href: reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.html#Serious_Abbot_Scripting_IResponseHeaders_Item_
+  commentId: Overload:Serious.Abbot.Scripting.IResponseHeaders.Item
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.Item
+  nameWithType: IResponseHeaders.Item
+- uid: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  name: WebHookAllowedOrigin
+  href: reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.html#Serious_Abbot_Scripting_IResponseHeaders_WebHookAllowedOrigin
+  commentId: P:Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  nameWithType: IResponseHeaders.WebHookAllowedOrigin
+- uid: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin*
+  name: WebHookAllowedOrigin
+  href: reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.html#Serious_Abbot_Scripting_IResponseHeaders_WebHookAllowedOrigin_
+  commentId: Overload:Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedOrigin
+  nameWithType: IResponseHeaders.WebHookAllowedOrigin
+- uid: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  name: WebHookAllowedRate
+  href: reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.html#Serious_Abbot_Scripting_IResponseHeaders_WebHookAllowedRate
+  commentId: P:Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  nameWithType: IResponseHeaders.WebHookAllowedRate
+- uid: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate*
+  name: WebHookAllowedRate
+  href: reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.html#Serious_Abbot_Scripting_IResponseHeaders_WebHookAllowedRate_
+  commentId: Overload:Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  fullName: Serious.Abbot.Scripting.IResponseHeaders.WebHookAllowedRate
+  nameWithType: IResponseHeaders.WebHookAllowedRate
+- uid: Serious.Abbot.Scripting.IScriptGlobals
+  name: IScriptGlobals
+  href: reference/csharp/Serious.Abbot.Scripting.IScriptGlobals.html
+  commentId: T:Serious.Abbot.Scripting.IScriptGlobals
+  fullName: Serious.Abbot.Scripting.IScriptGlobals
+  nameWithType: IScriptGlobals
+- uid: Serious.Abbot.Scripting.IScriptGlobals.Bot
+  name: Bot
+  href: reference/csharp/Serious.Abbot.Scripting.IScriptGlobals.html#Serious_Abbot_Scripting_IScriptGlobals_Bot
+  commentId: P:Serious.Abbot.Scripting.IScriptGlobals.Bot
+  fullName: Serious.Abbot.Scripting.IScriptGlobals.Bot
+  nameWithType: IScriptGlobals.Bot
+- uid: Serious.Abbot.Scripting.IScriptGlobals.Bot*
+  name: Bot
+  href: reference/csharp/Serious.Abbot.Scripting.IScriptGlobals.html#Serious_Abbot_Scripting_IScriptGlobals_Bot_
+  commentId: Overload:Serious.Abbot.Scripting.IScriptGlobals.Bot
+  fullName: Serious.Abbot.Scripting.IScriptGlobals.Bot
+  nameWithType: IScriptGlobals.Bot
+- uid: Serious.Abbot.Scripting.ISecrets
+  name: ISecrets
+  href: reference/csharp/Serious.Abbot.Scripting.ISecrets.html
+  commentId: T:Serious.Abbot.Scripting.ISecrets
+  fullName: Serious.Abbot.Scripting.ISecrets
+  nameWithType: ISecrets
+- uid: Serious.Abbot.Scripting.ISecrets.GetAsync(System.String)
+  name: GetAsync(String)
+  href: reference/csharp/Serious.Abbot.Scripting.ISecrets.html#Serious_Abbot_Scripting_ISecrets_GetAsync_System_String_
+  commentId: M:Serious.Abbot.Scripting.ISecrets.GetAsync(System.String)
+  fullName: Serious.Abbot.Scripting.ISecrets.GetAsync(System.String)
+  nameWithType: ISecrets.GetAsync(String)
+- uid: Serious.Abbot.Scripting.ISecrets.GetAsync*
+  name: GetAsync
+  href: reference/csharp/Serious.Abbot.Scripting.ISecrets.html#Serious_Abbot_Scripting_ISecrets_GetAsync_
+  commentId: Overload:Serious.Abbot.Scripting.ISecrets.GetAsync
+  fullName: Serious.Abbot.Scripting.ISecrets.GetAsync
+  nameWithType: ISecrets.GetAsync
+- uid: Serious.Abbot.Scripting.ISkillDataItem
+  name: ISkillDataItem
+  href: reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.html
+  commentId: T:Serious.Abbot.Scripting.ISkillDataItem
+  fullName: Serious.Abbot.Scripting.ISkillDataItem
+  nameWithType: ISkillDataItem
+- uid: Serious.Abbot.Scripting.ISkillDataItem.GetValueAs*
+  name: GetValueAs
+  href: reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.html#Serious_Abbot_Scripting_ISkillDataItem_GetValueAs_
+  commentId: Overload:Serious.Abbot.Scripting.ISkillDataItem.GetValueAs
+  fullName: Serious.Abbot.Scripting.ISkillDataItem.GetValueAs
+  nameWithType: ISkillDataItem.GetValueAs
+- uid: Serious.Abbot.Scripting.ISkillDataItem.GetValueAs``1(``0)
+  name: GetValueAs<T>(T)
+  href: reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.html#Serious_Abbot_Scripting_ISkillDataItem_GetValueAs__1___0_
+  commentId: M:Serious.Abbot.Scripting.ISkillDataItem.GetValueAs``1(``0)
+  name.vb: GetValueAs(Of T)(T)
+  fullName: Serious.Abbot.Scripting.ISkillDataItem.GetValueAs<T>(T)
+  fullName.vb: Serious.Abbot.Scripting.ISkillDataItem.GetValueAs(Of T)(T)
+  nameWithType: ISkillDataItem.GetValueAs<T>(T)
+  nameWithType.vb: ISkillDataItem.GetValueAs(Of T)(T)
+- uid: Serious.Abbot.Scripting.ISkillDataItem.Key
+  name: Key
+  href: reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.html#Serious_Abbot_Scripting_ISkillDataItem_Key
+  commentId: P:Serious.Abbot.Scripting.ISkillDataItem.Key
+  fullName: Serious.Abbot.Scripting.ISkillDataItem.Key
+  nameWithType: ISkillDataItem.Key
+- uid: Serious.Abbot.Scripting.ISkillDataItem.Key*
+  name: Key
+  href: reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.html#Serious_Abbot_Scripting_ISkillDataItem_Key_
+  commentId: Overload:Serious.Abbot.Scripting.ISkillDataItem.Key
+  fullName: Serious.Abbot.Scripting.ISkillDataItem.Key
+  nameWithType: ISkillDataItem.Key
+- uid: Serious.Abbot.Scripting.ISkillDataItem.Value
+  name: Value
+  href: reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.html#Serious_Abbot_Scripting_ISkillDataItem_Value
+  commentId: P:Serious.Abbot.Scripting.ISkillDataItem.Value
+  fullName: Serious.Abbot.Scripting.ISkillDataItem.Value
+  nameWithType: ISkillDataItem.Value
+- uid: Serious.Abbot.Scripting.ISkillDataItem.Value*
+  name: Value
+  href: reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.html#Serious_Abbot_Scripting_ISkillDataItem_Value_
+  commentId: Overload:Serious.Abbot.Scripting.ISkillDataItem.Value
+  fullName: Serious.Abbot.Scripting.ISkillDataItem.Value
+  nameWithType: ISkillDataItem.Value
+- uid: Serious.Abbot.Scripting.IVersionInfo
+  name: IVersionInfo
+  href: reference/csharp/Serious.Abbot.Scripting.IVersionInfo.html
+  commentId: T:Serious.Abbot.Scripting.IVersionInfo
+  fullName: Serious.Abbot.Scripting.IVersionInfo
+  nameWithType: IVersionInfo
+- uid: Serious.Abbot.Scripting.IVersionInfo.ApiVersion
+  name: ApiVersion
+  href: reference/csharp/Serious.Abbot.Scripting.IVersionInfo.html#Serious_Abbot_Scripting_IVersionInfo_ApiVersion
+  commentId: P:Serious.Abbot.Scripting.IVersionInfo.ApiVersion
+  fullName: Serious.Abbot.Scripting.IVersionInfo.ApiVersion
+  nameWithType: IVersionInfo.ApiVersion
+- uid: Serious.Abbot.Scripting.IVersionInfo.ApiVersion*
+  name: ApiVersion
+  href: reference/csharp/Serious.Abbot.Scripting.IVersionInfo.html#Serious_Abbot_Scripting_IVersionInfo_ApiVersion_
+  commentId: Overload:Serious.Abbot.Scripting.IVersionInfo.ApiVersion
+  fullName: Serious.Abbot.Scripting.IVersionInfo.ApiVersion
+  nameWithType: IVersionInfo.ApiVersion
+- uid: Serious.Abbot.Scripting.IVersionInfo.ProductVersion
+  name: ProductVersion
+  href: reference/csharp/Serious.Abbot.Scripting.IVersionInfo.html#Serious_Abbot_Scripting_IVersionInfo_ProductVersion
+  commentId: P:Serious.Abbot.Scripting.IVersionInfo.ProductVersion
+  fullName: Serious.Abbot.Scripting.IVersionInfo.ProductVersion
+  nameWithType: IVersionInfo.ProductVersion
+- uid: Serious.Abbot.Scripting.IVersionInfo.ProductVersion*
+  name: ProductVersion
+  href: reference/csharp/Serious.Abbot.Scripting.IVersionInfo.html#Serious_Abbot_Scripting_IVersionInfo_ProductVersion_
+  commentId: Overload:Serious.Abbot.Scripting.IVersionInfo.ProductVersion
+  fullName: Serious.Abbot.Scripting.IVersionInfo.ProductVersion
+  nameWithType: IVersionInfo.ProductVersion
+- uid: Serious.Abbot.Scripting.PlatformType
+  name: PlatformType
+  href: reference/csharp/Serious.Abbot.Scripting.PlatformType.html
+  commentId: T:Serious.Abbot.Scripting.PlatformType
+  fullName: Serious.Abbot.Scripting.PlatformType
+  nameWithType: PlatformType
+- uid: Serious.Abbot.Scripting.PlatformType.BotConsole
+  name: BotConsole
+  href: reference/csharp/Serious.Abbot.Scripting.PlatformType.html#Serious_Abbot_Scripting_PlatformType_BotConsole
+  commentId: F:Serious.Abbot.Scripting.PlatformType.BotConsole
+  fullName: Serious.Abbot.Scripting.PlatformType.BotConsole
+  nameWithType: PlatformType.BotConsole
+- uid: Serious.Abbot.Scripting.PlatformType.DirectLine
+  name: DirectLine
+  href: reference/csharp/Serious.Abbot.Scripting.PlatformType.html#Serious_Abbot_Scripting_PlatformType_DirectLine
+  commentId: F:Serious.Abbot.Scripting.PlatformType.DirectLine
+  fullName: Serious.Abbot.Scripting.PlatformType.DirectLine
+  nameWithType: PlatformType.DirectLine
+- uid: Serious.Abbot.Scripting.PlatformType.Discord
+  name: Discord
+  href: reference/csharp/Serious.Abbot.Scripting.PlatformType.html#Serious_Abbot_Scripting_PlatformType_Discord
+  commentId: F:Serious.Abbot.Scripting.PlatformType.Discord
+  fullName: Serious.Abbot.Scripting.PlatformType.Discord
+  nameWithType: PlatformType.Discord
+- uid: Serious.Abbot.Scripting.PlatformType.MsTeams
+  name: MsTeams
+  href: reference/csharp/Serious.Abbot.Scripting.PlatformType.html#Serious_Abbot_Scripting_PlatformType_MsTeams
+  commentId: F:Serious.Abbot.Scripting.PlatformType.MsTeams
+  fullName: Serious.Abbot.Scripting.PlatformType.MsTeams
+  nameWithType: PlatformType.MsTeams
+- uid: Serious.Abbot.Scripting.PlatformType.Slack
+  name: Slack
+  href: reference/csharp/Serious.Abbot.Scripting.PlatformType.html#Serious_Abbot_Scripting_PlatformType_Slack
+  commentId: F:Serious.Abbot.Scripting.PlatformType.Slack
+  fullName: Serious.Abbot.Scripting.PlatformType.Slack
+  nameWithType: PlatformType.Slack
+- uid: Serious.Abbot.Scripting.PlatformType.UnitTest
+  name: UnitTest
+  href: reference/csharp/Serious.Abbot.Scripting.PlatformType.html#Serious_Abbot_Scripting_PlatformType_UnitTest
+  commentId: F:Serious.Abbot.Scripting.PlatformType.UnitTest
+  fullName: Serious.Abbot.Scripting.PlatformType.UnitTest
+  nameWithType: PlatformType.UnitTest
+- uid: Serious.Abbot.Scripting.PlatformType.value__
+  name: value__
+  href: reference/csharp/Serious.Abbot.Scripting.PlatformType.html#Serious_Abbot_Scripting_PlatformType_value__
+  commentId: F:Serious.Abbot.Scripting.PlatformType.value__
+  fullName: Serious.Abbot.Scripting.PlatformType.value__
+  nameWithType: PlatformType.value__
+- uid: Serious.Abbot.Scripting.ReplyExtensions
+  name: ReplyExtensions
+  href: reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.html
+  commentId: T:Serious.Abbot.Scripting.ReplyExtensions
+  fullName: Serious.Abbot.Scripting.ReplyExtensions
+  nameWithType: ReplyExtensions
+- uid: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  name: Format(IChatUser)
+  href: reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.html#Serious_Abbot_Scripting_ReplyExtensions_Format_Serious_Abbot_Scripting_IChatUser_
+  commentId: M:Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.Format(Serious.Abbot.Scripting.IChatUser)
+  nameWithType: ReplyExtensions.Format(IChatUser)
+- uid: Serious.Abbot.Scripting.ReplyExtensions.Format*
+  name: Format
+  href: reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.html#Serious_Abbot_Scripting_ReplyExtensions_Format_
+  commentId: Overload:Serious.Abbot.Scripting.ReplyExtensions.Format
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.Format
+  nameWithType: ReplyExtensions.Format
+- uid: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(System.Collections.Generic.IEnumerable{System.String})
+  name: ToMarkdownList(IEnumerable<String>)
+  href: reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.html#Serious_Abbot_Scripting_ReplyExtensions_ToMarkdownList_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: ToMarkdownList(IEnumerable(Of String))
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: ReplyExtensions.ToMarkdownList(IEnumerable<String>)
+  nameWithType.vb: ReplyExtensions.ToMarkdownList(IEnumerable(Of String))
+- uid: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList*
+  name: ToMarkdownList
+  href: reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.html#Serious_Abbot_Scripting_ReplyExtensions_ToMarkdownList_
+  commentId: Overload:Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.ToMarkdownList
+  nameWithType: ReplyExtensions.ToMarkdownList
+- uid: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(System.Collections.Generic.IEnumerable{System.String})
+  name: ToOrderedList(IEnumerable<String>)
+  href: reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.html#Serious_Abbot_Scripting_ReplyExtensions_ToOrderedList_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: ToOrderedList(IEnumerable(Of String))
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: ReplyExtensions.ToOrderedList(IEnumerable<String>)
+  nameWithType.vb: ReplyExtensions.ToOrderedList(IEnumerable(Of String))
+- uid: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList*
+  name: ToOrderedList
+  href: reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.html#Serious_Abbot_Scripting_ReplyExtensions_ToOrderedList_
+  commentId: Overload:Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList
+  fullName: Serious.Abbot.Scripting.ReplyExtensions.ToOrderedList
+  nameWithType: ReplyExtensions.ToOrderedList
+- uid: Serious.Abbot.Scripting.Room
+  name: Room
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html
+  commentId: T:Serious.Abbot.Scripting.Room
+  fullName: Serious.Abbot.Scripting.Room
+  nameWithType: Room
+- uid: Serious.Abbot.Scripting.Room.#ctor(System.String,System.String)
+  name: Room(String, String)
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room__ctor_System_String_System_String_
+  commentId: M:Serious.Abbot.Scripting.Room.#ctor(System.String,System.String)
+  fullName: Serious.Abbot.Scripting.Room.Room(System.String, System.String)
+  nameWithType: Room.Room(String, String)
+- uid: Serious.Abbot.Scripting.Room.#ctor*
+  name: Room
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room__ctor_
+  commentId: Overload:Serious.Abbot.Scripting.Room.#ctor
+  fullName: Serious.Abbot.Scripting.Room.Room
+  nameWithType: Room.Room
+- uid: Serious.Abbot.Scripting.Room.Id
+  name: Id
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room_Id
+  commentId: P:Serious.Abbot.Scripting.Room.Id
+  fullName: Serious.Abbot.Scripting.Room.Id
+  nameWithType: Room.Id
+- uid: Serious.Abbot.Scripting.Room.Id*
+  name: Id
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room_Id_
+  commentId: Overload:Serious.Abbot.Scripting.Room.Id
+  fullName: Serious.Abbot.Scripting.Room.Id
+  nameWithType: Room.Id
+- uid: Serious.Abbot.Scripting.Room.Name
+  name: Name
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room_Name
+  commentId: P:Serious.Abbot.Scripting.Room.Name
+  fullName: Serious.Abbot.Scripting.Room.Name
+  nameWithType: Room.Name
+- uid: Serious.Abbot.Scripting.Room.Name*
+  name: Name
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room_Name_
+  commentId: Overload:Serious.Abbot.Scripting.Room.Name
+  fullName: Serious.Abbot.Scripting.Room.Name
+  nameWithType: Room.Name
+- uid: Serious.Abbot.Scripting.Room.op_Implicit(Serious.Abbot.Scripting.Room)~System.String
+  name: Implicit(Room to String)
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room_op_Implicit_Serious_Abbot_Scripting_Room__System_String
+  commentId: M:Serious.Abbot.Scripting.Room.op_Implicit(Serious.Abbot.Scripting.Room)~System.String
+  name.vb: Widening(Room to String)
+  fullName: Serious.Abbot.Scripting.Room.Implicit(Serious.Abbot.Scripting.Room to System.String)
+  fullName.vb: Serious.Abbot.Scripting.Room.Widening(Serious.Abbot.Scripting.Room to System.String)
+  nameWithType: Room.Implicit(Room to String)
+  nameWithType.vb: Room.Widening(Room to String)
+- uid: Serious.Abbot.Scripting.Room.op_Implicit*
+  name: Implicit
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room_op_Implicit_
+  commentId: Overload:Serious.Abbot.Scripting.Room.op_Implicit
+  name.vb: Widening
+  fullName: Serious.Abbot.Scripting.Room.Implicit
+  fullName.vb: Serious.Abbot.Scripting.Room.Widening
+  nameWithType: Room.Implicit
+  nameWithType.vb: Room.Widening
+- uid: Serious.Abbot.Scripting.Room.ToString
+  name: ToString()
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room_ToString
+  commentId: M:Serious.Abbot.Scripting.Room.ToString
+  fullName: Serious.Abbot.Scripting.Room.ToString()
+  nameWithType: Room.ToString()
+- uid: Serious.Abbot.Scripting.Room.ToString*
+  name: ToString
+  href: reference/csharp/Serious.Abbot.Scripting.Room.html#Serious_Abbot_Scripting_Room_ToString_
+  commentId: Overload:Serious.Abbot.Scripting.Room.ToString
+  fullName: Serious.Abbot.Scripting.Room.ToString
+  nameWithType: Room.ToString
+- uid: Serious.Abbot.Scripting.StringValues
+  name: StringValues
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html
+  commentId: T:Serious.Abbot.Scripting.StringValues
+  fullName: Serious.Abbot.Scripting.StringValues
+  nameWithType: StringValues
+- uid: Serious.Abbot.Scripting.StringValues.#ctor(System.String)
+  name: StringValues(String)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues__ctor_System_String_
+  commentId: M:Serious.Abbot.Scripting.StringValues.#ctor(System.String)
+  fullName: Serious.Abbot.Scripting.StringValues.StringValues(System.String)
+  nameWithType: StringValues.StringValues(String)
+- uid: Serious.Abbot.Scripting.StringValues.#ctor(System.String[])
+  name: StringValues(String[])
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues__ctor_System_String___
+  commentId: M:Serious.Abbot.Scripting.StringValues.#ctor(System.String[])
+  name.vb: StringValues(String())
+  fullName: Serious.Abbot.Scripting.StringValues.StringValues(System.String[])
+  fullName.vb: Serious.Abbot.Scripting.StringValues.StringValues(System.String())
+  nameWithType: StringValues.StringValues(String[])
+  nameWithType.vb: StringValues.StringValues(String())
+- uid: Serious.Abbot.Scripting.StringValues.#ctor*
+  name: StringValues
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues__ctor_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.#ctor
+  fullName: Serious.Abbot.Scripting.StringValues.StringValues
+  nameWithType: StringValues.StringValues
+- uid: Serious.Abbot.Scripting.StringValues.Concat(Serious.Abbot.Scripting.StringValues,Serious.Abbot.Scripting.StringValues)
+  name: Concat(StringValues, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Concat_Serious_Abbot_Scripting_StringValues_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Concat(Serious.Abbot.Scripting.StringValues,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Concat(Serious.Abbot.Scripting.StringValues, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Concat(StringValues, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.Concat(Serious.Abbot.Scripting.StringValues@,System.String)
+  name: Concat(StringValues, String)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Concat_Serious_Abbot_Scripting_StringValues__System_String_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Concat(Serious.Abbot.Scripting.StringValues@,System.String)
+  name.vb: Concat(ByRef StringValues, String)
+  fullName: Serious.Abbot.Scripting.StringValues.Concat(Serious.Abbot.Scripting.StringValues, System.String)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Concat(ByRef Serious.Abbot.Scripting.StringValues, System.String)
+  nameWithType: StringValues.Concat(StringValues, String)
+  nameWithType.vb: StringValues.Concat(ByRef StringValues, String)
+- uid: Serious.Abbot.Scripting.StringValues.Concat(System.String,Serious.Abbot.Scripting.StringValues@)
+  name: Concat(String, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Concat_System_String_Serious_Abbot_Scripting_StringValues__
+  commentId: M:Serious.Abbot.Scripting.StringValues.Concat(System.String,Serious.Abbot.Scripting.StringValues@)
+  name.vb: Concat(String, ByRef StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Concat(System.String, Serious.Abbot.Scripting.StringValues)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Concat(System.String, ByRef Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Concat(String, StringValues)
+  nameWithType.vb: StringValues.Concat(String, ByRef StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.Concat*
+  name: Concat
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Concat_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Concat
+  fullName: Serious.Abbot.Scripting.StringValues.Concat
+  nameWithType: StringValues.Concat
+- uid: Serious.Abbot.Scripting.StringValues.Count
+  name: Count
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Count
+  commentId: P:Serious.Abbot.Scripting.StringValues.Count
+  fullName: Serious.Abbot.Scripting.StringValues.Count
+  nameWithType: StringValues.Count
+- uid: Serious.Abbot.Scripting.StringValues.Count*
+  name: Count
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Count_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Count
+  fullName: Serious.Abbot.Scripting.StringValues.Count
+  nameWithType: StringValues.Count
+- uid: Serious.Abbot.Scripting.StringValues.Empty
+  name: Empty
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Empty
+  commentId: F:Serious.Abbot.Scripting.StringValues.Empty
+  fullName: Serious.Abbot.Scripting.StringValues.Empty
+  nameWithType: StringValues.Empty
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator
+  name: StringValues.Enumerator
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html
+  commentId: T:Serious.Abbot.Scripting.StringValues.Enumerator
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator
+  nameWithType: StringValues.Enumerator
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.#ctor(Serious.Abbot.Scripting.StringValues@)
+  name: Enumerator(ref StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html#Serious_Abbot_Scripting_StringValues_Enumerator__ctor_Serious_Abbot_Scripting_StringValues__
+  commentId: M:Serious.Abbot.Scripting.StringValues.Enumerator.#ctor(Serious.Abbot.Scripting.StringValues@)
+  name.vb: Enumerator(ByRef StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Enumerator(ref Serious.Abbot.Scripting.StringValues)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Enumerator.Enumerator(ByRef Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Enumerator.Enumerator(ref StringValues)
+  nameWithType.vb: StringValues.Enumerator.Enumerator(ByRef StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.#ctor*
+  name: Enumerator
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html#Serious_Abbot_Scripting_StringValues_Enumerator__ctor_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Enumerator.#ctor
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Enumerator
+  nameWithType: StringValues.Enumerator.Enumerator
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  name: Current
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html#Serious_Abbot_Scripting_StringValues_Enumerator_Current
+  commentId: P:Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  nameWithType: StringValues.Enumerator.Current
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.Current*
+  name: Current
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html#Serious_Abbot_Scripting_StringValues_Enumerator_Current_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Current
+  nameWithType: StringValues.Enumerator.Current
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose
+  name: Dispose()
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html#Serious_Abbot_Scripting_StringValues_Enumerator_Dispose
+  commentId: M:Serious.Abbot.Scripting.StringValues.Enumerator.Dispose
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose()
+  nameWithType: StringValues.Enumerator.Dispose()
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose*
+  name: Dispose
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html#Serious_Abbot_Scripting_StringValues_Enumerator_Dispose_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Enumerator.Dispose
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.Dispose
+  nameWithType: StringValues.Enumerator.Dispose
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+  name: MoveNext()
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html#Serious_Abbot_Scripting_StringValues_Enumerator_MoveNext
+  commentId: M:Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext()
+  nameWithType: StringValues.Enumerator.MoveNext()
+- uid: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext*
+  name: MoveNext
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html#Serious_Abbot_Scripting_StringValues_Enumerator_MoveNext_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+  fullName: Serious.Abbot.Scripting.StringValues.Enumerator.MoveNext
+  nameWithType: StringValues.Enumerator.MoveNext
+- uid: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues)
+  name: Equals(StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Equals(StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues,Serious.Abbot.Scripting.StringValues)
+  name: Equals(StringValues, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_Serious_Abbot_Scripting_StringValues_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Equals(StringValues, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues,System.String)
+  name: Equals(StringValues, String)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_Serious_Abbot_Scripting_StringValues_System_String_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues,System.String)
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues, System.String)
+  nameWithType: StringValues.Equals(StringValues, String)
+- uid: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues,System.String[])
+  name: Equals(StringValues, String[])
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_Serious_Abbot_Scripting_StringValues_System_String___
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues,System.String[])
+  name.vb: Equals(StringValues, String())
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues, System.String[])
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Equals(Serious.Abbot.Scripting.StringValues, System.String())
+  nameWithType: StringValues.Equals(StringValues, String[])
+  nameWithType.vb: StringValues.Equals(StringValues, String())
+- uid: Serious.Abbot.Scripting.StringValues.Equals(System.Object)
+  name: Equals(Object)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_System_Object_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(System.Object)
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(System.Object)
+  nameWithType: StringValues.Equals(Object)
+- uid: Serious.Abbot.Scripting.StringValues.Equals(System.String)
+  name: Equals(String)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_System_String_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(System.String)
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(System.String)
+  nameWithType: StringValues.Equals(String)
+- uid: Serious.Abbot.Scripting.StringValues.Equals(System.String,Serious.Abbot.Scripting.StringValues)
+  name: Equals(String, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_System_String_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(System.String,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(System.String, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Equals(String, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.Equals(System.String[])
+  name: Equals(String[])
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_System_String___
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(System.String[])
+  name.vb: Equals(String())
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(System.String[])
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Equals(System.String())
+  nameWithType: StringValues.Equals(String[])
+  nameWithType.vb: StringValues.Equals(String())
+- uid: Serious.Abbot.Scripting.StringValues.Equals(System.String[],Serious.Abbot.Scripting.StringValues)
+  name: Equals(String[], StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_System_String___Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.Equals(System.String[],Serious.Abbot.Scripting.StringValues)
+  name.vb: Equals(String(), StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Equals(System.String[], Serious.Abbot.Scripting.StringValues)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Equals(System.String(), Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Equals(String[], StringValues)
+  nameWithType.vb: StringValues.Equals(String(), StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.Equals*
+  name: Equals
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Equals_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Equals
+  fullName: Serious.Abbot.Scripting.StringValues.Equals
+  nameWithType: StringValues.Equals
+- uid: Serious.Abbot.Scripting.StringValues.GetEnumerator
+  name: GetEnumerator()
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_GetEnumerator
+  commentId: M:Serious.Abbot.Scripting.StringValues.GetEnumerator
+  fullName: Serious.Abbot.Scripting.StringValues.GetEnumerator()
+  nameWithType: StringValues.GetEnumerator()
+- uid: Serious.Abbot.Scripting.StringValues.GetEnumerator*
+  name: GetEnumerator
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_GetEnumerator_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.GetEnumerator
+  fullName: Serious.Abbot.Scripting.StringValues.GetEnumerator
+  nameWithType: StringValues.GetEnumerator
+- uid: Serious.Abbot.Scripting.StringValues.GetHashCode
+  name: GetHashCode()
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_GetHashCode
+  commentId: M:Serious.Abbot.Scripting.StringValues.GetHashCode
+  fullName: Serious.Abbot.Scripting.StringValues.GetHashCode()
+  nameWithType: StringValues.GetHashCode()
+- uid: Serious.Abbot.Scripting.StringValues.GetHashCode*
+  name: GetHashCode
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_GetHashCode_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.GetHashCode
+  fullName: Serious.Abbot.Scripting.StringValues.GetHashCode
+  nameWithType: StringValues.GetHashCode
+- uid: Serious.Abbot.Scripting.StringValues.IsNullOrEmpty(Serious.Abbot.Scripting.StringValues)
+  name: IsNullOrEmpty(StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_IsNullOrEmpty_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.IsNullOrEmpty(Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.IsNullOrEmpty(Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.IsNullOrEmpty(StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_IsNullOrEmpty_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.IsNullOrEmpty
+  fullName: Serious.Abbot.Scripting.StringValues.IsNullOrEmpty
+  nameWithType: StringValues.IsNullOrEmpty
+- uid: Serious.Abbot.Scripting.StringValues.Item(System.Int32)
+  name: Item[Int32]
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Item_System_Int32_
+  commentId: P:Serious.Abbot.Scripting.StringValues.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: Serious.Abbot.Scripting.StringValues.Item[System.Int32]
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Item(System.Int32)
+  nameWithType: StringValues.Item[Int32]
+  nameWithType.vb: StringValues.Item(Int32)
+- uid: Serious.Abbot.Scripting.StringValues.Item*
+  name: Item
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_Item_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.Item
+  fullName: Serious.Abbot.Scripting.StringValues.Item
+  nameWithType: StringValues.Item
+- uid: Serious.Abbot.Scripting.StringValues.op_Equality(Serious.Abbot.Scripting.StringValues,Serious.Abbot.Scripting.StringValues)
+  name: Equality(StringValues, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Equality_Serious_Abbot_Scripting_StringValues_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Equality(Serious.Abbot.Scripting.StringValues,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Equality(Serious.Abbot.Scripting.StringValues, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Equality(StringValues, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Equality(Serious.Abbot.Scripting.StringValues,System.Object)
+  name: Equality(StringValues, Object)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Equality_Serious_Abbot_Scripting_StringValues_System_Object_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Equality(Serious.Abbot.Scripting.StringValues,System.Object)
+  fullName: Serious.Abbot.Scripting.StringValues.Equality(Serious.Abbot.Scripting.StringValues, System.Object)
+  nameWithType: StringValues.Equality(StringValues, Object)
+- uid: Serious.Abbot.Scripting.StringValues.op_Equality(Serious.Abbot.Scripting.StringValues,System.String)
+  name: Equality(StringValues, String)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Equality_Serious_Abbot_Scripting_StringValues_System_String_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Equality(Serious.Abbot.Scripting.StringValues,System.String)
+  fullName: Serious.Abbot.Scripting.StringValues.Equality(Serious.Abbot.Scripting.StringValues, System.String)
+  nameWithType: StringValues.Equality(StringValues, String)
+- uid: Serious.Abbot.Scripting.StringValues.op_Equality(Serious.Abbot.Scripting.StringValues,System.String[])
+  name: Equality(StringValues, String[])
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Equality_Serious_Abbot_Scripting_StringValues_System_String___
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Equality(Serious.Abbot.Scripting.StringValues,System.String[])
+  name.vb: Equality(StringValues, String())
+  fullName: Serious.Abbot.Scripting.StringValues.Equality(Serious.Abbot.Scripting.StringValues, System.String[])
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Equality(Serious.Abbot.Scripting.StringValues, System.String())
+  nameWithType: StringValues.Equality(StringValues, String[])
+  nameWithType.vb: StringValues.Equality(StringValues, String())
+- uid: Serious.Abbot.Scripting.StringValues.op_Equality(System.Object,Serious.Abbot.Scripting.StringValues)
+  name: Equality(Object, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Equality_System_Object_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Equality(System.Object,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Equality(System.Object, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Equality(Object, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Equality(System.String,Serious.Abbot.Scripting.StringValues)
+  name: Equality(String, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Equality_System_String_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Equality(System.String,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Equality(System.String, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Equality(String, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Equality(System.String[],Serious.Abbot.Scripting.StringValues)
+  name: Equality(String[], StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Equality_System_String___Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Equality(System.String[],Serious.Abbot.Scripting.StringValues)
+  name.vb: Equality(String(), StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Equality(System.String[], Serious.Abbot.Scripting.StringValues)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Equality(System.String(), Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Equality(String[], StringValues)
+  nameWithType.vb: StringValues.Equality(String(), StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Equality*
+  name: Equality
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Equality_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.op_Equality
+  fullName: Serious.Abbot.Scripting.StringValues.Equality
+  nameWithType: StringValues.Equality
+- uid: Serious.Abbot.Scripting.StringValues.op_Implicit(Serious.Abbot.Scripting.StringValues)~System.String
+  name: Implicit(StringValues to String)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Implicit_Serious_Abbot_Scripting_StringValues__System_String
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Implicit(Serious.Abbot.Scripting.StringValues)~System.String
+  name.vb: Widening(StringValues to String)
+  fullName: Serious.Abbot.Scripting.StringValues.Implicit(Serious.Abbot.Scripting.StringValues to System.String)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Widening(Serious.Abbot.Scripting.StringValues to System.String)
+  nameWithType: StringValues.Implicit(StringValues to String)
+  nameWithType.vb: StringValues.Widening(StringValues to String)
+- uid: Serious.Abbot.Scripting.StringValues.op_Implicit(Serious.Abbot.Scripting.StringValues)~System.String[]
+  name: Implicit(StringValues to String[])
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Implicit_Serious_Abbot_Scripting_StringValues__System_String__
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Implicit(Serious.Abbot.Scripting.StringValues)~System.String[]
+  name.vb: Widening(StringValues to String())
+  fullName: Serious.Abbot.Scripting.StringValues.Implicit(Serious.Abbot.Scripting.StringValues to System.String[])
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Widening(Serious.Abbot.Scripting.StringValues to System.String())
+  nameWithType: StringValues.Implicit(StringValues to String[])
+  nameWithType.vb: StringValues.Widening(StringValues to String())
+- uid: Serious.Abbot.Scripting.StringValues.op_Implicit(System.String)~Serious.Abbot.Scripting.StringValues
+  name: Implicit(String to StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Implicit_System_String__Serious_Abbot_Scripting_StringValues
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Implicit(System.String)~Serious.Abbot.Scripting.StringValues
+  name.vb: Widening(String to StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Implicit(System.String to Serious.Abbot.Scripting.StringValues)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Widening(System.String to Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Implicit(String to StringValues)
+  nameWithType.vb: StringValues.Widening(String to StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Implicit(System.String[])~Serious.Abbot.Scripting.StringValues
+  name: Implicit(String[] to StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Implicit_System_String____Serious_Abbot_Scripting_StringValues
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Implicit(System.String[])~Serious.Abbot.Scripting.StringValues
+  name.vb: Widening(String() to StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Implicit(System.String[] to Serious.Abbot.Scripting.StringValues)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Widening(System.String() to Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Implicit(String[] to StringValues)
+  nameWithType.vb: StringValues.Widening(String() to StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Implicit*
+  name: Implicit
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Implicit_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.op_Implicit
+  name.vb: Widening
+  fullName: Serious.Abbot.Scripting.StringValues.Implicit
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Widening
+  nameWithType: StringValues.Implicit
+  nameWithType.vb: StringValues.Widening
+- uid: Serious.Abbot.Scripting.StringValues.op_Inequality(Serious.Abbot.Scripting.StringValues,Serious.Abbot.Scripting.StringValues)
+  name: Inequality(StringValues, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Inequality_Serious_Abbot_Scripting_StringValues_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Inequality(Serious.Abbot.Scripting.StringValues,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Inequality(Serious.Abbot.Scripting.StringValues, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Inequality(StringValues, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Inequality(Serious.Abbot.Scripting.StringValues,System.Object)
+  name: Inequality(StringValues, Object)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Inequality_Serious_Abbot_Scripting_StringValues_System_Object_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Inequality(Serious.Abbot.Scripting.StringValues,System.Object)
+  fullName: Serious.Abbot.Scripting.StringValues.Inequality(Serious.Abbot.Scripting.StringValues, System.Object)
+  nameWithType: StringValues.Inequality(StringValues, Object)
+- uid: Serious.Abbot.Scripting.StringValues.op_Inequality(Serious.Abbot.Scripting.StringValues,System.String)
+  name: Inequality(StringValues, String)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Inequality_Serious_Abbot_Scripting_StringValues_System_String_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Inequality(Serious.Abbot.Scripting.StringValues,System.String)
+  fullName: Serious.Abbot.Scripting.StringValues.Inequality(Serious.Abbot.Scripting.StringValues, System.String)
+  nameWithType: StringValues.Inequality(StringValues, String)
+- uid: Serious.Abbot.Scripting.StringValues.op_Inequality(Serious.Abbot.Scripting.StringValues,System.String[])
+  name: Inequality(StringValues, String[])
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Inequality_Serious_Abbot_Scripting_StringValues_System_String___
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Inequality(Serious.Abbot.Scripting.StringValues,System.String[])
+  name.vb: Inequality(StringValues, String())
+  fullName: Serious.Abbot.Scripting.StringValues.Inequality(Serious.Abbot.Scripting.StringValues, System.String[])
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Inequality(Serious.Abbot.Scripting.StringValues, System.String())
+  nameWithType: StringValues.Inequality(StringValues, String[])
+  nameWithType.vb: StringValues.Inequality(StringValues, String())
+- uid: Serious.Abbot.Scripting.StringValues.op_Inequality(System.Object,Serious.Abbot.Scripting.StringValues)
+  name: Inequality(Object, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Inequality_System_Object_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Inequality(System.Object,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Inequality(System.Object, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Inequality(Object, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Inequality(System.String,Serious.Abbot.Scripting.StringValues)
+  name: Inequality(String, StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Inequality_System_String_Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Inequality(System.String,Serious.Abbot.Scripting.StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Inequality(System.String, Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Inequality(String, StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Inequality(System.String[],Serious.Abbot.Scripting.StringValues)
+  name: Inequality(String[], StringValues)
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Inequality_System_String___Serious_Abbot_Scripting_StringValues_
+  commentId: M:Serious.Abbot.Scripting.StringValues.op_Inequality(System.String[],Serious.Abbot.Scripting.StringValues)
+  name.vb: Inequality(String(), StringValues)
+  fullName: Serious.Abbot.Scripting.StringValues.Inequality(System.String[], Serious.Abbot.Scripting.StringValues)
+  fullName.vb: Serious.Abbot.Scripting.StringValues.Inequality(System.String(), Serious.Abbot.Scripting.StringValues)
+  nameWithType: StringValues.Inequality(String[], StringValues)
+  nameWithType.vb: StringValues.Inequality(String(), StringValues)
+- uid: Serious.Abbot.Scripting.StringValues.op_Inequality*
+  name: Inequality
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_op_Inequality_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.op_Inequality
+  fullName: Serious.Abbot.Scripting.StringValues.Inequality
+  nameWithType: StringValues.Inequality
+- uid: Serious.Abbot.Scripting.StringValues.ToArray
+  name: ToArray()
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_ToArray
+  commentId: M:Serious.Abbot.Scripting.StringValues.ToArray
+  fullName: Serious.Abbot.Scripting.StringValues.ToArray()
+  nameWithType: StringValues.ToArray()
+- uid: Serious.Abbot.Scripting.StringValues.ToArray*
+  name: ToArray
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_ToArray_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.ToArray
+  fullName: Serious.Abbot.Scripting.StringValues.ToArray
+  nameWithType: StringValues.ToArray
+- uid: Serious.Abbot.Scripting.StringValues.ToString
+  name: ToString()
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_ToString
+  commentId: M:Serious.Abbot.Scripting.StringValues.ToString
+  fullName: Serious.Abbot.Scripting.StringValues.ToString()
+  nameWithType: StringValues.ToString()
+- uid: Serious.Abbot.Scripting.StringValues.ToString*
+  name: ToString
+  href: reference/csharp/Serious.Abbot.Scripting.StringValues.html#Serious_Abbot_Scripting_StringValues_ToString_
+  commentId: Overload:Serious.Abbot.Scripting.StringValues.ToString
+  fullName: Serious.Abbot.Scripting.StringValues.ToString
+  nameWithType: StringValues.ToString
+- uid: Serious.Abbot.Scripting.Utilities
+  name: Serious.Abbot.Scripting.Utilities
+  href: reference/csharp/Serious.Abbot.Scripting.Utilities.html
+  commentId: N:Serious.Abbot.Scripting.Utilities
+  fullName: Serious.Abbot.Scripting.Utilities
+  nameWithType: Serious.Abbot.Scripting.Utilities
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities
+  name: IUtilities
+  href: reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.html
+  commentId: T:Serious.Abbot.Scripting.Utilities.IUtilities
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities
+  nameWithType: IUtilities
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+  name: CreateRandom()
+  href: reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.html#Serious_Abbot_Scripting_Utilities_IUtilities_CreateRandom
+  commentId: M:Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom()
+  nameWithType: IUtilities.CreateRandom()
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom*
+  name: CreateRandom
+  href: reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.html#Serious_Abbot_Scripting_Utilities_IUtilities_CreateRandom_
+  commentId: Overload:Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.CreateRandom
+  nameWithType: IUtilities.CreateRandom
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync(System.String,System.Boolean)
+  name: GetGeocodeAsync(String, Boolean)
+  href: reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.html#Serious_Abbot_Scripting_Utilities_IUtilities_GetGeocodeAsync_System_String_System_Boolean_
+  commentId: M:Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync(System.String,System.Boolean)
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync(System.String, System.Boolean)
+  nameWithType: IUtilities.GetGeocodeAsync(String, Boolean)
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync*
+  name: GetGeocodeAsync
+  href: reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.html#Serious_Abbot_Scripting_Utilities_IUtilities_GetGeocodeAsync_
+  commentId: Overload:Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.GetGeocodeAsync
+  nameWithType: IUtilities.GetGeocodeAsync
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.GetRandomElement*
+  name: GetRandomElement
+  href: reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.html#Serious_Abbot_Scripting_Utilities_IUtilities_GetRandomElement_
+  commentId: Overload:Serious.Abbot.Scripting.Utilities.IUtilities.GetRandomElement
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.GetRandomElement
+  nameWithType: IUtilities.GetRandomElement
+- uid: Serious.Abbot.Scripting.Utilities.IUtilities.GetRandomElement``1(System.Collections.Generic.IReadOnlyList{``0})
+  name: GetRandomElement<T>(IReadOnlyList<T>)
+  href: reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.html#Serious_Abbot_Scripting_Utilities_IUtilities_GetRandomElement__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:Serious.Abbot.Scripting.Utilities.IUtilities.GetRandomElement``1(System.Collections.Generic.IReadOnlyList{``0})
+  name.vb: GetRandomElement(Of T)(IReadOnlyList(Of T))
+  fullName: Serious.Abbot.Scripting.Utilities.IUtilities.GetRandomElement<T>(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: Serious.Abbot.Scripting.Utilities.IUtilities.GetRandomElement(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: IUtilities.GetRandomElement<T>(IReadOnlyList<T>)
+  nameWithType.vb: IUtilities.GetRandomElement(Of T)(IReadOnlyList(Of T))
+- uid: triggers
+  name: Responding to external events with Triggers
+  href: guides/triggers/index.html
+- uid: ui-elements
+  name: User Interface Elements
+  href: guides/ui-elements/index.html
+- uid: using-your-own-editor
+  name: Writing Abbot Skills with Your Own Editor
+  href: guides/using-your-own-editor/index.html
