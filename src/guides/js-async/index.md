@@ -6,7 +6,7 @@ uid: js-async
 
 One particularity of our current Javascript implementation is that your skill code runs in an async wrapper, something like:
 
-```js
+```javascript
 (async () => {
 
     [YOUR CODE]
@@ -18,7 +18,7 @@ Because of this, we strive to provide you with promisified versions of useful li
 
 ## Axios
 
-```js
+```javascript
 const axios = require('axios');
 const key = await bot.secrets.read("ghtoken");
 const options = {
@@ -40,7 +40,7 @@ await axios.get('https://api.github.com/user/repos', options)
 
 Or with async/await
 
-```js
+```javascript
 const axios = require('axios');
 const key = await bot.secrets.read("ghtoken");
 const options = {
@@ -60,7 +60,7 @@ try {
 
 ## Request-Promise
 
-```js
+```javascript
 const rp = require('request-promise');
 const key = await bot.secrets.read("ghtoken");
 const options = {
