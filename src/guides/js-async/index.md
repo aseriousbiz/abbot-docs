@@ -14,7 +14,7 @@ One particularity of our current Javascript implementation is that your skill co
 })();
 ```
 
-Because of this, we also provide promisified versions of libraries, like Axios and Request-Promise. Axios is a Promise-based HTTP client, and if you prefer the old Request library, Request-Promise is its Promise-based version. Here are some usage examples:
+Because of this, we strive to provide you with promisified versions of useful libraries that fit well in this execution model, like Axios and Request-Promise. Axios is a Promise-based HTTP client, and if you prefer the old Request library, Request-Promise is its Promise-based version. Here are some usage examples for both, showing how you can query the GitHub API using a pre-generated Personal Access Token saved as a [secret in the Bot Brain](xref:managing-secrets):
 
 ## Axios
 
