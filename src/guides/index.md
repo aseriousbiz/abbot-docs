@@ -22,3 +22,4 @@ Please note that once you save a skill in Abbot's web editor, that skill is live
 * [Argument parsing in C#](xref:parsing-arguments-c-sharp)
 * Creating and using [List Skills](xref:list-skills)
 * Scheduled Skills and reacting to events with [Triggers](xref:triggers)
+* Writing Javascript skills, the [async way](xref:js-async)

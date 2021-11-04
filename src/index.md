@@ -45,7 +45,8 @@ Custom dependencies will be available later in a paid version of Abbot. If you n
 #### Available JavaScript libraries
 
 * lodash 4.17.19
-* axios 0.19.2
+* axios 0.21.1
+* request-promise 4.2.6
 * node-fetch 2.6.1
 * passport 0.4.1
 * passport-auth 1.0.0

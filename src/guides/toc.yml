@@ -20,3 +20,7 @@
   href: privacy-and-security/index.md
 - name: User Interface Elements
   href: ui-elements/index.md
+- name: Writing Abbot Skills with Your Own Editor
+  href: using-your-own-editor/index.md
+- name: Writing Javascript skills, the async way 
+  href: js-async/index.md
