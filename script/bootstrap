@@ -1,0 +1,41 @@
+#! /bin/sh
+
+if which brew > /dev/null
+then
+    echo "brew is installed, skipping…"
+else
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+brew list docfx || brew install docfx
+
+SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )" # https://stackoverflow.com/a/4774063
+SCRIPT_DIR="$(dirname "${VAR}")"
+PARENT_DIR="$(dirname "$SCRIPT_DIR")"
+
+pushd $PARENT_DIR >/dev/null 2>&1
+
+ABBOT_DIR="../abbot"
+
+if [ ! -d $ABBOT_DIR ] 
+then
+    echo "Directory $ABBOT_DIR does not exist." 
+else
+    echo "aseriousbiz/abbot exists in sibling directory. ✓"
+fi
+
+ABBOT_PY_DOCS_DIR="../abbot-py-docs"
+
+if [ ! -d $ABBOT_PY_DOCS_DIR ] 
+then
+    echo "Directory $ABBOT_PY_DOCS_DIR does not exist. Cloning..."
+    pushd ../
+    git clone https://github.com/aseriousbiz/abbot-py-docs
+    popd
+else
+    echo "aseriousbiz/abbot-py-docs exists in sibling directory. ✓"
+fi
+
+popd >/dev/null 2>&1
+
+echo "Run `script/build` and then `script/server`"
