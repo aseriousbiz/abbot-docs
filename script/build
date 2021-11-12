@@ -1,3 +1,21 @@
-#! /bin/sh
+#!/bin/bash -u
+{ set +x; } 2>/dev/null #Suppresses echoing every line
+SOURCE=$0
+DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+ROOTDIR=$(cd $DIR && cd ../ && pwd)
+PARENTDIR=$(cd $ROOTDIR && cd ../ && pwd)
 
-npm run build
+ABBOTJSDIR="$PARENTDIR/abbot-js"
+
+echo $ABBOTJSDIR
+
+if [ ! -d $ABBOTJSDIR ] 
+then
+    echo "Please run script/bootstrap first before building"
+else
+    pushd "$ABBOTJSDIR/src" >/dev/null 2>&1
+    npm install
+    node node_modules/node2docfx/node2docfx.js node2docfx.json
+    cp -R ./out ../../abbot-docs/src/reference/javascript
+    popd >/dev/null 2>&1
+fi

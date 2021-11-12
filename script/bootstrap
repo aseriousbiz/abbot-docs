@@ -1,4 +1,8 @@
-#! /bin/sh
+#!/bin/bash -u
+{ set +x; } 2>/dev/null #Suppresses echoing every line
+SOURCE=$0
+DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+ROOTDIR=$(cd $DIR && cd ../ && pwd)
 
 if which brew > /dev/null
 then
@@ -9,17 +13,13 @@ fi
 
 brew list docfx || brew install docfx
 
-SCRIPTPATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )" # https://stackoverflow.com/a/4774063
-SCRIPT_DIR="$(dirname "${VAR}")"
-PARENT_DIR="$(dirname "$SCRIPT_DIR")"
-
-pushd $PARENT_DIR >/dev/null 2>&1
+pushd $ROOTDIR >/dev/null 2>&1
 
 ABBOT_DIR="../abbot"
 
 if [ ! -d $ABBOT_DIR ] 
 then
-    echo "Directory $ABBOT_DIR does not exist." 
+    echo "Directory $ABBOT_DIR does not exist."
 else
     echo "aseriousbiz/abbot exists in sibling directory. ✓"
 fi
