@@ -36,6 +36,18 @@ else
     echo "aseriousbiz/abbot-py-docs exists in sibling directory. ✓"
 fi
 
+ABBOT_JS_DIR="../abbot-js"
+
+if [ ! -d $ABBOT_JS_DIR ] 
+then
+    echo "Directory $ABBOT_JS_DIR does not exist. Cloning..."
+    pushd ../
+    git clone https://github.com/aseriousbiz/abbot-js
+    popd
+else
+    echo "aseriousbiz/abbot-js exists in sibling directory. ✓"
+fi
+
 popd >/dev/null 2>&1
 
-echo "Run `script/build` and then `script/server`"
+echo "Run script/build to build it and then script/server to run it locally"
