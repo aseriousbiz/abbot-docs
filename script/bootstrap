@@ -1,0 +1,102 @@
+#!/bin/bash -u
+{ set +x; } 2>/dev/null #Suppresses echoing every line. pass --trace to reenable it
+SOURCE=$0
+DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+ROOTDIR=$(cd $DIR && cd ../ && pwd)
+
+OS="Mac"
+if [[ -e "/c/" ]]; then
+  OS="Windows"
+fi
+
+function install() {
+  app=$1
+  cask=${2:-}
+
+        cat << EOF
+
+-> Checking ${app}...
+EOF
+  if [[ x"$OS" == x"Windows" ]]; then
+    scoop install ${app}
+  else
+    if [[ ! "$cask" ]]; then
+      has=$(brew list ${app} >/dev/null 2>/dev/null && echo 1)
+      if [[ ! $has ]]; then
+        cat << EOF
+-> Installing ${app}...
+EOF
+        brew install ${app}
+      fi
+    else
+      has=$(brew list ${app} --cask >/dev/null 2>/dev/null && echo 1)
+      if [[ ! $has ]]; then
+        cat << EOF
+-> Installing ${app}...
+EOF
+        brew install ${app} --cask
+      fi
+    fi
+  fi
+
+cat << EOF
+-- ${app} installed
+EOF
+}
+
+function sibling() {
+  repo=$1
+  isssh=$2
+  dir=$(cd .. && pwd)
+  repodir="${dir}/${repo}"
+  if [ ! -d $repodir ]; then
+    echo "Directory $repodir does not exist."
+    if [[ $isssh ]]; then
+      git clone git@github.com:aseriousbiz/${repo} $repodir
+    else
+      git clone https://github.com/aseriousbiz/${repo} $$repodir
+    fi
+  else
+    echo "aseriousbiz/${repo} exists in sibling directory. ✓"
+  fi
+}
+
+while (( "$#" )); do
+  case "$1" in
+    --trace)
+      { set -x; } 2>/dev/null
+    ;;
+    -*|--*=) # unsupported flags
+      echo "./bootstrap [--trace]" >&2
+      exit 0
+    ;;
+  esac
+  shift
+done
+
+if which brew > /dev/null
+then
+  echo "brew is installed, skipping…"
+else
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+install yarn
+install docfx
+
+yarn install
+
+pushd $ROOTDIR >/dev/null 2>&1
+
+sshgit=$(git remote get-url origin|grep git@ && echo 1)
+
+sibling abbot $sshgit
+sibling abbot-py-docs $sshgit
+sibling abbot-js $sshgit
+
+echo "Run script/build to build it and then script/server to run it locally"
+
+function cleanup() {
+  popd >/dev/null 2>&1
+}
+trap cleanup EXIT
