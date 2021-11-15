@@ -1,0 +1,38 @@
+#!/bin/bash -u
+{ set +x; } 2>/dev/null #Suppresses echoing every line
+SOURCE=$0
+DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
+ROOTDIR=$(cd $DIR && cd ../ && pwd)
+PARENTDIR=$(cd $ROOTDIR && cd ../ && pwd)
+
+while (( "$#" )); do
+  case "$1" in
+    --trace)
+      { set -x; } 2>/dev/null
+    ;;
+    -*|--*=) # unsupported flags
+      echo "./build [--trace]" >&2
+      exit 0
+    ;;
+  esac
+  shift
+done
+
+ABBOTJSDIR="$PARENTDIR/abbot-js"
+
+echo $ABBOTJSDIR
+
+if [ ! -d $ABBOTJSDIR ]
+then
+    echo "Please run script/bootstrap first before building"
+else
+    pushd "$ABBOTJSDIR" >/dev/null 2>&1
+    script/build
+    script/build-docs
+    cp -R ./out ${ROOTDIR}/src/reference/javascript
+    popd >/dev/null 2>&1
+fi
+
+cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/reference/python
+cp ../abbot-py-docs/_static/toc.yml src/reference/python
+dotnet build ../abbot/src/scripting/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release -o _build

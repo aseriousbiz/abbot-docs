@@ -2,6 +2,8 @@
   "name": "abbot-docs",
   "version": "1.0.0",
   "description": "Documentation for Abbot",
+  "author": "",
+  "license": "ISC",
   "main": "index.js",
   "watch": {
     "serve": {
@@ -16,19 +18,34 @@
     }
   },
   "scripts": {
-    "prettify": "sed -i '.bak' 's/\\/index\\.html//g' _site/**/*.html _site/*.html _site/*.json && rm -rf _site/**/*.bak",
-    "prepare": "cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/reference/python && cp ../abbot-py-docs/_static/toc.yml src/reference/python && npm run compile",
-    "compile": "dotnet build ../abbot/src/scripting/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release -o _build",
-    "watch": "npm run prepare && npm-watch",
-    "build": "npm run prepare && docfx src/docfx.json && npm run prettify",
-    "serve": "docfx build src/docfx.json && npm run prettify && npm run web",
+    "info": "npm-scripts-info",
+    "reset": "git clean -xdf && git reset --hard && yarn install",
+    "all": "run-s build",
+    "clean": "",
+    "prettify": "run-s prettify:run prettify:clean",
+    "prettify:run": "sed -i\\.bak -E 's,/index\\.html,,g' _site/**/*.html _site/*.html _site/*.json",
+    "prettify:clean": "trash _site/**/*.bak",
+    "build": "run-s build:deps build:docs prettify",
+    "build:deps": "script/build-dependencies",
+    "build:docs": "docfx src/docfx.json",
+    "watch": "run-s build:docs watch:run",
+    "watch:run": "npm-watch",
+    "serve": "run-s build:docs prettify web",
     "web": "echo \"listening on http://localhost:8080\" && python3 -m http.server 8080 --dir _site"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts-info": {
+    "info": "Display information about the package scripts",
+    "build": "Build the project",
+    "watch": "Run the project, re-run on save"
+  },
   "dependencies": {
+    "crlf": "^1.1.1",
     "jsdoc": "^3.6.7",
     "node2docfx": "^1.0.45",
+    "npm-run-all": "^4.1.5",
+    "npm-scripts-info": "^0.1.0",
+    "standard-version": "^9.3.2",
+    "trash-cli": "^4.0.0",
     "npm-watch": "^0.9.0"
   }
 }

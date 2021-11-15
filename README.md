@@ -6,8 +6,10 @@ This site hosts Abbot's end-user documentation.
 
 ```bash
 git clone https://github.com/aseriousbiz/abbot-docs
-cd ../abbot-docs
+cd abbot-docs
 script/bootstrap
+script/build
+script/server
 ```
 
 The bootstrap script ensures this repository is in a sibling directory to aseriousbiz/abbot, aseriousbiz/abbot-js, and aseriousbiz/abbot-py-docs. This is necessary to generate documentation.

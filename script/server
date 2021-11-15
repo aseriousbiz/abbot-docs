@@ -1,3 +1,2 @@
 #! /bin/sh
-
-npm run watch
+yarn run watch
