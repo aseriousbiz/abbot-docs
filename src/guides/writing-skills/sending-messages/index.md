@@ -16,7 +16,7 @@ await Bot.ReplyAsync("Thanks!");
 ## [JavaScript](#tab/tabid-js)
 
 ```js
-bot.reply("Thanks!");
+await bot.reply("Thanks!");
 ```
 
 ## [Python](#tab/tabid-py)
@@ -46,7 +46,7 @@ await Bot.ReplyAsync("Thanks!", new MessageOptions() { To = Bot.From });
 ## [JavaScript](#tab/tabid-js)
 
 ```js
-bot.reply("Thanks!", { to: bot.from });
+await bot.reply("Thanks!", { to: bot.from });
 ```
 
 ## [Python](#tab/tabid-py)
@@ -76,7 +76,7 @@ if (to is IMentionArgument mention)
 let [to, ...rest] = bot.tokenizedArguments;
 
 if (to.mentioned) {
-    bot.reply(`Hello there ${to.mentioned.name}!`, { to: to.mentioned });
+    await bot.reply(`Hello there ${to.mentioned.name}!`, { to: to.mentioned });
 }
 ```
 
@@ -104,7 +104,7 @@ await Bot.ReplyAsync($"Hello!", new MessageOptions() { To = user });
 
 ```js
 let user = bot.users.getConversation("U0123456789");
-bot.reply("Hello!", { to: user });
+await bot.reply("Hello!", { to: user });
 ```
 
 ## [Python](#tab/tabid-py)
@@ -138,7 +138,7 @@ await Bot.ReplyAsync("Thanks!", new MessageOptions() { To = Bot.Room });
 ## [JavaScript](#tab/tabid-js)
 
 ```js
-bot.reply("Thanks!", { to: bot.room });
+await bot.reply("Thanks!", { to: bot.room });
 ```
 
 ## [Python](#tab/tabid-py)
@@ -168,7 +168,7 @@ if (to is IRoomArgument arg)
 let [to, ...rest] = bot.tokenizedArguments;
 
 if (to.room) {
-    bot.reply("Hello", { to: to.room });
+    await bot.reply("Hello", { to: to.room });
 }
 ```
 
@@ -196,7 +196,7 @@ await Bot.ReplyAsync("Hello!", new MessageOptions() { To = room });
 
 ```js
 let room = bot.rooms.getConversation("C0123456789");
-bot.reply("Hello!", { to: room });
+await bot.reply("Hello!", { to: room });
 ```
 
 ## [Python](#tab/tabid-py)
@@ -228,7 +228,7 @@ await Bot.ReplyAsync("Hello from a thread!", new MessageOptions() { To = Bot.Thr
 ## [JavaScript](#tab/tabid-js)
 
 ```js
-bot.reply("Hello from a thread!", { to: bot.thread });
+await bot.reply("Hello from a thread!", { to: bot.thread });
 ```
 
 ## [Python](#tab/tabid-py)
@@ -253,7 +253,7 @@ await Bot.ReplyAsync("Hello from a thread!", new MessageOptions() { To = thread 
 
 ```js
 let thread = bot.rooms.getConversation("C1234").getThread("1234.5678");
-bot.reply("Hello from a thread!", { to: thread });
+await bot.reply("Hello from a thread!", { to: thread });
 ```
 
 ## [Python](#tab/tabid-py)
@@ -283,7 +283,7 @@ if (Bot.Utilities.TryParseSlackUrl("https://exampleorg.slack/team/U0000000000", 
 ```js
 let conversation = bot.utils.parseSlackUrl("https://exampleorg.slack/team/U0000000000");
 if (conversation) {
-    bot.reply("Hello!", { to: conversation });
+    await bot.reply("Hello!", { to: conversation });
 }
 ```
 
