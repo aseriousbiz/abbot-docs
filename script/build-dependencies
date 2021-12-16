@@ -58,7 +58,7 @@ else
     echo "*** Building abbot ***"
     (
       cd "$ABBOTCSDIR"
-      dotnet build src/scripting/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release -o _build
+      dotnet build src/scripting/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release -o "${ROOTDIR}/_build"
     )
 fi
 
