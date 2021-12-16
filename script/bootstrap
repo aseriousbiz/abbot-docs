@@ -1,12 +1,16 @@
 #!/bin/bash -u
-{ set +x; } 2>/dev/null #Suppresses echoing every line. pass --trace to reenable it
+{ set +x; } 2>/dev/null
 SOURCE=$0
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 ROOTDIR=$(cd $DIR && cd ../ && pwd)
+cd "$ROOTDIR"
 
-OS="Mac"
-if [[ -e "/c/" ]]; then
-  OS="Windows"
+if [[ "$(uname)" = "Darwin" ]]; then
+    OS="Mac"
+elif [[ -e "/c/" ]]; then
+    OS="Windows"
+else
+    OS="Linux"
 fi
 
 function install() {
@@ -46,7 +50,7 @@ EOF
 
 function sibling() {
   repo=$1
-  isssh=$2
+  isssh=${2-}
   dir=$(cd .. && pwd)
   repodir="${dir}/${repo}"
   if [ ! -d $repodir ]; then
@@ -54,7 +58,7 @@ function sibling() {
     if [[ $isssh ]]; then
       git clone git@github.com:aseriousbiz/${repo} $repodir
     else
-      git clone https://github.com/aseriousbiz/${repo} $$repodir
+      git clone https://github.com/aseriousbiz/${repo} $repodir
     fi
   else
     echo "aseriousbiz/${repo} exists in sibling directory. ✓"
@@ -74,29 +78,26 @@ while (( "$#" )); do
   shift
 done
 
-if which brew > /dev/null
-then
-  echo "brew is installed, skipping…"
-else
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+if [[ x"$OS" != x"Linux" ]]; then
+  if which brew > /dev/null
+  then
+    echo "brew is installed, skipping…"
+  else
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  fi
 
-install yarn
-install docfx
+  install yarn
+  install docfx
+fi
 
 yarn install
 
-pushd $ROOTDIR >/dev/null 2>&1
+if [[ "$CODESPACES" != "true" ]]; then
+  sshgit=$(git remote get-url origin|grep git@ && echo 1)
+fi
 
-sshgit=$(git remote get-url origin|grep git@ && echo 1)
-
-sibling abbot $sshgit
-sibling abbot-py-docs $sshgit
-sibling abbot-js $sshgit
+sibling abbot ${sshgit-}
+sibling abbot-py-docs ${sshgit-}
+sibling abbot-js ${sshgit-}
 
 echo "Run script/build to build it and then script/server to run it locally"
-
-function cleanup() {
-  popd >/dev/null 2>&1
-}
-trap cleanup EXIT

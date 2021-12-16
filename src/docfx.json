@@ -13,7 +13,7 @@
       "disableGitFeatures": true,
       "disableDefaultFilter": false,
       "properties": {
-        "TargetFramework": "netcoreapp3.1"
+        "TargetFramework": "net6.0"
       }
     }
   ],

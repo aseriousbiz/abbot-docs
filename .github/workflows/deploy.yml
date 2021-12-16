@@ -21,12 +21,43 @@ jobs:
         fetch-depth: 1
         path: abbot-docs
 
+    - name: GitHub App token docs
+      id: token_docs
+      uses: tibdex/github-app-token@v1.5.0
+      with:
+        app_id: ${{ secrets.SERIOUSBOT_APPID }}
+        private_key: ${{ secrets.SERIOUSBOT_KEY }}
+
+    - name: GitHub App token abbot
+      id: token_abbot
+      uses: tibdex/github-app-token@v1.5.0
+      with:
+        app_id: ${{ secrets.SERIOUSBOT_APPID }}
+        private_key: ${{ secrets.SERIOUSBOT_KEY }}
+        repository: "aseriousbiz/abbot"
+
+    - name: GitHub App token abbot-py-docs
+      id: token_py
+      uses: tibdex/github-app-token@v1.5.0
+      with:
+        app_id: ${{ secrets.SERIOUSBOT_APPID }}
+        private_key: ${{ secrets.SERIOUSBOT_KEY }}
+        repository: "aseriousbiz/abbot"
+
+    - name: GitHub App token abbot-js
+      id: token_js
+      uses: tibdex/github-app-token@v1.5.0
+      with:
+        app_id: ${{ secrets.SERIOUSBOT_APPID }}
+        private_key: ${{ secrets.SERIOUSBOT_KEY }}
+        repository: "aseriousbiz/abbot"
+
     - name: Checkout aseriousbiz/abbot
       uses: actions/checkout@v2
       with:
         repository: aseriousbiz/abbot
         ref: main
-        token: ${{ secrets.GH_PAT }}
+        token: ${{ steps.token_abbot.outputs.token }}
         fetch-depth: 0
         path: abbot
 
@@ -35,7 +66,7 @@ jobs:
       with:
         repository: aseriousbiz/abbot-py-docs
         ref: main
-        token: ${{ secrets.GH_PAT }}
+        token: ${{ steps.token_py.outputs.token }}
         fetch-depth: 1
         path: abbot-py-docs
     
@@ -44,14 +75,14 @@ jobs:
       with:
         repository: aseriousbiz/abbot-js
         ref: main
-        token: ${{ secrets.GH_PAT }}
+        token: ${{ steps.token_js.outputs.token }}
         fetch-depth: 1
         path: abbot-js
 
     - name: Setup .NET 5
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: 5.0.103
+        dotnet-version: 6.0.100
 
     - name: Setup Node 14.x
       uses: actions/setup-node@v1
@@ -78,5 +109,5 @@ jobs:
       name: Publish Documentation on GitHub Pages
       env:
         BUILD_DIR: abbot-docs/_site # docfx's default output directory is _site
-        GH_PAT: ${{ secrets.GH_PAT }} # See https://github.com/maxheld83/ghpages
+        GH_PAT: ${{ steps.token_docs.outputs.token }} # See https://github.com/maxheld83/ghpages
       if: github.event_name != 'pull_request'
