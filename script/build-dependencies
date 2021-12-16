@@ -4,6 +4,7 @@ SOURCE=$0
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 ROOTDIR=$(cd $DIR && cd ../ && pwd)
 PARENTDIR=$(cd $ROOTDIR && cd ../ && pwd)
+cd "$ROOTDIR"
 
 while (( "$#" )); do
   case "$1" in
@@ -19,20 +20,45 @@ while (( "$#" )); do
 done
 
 ABBOTJSDIR="$PARENTDIR/abbot-js"
-
-echo $ABBOTJSDIR
-
 if [ ! -d $ABBOTJSDIR ]
 then
-    echo "Please run script/bootstrap first before building"
+    echo "Can't find abbot-js in $ABBOTJSDIR" 1>&2
+    echo "Please run script/bootstrap first before building" 1>&2
 else
-    pushd "$ABBOTJSDIR" >/dev/null 2>&1
-    script/build
-    script/build-docs
-    cp -R ./out ${ROOTDIR}/src/reference/javascript
-    popd >/dev/null 2>&1
+    echo "*** Building abbot-js ***"
+    (
+      cd "$ABBOTJSDIR"
+      script/build
+      script/build-docs
+      cp -R ./out ${ROOTDIR}/src/reference/javascript
+    )
 fi
 
-cp -R ../abbot-py-docs/_build/html/docfx_yaml/ src/reference/python
-cp ../abbot-py-docs/_static/toc.yml src/reference/python
-dotnet build ../abbot/src/scripting/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release -o _build
+ABBOTPYDIR="$PARENTDIR/abbot-py-docs"
+if [ ! -d $ABBOTPYDIR ]
+then
+    echo "Can't find abbot-py-docs in $ABBOTPYDIR" 1>&2
+    echo "Please run script/bootstrap first before building" 1>&2
+else
+    echo "*** Building abbot-py-docs ***"
+    (
+      rm -Rf "$ROOTDIR/src/reference/python"
+      cd "$ABBOTPYDIR"
+      cp -R _build/html/docfx_yaml/ "${ROOTDIR}/src/reference/python"
+      cp _static/toc.yml "${ROOTDIR}/src/reference/python"
+    )
+fi
+
+ABBOTCSDIR="$PARENTDIR/abbot"
+if [ ! -d $ABBOTCSDIR ]
+then
+    echo "Can't find abbot in $ABBOTCSDIR" 1>&2
+    echo "Please run script/bootstrap first before building" 1>&2
+else
+    echo "*** Building abbot ***"
+    (
+      cd "$ABBOTCSDIR"
+      dotnet build src/scripting/Abbot.Scripting.Interfaces/Abbot.Scripting.Interfaces.csproj --configuration Release -o _build
+    )
+fi
+

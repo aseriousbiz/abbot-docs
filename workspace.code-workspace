@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../abbot"
+		},
+		{
+			"path": "../abbot-py-docs"
+		},
+		{
+			"path": "../abbot-js"
+		}
+	],
+	"settings": {}
+}
