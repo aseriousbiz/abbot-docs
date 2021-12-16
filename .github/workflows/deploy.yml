@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build-and-deploy-docs:
@@ -109,5 +110,5 @@ jobs:
       name: Publish Documentation on GitHub Pages
       env:
         BUILD_DIR: abbot-docs/_site # docfx's default output directory is _site
-        GH_PAT: ${{ steps.token_docs.outputs.token }} # See https://github.com/maxheld83/ghpages
+        GH_PAT: "x-access-token:${{ steps.token_docs.outputs.token }}" # See https://github.com/maxheld83/ghpages
       if: github.event_name != 'pull_request'
