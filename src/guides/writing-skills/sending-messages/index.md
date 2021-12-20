@@ -96,28 +96,28 @@ Or, you can use the "Users" API to fetch a specific user, if you know their plat
 ## [C#](#tab/tabid-cs)
 
 ```csharp
-var user = Bot.Users.GetConversation("U0123456789");
+var user = Bot.Users.GetTarget("U0123456789");
 await Bot.ReplyAsync($"Hello!", new MessageOptions() { To = user });
 ```
 
 ## [JavaScript](#tab/tabid-js)
 
 ```js
-let user = bot.users.getConversation("U0123456789");
+let user = bot.users.getTarget("U0123456789");
 await bot.reply("Hello!", { to: user });
 ```
 
 ## [Python](#tab/tabid-py)
 
 ```python
-user = bot.users.get_conversation("U0123456789")
+user = bot.users.get_target("U0123456789")
 bot.reply("Hello!", to=user)
 ```
 
 ***
 
 > [!NOTE]
-> The object returned by the "Get Conversation" API is just a handle that can be used with the "to" option.
+> The object returned by the "Get Target" API is just a handle that can be used with the "to" option.
 > It doesn't contain any of the user's profile information (name, email, etc.)
 
 ## Sending to rooms
@@ -188,28 +188,28 @@ Or, you can use the "Rooms" API to fetch a specific room, if you know their plat
 ## [C#](#tab/tabid-cs)
 
 ```csharp
-var room = Bot.Rooms.GetConversation("C0123456789");
+var room = Bot.Rooms.GetTarget("C0123456789");
 await Bot.ReplyAsync("Hello!", new MessageOptions() { To = room });
 ```
 
 ## [JavaScript](#tab/tabid-js)
 
 ```js
-let room = bot.rooms.getConversation("C0123456789");
+let room = bot.rooms.getTarget("C0123456789");
 await bot.reply("Hello!", { to: room });
 ```
 
 ## [Python](#tab/tabid-py)
 
 ```python
-room = bot.rooms.get_conversation("C0123456789")
+room = bot.rooms.get_target("C0123456789")
 bot.reply("Hello!", to=room)
 ```
 
 ***
 
 > [!NOTE]
-> The object returned by the "Get Conversation" API is just a handle that can be used with the "to" option.
+> The object returned by the "Get Target" API is just a handle that can be used with the "to" option.
 > It doesn't contain any of the room's other metadata (name, etc.)
 
 
@@ -239,27 +239,27 @@ bot.reply("Hello from a thread!", to=bot.thread)
 
 ***
 
-Or, if you know the platform-specific ID for a thread, you can look it up using the "Get Thread" API on any User or Room (including values returned by the "Get Conversation" API):
+Or, if you know the platform-specific ID for a thread, you can look it up using the "Get Thread" API on any User or Room (including values returned by the "Get Target" API):
 
 
 ## [C#](#tab/tabid-cs)
 
 ```csharp
-var thread = Bot.Rooms.GetConversation("C1234").GetThread("1234.5678");
+var thread = Bot.Rooms.GetTarget("C1234").GetThread("1234.5678");
 await Bot.ReplyAsync("Hello from a thread!", new MessageOptions() { To = thread });
 ```
 
 ## [JavaScript](#tab/tabid-js)
 
 ```js
-let thread = bot.rooms.getConversation("C1234").getThread("1234.5678");
+let thread = bot.rooms.getTarget("C1234").getThread("1234.5678");
 await bot.reply("Hello from a thread!", { to: thread });
 ```
 
 ## [Python](#tab/tabid-py)
 
 ```python
-thread = bot.rooms.get_conversation("C1234").get_thread("1234.5678")
+thread = bot.rooms.get_target("C1234").get_thread("1234.5678")
 bot.reply("Hello from a thread!", to=thread)
 ```
 
@@ -272,27 +272,27 @@ Abbot has another neat trick up their sleeve. Abbot can parse Slack URLs (the ki
 ## [C#](#tab/tabid-cs)
 
 ```csharp
-if (Bot.Utilities.TryParseSlackUrl("https://exampleorg.slack/team/U0000000000", out var conversation))
+if (Bot.Utilities.TryParseSlackUrl("https://exampleorg.slack/team/U0000000000", out var chat))
 {
-    await Bot.ReplyAsync("Hello!", new MessageOptions() { To = conversation });
+    await Bot.ReplyAsync("Hello!", new MessageOptions() { To = chat });
 }
 ```
 
 ## [JavaScript](#tab/tabid-js)
 
 ```js
-let conversation = bot.utils.parseSlackUrl("https://exampleorg.slack/team/U0000000000");
-if (conversation) {
-    await bot.reply("Hello!", { to: conversation });
+let chat = bot.utils.parseSlackUrl("https://exampleorg.slack/team/U0000000000");
+if (chat) {
+    await bot.reply("Hello!", { to: chat });
 }
 ```
 
 ## [Python](#tab/tabid-py)
 
 ```python
-conversation = bot.utils.parse_slack_url("https://exampleorg.slack/team/U0000000000")
-if conversation is not None:
-    bot.reply("Hello!", to=conversation)
+chat = bot.utils.parse_slack_url("https://exampleorg.slack/team/U0000000000")
+if chat is not None:
+    bot.reply("Hello!", to=chat)
 ```
 
 ***
