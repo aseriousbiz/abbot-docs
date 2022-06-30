@@ -20,7 +20,7 @@ RUN apt-get -qqy update && \
 # Install Docfx
 RUN mkdir /usr/local/share/docfx && \
     cd /usr/local/share/docfx && \
-    curl -sSL -o docfx.zip https://github.com/dotnet/docfx/releases/download/v2.56.7/docfx.zip && \
+    curl -sSL -o docfx.zip https://github.com/dotnet/docfx/releases/download/v2.59.2/docfx.zip && \
     unzip docfx.zip && \
     rm docfx.zip
 

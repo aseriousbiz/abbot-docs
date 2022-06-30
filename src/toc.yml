@@ -1,6 +1,9 @@
-- name: Guides
-  href: guides/
-  homepage: guides/index.md
+- name: Conversation Management
+  href: convos/
+  homepage: convos/index.md
+- name: Chatops
+  href: chatops/
+  homepage: chatops/index.md
 - name: Bot Reference
   href: reference/
   homepage: reference/index.md

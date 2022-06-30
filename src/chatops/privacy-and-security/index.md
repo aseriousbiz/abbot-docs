@@ -14,7 +14,7 @@ Any message that Abbot responds to is logged, and available in the Activity Log.
 
 ## What can A Serious Business see?
 
-Staff have the ability to review Activity Log entries. This is both to help us identify issues and help users troubleshoot problems. We are able to view skill code if requested by our users, but any time we view sensitive data (like code), it's logged and will show up in your audit log (it will say something like `(STAFF) Paul viewed code for foo-bar`). We are happy to show you what this looks like if you are curious. Email us at [help@ab.bot](help@ab.bot) and we can help you out.
+Staff have the ability to review Activity Log entries. This is both to help us identify issues and help users troubleshoot problems. We are able to view skill code if requested by our users, but any time we view sensitive data (like code), it's logged and will show up in your audit log (it will say something like `(STAFF) Paul viewed code for foo-bar`). We are happy to show you what this looks like if you are curious. Email us at [help@ab.bot](mailto:help@ab.bot) and we can help you out.
 
 ## Who can access Abbot
 

@@ -45,8 +45,10 @@
       },
       {
         "files": [
-          "guides/**.md",
-          "guides/**/toc.yml",
+          "convos/**.md",
+          "convos/**/toc.yml",
+          "chatops/**.md",
+          "chatops/**/toc.yml",
           "toc.yml",
           "*.md"
         ]
