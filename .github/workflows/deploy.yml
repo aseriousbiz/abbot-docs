@@ -18,7 +18,6 @@ jobs:
     - name: Checkout aseriousbiz/abbot-docs
       uses: actions/checkout@v2
       with:
-        repository: aseriousbiz/abbot-docs
         fetch-depth: 1
         path: abbot-docs
 
@@ -43,7 +42,7 @@ jobs:
       with:
         app_id: ${{ secrets.SERIOUSBOT_APPID }}
         private_key: ${{ secrets.SERIOUSBOT_KEY }}
-        repository: "aseriousbiz/abbot"
+        repository: "aseriousbiz/abbot-py-docs"
 
     - name: GitHub App token abbot-js
       id: token_js
@@ -51,7 +50,7 @@ jobs:
       with:
         app_id: ${{ secrets.SERIOUSBOT_APPID }}
         private_key: ${{ secrets.SERIOUSBOT_KEY }}
-        repository: "aseriousbiz/abbot"
+        repository: "aseriousbiz/abbot-js"
 
     - name: Checkout aseriousbiz/abbot
       uses: actions/checkout@v2
