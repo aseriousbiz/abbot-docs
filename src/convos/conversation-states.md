@@ -4,7 +4,7 @@ uid: conversation-states
 
 # Conversation States
 
-Throughout the life of the conversation, it can be in various states.
+A Conversation will transition into multiple states throughout its life.
 The [Conversation List](https://app.ab.bot/conversations) contains a tab for each of these states that list the conversations currently in that state.
 
 ## Needs Attention / Responded
