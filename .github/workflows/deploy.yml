@@ -96,7 +96,7 @@ jobs:
         yarn run build:deps
 
     - name: Build Documentation
-      uses: nikeee/docfx-action@v1.0.0
+      uses: nikeee/docfx-action@ba9ec988f1c0d472b4d2cd308e96620c4dbb620d
       with:
         args: abbot-docs/src/docfx.json
       
