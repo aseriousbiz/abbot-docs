@@ -16,7 +16,7 @@ To access this, press the "triple-dot" menu for a message and select the "Manage
 <img width="311" alt="Screen Shot 2022-06-30 at 3 50 41 PM" src="https://user-images.githubusercontent.com/7574/176791390-3e2bbdca-aeaa-4118-a5b7-136d9b520bdf.png">
 
 > [!NOTE]
-> You may need to select "More message shortcuts..." to find the shortcut.
+> You may need to select "More message shortcuts…" to find the shortcut.
 
 If the message is not part of a conversation, you'll get an error message:
 

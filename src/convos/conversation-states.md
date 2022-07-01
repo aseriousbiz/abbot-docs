@@ -5,7 +5,7 @@ uid: conversation-states
 # Conversation States
 
 Throughout the life of the conversation, it can be in various states.
-These are represented by which tab of the [Conversation List](https://app.ab.bot/conversations) they appear under.
+The [Conversation List](https://app.ab.bot/conversations) contains a tab for each of these states that list the conversations currently in that state.
 
 ## Needs Attention / Responded
 
@@ -16,7 +16,7 @@ The conversation moves back and forth between these states until the issues are 
 
 ## Closed
 
-A conversation by someone from your team at any time by opening the conversation [Timeline](xref:conversation-timeline) in the Abbot Dashboard and selecting "Close Conversation":
+A member of your taem can close a conversation at any time by opening the conversation [Timeline](xref:conversation-timeline) in the Abbot Dashboard and selecting "Close Conversation":
 
 <img width="1139" alt="image" src="https://user-images.githubusercontent.com/7574/176789612-1c877040-e2b2-4e9d-b4dd-55470ea03131.png">
 

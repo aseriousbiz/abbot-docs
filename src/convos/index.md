@@ -6,7 +6,7 @@ uid: convos-intro
 
 Abbot helps you manage conversations with your customers in Slack.
 So, what is a conversation?
-In Abbot, a conversation is a set of chat messages that represent a single request, question or comment from a customer.
+In Abbot, a Conversation is a set of chat messages that represent a single request, question or comment from a customer.
 Each message from a customer gets assigned to a conversation, or creates a new conversation.
 
 Currently, Abbot only supports conversation management in a Slack Connect channel shared with another organization.
