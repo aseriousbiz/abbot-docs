@@ -8,7 +8,7 @@ Abbot can automatically notify your [First Responders](xref:frs) when a conversa
 You can set two different thresholds for your response times:
 
 * Target - The ideal response time. If a customer hasn't received a response in this time, we'll send a notification to the First Responders.
-* Deadline - The longest a conversation can go without getting an answer. This could represent a contractual obligation like a Service Level Agreement (SLA).
+* Deadline - The longest a conversation can go without getting a response from your team. This could represent a contractual obligation like a Service Level Agreement (SLA).
 
 ## Configuring a Response Time
 
@@ -32,4 +32,4 @@ You can select a time in minutes, hours, or days.
 Once you've configured both [First Responders](xref:frs) and a Response Time for a room, Abbot will start sending notifications.
 When the "Target" time threshold elapses for a conversation, Abbot will start a group DM with all the First Responders for a room and remind them to respond to the conversation.
 The message will include a direct link to make it easier for your FRs to respond.
-The FRs can also use that group DM to coordinate a response.
+The First Responders can also use that group DM to coordinate a response.

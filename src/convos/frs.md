@@ -10,7 +10,7 @@ They may not be the subject matter experts, but they know how to find the right 
 
 Assigning First Responders ensures Abbot knows who needs to be kept in the loop about the conversation.
 First Responders will see conversations for all their rooms on their [Abbot Dashboard](https://app.ab.bot).
-If you configure [Response Times](xref:response-times), Abbot will also notify First Responders when conversations near your response time deadline.
+If you configure [Response Times](xref:response-times), Abbot will also notify First Responders when conversations near the configured response time deadlines.
 
 ## Assigning First Responders
 
@@ -31,4 +31,4 @@ To assign a new user, just start typing in the "Search for a user…" box, and t
 
 <img width="1115" alt="image" src="https://user-images.githubusercontent.com/7574/176787683-5b5415d9-8e3c-40ab-9cd1-fd6bcb0cde45.png">
 
-To remove a user, just click the "Remove" button.
+To remove a user, click the "Remove" button.

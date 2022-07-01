@@ -50,7 +50,7 @@ Click the "Create" button and Abbot will start creating the ticket in the backgr
 
 <img width="537" alt="image" src="https://user-images.githubusercontent.com/7574/176793527-4801f24b-b0b9-4fb5-bc20-a0a257c4987d.png">
 
-When the process is complete, Abbot will send you a DM with a link to the new ticket
+When the process is complete, Abbot will send you a direct message with a link to the new ticket
 
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/7574/176793586-aa235271-ef40-4b42-b763-251156c1a0f7.png">
 
