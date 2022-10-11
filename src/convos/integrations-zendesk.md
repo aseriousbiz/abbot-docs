@@ -54,11 +54,18 @@ When the process is complete, Abbot will send you a direct message with a link t
 
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/7574/176793586-aa235271-ef40-4b42-b763-251156c1a0f7.png">
 
+If the Slack message is a thread with replies, Abbot imports every reply in the thread as a comment on the Zendesk ticket that it creates.
+
 ### Keeping replies in sync
 
-Coming soon!
 After creating the initial ticket, Abbot will take any replies posted in Slack and push them to the Zendesk ticket.
 In addition, any Public Reply posted on the Zendesk ticket will be pushed back to the Slack thread.
+
+By default, Zendesk closes tickets after 28 days of inactivity. A closed Zendesk ticket cannot receive comments (Zendesk will create a new ticket). Therefore, Abbot will not push Slack replies to a closed Zendesk ticket.
+
+### Keeping Status in sync
+
+When a Zendesk Ticket is marked as `Solved`, the linked Abbot `Conversation` will also be `Closed`. If a customer (foreign member of a shared channel or a guest account) replies to the thread in Slack, the `Conversation` *and* the linked Zendesk ticket will be reopened.
 
 ### Linking Zendesk organizations to rooms
 
