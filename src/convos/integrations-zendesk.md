@@ -8,9 +8,6 @@ Abbot provides integrations with third-party services.
 
 ## Zendesk
 
-> [!NOTE]
-> Zendesk integration is currently in private preview. Please [contact us](mailto:help@ab.bot) if you're interested!
-
 You can use Abbot to create a Zendesk ticket from a Conversation.
 Once a Zendesk ticket is created, Abbot will keep replies in-sync between Slack and Zendesk.
 
