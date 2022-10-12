@@ -68,7 +68,5 @@ By default, Zendesk closes tickets after 28 days of inactivity. A closed Zendesk
 When a Zendesk Ticket is marked as `Solved`, the linked Abbot `Conversation` will also be `Closed`. If a customer (foreign member of a shared channel or a guest account) replies to the thread in Slack, the `Conversation` *and* the linked Zendesk ticket will be reopened.
 
 ### Linking Zendesk organizations to rooms
-
-Coming Soon!
 You can configure a Zendesk organization for each room Abbot is monitoring on the [Zendesk Integration Settings](https://app.ab.bot/settings/organization/integrations/zendesk) page.
 This helps ensure that the Zendesk tickets Abbot creates end up attached to the correct organization in Zendesk.
