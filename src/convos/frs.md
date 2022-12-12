@@ -32,3 +32,6 @@ To assign a new user, just start typing in the "Search for a user…" box, and t
 <img width="1115" alt="image" src="https://user-images.githubusercontent.com/7574/176787683-5b5415d9-8e3c-40ab-9cd1-fd6bcb0cde45.png">
 
 To remove a user, click the "Remove" button.
+
+## Escalation Responders
+Escalation Responders are a special kind of responder. They are agents who get notified when a deadline has passed, in addition to First Responders. 
