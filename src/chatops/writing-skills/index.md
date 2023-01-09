@@ -6,4 +6,4 @@ Need something beyond the built-in functionality? You can write your own skills 
 
 * C# ([Api Reference](xref:csharp-bot-reference))
 * JavaScript ([Api Reference](xref:abbot-js))
-* Python ([Api Reference](xref:project-Python Bot Reference))
+* Python ([Api Reference](xref:abbot-py-docs))
