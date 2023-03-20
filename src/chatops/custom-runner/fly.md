@@ -19,7 +19,6 @@ Create a new Fly application by moving to an empty folder on your machine and ru
 
 Enter any app name you'd like, select the organization and region (we recommend `sea`).
 You **do not** need to create a Postgresql or Redis database to deploy the runner.
-Choose **not** to deploy now (it's OK if you already deployed it, it just won't work until we set up the skill runner token).
 
 Create a `Dockerfile` with the following text:
 
