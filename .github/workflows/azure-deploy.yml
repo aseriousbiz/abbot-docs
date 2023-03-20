@@ -101,13 +101,10 @@ jobs:
       with:
         args: abbot-docs/src/docfx.json
       
-    - name: Prettify Documentation
+    - name: Finish build
       working-directory: abbot-docs
-      run: sudo yarn run prettify
-
-    - name: Copy config file
       run: |
-        cp abbot-docs/staticwebapp.config.json _site/staticwebapp.config.json
+        sudo yarn run build:finish
 
     - name: Build And Deploy
       id: builddeploy
