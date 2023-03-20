@@ -17,7 +17,7 @@ Create a new Fly application by moving to an empty folder on your machine and ru
 > flyctl launch
 ```
 
-Enter any app name you'd like, select the organization and region (we recommend `sea`).
+Enter any app name you'd like, select the organization and region (we recommend `sea` or `sjc` because of their proximity to Abbot's infrastructure).
 You **do not** need to create a Postgresql or Redis database to deploy the runner.
 
 Create a `Dockerfile` with the following text:
