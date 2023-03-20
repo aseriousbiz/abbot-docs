@@ -106,9 +106,8 @@ jobs:
       run: sudo yarn run prettify
 
     - name: Copy config file
-      working-directory: abbot-docs
       run: |
-        yarn run build:copy-config
+        cp abbot-docs/staticwebapp.config.json _site/staticwebapp.config.json
 
     - name: Build And Deploy
       id: builddeploy
