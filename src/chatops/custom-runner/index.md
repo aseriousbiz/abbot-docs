@@ -6,10 +6,10 @@ Title: Self-Hosted Skill Runners
 # Self-Hosted Skill Runners
 
 If you need more functionality than we provide on the default hosted skill runners, you can host your skill runners.
-Currently, only the Python runner can be self-hosted, contact us at `support@ab.bot` if you're interested in self-hosting other runners.
+Currently, only the Python runner can be self-hosted; contact us at `support@ab.bot` if you're interested in self-hosting other runners.
 
 > [!NOTE]
-> Custom Runners are not available to all accounts by default, please contact `support@ab.bot` if you want to enable this feature on your account.
+> Custom Runners are not available to all accounts by default. Please contact `support@ab.bot` if you want to enable this feature on your account.
 
 The Python runner is open-source at [aseriousbiz/abbot-py](https://github.com/aseriousbiz/abbot-py), and you can build it yourself there using the `Dockerfile`.
 Alternatively, there are public docker images available which you can deploy directly, or use as a base image to install further dependencies (see below):
@@ -48,7 +48,7 @@ There are three sandboxing policies available.
 Select the policy you want to apply by setting the `ABBOT_SANDBOX_POLICY` environment variable:
 
 * `none` - Absolutely no sandboxing is performed. The skill code runs unrestricted.
-* `permissive` - Permissive sandboxing, generally good for preventing unintentional disruption to the runner:
+* `permissive` - (Default) Permissive sandboxing, generally good for preventing unintentional disruption to the runner:
   * Skills are forbidden from accessing certain Python modules that could allow access to the runner itself (`os`, `subprocess`, etc.).
 * `restrictive` - Most restrictive sandboxing, limits skills to well-known modules and functionality:
   * Skills can only access known-good modules.

@@ -13,7 +13,7 @@ Download the [Fly CLI](https://fly.io/docs/hands-on/install-flyctl/) and log in 
 
 Create a new Fly application by moving to an empty folder on your machine and running the following command:
 
-```
+```shell
 > flyctl launch
 ```
 
@@ -55,7 +55,8 @@ Click "Edit" next to "Python" in "Runner Endpoints":
 
 ![The "Edit" button next to "Python" in "Runner Endpoints"](https://user-images.githubusercontent.com/7574/226437223-d1310902-b8f6-4d69-b89c-2c8bd68cbb04.png)
 
-Insert the public URL to the `/api/v1/execute` endpoint of your custom runner as the "Url".
+Insert the public URL to the `/api/v1/execute` endpoint of your custom runner as the "Url", e.g. 
+`https://your-app-name.fly.dev/api/v1/execute`.
 Paste the token you generated in `ABBOT_SKILL_TOKEN` above as the "Api Token".
 
 ![Editing the Python Endpoint](https://user-images.githubusercontent.com/7574/226443164-fe2f6918-1f0a-4c24-86ac-0454f28ef42e.png)
