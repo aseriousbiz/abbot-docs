@@ -105,6 +105,11 @@ jobs:
       working-directory: abbot-docs
       run: sudo yarn run prettify
 
+    - name: Copy config file
+      working-directory: abbot-docs
+      run: |
+        yarn run build:copy-config
+
     - name: Build And Deploy
       id: builddeploy
       uses: Azure/static-web-apps-deploy@v1
