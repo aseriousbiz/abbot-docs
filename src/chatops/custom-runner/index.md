@@ -63,10 +63,7 @@ The below dockerfile installs the [`cuddle` module](https://github.com/djmattyg0
 
 ```dockerfile
 FROM abbotpublic.azurecr.io/runners/python:latest
-ENV HOST=0.0.0.0
-ENV PORT=8080
-ENV ABBOT_SANDBOX_POLICY=none # See "Sandboxing" below
-ENV AbbotApiBaseUrl="https://app.ab.bot/api"
+ENV ABBOT_SANDBOX_POLICY=none
 
 RUN pip install cuddle
 ```
