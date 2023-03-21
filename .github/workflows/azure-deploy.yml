@@ -1,0 +1,130 @@
+name: Azure Static Web Apps CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
+
+jobs:
+  build_and_deploy_job:
+    runs-on: ubuntu-latest
+    name: Build and deploy Abbot Docs
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+
+    steps:
+    - name: Checkout aseriousbiz/abbot-docs
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+        path: abbot-docs
+
+    - name: GitHub App token docs
+      id: token_docs
+      uses: tibdex/github-app-token@v1.5.0
+      with:
+        app_id: ${{ secrets.SERIOUSBOT_APPID }}
+        private_key: ${{ secrets.SERIOUSBOT_KEY }}
+
+    - name: GitHub App token abbot
+      id: token_abbot
+      uses: tibdex/github-app-token@v1.5.0
+      with:
+        app_id: ${{ secrets.SERIOUSBOT_APPID }}
+        private_key: ${{ secrets.SERIOUSBOT_KEY }}
+        repository: "aseriousbiz/abbot"
+
+    - name: GitHub App token abbot-py-docs
+      id: token_py
+      uses: tibdex/github-app-token@v1.5.0
+      with:
+        app_id: ${{ secrets.SERIOUSBOT_APPID }}
+        private_key: ${{ secrets.SERIOUSBOT_KEY }}
+        repository: "aseriousbiz/abbot-py-docs"
+
+    - name: GitHub App token abbot-js
+      id: token_js
+      uses: tibdex/github-app-token@v1.5.0
+      with:
+        app_id: ${{ secrets.SERIOUSBOT_APPID }}
+        private_key: ${{ secrets.SERIOUSBOT_KEY }}
+        repository: "aseriousbiz/abbot-js"
+
+    - name: Checkout aseriousbiz/abbot
+      uses: actions/checkout@v2
+      with:
+        repository: aseriousbiz/abbot
+        ref: main
+        token: ${{ steps.token_abbot.outputs.token }}
+        fetch-depth: 0
+        path: abbot
+
+    - name: Checkout aseriousbiz/abbot-py-docs
+      uses: actions/checkout@v2
+      with:
+        repository: aseriousbiz/abbot-py-docs
+        ref: main
+        token: ${{ steps.token_py.outputs.token }}
+        fetch-depth: 1
+        path: abbot-py-docs
+    
+    - name: Checkout aseriousbiz/abbot-js
+      uses: actions/checkout@v2
+      with:
+        repository: aseriousbiz/abbot-js
+        ref: main
+        token: ${{ steps.token_js.outputs.token }}
+        fetch-depth: 1
+        path: abbot-js
+
+    - name: Setup .NET 6
+      uses: actions/setup-dotnet@v3.0.3
+      with:
+        dotnet-version: 6.0.x
+
+    - name: Setup Node 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14.x'
+    
+    - name: Build Dependencies
+      working-directory: abbot-docs
+      run: |
+        yarn install
+        yarn run build:deps
+
+    - name: Build Documentation
+      uses: anurse/docfx-action@1597fc886102ac3719e7836003f3b4f41f1ace46
+      with:
+        args: abbot-docs/src/docfx.json
+      
+    - name: Finish build
+      working-directory: abbot-docs
+      run: |
+        sudo yarn run build:finish
+
+    - name: Build And Deploy
+      id: builddeploy
+      uses: Azure/static-web-apps-deploy@v1
+      with:
+        azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_RED_DESERT_0558A201E }}
+        repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+        action: "upload"
+        app_location: "abbot-docs/_site"
+        output_location: ""
+        skip_app_build: true
+
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Close Pull Request Job
+    steps:
+      - name: Close Pull Request
+        id: closepullrequest
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_RED_DESERT_0558A201E }}
+          action: "close"

@@ -29,7 +29,7 @@ else
     (
       cd "$ABBOTJSDIR"
       script/build
-      script/build-docs
+      node "$ROOTDIR/node_modules/node2docfx/node2docfx.js" "$ABBOTJSDIR/node2docfx.json"
       cp -R ./out ${ROOTDIR}/src/reference/javascript
     )
 fi

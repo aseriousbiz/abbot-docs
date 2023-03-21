@@ -17,3 +17,6 @@
   href: known-issues/index.md
 - name: Privacy and Security
   href: privacy-and-security/index.md
+- name: Self-Hosted Skill Runners
+  href: custom-runner/toc.yml
+  topicHref: custom-runner/index.md
