@@ -48,7 +48,7 @@ Now, you can deploy the app:
 Validate that the runner is working by accessing the `https://your-app-name.fly.dev/api/v1/status` endpoint (replacing `your-app-name` with whatever app name you chose when creating the Fly app).
 You should see a `"status": "ok"` field in the JSON payload.
 
-Now, go to the ["Runners" section of your Organization settings page](https://app.ab.bot/settings/organization/runners/) in Abbot, and select "Custom Runners" on the far right.
+Now, go to the ["Runners" section of your Organization settings page](https://app.ab.bot/settings/organization/runners) in Abbot, and select "Custom Runners" on the far right.
 
 Click "Edit" next to "Python" in "Runner Endpoints":
 
