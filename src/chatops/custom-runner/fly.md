@@ -48,18 +48,18 @@ Now, you can deploy the app:
 Validate that the runner is working by accessing the `https://your-app-name.fly.dev/api/v1/status` endpoint (replacing `your-app-name` with whatever app name you chose when creating the Fly app).
 You should see a `"status": "ok"` field in the JSON payload.
 
-Now, go to your [Organization Settings](https://app.ab.bot/settings/organization) in Abbot, and select "Custom Runners" on the far right.
-If you don't see "Custom Runners", contact `support@ab.bot` to ask about enabling this feature for your account.
+Now, go to the ["Runners" section of your Organization settings page](https://app.ab.bot/settings/organization/runners) in Abbot, and select "Custom Runners" on the far right.
 
 Click "Edit" next to "Python" in "Runner Endpoints":
 
-![The "Edit" button next to "Python" in "Runner Endpoints"](https://user-images.githubusercontent.com/7574/226437223-d1310902-b8f6-4d69-b89c-2c8bd68cbb04.png)
+<img width="1539" alt="The &quot;Edit&quot; button next to &quot;Python&quot; in &quot;Runner Endpoints&quot;" src="https://user-images.githubusercontent.com/7574/227323557-a36ac954-e699-4dc0-a9bb-397125fdd6d3.png">
+
 
 Insert the public URL to the `/api/v1/execute` endpoint of your custom runner as the "Url", e.g. 
 `https://your-app-name.fly.dev/api/v1/execute`.
 Paste the token you generated in `ABBOT_SKILL_TOKEN` above as the "Api Token".
 
-![Editing the Python Endpoint](https://user-images.githubusercontent.com/7574/226443164-fe2f6918-1f0a-4c24-86ac-0454f28ef42e.png)
+<img width="663" alt="Editing the Python Endpoint" src="https://user-images.githubusercontent.com/7574/227323507-05b87e9d-7cad-4509-929a-a06d2d9d8c89.png">
 
 Save, and that's it!
 You're now running your runner on Fly!
