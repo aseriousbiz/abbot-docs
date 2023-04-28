@@ -49,5 +49,8 @@
     "npm-watch": "0.11.0",
     "standard-version": "9.5.0",
     "trash-cli": "5.0.0"
+  },
+  "devDependencies": {
+    "yarn-audit-fix": "^9.3.10"
   }
 }
