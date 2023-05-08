@@ -18,8 +18,7 @@
     }
   },
   "scripts": {
-    "info": "npm-scripts-info",
-    "reset": "git clean -xdf && git reset --hard && yarn install",
+    "reset": "git clean -xdf && git reset --hard && npm install",
     "all": "run-s build",
     "clean": "",
     "prettify": "run-s prettify:run prettify:clean",
@@ -45,12 +44,8 @@
     "jsdoc": "4.0.2",
     "node2docfx": "^1.0.45",
     "npm-run-all": "^4.1.5",
-    "npm-scripts-info": "0.3.9",
     "npm-watch": "0.11.0",
     "standard-version": "9.5.0",
     "trash-cli": "5.0.0"
-  },
-  "devDependencies": {
-    "yarn-audit-fix": "^9.3.10"
   }
 }

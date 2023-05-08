@@ -4,4 +4,4 @@ SOURCE=$0
 DIR="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 ROOTDIR=$(cd $DIR && cd ../ && pwd)
 pushd $ROOTDIR
-yarn run build
+npm run build

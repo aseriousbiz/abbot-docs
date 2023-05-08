@@ -92,8 +92,8 @@ jobs:
     - name: Build Dependencies
       working-directory: abbot-docs
       run: |
-        yarn install
-        yarn run build:deps
+        npm install
+        npm run build:deps
 
     - name: Build Documentation
       uses: anurse/docfx-action@1597fc886102ac3719e7836003f3b4f41f1ace46
@@ -102,7 +102,7 @@ jobs:
       
     - name: Prettify Documentation
       working-directory: abbot-docs
-      run: sudo yarn run prettify
+      run: sudo npm run prettify
       
     # Publish generated site using GitHub Pages
     - uses: maxheld83/ghpages@master
