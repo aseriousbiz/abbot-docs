@@ -86,11 +86,11 @@ if [[ x"$OS" != x"Linux" ]]; then
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
   fi
 
-  install yarn
+  install npm
   install docfx
 fi
 
-yarn install
+npm install
 
 if [[ "$CODESPACES" != "true" ]]; then
   sshgit=$(git remote get-url origin|grep git@ && echo 1)
