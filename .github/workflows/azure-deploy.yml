@@ -93,8 +93,8 @@ jobs:
     - name: Build Dependencies
       working-directory: abbot-docs
       run: |
-        yarn install
-        yarn run build:deps
+        npm install
+        npm run build:deps
 
     - name: Build Documentation
       uses: anurse/docfx-action@1597fc886102ac3719e7836003f3b4f41f1ace46
@@ -104,7 +104,7 @@ jobs:
     - name: Finish build
       working-directory: abbot-docs
       run: |
-        sudo yarn run build:finish
+        sudo npm run build:finish
 
     - name: Build And Deploy
       id: builddeploy
