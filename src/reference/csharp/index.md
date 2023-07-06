@@ -42,10 +42,15 @@ If you are writing skills that rely on the Mention object, the `Id` is the only 
 
 ## Preloaded C# libraries
 
-* All libraries available in .NET Core 3.1
-* [NodaTime 3.0.3](https://nodatime.org/)
+* All libraries available in .NET 7.0
+* [Dapper 2.0.x](https://github.com/DapperLib/Dapper)
+* [HtmlAgilityPack 1.11.x](https://html-agility-pack.net/)
+* [Newtonsoft.Json 13.0.x](https://www.newtonsoft.com/json)
+* [Microsoft.Recognizers.Text 1.8.x](https://github.com/microsoft/Recognizers-Text)
+* [MysqlConnector 1.3.x](https://mysqlconnector.net/)
+* [NodaTime 3.x](https://nodatime.org/)
+* [Npgsql 6.0.x](https://www.npgsql.org/)
 * [Octokit.net](https://github.com/octokit/octokit.net)
-* NewtonSoft.Json 12.0.3
-* HtmlAgilityPack 1.11.28
+* [Refit 6.x](https://reactiveui.github.io/refit/)
 
 To use these libraries, just add the respective `using` statement at the top of the skill. For example, the [`deploy` package](https://ab.bot/packages/aseriousbiz/deploy) shows an example of using Octokit.
