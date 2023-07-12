@@ -2,8 +2,10 @@
   href: csharp/toc.yml
   homepage: csharp/index.md
 - name: Python Bot Reference
+  uid: python-reference
   href: python/toc.yml
   homepage: python/index.yml
 - name: JavaScript Bot Reference
+  uid: js-reference
   href: javascript/toc.yml
   homepage: javascript/index.yml

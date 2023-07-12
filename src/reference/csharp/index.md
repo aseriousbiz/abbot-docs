@@ -1,5 +1,5 @@
 ---
-uid: csharp-bot-reference
+uid: csharp-reference
 ---
 
 # C# Bot Reference Overview

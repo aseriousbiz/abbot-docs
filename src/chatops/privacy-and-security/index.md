@@ -34,8 +34,8 @@ Skill secrets are kept in Azure Key Vault. It is not possible to view the values
 
 ## Our commitment to privacy
 
-We believe that users have the right to private and secure computing. We continue to refine our approach to ensure that we can give our users the most flexibility possible while also maintaining an environment free of abuse. We are always happy to answer questions about how we handle your data -- send us an email at [help@ab.bot](help@ab.bot) if you have any questions.
+We believe that users have the right to private and secure computing. We continue to refine our approach to ensure that we can give our users the most flexibility possible while also maintaining an environment free of abuse. We are always happy to answer questions about how we handle your data -- send us an email at [help@ab.bot](mailto:help@ab.bot) if you have any questions.
 
 ## I've found a problem and want to report it! 
 
-Please email us at [help@ab.bot](help@ab.bot) if you have found an issue that you'd like to report. 
+Please email us at [help@ab.bot](mailto:help@ab.bot) if you have found an issue that you'd like to report. 
