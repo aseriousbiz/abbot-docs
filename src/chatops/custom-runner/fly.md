@@ -25,6 +25,7 @@ Create a `Dockerfile` with the following text:
 ```dockerfile
 FROM abbotpublic.azurecr.io/runners/python:latest
 ENV ABBOT_SANDBOX_POLICY=none
+ENV PORT=8080
 ```
 
 Generate a random token to use to authenticate Abbot and the runner.
