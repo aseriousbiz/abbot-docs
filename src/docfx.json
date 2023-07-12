@@ -45,6 +45,8 @@
       },
       {
         "files": [
+          "playbooks/**.md",
+          "playbooks/**/toc.yml",
           "convos/**.md",
           "convos/**/toc.yml",
           "chatops/**.md",
