@@ -98,7 +98,6 @@ If you trigger a playbook using the "New Customer Created" trigger, a `customer`
 
 | Variable | Description |
 | -------- | ----------- |
-| `trigger.outputs.customer.id` | The ID of the customer |
 | `trigger.outputs.customer.name` | The name of the customer |
 | `trigger.outputs.customer.segments` | A list of the Segments the customer is in |
 | `trigger.outputs.customer.channels` | A list of the Slack channels associated with the customer |
