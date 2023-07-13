@@ -6,13 +6,13 @@ Here, we'll focus on the basics and cover the variables that Abbot makes availab
 
 ## Where can you use templates?
 
-Any playbook step that accepts text input can include a template.
+Any Playbook step that accepts text input can include a template.
 For example, the "Message" input for the "Send Message" step: 
 
 <img width="332" alt="image" src="https://github.com/aseriousbiz/abbot-docs/assets/7574/33b923cd-33de-4aa1-9920-02a3e9cdb9e5">
 
 In addition, some drop-down inputs support pre-defined templates.
-For example, the "Channel" input for the "Send Message" step supports "Channel from Triggers" which is a template that will be replaced with the channel that triggered the playbook:
+For example, the "Channel" input for the "Send Message" step supports "Channel from Triggers" which is a template that will be replaced with the channel that triggered the Playbook:
 
 <img width="290" alt="image" src="https://github.com/aseriousbiz/abbot-docs/assets/7574/808b0e25-03ee-43ef-af5c-5c9862e851d0">
 
@@ -30,7 +30,7 @@ Variables are surrounded by double curly braces, like `{{this}}`.
 
 We provide a template "context", which is a set of variables that you can use in your templates.
 Many of these variables are objects that have their own properties, which you can access using dot notation.
-For example `{{trigger.outputs.channel.name}}` will be replaced with the name of the channel that triggered the playbook.
+For example `{{trigger.outputs.channel.name}}` will be replaced with the name of the channel that triggered the Playbook.
 
 ## Template Context
 
@@ -38,7 +38,7 @@ The following variables are available in all templates:
 
 | Variable | Description |
 | -------- | ----------- |
-| `trigger` | Results from the trigger that started the playbook. |
+| `trigger` | Results from the trigger that started the Playbook. |
 | `previous` | Results from the previous step. |
 | `outputs` | A merged view of all the "outputs" from all previous steps. Outputs from later steps override outputs from earlier steps. |
 
@@ -58,16 +58,16 @@ The `previous` variable is also "Step Results" object and has the following prop
 
 | Variable | Description |
 | -------- | ----------- |
-| `previous.id` | The ID of the previous step in the playbook |
-| `previous.outcome` | The outcome of the previous step in the playbook. Will always be `Succeeded`. |
-| `previous.outputs` | A table of output values from the previous step in the playbook. The values in this table vary depending on the step. |
+| `previous.id` | The ID of the previous step in the Playbook |
+| `previous.outcome` | The outcome of the previous step in the Playbook. Will always be `Succeeded`. |
+| `previous.outputs` | A table of output values from the previous step in the Playbook. The values in this table vary depending on the step. |
 
 > [!NOTE]
-> For the first step in a playbook, `previous` will be identical to the `trigger`.
+> For the first step in a Playbook, `previous` will be identical to the `trigger`.
 
 ### The `outputs` object
 
-The `outputs` variable is a table of all the outputs from all previous steps in the playbook.
+The `outputs` variable is a table of all the outputs from all previous steps in the Playbook.
 Unlike, say, `trigger.outputs` which is **just** the outputs from the trigger, or `previous.outputs` which is **just** the outputs from the previous step, this is a merged view of all `outputs` from all steps that have executed.
 If a later step has an output with the same name as an earlier step, the later step's output will override the earlier step's output.
 
@@ -76,7 +76,7 @@ If a later step has an output with the same name as an earlier step, the later s
 Here are some examples of triggers and steps and how you can use their outputs in templates.
 This isn't a full reference of all the outputs available, but it gives a brief overview of what to expect.
 
-### Accessing the channel that triggered the playbook
+### Accessing the channel that triggered the Playbook
 
 If you use a trigger like "Conversation Started", "Reaction Added", "Abbot Added to Channel", or other triggers that are caused by events related to Slack messages, the Slack channel in which that event occurred is available in the `trigger.outputs.channel` object.
 That object has the following properties:
@@ -92,9 +92,9 @@ If you want to mention the Channel in a Slack message, use Slack's [linking synt
 Hey everyone, we got a new customer. They're in <#{{ trigger.outputs.channel.id }}>!
 ```
 
-### Accessing the Customer that triggered the playbook
+### Accessing the Customer that triggered the Playbook
 
-If you trigger a playbook using the "New Customer Created" trigger, a `customer` output is available that contains information about the customer:
+If you trigger a Playbook using the "New Customer Created" trigger, a `customer` output is available that contains information about the customer:
 
 | Variable | Description |
 | -------- | ----------- |
@@ -120,5 +120,5 @@ These make the channel they create available in the `outputs.channel` variable, 
 This example creates a new channel for the customer based on the prefix you specify and the name of the customer.
 For example, given a Customer name of `Funny Business` and a prefix of `cust-`, the channel name will be `cust-funny-business`.
 Then, in a subsequent step, you can use the `outputs.channel.id` template to mention the channel in a message.
-The example playbook above posts a mention of the newly created channel in the `#biz` channel.
+The example Playbook above posts a mention of the newly created channel in the `#biz` channel.
 
