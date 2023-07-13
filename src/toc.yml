@@ -1,3 +1,6 @@
+- name: Playbooks
+  href: playbooks/
+  homepage: playbooks/index.md
 - name: Conversation Management
   href: convos/
   homepage: convos/index.md

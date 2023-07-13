@@ -4,6 +4,6 @@ Need something beyond the built-in functionality? You can write your own skills 
 
 ### Supported Languages
 
-* C# ([Api Reference](xref:csharp-bot-reference))
-* JavaScript ([Api Reference](xref:abbot-js))
-* Python ([Api Reference](xref:abbot-py-docs))
+* C# ([Api Reference](xref:csharp-reference))
+* JavaScript ([Api Reference](xref:js-reference))
+* Python ([Api Reference](xref:python-reference))
