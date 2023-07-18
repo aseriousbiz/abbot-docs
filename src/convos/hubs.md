@@ -11,7 +11,7 @@ When Hubs are enabled, any team member can join the Hub to check on customer con
 Also, conversations can be snoozed or closed directly from the Hub by adding the :eyes: or :white_check_mark: emojis.
 
 ### In short
-You can get in-chat help for Hubs. Type @abbot help hubs or .help hubs in a room with Abbot for a short guide on Hubs.
+You can get in-chat help for Hubs. Type `@abbot help hubs` or `.help hubs` in a room with Abbot for a short guide on Hubs.
 
 ## Setting up a Hub
 If you started using Abbot recently, we made a default Hub for you when you added Abbot to your Slack. We usually name this channel `#hub-customers`, although your administrator may have renamed it. If you're not sure if you have a Hub, you can see the list of Hubs for your workspace at https://app.ab.bot/settings/rooms?tab=Hubs.
