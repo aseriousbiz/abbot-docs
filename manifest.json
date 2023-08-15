@@ -1,0 +1,2396 @@
+{
+  "homepages": [],
+  "source_base_path": "/github/workspace/abbot-docs/src",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "CNAME",
+      "output": {
+        "resource": {
+          "relative_path": "CNAME"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/built-in-skills/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/built-in-skills",
+          "hash": "A1vxJKVc+E8UueGL6amh2Mz9vVqBnSBjeTGtrapav3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/custom-runner/fly.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/custom-runner/fly.html",
+          "hash": "WlkzEEvY995bdy5xN5+ZI3yKdR+R/o6Q5P2HdzpKVHg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/custom-runner/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/custom-runner",
+          "hash": "zcAXteyun5K3mSzvFD5vrH71oLMCJyyBQvKf3y903vE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/hello-world/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/hello-world",
+          "hash": "HBMXYW5+5L/DF1MM74cwu6V+QW2Jk5IjHEvS49XRs98="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops",
+          "hash": "ibdKcCVZSnz7pMobvHmHR4OLlq/0EAYwBkMQxaFXWgE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/known-issues/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/known-issues",
+          "hash": "rp4AGIv8Cp9Bim/8oHA9zcB4isoGV8KfiqiO/2T1/BY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/list-skills/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/list-skills",
+          "hash": "Fm91/8FJW/clXFmcSnAd/QNT5EQWMg8tEw7wQIDK/XM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/managing-secrets/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/managing-secrets",
+          "hash": "ksNQKBsn3KynY3tUFY+kH6qyOZGM3hAgLTtjeFuwkCY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/privacy-and-security/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/privacy-and-security",
+          "hash": "CHqbt7CNWgCZp5oB7zUL0qbb5N3XOphU08L+f0ggNaU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/reference/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/reference",
+          "hash": "BO8+KAXdvEEpv0HbvbN9seSi2/WZkU6pxt/n+u592OI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "chatops/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/toc.html",
+          "hash": "bKi7KfNoCNh+94rfICUbb+RoswYRp3IdMkbeDgUKZaM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/triggers/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/triggers",
+          "hash": "ViqJ6UyBeP57My9Jz8QTbns24htlpL+chS+Jj4paH8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "chatops/writing-skills/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/writing-skills",
+          "hash": "iI2xGCx/T9DPOI//8GFxvw81wq1EkHJEqBxEnbi4t/8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/writing-skills/js-async/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/writing-skills/js-async",
+          "hash": "+c6lELfXy2+lw7FU2Tr3m32jdCVrnvJM+bWA0khTLN0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/writing-skills/parsing-arguments-c-sharp/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/writing-skills/parsing-arguments-c-sharp",
+          "hash": "DMtG5/P28Sf8hB294+Csxsr/U720mBhtMTjXvTEa5Kc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/writing-skills/sending-messages/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/writing-skills/sending-messages",
+          "hash": "ALX7yaaycjxhn0VvlqZThoZ2L1IAfI5Lg0dS+UX+Jus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/writing-skills/ui-elements/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/writing-skills/ui-elements",
+          "hash": "8XmK6FopnqM87ZcJiZMtcJ/IkZu5vpvDgIEx0Cixww4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "chatops/writing-skills/using-your-own-editor/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "chatops/writing-skills/using-your-own-editor",
+          "hash": "2Lufl1roS+Ur6XQhaMPZGD+1omWEoHmTZYp3opBOZ9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "convos/conversation-states.md",
+      "output": {
+        ".html": {
+          "relative_path": "convos/conversation-states.html",
+          "hash": "TQdL3k27qy8MPIn+zCgXBGf1lwoEuqHX0bNB2LCMG28="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "convos/conversation-timeline.md",
+      "output": {
+        ".html": {
+          "relative_path": "convos/conversation-timeline.html",
+          "hash": "b+dfxgEow7R7iy0uSfZS0ph2QT2Ggt7A72XE9UHja0Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "convos/frs.md",
+      "output": {
+        ".html": {
+          "relative_path": "convos/frs.html",
+          "hash": "C8dO4CS2NfYG94lO/c53S6hBJ/AUYRFvVVOPnvYyLyU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "convos/hubs.md",
+      "output": {
+        ".html": {
+          "relative_path": "convos/hubs.html",
+          "hash": "uwYeEfiNvRHrRdsTtDvWlNriFj+EiLOigo+JRTuOSak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "convos/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "convos",
+          "hash": "KdQ2TlRo0IHboyXqbpqE/jNvdHwkzqooHXqI1BM8CZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "convos/integrations-zendesk.md",
+      "output": {
+        ".html": {
+          "relative_path": "convos/integrations-zendesk.html",
+          "hash": "DeirYf96t5g5APIMlN6owk2jDB6qNvjTG8z8pFkOeCo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "convos/response-times.md",
+      "output": {
+        ".html": {
+          "relative_path": "convos/response-times.html",
+          "hash": "EnsA4dSFiepKTH+Pkp2g8uZe8dVvXrYpT/4xjF5eeNU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "convos/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "convos/toc.html",
+          "hash": "fcU5Ew8Pb0tVDW+8SXuqQKOzojXJgKMz54/lb8Gujso="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "EZ8D5smIxMUJ4AiZ+KE5EIiNmL8RiYu+rgwXb/gcFgI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "playbooks/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "playbooks",
+          "hash": "wLqvewcI+vz5UVYnraxYPPeX1qhisoxy2IryvMNjEwc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "playbooks/template-language.md",
+      "output": {
+        ".html": {
+          "relative_path": "playbooks/template-language.html",
+          "hash": "tu1S2vnJvg1yeNgm+1BnX7NoKHPluZDN1TulQXetysc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "playbooks/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "playbooks/toc.html",
+          "hash": "WRXqAQqOUuximu2BSzQHd4ViUurJgAlgm9y9gdd5EWg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Messages.AbbotResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Messages.AbbotResponse-1.html",
+          "hash": "DXv9HdanlZHepeTY7nz0r0s0P+p1qjdFtpPKbJCIm1c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Messages.AbbotResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Messages.AbbotResponse.html",
+          "hash": "boSLxCuphiOvoX+ePmLgl6PtzA8vU0Pms7L1UvQZns0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Messages.AbbotResponseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Messages.AbbotResponseExtensions.html",
+          "hash": "7AwiNPUpyRdVG7kcAw2Uj/o1mejGThECHf1mj8PiuRY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Messages.ProblemDetailsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Messages.ProblemDetailsExtensions.html",
+          "hash": "rQjE3R+BpWn8Cj+OYPhHeEVpzKxDBjwXmAaaJzuN9zA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Messages.html",
+          "hash": "9XOZMXyZyWVq9xG8s4vuNRbEyRFNjtHYdUavWUFQzN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ArgumentExtensions.html",
+          "hash": "4nBmp4WLu/vDcePLqEBnPXCbXISLcUURcyXBNfV9RnA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.BotHttpClientExtensions.html",
+          "hash": "kcDMSmTdoBinVDEwwFPsoV36ZfmKDnbLmlQpE0piwBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.BotHttpClientStaticExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.BotHttpClientStaticExtensions.html",
+          "hash": "52I7aNETh9hO0c4jAzq6tCqT9GfK+KDuC/lL7gpOYMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.BrainExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.BrainExtensions.html",
+          "hash": "bUHwosLrAcWcJa3jb65A4246hRlFisnjjDQu3zr5O6A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.Button.html",
+          "hash": "YQME2S6gqBPEm9GAyIIscgVxQ3vp1PgfHC5EPpikO6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ChatAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ChatAddress.html",
+          "hash": "hlYvJVt7NjP8dlbFTeoiWGsnXK5T7AHKHWe+jqoOO/k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ChatAddressType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ChatAddressType.html",
+          "hash": "jF4Ey0bZbhgCAy7E+sGfOsyxGndiD6PV3ZUV0EwF5Eo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ChatConversationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ChatConversationInfo.html",
+          "hash": "vepgC3/jaBCFJAuxxdU3Kewi8V7xKj+MJNTBWfbd5CQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ChatUserExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ChatUserExtensions.html",
+          "hash": "o34Kj0T6wMPXshbleIovou17PQ9o6P6kCXQgdnPkKAI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.CustomerClientExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.CustomerClientExtensions.html",
+          "hash": "XQU6CjaDIapSbtHL93yB2oY/A4mfhvakMHx8f6CIOcU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.CustomerInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.CustomerInfo.html",
+          "hash": "GXOp+znm4e+8YrNFq4rdC7Kni5msCJy4tyZrok0I2TU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.CustomerRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.CustomerRequest.html",
+          "hash": "ujdyWu9kTPgN9xiEBTQBWJVf2TuYy8R/sUk/mjl5DO4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.CustomerUsageStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.CustomerUsageStats.html",
+          "hash": "/gERTZXsvc93zspV8hktkKXQWjHNDBVIrYLU21cXSx8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.Headers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.Headers.html",
+          "hash": "6ZwmI82TMNqwIYO0z95ZjTOjB2bVGawY1e7e07uxlEM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IArgument.html",
+          "hash": "SCyp4sYhYX04CGQZWcWZwfeTur5QyWFJ7JnWpUH76Gs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IArguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IArguments.html",
+          "hash": "Sdndzm7Pw+ilhU/6UpT2jQJPHgVN3t+0ef5fAVy3J7s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IBot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IBot.html",
+          "hash": "m2Or1Gv8MWTAvmagAp1Kl9drDe+4YSWGzP+CXv4eCzw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IBotHttpClient.html",
+          "hash": "qaCfQ4/2E8GC1oizMOXDhkQ4ynsELxGMpQrtOm1fb58="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IBrain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IBrain.html",
+          "hash": "R++6Gr1quzTQYTuyNbliYvJo2Czk6XdLIYgGKCyWhu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IChatUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IChatUser.html",
+          "hash": "47lMuSPUqkHog16YMHQfwh93p9A9lyHPM6ZcBbgrjKM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IConversation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IConversation.html",
+          "hash": "ST4di6tzgoS/ckYuqGBo5jGaZ/l1nXOX5P1SNFlrCTQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ICoordinate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ICoordinate.html",
+          "hash": "l1gHJRnkzqnD23jih80CQWbS/VjPGFHuQoRQqxnAVXA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ICustomersClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ICustomersClient.html",
+          "hash": "nqyAoHYBR8h+cxszp3iYLaTW0DjP8h7XbzkI3qjkiCk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IFormCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IFormCollection.html",
+          "hash": "qlgWOO4HnXC0W7Jvr79478EnBFfbb3cejgYAhzbFBVc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IHttpCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IHttpCollection.html",
+          "hash": "3t79ZZcv1kk6XfpAF4JeENMoTNhGs3J7dvqwvC5QZJY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IHttpTriggerEvent.html",
+          "hash": "XK4qeB+j2ib8caXUJK/esF+3STIRZ6QiRLtXZJSMPjs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IHttpTriggerResponse.html",
+          "hash": "NVWG5p6AmrGxOMbjAqI7Wi9UQ72vqFr8JkOBgUjV13o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IInt32Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IInt32Argument.html",
+          "hash": "5VRfjZw3aN3YqRfgrdqAlxKrYgh3SmeE4B5XG01FD1E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ILocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ILocation.html",
+          "hash": "hBcWFTRQdEi6MSUqo3B2L4b8mpSSRpWlmkbw7wNVuIQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IMentionArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IMentionArgument.html",
+          "hash": "kCufdiADPg8IZtOsHIddf8SOebctqSyDxk3LdZaNm8M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IMessage.html",
+          "hash": "hdivKG0DJpImTSd6C6tWlNqCTsw7f05/9ggf6vm2Jwg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IMessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IMessageTarget.html",
+          "hash": "n+5JX65fhix/SSwAP785BaAgHv2SDZyE5fre0clCdZY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IMissingArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IMissingArgument.html",
+          "hash": "e2Z4qowBJknbiDxVfukDAXzwqtLmb2ZQo1xugqi5xLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IOriginalArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IOriginalArgument.html",
+          "hash": "90zrY40ktdVL7jWPMzUsD2tgsDPYiyvHqDnT3ujvzbo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IPattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IPattern.html",
+          "hash": "Zr7nO8JpuY0CaW0q589TM+bXJVDJT9qrfP5eqGX7eZs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IQueryCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IQueryCollection.html",
+          "hash": "fSwCb0Rcv6r7uV2aJPc6DpDRsP7+/ZNR9yGP5TTNdBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IRequestHeaders.html",
+          "hash": "Etiv7F9L80QBdIej5VhX3z+7nSRxz1+oqFdU0Ziymv8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IResponseHeaders.html",
+          "hash": "9NIBBvEWzbo6LeuYF4JeSZIpi7U6XTbXsIv1hWRInHE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IResponseSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IResponseSettings.html",
+          "hash": "+73AVyJ+ZCwjwy0ZLT3PHuU0iqaKJgZImkgpiGBk7Yg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IResult-1.html",
+          "hash": "xBpFU1JjNMeuoVFdxjF5EwuG1SJd+UfGibKBKdQ3dhE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IResult.html",
+          "hash": "MU/vW7cWvklR31bofN2hzEhrcOEqt+xc1QL6IdqfDHo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoom.html",
+          "hash": "1+p02nCZ+1a7xgT0k4CFk9lat/K2y+UHe8IOil0Fg0A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomArgument.html",
+          "hash": "0hKeso293cHiv1Qo2vv7sMHonmV8uynxVwVlU7IzGd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomDetails.html",
+          "hash": "FvnmzZ9AJyuTjjii0Vldvy2QuHT9QlVRNmaewC/P0kI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomInfo.html",
+          "hash": "84Krr7jK8kUGLYIplu1zZjXyEvpjcp3YF6KA6G0n0P4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomMessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomMessageTarget.html",
+          "hash": "CDs9D755Amok4+V9n5+R9Jcwpa0Kw9eLseEyzy/bODE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IRoomsClient.html",
+          "hash": "PyLhPP3cKXAvgWjxmjXwn5jpBgAaT7CAGkggWw7TLMg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IRootSourceSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IRootSourceSkill.html",
+          "hash": "FYBGPzzZmcvRBnPCYIYGOofbjjKr0hx/+MOtBJjfwg8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IScriptGlobals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IScriptGlobals.html",
+          "hash": "+LrOz7q9JtxSVvdHFo9yZmBqKGewIYJxHf8gx1M4LKU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ISecrets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ISecrets.html",
+          "hash": "RTTTZC1Amz6jEfKH7+inZix//F7GCNYVFVEntNG5rDY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ISignalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ISignalEvent.html",
+          "hash": "cuDmeCBaGJDKZvFs5J6ZgpNewQ3OmhBMOGLRl9b8xkA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ISignalSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ISignalSource.html",
+          "hash": "jVG2TX1/OgWJQfWpvcmkkcIMXZsB4j1rJlIs7l7fHwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ISkillDataItem.html",
+          "hash": "EjsoU5+HwBVrzlOn/l3PmVzbFWQQIZ1KUxp4fksh5Ps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ISlack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ISlack.html",
+          "hash": "F9BPp6eEVkSpys/FzNZL2KBLaPFzoHwRBHBBWo7II/M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ISourceSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ISourceSkill.html",
+          "hash": "4OimVhzy24e1aBzkZCTbf0oOYeIdVNiCEakVS1dwO3s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ITasksClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ITasksClient.html",
+          "hash": "vyfyBOp/0eAdJnzjg4mkNR5Yk4zrwt/muKp6BpLIZ1s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ITicketsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ITicketsClient.html",
+          "hash": "5HryihMVBETTYYcuDAx3mzwjKSLvIXZF2u0UDynLka4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IUserDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IUserDetails.html",
+          "hash": "NFka72+OkvnvI7N962tKHFMJNFIIwdUEqicUZetnmu8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IUserMessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IUserMessageTarget.html",
+          "hash": "2BLn/0JHW0v43nogxoEoGw1ilveMMFlCJGLn2cX+TiM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IVersionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IVersionInfo.html",
+          "hash": "yw6QJgcolVTmyoORScNrYp2coWqw85cjCFTf//82iSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.IWorker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.IWorker.html",
+          "hash": "mzHAh46qu3xT8XAqec3uprW/oie5sVPjmnz34IEzbXc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.InsightsStats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.InsightsStats.html",
+          "hash": "ST2DV91BqfXEH47JRx0lYb9a2C20tUU7e/4hHRL0tRM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.InsightsSummaryInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.InsightsSummaryInfo.html",
+          "hash": "xS8o0x5FLPOUml8DnnnyAHj9tfLE7VHJHff+5yAhg+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.MessageOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.MessageOptions.html",
+          "hash": "VszFxUFRmSpj7CPi2PivwPixf0/S/E5V8SMpnIjkZJ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.MessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.MessageTarget.html",
+          "hash": "svwhRValxG8Phzi0/3Pn8fJnwLNOhRnBn/z/vB2uCHU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.MetadataFieldInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.MetadataFieldInfo.html",
+          "hash": "5k/Jl5ZfZoL3lKu2uLHJgwUdeOFgRbvGuOgJ4UxfdsE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.PatternType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.PatternType.html",
+          "hash": "ZLDPSTdldurgg8cyqcDyqDk+Gx7Be9DG1G5Lu2pbQAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.PlatformType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.PlatformType.html",
+          "hash": "uJ7GjnpdASedYeO9z7OkLXIJoNycieoEyW2ECJfxewE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.RecognizerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.RecognizerExtensions.html",
+          "hash": "mPU7m+3HNBz6WuB3lSWbun4vt0lKP+z43MVpqL9IT3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ReplyExtensions.html",
+          "hash": "jauBuDrOEC848vUQ+kEElvQ46+dFj+rHMkICyqMoXaA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ReplyInThreadMessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ReplyInThreadMessageTarget.html",
+          "hash": "hXD81Ta8WgnH5dHNV59xW79QQnhve4mD2ORxG3Hf8b0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.ResponderGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.ResponderGroup.html",
+          "hash": "GSfWYgT0pjM4mPjpYGMbRDoBdgWXgaa7I9ywfWOdIgs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.RoomMetadataUpdate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.RoomMetadataUpdate.html",
+          "hash": "wZ75SnPIC7LNL8w7IgSS/XyAL07TN8X9h0tCMyp91HY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.RoomNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.RoomNotification.html",
+          "hash": "6wiE+we7hE6IhNCQZPs+MONBiohw3l80S6ISs0DQ6+k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.RoomRole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.RoomRole.html",
+          "hash": "oWlo4cEZpJwGidULDHWKDA7wuSg2D6SavDucvo1CoJA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.RoomsClientExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.RoomsClientExtensions.html",
+          "hash": "aYMQV0DPN/IiKFfIaEfWuVePHDegteeX4Pb9AAuZuRc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.StringValues.Enumerator.html",
+          "hash": "praGfEojzV7yF3QQ8uhb1W8yWInaCxyZLCdbYhh2TNk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.StringValues.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.StringValues.html",
+          "hash": "vCipmI2v+0OHE+O65yKamsadY7JvWhb/eyv8RzGNgwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.TagFrequencyInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.TagFrequencyInfo.html",
+          "hash": "hA5TX9JefrzaLii8rSbokk2d9o6HyoJO/j9XOZJ2qbU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.TaskItemInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.TaskItemInfo.html",
+          "hash": "fE7+HDmFPGXs16y1tj8HFRupBOrLw0yoJot1P70RyEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.TaskItemStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.TaskItemStatus.html",
+          "hash": "CamP3ICCwVMEFrg3unU0INNWlmVzAsCwPPL1CntyrAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.TaskRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.TaskRequest.html",
+          "hash": "euq/ojc7ukcCTODzKbTZ/AWLOIXe+3ao2rlSXq8lofI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.Threshold-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.Threshold-1.html",
+          "hash": "fXHXNrMk1npCXo0nNWNRkX1P2QT35ZCnHE90sruLOkE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.TimexConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.TimexConstants.html",
+          "hash": "2xYMhqOgjbKmfTRWzOtc5VR3/RVaubaQobq03zcePP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.TimexSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.TimexSet.html",
+          "hash": "1oL6MhvbQWa9Sbfm5N54DdTYJfWN/mTRtK2OovmxOqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.TrendsSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.TrendsSummary.html",
+          "hash": "AxdjLIFBrR+rao8T2zvP2y+SgpgKKR82bk7YWnrPkRM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.UserProfileField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.UserProfileField.html",
+          "hash": "nrKe45+Zmxqqid0jI0Np4qL4lg+SOfHcZCbmD6DrP74="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.Utilities.IMetadataClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.Utilities.IMetadataClient.html",
+          "hash": "T/K7oP6UBh4qn/eHrctqwb2imbkTptltnrctvAPUFbo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.Utilities.IUsersClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.Utilities.IUsersClient.html",
+          "hash": "qhZoWqI2eTW03OqKCXjNJol+zYD7GS6LGiQziYcUrXQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.Utilities.IUtilities.html",
+          "hash": "73QRhv25QRXoP1DYguj5jFbAZYNF2T6BaoBfSIOgupc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.Utilities.html",
+          "hash": "QFaBo2OsgkSrqz1HBk2x8empMkhdRpL1Yp7MMhHSlnA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.WorkingHours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.WorkingHours.html",
+          "hash": "CngbLAOVxp0CQtmjmcoIWSqlSZPWsjHhmf1OHFwH/L8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "reference/csharp/Serious.Abbot.Scripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp/Serious.Abbot.Scripting.html",
+          "hash": "crivbtIPFINPqSWZpLYlj9JtwGCXcOVC6j6c7RHuJzc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "reference/csharp/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference/csharp",
+          "hash": "XRYOdaYZPg6YqE5hEnhKNfQc2Svc+CZp9YhRERtealc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reference/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "reference",
+          "hash": "YM/Yr569p0l5QA1jySNscCxBkizdUyJ8leg0Dy4AbNs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/ApiClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/ApiClient.html",
+          "hash": "JHZwUpKMBsZblEGcWPkgcBrVehoz7RibHXpFrRICWvw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Argument.html",
+          "hash": "gATUi5HCMcs+pCys69I5xNVcRWPIE55ElAoCzga3QXY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Bot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Bot.html",
+          "hash": "uaFuxkQ4RAVAX6DCybeqgm5Iy72jxhDkLQVK2n/Cmmc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Brain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Brain.html",
+          "hash": "UmJyERA8aE2C6gcj9beYR6n0k+RsXcNI3FpgOKQpP7k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Button.html",
+          "hash": "gr/H+hg1SdssDJ6Qs6CmXwngRiRt/0WEzTyrdTof2dw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Coordinate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Coordinate.html",
+          "hash": "FsWLHKXqDYFOYui4EZom+u/sVYj8vWPmgIqIvYL0xmI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Customer.html",
+          "hash": "fGz3GGlc2arxnIQlFORZnFIquhb/mA4Mg6HZOs9YSm4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Location.html",
+          "hash": "OBHAwDS/To4uEwncnCdzGcPReKGnRABO7taLvYrTsuE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/MentionArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/MentionArgument.html",
+          "hash": "IcFeQ7/mVjmF44luvyNulX/NN99+/Tdz/45zXuQmmxs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/MessageAttachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/MessageAttachment.html",
+          "hash": "ofMz/kc5ScBqahTxX2+PPl1d6rORMGvqvOdanovb1BE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/ReplyClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/ReplyClient.html",
+          "hash": "A4jVhIMpIBjiekkAH/+SNwPk4To0361fXOC7UrqUEp0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Request.html",
+          "hash": "kwwv9zPR7EcWFjyPqCG2fpcacbF/e+IamKuBwt2mS60="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Room.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Room.html",
+          "hash": "6kKQnjcT1+9qYfx7nUYhp3gITgCIV8+Q9JOC7bsgONs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/RoomArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/RoomArgument.html",
+          "hash": "0qiWgO2/Km8X0tRJL3dqg+VH2yiyreBAJa92mezU0Ro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/RoomMessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/RoomMessageTarget.html",
+          "hash": "k6yHXCqmfxxViK1GzE+2AO0sQ42wgq1ZsSR9vtzvhmk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Rooms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Rooms.html",
+          "hash": "VxJ9K5hcWAD1YSaHF5PCIzgxyF4SbbXyJ8UIsbXeSTA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/RootSourceSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/RootSourceSkill.html",
+          "hash": "Yb0tNebJZPmHo9FJI/jQmBK6QE31eb2B1Y7Zp49w1f0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Secrets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Secrets.html",
+          "hash": "9t4CI2UwbcmCCUnXnCm60XRhGvP/q+PDkes+xjbbGqI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/SignalEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/SignalEvent.html",
+          "hash": "X8SNZJOnJwBh5dQm30/do56QLWXPB+RQs1IKe44xPKo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/SignalSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/SignalSource.html",
+          "hash": "gp1v/oaokwYtBVWkzIFpEHpYun6EWfBVwSKyF/umtmA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Signaler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Signaler.html",
+          "hash": "T2i5yA2gYxyxNNiMSFP2pQdAEVKf143czx0pWGJs3OU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/SourceMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/SourceMessage.html",
+          "hash": "ERbICGWo1xiM6I4XWdys6IAwTTAUNh8MmCQOMHbXuT0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/SourceSkill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/SourceSkill.html",
+          "hash": "8ACIuzext9+GbbNmgTHDQg18Lwz3Gf11dYxPVwLYjSA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Time.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Time.html",
+          "hash": "F99tWM9NYGq+7ExU4y8tTj38dAETMVINm/njABTmthE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/User.html",
+          "hash": "U7UFgKIUMgYETK67mTObyJoyfW3kD+4fi71HvlLWyy4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/UserMessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/UserMessageTarget.html",
+          "hash": "W0xvn9TV1C/RR3ZHIcNr5WTxzpnv6vTFF0P1qThzPeA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/UserProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/UserProfile.html",
+          "hash": "R7mKVV3gFugyfaa3CNl6LVhE3n81rvdvj5Xh0E3fqIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Users.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Users.html",
+          "hash": "P+CXalpVmrGlNO+4QbAfImAc3o9XWhB0lZ0pCA1pU3A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/Utils.html",
+          "hash": "gKbvQIDIontcV7urTzHHOuksJuDORXCzGO59GXAMxUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/WorkingHours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript/WorkingHours.html",
+          "hash": "oQRXmTIBxqbyskyTNN8lAx9gjhSWAh+QzucBUfH5QIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/javascript/index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/javascript",
+          "hash": "JEVBeLwGNo3B7oQsUQLuc7JYByUkjqprtTnpDenAir4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.bot.Bot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.bot.Bot.html",
+          "hash": "4usvPH51z0z5R9zdVt1EsTRzPHyIPRyaeUjNIZqhof8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.bot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.bot.html",
+          "hash": "LDB9RXR/7zxAT4rnCl0TgG9IQG2n4gGQw5wvWFeTZ4A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.mention.Coordinate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.mention.Coordinate.html",
+          "hash": "YLl+sUDZSvstPfxbGK1b8ykzAAg2mDHE1H9b3gsKhTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.mention.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.mention.Location.html",
+          "hash": "1NnoXMl8chKEXcbvHZuqIqlWDVd6W+a51NDGWPpssTk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.mention.Mention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.mention.Mention.html",
+          "hash": "abwILUo097dq0cF5MswyVV2arPlooxtJK+Mb/HE8hHs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.mention.TimeZone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.mention.TimeZone.html",
+          "hash": "R2SzUtnOzXKl6rmIiWLBY57S7VZI7glvOkTsUl6V+x8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.mention.UserMessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.mention.UserMessageTarget.html",
+          "hash": "YYYtor695k5+DHyW7G6g5qAI0JceX0lv0ndyAGi+CB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.mention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.mention.html",
+          "hash": "t3hL14YvlcvDGECZu8uASvMcaIUKXBOXRVM3xltx1e0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.room.Room.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.room.Room.html",
+          "hash": "Te1Ctl+qcdvCt/oUa/yzVyMCFDQorK/meWpgW6i0hkw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.room.RoomMessageTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.room.RoomMessageTarget.html",
+          "hash": "18hl9KYk1cbxRTkmL/+kRarPbp8w5iQbly7kip2ruaM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.room.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.room.html",
+          "hash": "9yDuCVu7rElP0e2a86aLDZt3sJldZSxjajwTSk1GwLc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.rooms.Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.rooms.Result.html",
+          "hash": "ceWfCOWpP3/W7Tbb8DrXMOY7KV4xsX72SCZl+p4Kf6Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.rooms.Rooms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.rooms.Rooms.html",
+          "hash": "QHvHK0bj4ixr+NgTvtApNyF8kQow6rBhjW66zyZCWKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.rooms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.rooms.html",
+          "hash": "pQdAFbYNIR4nfO+pSrLR7Q6PuX3ef03E/FShKS9M0P4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.secrets.Secrets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.secrets.Secrets.html",
+          "hash": "fWaEfkHO3/bgBjCd9XF/7Oyr0ldqloNGU+XGMuxj8ZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.secrets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.secrets.html",
+          "hash": "6Bmf2JPiYi0sOEKU8bNObvn3J8J+5H4+Koi/boK9sP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.storage.Brain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.storage.Brain.html",
+          "hash": "hEyYMMW+OUKQ/20klO6h9lqVU2cNxLOlfXlcowlQ0xo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.storage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.storage.html",
+          "hash": "Tg/OMRgzDAwCW5k0JkbjamHYeEvV6vdeyvr+vkfKYd4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.users.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.users.html",
+          "hash": "r9NlCqtdiqEF8jFLveeE3TfJZhzKCBa0RYDXL6W8E1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.utils.Geocode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.utils.Geocode.html",
+          "hash": "rd+D4vztZNNG3jJgA1LZkL7WAJFfWROHsPKIfdFJM9k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/bot.utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python/bot.utils.html",
+          "hash": "CUL4KItVqiOKSPsc28vdeUYF4rorXrGArb51GqMbXnU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "reference/python/index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/python",
+          "hash": "mdplMj02UVycwrT8F94ZqNsV7J9k+aSeiG8VFyYn/2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "Toc",
+      "source_relative_path": "reference/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/toc.html",
+          "hash": "Za6IiDnBjT4OenC+WnudQFAWbXvCa32ao2XiGzWKjCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/abbot/apple-touch-icon.png",
+      "output": {
+        "resource": {
+          "relative_path": "templates/abbot/apple-touch-icon.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/abbot/css/abbot.css",
+      "output": {
+        "resource": {
+          "relative_path": "templates/abbot/css/abbot.css"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/abbot/favicon-16x16.png",
+      "output": {
+        "resource": {
+          "relative_path": "templates/abbot/favicon-16x16.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/abbot/favicon-32x32.png",
+      "output": {
+        "resource": {
+          "relative_path": "templates/abbot/favicon-32x32.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/abbot/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "templates/abbot/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/abbot/img/abbot-avatar-small.png",
+      "output": {
+        "resource": {
+          "relative_path": "templates/abbot/img/abbot-avatar-small.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "templates/abbot/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "templates/abbot/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "CBhh4EBzUkcB6tWeOtuxcTL8BHWFiy6EllkMiAZRmDg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 29,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 98,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "UniversalReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor UniversalReferenceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

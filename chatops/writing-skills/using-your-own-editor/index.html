@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Writing Abbot Skills with Your Own Editor | Abbot Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Writing Abbot Skills with Your Own Editor | Abbot Docs ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../../templates/abbot/css/abbot.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <span class="navbar-brand abbot-logo">
+                <a href="https://ab.bot/">
+                <svg id="logo-light" width="77" height="14" viewbox="0 0 33 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.46029 2.49502L3.78048 0.93825C3.69435 0.735062 3.59899 0.558767 3.49441 0.421317C3.3929 0.280879 3.1868 0.113548 2.78691 0.113548H1.82411C1.41807 0.113548 1.20889 0.277891 1.10431 0.415341C0.996645 0.558767 0.901287 0.732074 0.818233 0.935261L0.184564 2.50996C0.126119 2.66235 0.0799776 2.82371 0.049217 2.99104C0.0153803 3.15837 0 3.34363 0 3.54084V5.87749H0.713647V4.23407H3.93736V5.87749H4.65101V3.54084C4.65101 3.34363 4.63255 3.15837 4.60179 2.99104C4.56795 2.82968 4.52489 2.66534 4.46029 2.49502ZM1.82411 0.806775H2.78999C2.84228 0.806775 2.90688 0.812751 2.93149 0.84562C2.99916 0.941237 3.06376 1.06076 3.12836 1.21016L3.79894 2.74901C3.83893 2.86255 3.87276 2.98805 3.90045 3.11952C3.92506 3.24502 3.93736 3.38546 3.93736 3.53785H0.713647C0.713647 3.38546 0.725951 3.24502 0.750559 3.11952C0.778244 2.98805 0.812081 2.86255 0.848993 2.76096L1.47959 1.19522C1.53496 1.05777 1.59955 0.941237 1.66415 0.84562C1.67953 0.821716 1.74105 0.806775 1.82411 0.806775Z" fill="#ffffff"></path>
+                  <path d="M11.6309 3.02091C11.5109 2.89243 11.3448 2.79083 11.1418 2.71912C11.1479 2.70717 11.1541 2.69522 11.1602 2.68028C11.2433 2.48605 11.2863 2.26793 11.2863 2.03785V1.42828C11.2863 1.26095 11.2648 1.10558 11.2279 0.959161C11.1818 0.788842 11.0925 0.636452 10.9664 0.507966C10.8403 0.37948 10.665 0.280874 10.4466 0.212149C10.2405 0.146412 9.99439 0.116531 9.69294 0.116531H7.38281V5.87749H10.3389C10.6465 5.87749 10.8926 5.8506 11.0925 5.79382C11.3109 5.73406 11.4863 5.64143 11.6093 5.52789C11.7385 5.40836 11.8277 5.25896 11.8769 5.08864C11.9169 4.94522 11.9354 4.78984 11.9354 4.6255V4.01295C11.9354 3.83366 11.9169 3.66334 11.8831 3.51095C11.8431 3.32271 11.7601 3.15836 11.6309 3.02091ZM10.5727 2.03785C10.5727 2.13048 10.5635 2.22311 10.545 2.30677C10.5358 2.35458 10.5112 2.39641 10.4712 2.43526C10.4404 2.46514 10.3727 2.51295 10.2374 2.55179C10.1113 2.59063 9.92672 2.60856 9.68986 2.60856H8.09646V0.80677H9.68986C10.2405 0.80677 10.385 0.92928 10.4158 0.965137C10.5204 1.08765 10.5727 1.24004 10.5727 1.4253V2.03785V2.03785ZM8.09646 3.30478H10.3481C10.8741 3.30478 11.0218 3.42131 11.0618 3.47211C11.1694 3.61255 11.2217 3.78585 11.2217 4.00996V4.62251C11.2217 4.80777 11.1756 4.94522 11.0802 5.04382C11.0587 5.06773 10.9141 5.18426 10.3389 5.18426H8.09646V3.30478Z" fill="#ffffff"></path>
+                  <path d="M18.7666 3.02091C18.6466 2.89243 18.4805 2.79083 18.2775 2.71912C18.2837 2.70717 18.2898 2.69223 18.296 2.68028C18.379 2.48307 18.4221 2.26793 18.4221 2.03785V1.42828C18.4221 1.26394 18.4036 1.10856 18.3636 0.959161C18.3175 0.788842 18.2283 0.636452 18.0991 0.507966C17.973 0.37948 17.7976 0.280874 17.5792 0.212149C17.3762 0.146412 17.1271 0.116531 16.8256 0.116531H14.5186V5.87749H17.4747C17.7823 5.87749 18.0283 5.8506 18.2283 5.79382C18.4498 5.73107 18.6189 5.64442 18.7451 5.5249C18.8743 5.40538 18.9635 5.25597 19.0096 5.08864C19.0496 4.94522 19.0711 4.78984 19.0711 4.62251V4.00996C19.0711 3.83067 19.0527 3.66334 19.0188 3.50797C18.9788 3.32271 18.8927 3.15836 18.7666 3.02091ZM17.7084 2.03785C17.7084 2.13048 17.6992 2.22012 17.6807 2.30677C17.6715 2.35458 17.6469 2.39641 17.6069 2.43526C17.5762 2.46514 17.5085 2.50996 17.3731 2.55179C17.247 2.59063 17.0625 2.60856 16.8256 2.60856H15.2322V0.80677H16.8256C17.3762 0.80677 17.5208 0.92928 17.5516 0.965137C17.6561 1.09064 17.7084 1.24004 17.7084 1.4253V2.03785V2.03785ZM15.2322 3.30478H17.4839C18.0253 3.30478 18.1668 3.43326 18.1975 3.47211C18.3052 3.61255 18.3575 3.78585 18.3575 4.00996V4.62251C18.3575 4.80777 18.3113 4.94522 18.2129 5.04382C18.1914 5.06773 18.0499 5.18426 17.4716 5.18426H15.2291V3.30478H15.2322Z" fill="#ffffff"></path>
+                  <path d="M23.8021 0C22.947 0 22.3687 0.143426 22.0334 0.433267C21.6919 0.729084 21.5166 1.11753 21.5166 1.58964V4.41036C21.5166 4.87948 21.6919 5.26793 22.0334 5.56673C22.3687 5.85956 22.95 6.00299 23.8021 6.00299C24.6542 6.00299 25.2356 5.86255 25.5801 5.56972C25.9308 5.2739 26.1092 4.88247 26.1092 4.41335V1.58964C26.1092 1.11753 25.9308 0.729084 25.5801 0.433267C25.2356 0.140438 24.6542 0 23.8021 0ZM23.8021 5.30677C22.9931 5.30677 22.6578 5.16633 22.5163 5.0498C22.3195 4.88546 22.2302 4.68227 22.2302 4.41036V1.58964C22.2302 1.32072 22.3256 1.11155 22.5163 0.950199C22.6578 0.833665 22.9931 0.693227 23.8021 0.693227C24.6111 0.693227 24.9556 0.833665 25.1002 0.953187C25.3002 1.11753 25.3955 1.32072 25.3955 1.58964V4.41036C25.3955 4.68227 25.3032 4.88247 25.1002 5.04681C24.9556 5.16633 24.6142 5.30677 23.8021 5.30677Z" fill="#ffffff"></path>
+                  <path d="M28.251 0.113548V0.806775H30.2689V5.8745H30.9825V0.806775H33.0004V0.113548H28.251Z" fill="#ffffff"></path>
+                </svg></a> <a href="/">Docs</a>
+              </span>    </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="using-your-own-editor">
+<h1 id="writing-abbot-skills-with-your-own-editor">Writing Abbot Skills with Your Own Editor</h1>
+
+<p>While we've worked hard to make the Abbot editing experience in the browser great, it will never be as good as the editing experience in your favorite editor. To that end, we're working on a great local editing experience. This document will walk you through how to use your favorite editor to write Abbot skills using <a href="https://github.com/aseriousbiz/abbot-cli"><code>abbot-cli</code></a> (Abbot Command Line Interface).</p>
+<p><a href="https://github.com/aseriousbiz/abbot-cli"><code>abbot-cli</code></a> is an open source command line tool that makes it easy to to work on Abbot skills on your local machine. The tool has the following primary uses:</p>
+<ol>
+<li>Get Abbot skill code from <a href="https://ab.bot/">Abbot</a> onto your local machine.</li>
+<li>Run your local changes in the Abbot skill runner.</li>
+<li>Deploy your changes to <a href="https://ab.bot/">Abbot</a>.</li>
+</ol>
+<h2 id="installation">Installation</h2>
+<p>As of right now, installation of the Abbot CLI is a manual, albeit simple, process. Visit the <a href="https://github.com/aseriousbiz/abbot-cli/releases">releases page on GitHub</a> to download the latest release for your platform. Once you've downloaded the release, extract the contents of the zip file into your local machine. Copy the <code>abbot</code> file somewhere on your machine that's in your <code>PATH</code>. For Mac users, I recommend <code>/usr/local/bin/</code>.</p>
+<h2 id="abbot-workspace">Abbot Workspace</h2>
+<p>Perhaps the best way to learn about the tool is to walk through an example session. At any time, you can also run <code>abbot help</code> to see a list of commands.</p>
+<p>The first thing we need to do is set up an Abbot workspace on your local machine. This is a folder where you will edit your skills. In my terminal it would look something like this:</p>
+<pre><code class="lang-bash">$ mkdir my-skills &amp;&amp; cd my-skills
+</code></pre>
+<p>Now I can run <code>abbot status</code>:</p>
+<pre><code class="lang-bash">$ abbot status
+Running abbot-cli version 0.2.2.0
+The directory /Users/haacked/my-skills is not an Abbot Workspace.
+Run `abbot auth` to set up the directory as an Abbot Workspace and authenticate it with your Abbot account.
+</code></pre>
+<p>Of course the <code>my-skills</code> directory isn't an Abbot Workspace, we haven't done anything yet! We need to run <code>abbot auth</code> to set up the local workspace and connect it to our Abbot account.</p>
+<pre><code class="lang-bash">$ abbot auth
+
+    Please visit https://ab.bot/account/apikeys to generate an authentication token. I will attempt to open your browser for you.
+
+Type in the API Key token and hit ENTER: 
+</code></pre>
+<p>At this point, <code>abbot-cli</code> will launch your browser to a page with your personal Abbot API Keys. <strong>IMPORTANT: If you have multiple ab.bot accounts, make sure you're in the correct one when generating an API key.</strong>.</p>
+<p><img src="https://user-images.githubusercontent.com/19977/131372288-7adbca68-513e-4678-8c48-30c56403b068.png" alt="Abbot API Keys Page"></p>
+<p>As you can see, I already have an API key. I can choose to create a new one, or regenerate the existing one. This page only allows you to grab the key when you create or regenerate it. After that, it never shows the key again.</p>
+<p>If I happen to hit <code>ENTER</code> without typing in the key, or if I already know the key and want to set it, I can just run <code>abbot auth --token {MY-SECRET-API-KEY}</code> to set it without launching the browser.</p>
+<p>Now I can run <code>abbot status</code> again to make sure it's all good.</p>
+<pre><code class="lang-bash">$ abbot status
+Running abbot-cli version 0.2.2.0
+The organization A Serious Business, Inc. (T0123456) has the API disabled. This setting can be changed by an Administrator at https://ab.bot/account/admin/settings
+</code></pre>
+<p>Whoops! As you can see from this message, the current workspace is set up and authenticated correctly, but my Abbot organization hasn't enabled API Access for the organization. Once this access is enabled, run the <code>abbot status</code> command again and you should see:</p>
+<pre><code class="lang-bash">$ abbot status
+Running abbot-cli version 0.2.2.0
+The directory /Users/haacked/my-skills is an authenticated Workspace.
+Organization: Serious Business (Slack T0123456)
+User: Phil Haack (U01234567)
+</code></pre>
+<p>This lets you know which Abbot account this Workspace is connected to.</p>
+<h2 id="editing-a-skill">Editing a skill</h2>
+<p>Now that we have an authenticated Abbot Workspace set up, we're ready to work on a skill. The first thing we do is use <code>abbot get</code> to bring a skill's code to our local machine. We need to run this command from within the Abbot Workspace directory. In this example, I want to work on the <code>tz</code> skill (available in <a href="https://ab.bot/packages/aseriousbiz/tz">the Abbot Package Directory</a>).</p>
+<pre><code class="lang-bash">$ abbot get tz
+Created skill directory /Users/haacked/dev/exp/my-skills/tz
+Edit the code in the directory. When you are ready to deploy it, run
+
+    abbot deploy tz
+
+</code></pre>
+<p>This creates an Abbot Skill Workspace for the <code>tz</code> skill. This is a directory named <code>tz</code> with a code file <code>main.csx</code> and some other supporting files. For C# skills, these other files make it possible for us to provide Intellisense for the skill editing experience. More on that in another post for those interested.</p>
+<p>At this point, you can open up your editor to the Skill Workspace directory. If your editor supports Omnisharp, you'll get Intellisense. In my case, I'll open up VS Code to the <code>tz</code> directory.</p>
+<pre><code class="lang-bash">$ code tz
+</code></pre>
+<p><img src="https://user-images.githubusercontent.com/19977/131401537-533115bd-545f-4cf6-8b38-14000258e9e1.png" alt="Screen shot of VS Code showing Intellisense for Bot"></p>
+<p>As you can see from the screenshot, you have full Intellisense for the <code>Bot</code> instance, even though that's an instance injected by the Abbot Runtime. In order to make that work, we had to engage in some dark magic. You may notice the first line of the skill in the editor has a special line we ask you not to touch.</p>
+<p>We're working with the Omnisharp team for a better long-term solution.</p>
+<p>C# is our first Intellisense-supported language, we're working on adding it to JavaScript and Python as well.</p>
+<h2 id="testing-a-skill">Testing a skill</h2>
+<p>Now that you can edit the skill in your editor of choice, you're probably going to want to test those local changes before deploying them. You can do that using <code>abbot run</code>. For this example, assume we create a new C# skill named <code>test</code> with the default implementation:</p>
+<pre><code class="lang-bash">$ abbot run test &quot;one two three&quot;
+Hello one two three
+</code></pre>
+<p>Note that the set of arguments to the skill need to be quoted when called this way. In the example above, three arguments (&quot;one&quot;, &quot;two&quot;, and &quot;three&quot;) are passed to the skill <code>test</code>. If you need to pass an argument that itself has spaces, escape the quotes. So <code>abbot run test &quot;\&quot;one two\&quot; three&quot;</code> would pass two arguments to the skill <code>test</code> (&quot;one two&quot; and &quot;three&quot;).</p>
+<p>Having to run a command every time you want to test a change can be tedious. You can also start a REPL (Read-Eval-Print Loop) for a skill to run the skill repeatedly.</p>
+<p><img src="https://user-images.githubusercontent.com/19977/131403268-a14728e9-15f0-4c54-9b94-062a5a4755b7.png" alt="Screenshot of a REPL session"></p>
+<p>Note that when you are in a REPL session, you test your skill by typing in the arguments and hitting <code>ENTER</code>. You don't need to quote the set of arguments. You can leave the REPL running while you make changes to the skill code. Each time you call the skill in the REPL, it'll run the latest saved version of the skill on your local machine.</p>
+<h2 id="deploying-a-skill">Deploying a skill</h2>
+<p>At some point, you'll want to deploy your local changes to Abbot. To do that, run <code>abbot deploy</code> with the name of the skill. This will update the skill at <a href="https://ab.bot/">https://ab.bot/</a> with your local changes, making them live.</p>
+<pre><code class="lang-bash">$ abbot deploy test
+Skill test updated
+</code></pre>
+<h2 id="next-steps">Next Steps</h2>
+<p>We're still in the early stages of building the Abbot CLI, but we have a nice foundation for local editing we can build on. With this tool, it wouldn't be too hard to set up a GitHub workflow for editing skills. For example, add your Abbot workspace to a GitHub repository and set up a GitHub action to run <code>abbot deploy</code> every time you merge changes to your main branch. While it is easy to shell out to <code>abbot deploy</code>, we'd like to create a proper GitHub Action for Abbot development.</p>
+<p>Other changes we want to make include improving the local editing experience for JavaScript and Python skills. And lastly, we'd like to hear your feedback to help us prioritize future development. As I mentioned earlier, the <a href="https://github.com/aseriousbiz/abbot-cli">Abbot CLI is open source and hosted on GitHub</a>. If you have any feedback, please open an issue or pull request on GitHub.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+              <ul class="is-horizontal">
+                <li>
+                    <a href="https://ab.bot/"><img src="../../../templates/abbot/img/abbot-avatar-small.png" width="24" alt="Abbot robot logo"></a>
+                    <span class="has-text-grey">© A Serious Business, Inc.</span>
+                </li>
+                <li><a href="https://ab.bot/about/policy/terms">Terms</a></li>
+                <li><a href="https://ab.bot/about/policy/privacy">Privacy</a></li>
+                <li><a href="/">Help</a></li>
+                <li><a href="https://blog.ab.bot">Blog</a></li>
+                <li><a href="https://ab.bot/plans">Plans</a></li>
+                <li><a href="mailto:support@ab.bot">Contact Us</a></li>
+              </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

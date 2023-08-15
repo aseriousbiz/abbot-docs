@@ -1,0 +1,34 @@
+﻿
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <a href="playbooks/index.html" name="playbooks/toc.html" title="Playbooks">Playbooks</a>
+                </li>
+                <li>
+                    <a href="convos/index.html" name="convos/toc.html" title="Conversation Management">Conversation Management</a>
+                </li>
+                <li>
+                    <a href="chatops/index.html" name="chatops/toc.html" title="Chatops">Chatops</a>
+                </li>
+                <li>
+                    <a href="reference/index.html" name="reference/toc.html" title="Bot Reference">Bot Reference</a>
+                </li>
+                <li>
+                    <a href="https://ab.bot/about/release-notes/" name="" title="Release Notes">Release Notes</a>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
