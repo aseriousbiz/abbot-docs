@@ -1,8 +1,7 @@
-# Help
+# Quick Start
 
 If you're having a bot emergency, contact us at [help@ab.bot](mailto:help@ab.bot).
-You can also join us in [Discord](https://discord.gg/FN4t8NNdQG).
-We work in Pacific Time and are in there consistently most days.
+We work in Pacific Time and will do our best to help you ASAP.
 
 If you have feedback, you can also send it directly to us from chat by sending `@abbot feedback`.
 

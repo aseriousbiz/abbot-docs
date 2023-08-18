@@ -45,10 +45,9 @@
       },
       {
         "files": [
-          "playbooks/**.md",
-          "playbooks/**/toc.yml",
-          "convos/**.md",
-          "convos/**/toc.yml",
+          "docs/toc.yml",
+          "docs/**/toc.yml",
+          "docs/**.md",
           "chatops/**.md",
           "chatops/**/toc.yml",
           "toc.yml",
@@ -60,11 +59,7 @@
       {
         "files": [
           "images/**",
-          "templates/abbot/**.css",
-          "templates/abbot/**.js",
-          "templates/abbot/**.svg",
-          "templates/abbot/**.ico",
-          "templates/abbot/**.png",
+          "template/**",
           "CNAME"
         ]
       }
@@ -93,8 +88,8 @@
     "fileMetadataFiles": [],
     "template": [
       "default",
-      "templates/abbot",
-      "templates/abbot/partials"
+      "modern",
+      "template"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

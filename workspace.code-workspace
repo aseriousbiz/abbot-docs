@@ -7,6 +7,9 @@
 			"path": "../abbot"
 		},
 		{
+			"path": "../abbot-py"
+		},
+		{
 			"path": "../abbot-py-docs"
 		},
 		{
